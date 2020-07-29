@@ -1,0 +1,136 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 200px;
+  column-gap: 2px;
+  row-gap: 1em;
+  justify-content: center;
+  align-self: auto;
+  position: absolute;
+}
+
+.Title {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-family: verdana;
+  font-size: 500%;
+  text-align: center;
+  font-weight: bold;
+  font-style: normal;
+  justify-content: center;
+  align-items: center;
+}
+
+.A_NBL {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  background-color: salmon;
+  font-family: verdana;
+  font-size: 100%;
+  border: 4px solid firebrick;
+  text-align: center;
+}
+
+.A_NBA {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  background-color: mediumslateblue;
+  font-family: verdana;
+  font-size: 100%;
+  border: 4px solid darkslateblue;
+  text-align: center;
+}
+
+.K_NBL {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  background-color: palegreen;
+  font-family: verdana;
+  font-size: 100%;
+  border: 4px solid seagreen;
+  text-align: center;
+}
+
+.button1 {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.hover1:hover {
+  background-color: coral;
+  color: white;
+}
+
+.button2 {
+  background-color: indigo;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.hover2:hover {
+  background-color: slateblue;
+  color: white;
+}
+
+.button3 {
+  background-color: darkgreen; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.hover3:hover {
+  background-color: springgreen;
+  color: white;
+}
+
+.home_button {
+  background-color: darkgrey; /* Green */
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.home_hover:hover {
+  background-color: silver;
+  color: black;
+}

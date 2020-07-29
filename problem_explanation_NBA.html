@@ -1,0 +1,1689 @@
+<!DOCTYPE HTML>
+<!--
+	Urban by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Numbers Explanation - NBA</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="logo"><a href="index.html">RIOT <span>by Engineering Management, Information, and Systems of the Bobby B. Lyle School of Engineering at Southern Methodist University</span></a></div>
+			<a href="#menu">Menu</a>
+		</header>
+
+		<!-- Nav -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="basketball.html">Basketball</a></li>
+				<li><a href="NBA_eastern_conf.html">Eastern Conference Standings</a></li>
+				<li><a href="NBA_western_conf.html">Western Conference Standings</a></li>
+				<li><a href="numbers_explanation_NBA.html">Number Explation</a></li>
+				<li><a href="problem_explanation_NBA.html">Problem Explation</a></li>
+				<li><a href="FAQ_NBA.html">Frequently Asked Questions</a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+			<div id="main">
+				<section class="wrapper style1">
+					<div class="inner">
+
+						<h2>Playoff Clinching and Elimination in the NBA</h2>
+
+As the end of the season approaches, fans like to engage in speculation about which teams will advance to the
+playoffs (the top eight in each conference) and whether their favorite team is still in contention. Sports media
+publish articles declaring that a particular team has been <a
+href="https://www.nytimes.com/2019/03/05/sports/knicks-eliminated-playoffs.html">eliminated from contention</a> or
+that the <a
+href="http://www.wtmj.com/sports/basketball/milwaukee-bucks/bucks-first-team-in-nba-to-clinch-playoff-spot/1046294500">first
+place team has clinched a playoff berth</a>.  On this page we start with an <a href="#intro">introductory
+example</a> of how these determinations can often be made by looking at the standings and making a few simple
+calculations. We also use this example to show how the RIOT numbers improve on the simple calculations by taking the
+remaining schedule of games and the NBA's two-team tiebreakers into account.  Next, we given an example of how the
+RIOT standings can actually tell you when a team has locked up a playoff spot or fallen out of contention <a
+href="#GoldenState">days before it is reported anywhere else!</a> Determining when a team has clinched a playoff
+berth can be quite complex. In fact, we show an example on this page where
+<a href="#Boston">even the NBA got it wrong.</a> At the <a href="#MIP">end of the page</a> we briefly discuss the
+role of advanced analytics in calculating the RIOT numbers and give suggestions for further reading.
+<p>
+<hr>
+<a name="intro"><h2>Introductory Example</h2></a>
+The table below shows the RIOT standings for the Eastern Conference on the morning of March 7, 2019.
+<P>
+<table width=100% border=1 cellspacing=3 cellpadding=0>
+<tr>
+<td align=left></td>
+<td align=center></td>
+<td align=center></td>
+<td align=center></td>
+<td align=center></td>
+<td align=center></td>
+<td align=center colspan=2><b><a href="numbers_explanation_NBA.html#clinch">Clinch</a></b></td>
+<td align=center colspan=2><b><a href="numbers_explanation_NBA.html#elim">Avoid Elim</a></b></td>
+</tr>
+<tr>
+<td align=left><b>Team</b></td>
+<td align=center><b>W</b></td>
+<td align=center><b>L</b></td>
+<td align=center><b>GB</b></td>
+<td align=center><b>PCT</b></td>
+<td align=center><b>GL</b></td>
+<td align=center><b>1st</b></td>
+<td align=center><b>Postseason</b></td>
+<td align=center><b>1st</b></td>
+<td align=center><b>Postseason</b></td>
+</tr>
+<tr>
+<td align=left>Milwaukee</td>
+<td align=center>48</td>
+<td align=center>16</td>
+<td align=center>-</td>
+<td align=center>0.750</td>
+<td align=center>18</td>
+<td align=center>15</td>
+<td align=center>In</td>
+<td align=center>0</td>
+<td align=center>0</td>
+</tr>
+<tr>
+<td align=left>Toronto</td>
+<td align=center>46</td>
+<td align=center>19</td>
+<td align=center>2.5</td>
+<td align=center>0.708</td>
+<td align=center>17</td>
+<td align=center>*</td>
+<td align=center>2</td>
+<td align=center>3</td>
+<td align=center>0</td>
+</tr>
+<tr>
+<td align=left>Indiana</td>
+<td align=center>42</td>
+<td align=center>23</td>
+<td align=center>6.5</td>
+<td align=center>0.646</td>
+<td align=center>17</td>
+<td align=center>*</td>
+<td align=center>6</td>
+<td align=center>6</td>
+<td align=center>0</td>
+</tr>
+<tr>
+<td align=left>Philadelphia</td>
+<td align=center>41</td>
+<td align=center>24</td>
+<td align=center>7.5</td>
+<td align=center>0.631</td>
+<td align=center>17</td>
+<td align=center>*</td>
+<td align=center>7</td>
+<td align=center>7</td>
+<td align=center>0</td>
+</tr>
+<tr>
+<td align=left>Boston</td>
+<td align=center>40</td>
+<td align=center>26</td>
+<td align=center>9</td>
+<td align=center>0.606</td>
+<td align=center>16</td>
+<td align=center>*</td>
+<td align=center>8</td>
+<td align=center>9</td>
+<td align=center>0</td>
+</tr>
+<tr>
+<td align=left>Detroit</td>
+<td align=center>32</td>
+<td align=center>31</td>
+<td align=center>15.5</td>
+<td align=center>0.508</td>
+<td align=center>19</td>
+<td align=center>*</td>
+<td align=center>16</td>
+<td align=center>17</td>
+<td align=center>0</td>
+</tr>
+<tr>
+<td align=left>Brooklyn</td>
+<td align=center>34</td>
+<td align=center>33</td>
+<td align=center>15.5</td>
+<td align=center>0.507</td>
+<td align=center>15</td>
+<td align=center>*</td>
+<td align=center>14</td>
+<td align=center>14</td>
+<td align=center>0</td>
+</tr>
+<tr>
+<td align=left>Miami</td>
+<td align=center>30</td>
+<td align=center>34</td>
+<td align=center>18</td>
+<td align=center>0.469</td>
+<td align=center>18</td>
+<td align=center>*</td>
+<td align=center>18</td>
+<td align=center>18</td>
+<td align=center>2</td>
+</tr>
+<tr>
+<td align=left>Orlando</td>
+<td align=center>30</td>
+<td align=center>36</td>
+<td align=center>19</td>
+<td align=center>0.455</td>
+<td align=center>16</td>
+<td align=center>*</td>
+<td align=center>*</td>
+<td align=center>Elim</td>
+<td align=center>2</td>
+</tr>
+<tr>
+<td align=left>Charlotte</td>
+<td align=center>29</td>
+<td align=center>35</td>
+<td align=center>19</td>
+<td align=center>0.453</td>
+<td align=center>18</td>
+<td align=center>*</td>
+<td align=center>18</td>
+<td align=center>Elim</td>
+<td align=center>2</td>
+</tr>
+<tr>
+<td align=left>Washington</td>
+<td align=center>27</td>
+<td align=center>37</td>
+<td align=center>21</td>
+<td align=center>0.422</td>
+<td align=center>18</td>
+<td align=center>*</td>
+<td align=center>*</td>
+<td align=center>Elim</td>
+<td align=center>4</td>
+</tr>
+<tr>
+<td align=left>Atlanta</td>
+<td align=center>22</td>
+<td align=center>44</td>
+<td align=center>27</td>
+<td align=center>0.333</td>
+<td align=center>16</td>
+<td align=center>*</td>
+<td align=center>*</td>
+<td align=center>Elim</td>
+<td align=center>9</td>
+</tr>
+<tr>
+<td align=left>Chicago</td>
+<td align=center>19</td>
+<td align=center>47</td>
+<td align=center>30</td>
+<td align=center>0.288</td>
+<td align=center>16</td>
+<td align=center>*</td>
+<td align=center>*</td>
+<td align=center>Elim</td>
+<td align=center>12</td>
+</tr>
+<tr>
+<td align=left>Cleveland</td>
+<td align=center>16</td>
+<td align=center>49</td>
+<td align=center>32.5</td>
+<td align=center>0.246</td>
+<td align=center>17</td>
+<td align=center>*</td>
+<td align=center>*</td>
+<td align=center>Elim</td>
+<td align=center>16</td>
+</tr>
+<tr>
+<td align=left>New York</td>
+<td align=center>13</td>
+<td align=center>52</td>
+<td align=center>35.5</td>
+<td align=center>0.200</td>
+<td align=center>17</td>
+<td align=center>*</td>
+<td align=center>*</td>
+<td align=center>Elim</td>
+<td align=center>Elim</td>
+</tr>
+</table>
+<br>
+<p>
+The Games Left (GL) columns shows that the New York Knicks have 17 games left to play in the season. The Knicks
+have 13 wins at this point, so they can finish the season with at most 30.
+Since there's no way that the Knicks can catch up to the first-place Milwaukee Bucks who already have 48 wins, the
+standings show that New York is mathematically eliminated from first place. This is indicated by the word "Elim" in
+the "1st" column under the "Avoid Elim" heading. Since there are six other teams that are also eliminated from
+first place, the Bucks are guaranteed to be one of the top eight teams in the final standings. The word "In" in the
+"Postseason" column under the "Clinch" column indicates that Milwaukee has clinched a playoff spot.
+
+<h3>Taking the Schedule into Account</h3>
+
+It's not obvious from the standings why the Knicks are eliminated from the playoffs. If the they win all of their
+remaining games while the current 8th and 9th place Miami Heat and Orlando Magic lose all of theirs, then New York
+could finish the season with 30 wins in a three-way tie with Miami and Orlando. However, if we look at the <a
+href="https://www.basketball-reference.com/teams/CHO/2019_games.html">Charlotte Hornet's schedule<a/>, we see that they play Miami on 3/17 and
+Orlando on 4/10. Our hypothetical three-way tie would have the Hornets (currently 29 and 35) wining both of these
+games and moving ahead of the three 30-win teams in the final standings. So no matter how many more games the Knicks
+win, they can't make the playoffs. This is indicated by the word "Elim" in the "postseason" column under the "Avoid
+Elim" heading.
+
+<h3>Taking Tiebreakers into Account</h3>
+
+<h4>Milwaukee's First Place Clinch Number</h4>
+
+The standings table above indicates that Milwaukee can clinch first place in the conference by winning 15 more
+games.  Again, this is not obvious from the standings. Winning 15 more games would bring the Bucks win total to 48
++ 15 = 63, which is also the maximum number of wins that the Toronto Raptors can achieve (46 + 17). So it's possible
+that the Bucks and Raptors could finish in a first-place tie with 63 wins each. However, Milwaukee would be awarded
+first place in this scenario since they have already won the season series with Toronto three games to one.
+
+<h4>Toronto's First Place Elimination Number</h4>
+
+Due to the losing the tiebreaker, Toronto will have to get to at least 49 wins to finish in first place in the
+conference. Notice that that their First Place Elimination number is 3. That is, they have a 3 in the "1st" column
+under the "Avoid Elim" heading. This indicates that there is a scenario in which the Raptors come in first place in
+the conference with a 49 and 33 record. Likewise, there's a scenario where the Bucks win the conference despite
+losing all of their remaining games.
+
+
+<h4>Indiana's First Place Elimination Number</h4>
+
+Indiana's First Place Elimination Number in the standings table is 6, indicating that there's a scenario in which
+they come in first place in the conference with a 48 and 32. Clearly, this would involve a tie with the Bucks. At
+this point in season the Bucks lead the series 2 games to 1. In the scenario indicated in the standings table,
+the Pacers win their fourth, and final, game with the Bucks, and win enough other games against the right teams to
+win the tiebreaker.
+
+
+<hr>
+<a name="GoldenState"><h2>A Missed Call: Golden State Clinched and Didn't Realize It</h2></a>
+
+On March 12, 2018 the <a href="https://www.nba.com/warriors/news/playoffs-2018-clinched">NBA announced that the
+Golden State Warriors had clinched their sixth straight playoff berth</a>.  This was true, but it turns out that the
+Warriors and their fans could have celebrated the clinch three days earlier.  This surprising discovery is reported
+in the whitepaper "National Basketball Association Playoff Elimination with Tiebreaking" by Husted, Olinick, and
+Newman who explain the situation as follows.
+<p>
+The table below shows the Western Conference standings at the time in question, immediately after all games had been
+played on March 9, 2018. The Maximum Possible Wins column shows that the five teams in Group C were going to finish
+the season behind Golden State, which had already won 51 games.  It appears that the Warriors had not yet clinched a
+playoff spot because there were nine teams that could have potentially finished with better records: Houston and the
+eight teams in Group B.  However, it turns out that regardless of the way in which the rest of the games in the
+season concluded, Golden State was guaranteed to make the playoffs.
+<p>
+<table width=100% border=1 cellspacing=3 cellpadding=0>
+<tr>
+<td align=center><b>Group</b></td>
+<td align=left><b>Team</b></td>
+<td align=left><b>Division</b></td>
+<td align=center><b>W</b></td>
+<td align=center><b>L</b></td>
+<td align=center><b>Maximum Possible Wins</b></td>
+<td align=center><b>Games Against Group B</b></td>
+</tr>
+<tr>
+<td align=center rowspan=2>A</td>
+<td align=left>Houston</td>
+<td align=left>Southwest</td>
+<td align=center>51</td>
+<td align=center>14</td>
+<td align=center>68</td>
+<td align=center>&#8212;</td>
+</tr>
+<tr>
+<td align=left>Golden State</td>
+<td align=left>Pacific</td>
+<td align=center>51</td>
+<td align=center>15</td>
+<td align=center>67</td>
+<td align=center>&#8212;</td>
+</tr>
+<tr>
+<td align=center rowspan=8>B</td>
+<td align=left>Portland</td>
+<td align=left>Northwest</td>
+<td align=center>40</td>
+<td align=center>26</td>
+<td align=center>56</td>
+<td align=center>7</td>
+</tr>
+<tr>
+<td align=left>New Orleans</td>
+<td align=left>Southwest</td>
+<td align=center>38</td>
+<td align=center>27</td>
+<td align=center>55</td>
+<td align=center>6</td>
+</tr>
+<tr>
+<td align=left>San Antonio</td>
+<td align=left>Southwest</td>
+<td align=center>37</td>
+<td align=center>28</td>
+<td align=center>54</td>
+<td align=center>8</td>
+</tr>
+<tr>
+<td align=left>Minnesota</td>
+<td align=left>Northwest</td>
+<td align=center>38</td>
+<td align=center>29</td>
+<td align=center>53</td>
+<td align=center>5</td>
+</tr>
+<tr>
+<td align=left>Oklahoma City</td>
+<td align=left>Northwest</td>
+<td align=center>38</td>
+<td align=center>29</td>
+<td align=center>53</td>
+<td align=center>6</td>
+</tr>
+<tr>
+<td align=left>LA Clippers</td>
+<td align=left>Pacific</td>
+<td align=center>35</td>
+<td align=center>29</td>
+<td align=center>53</td>
+<td align=center>8</td>
+</tr>
+<tr>
+<td align=left>Denver</td>
+<td align=left>Northwest</td>
+<td align=center>36</td>
+<td align=center>30</td>
+<td align=center>52</td>
+<td align=center>5</td>
+</tr>
+<tr>
+<td align=left>Utah</td>
+<td align=left>Northwest</td>
+<td align=center>36</td>
+<td align=center>30</td>
+<td align=center>52</td>
+<td align=center>5</td>
+</tr>
+<tr>
+<td align=center rowspan=5>C</td>
+<td align=left>LA Lakers</td>
+<td align=left>Pacific</td>
+<td align=center>29</td>
+<td align=center>36</td>
+<td align=center>46</td>
+<td align=center>&#8212;</td>
+</tr>
+<tr>
+<td align=left>Sacramento</td>
+<td align=left>Pacific</td>
+<td align=center>21</td>
+<td align=center>45</td>
+<td align=center>37</td>
+<td align=center>&#8212;
+</td>
+</tr>
+<tr>
+<td align=left>Dallas</td>
+<td align=left>Southwest</td>
+<td align=center>20</td>
+<td align=center>45</td>
+<td align=center>37</td>
+<td align=center>&#8212;</td>
+</tr>
+<tr>
+<td align=left>Phoenix</td>
+<td align=left>Pacific</td>
+<td align=center>19</td>
+<td align=center>48</td>
+<td align=center>34</td>
+<td align=center>&#8212;</td>
+</tr>
+<tr>
+<td align=left>Memphis</td>
+<td align=left>Southwest</td>
+<td align=center>18</td>
+<td align=center>47</td>
+<td align=center>35</td>
+<td align=center>&#8212;</td>
+</tr>
+</table>
+<p>
+A straightforward calculation shows at most seven of the teams in Group B could have finished the season with 51 or
+more wins, which means that Golden State was already guaranteed to finish the season ahead of at least six teams in
+the conference.  Observe that the sum of the Maximum Possible Wins for this group was 428. This counts the games in
+the right-most column of the standings table twice. Therefore, the maximum collective win total for the this group
+was 428 - 25 = 403, and the maximum average number of wins for these teams was 403 &#247; 8 = 50.38. Keep in mind
+that at least one of the teams would have to be at or below average in wins. Rounding 50.38 down to 50, this means
+at least one of these eight teams would necessarily finish the season with 50 or fewer wins (i.e., behind Golden
+State in the standings).
+<p>
+Using this observation, we can significantly reduce the number of scenarios under consideration. For example,
+suppose Utah is the team with 50 or fewer wins. In this case, the data in the standings table indicate that the
+seven other teams in the group would have a maximum collective win total of 403 - (52 - 5) = 356, and a maximum
+average of 50.86 wins per team. Therefore, at least one other team in the group besides Utah would have to finish
+the season with 50 or fewer wins. This implies that Golden State would be guaranteed to finish in a playoff position
+ahead of a least seven teams in the conference: two in the Group B and the five in Group C.
+<p>
+The table below shows the maximum average number of wins achievable by the remaining teams in Group B in any
+scenario in which a particular team from the group finishes behind Golden State in the standings with fewer than 51
+wins and misses the playoffs.  As in the Utah case, Golden State makes the playoffs in all the cases for which the
+average is less than 51.
+<p>
+<table width=100% border=1 cellspacing=3 cellpadding=0>
+<tr>
+<td align=center><b>Group B Team Missing the Playoffs</b></td>
+<td align=center><b>Maximum Average Number of Wins</b></td>
+</tr>
+<tr>
+<td align=center>None</td>
+<td align=center>50.38</td>
+<tr>
+<td align=center>Denver</td>
+<td align=center>50.86</td>
+</tr>
+<tr>
+<td align=center>LA Clippers</td>
+<td align=center>51.14</td>
+</tr>
+<tr>
+<td align=center>Minnesota</td>
+<td align=center>50.71</td>
+</tr>
+<tr>
+<td align=center>New Orleans</td>
+<td align=center>50.57</td>
+</tr>
+<tr>
+<td align=center>Oklahoma City</td>
+<td align=center>50.86</td>
+</tr>
+<tr>
+<td align=center>Portland</td>
+<td align=center>50.57</td>
+</tr>
+<tr>
+<td align=center>San Antonio</td>
+<td align=center>51.00</td>
+</tr>
+<tr>
+<td align=center>Utah</td>
+<td align=center>50.86</td>
+</tr>
+</table>
+<p>
+The table shows that there are only two cases in which Golden State could conceivably not make the playoffs due to
+being tied in the standings with seven 51-win teams in the Group B:
+
+<ol>
+<li>The LA Clippers finish the season with fewer than 51 wins.
+<p>
+In this case, Golden State would have more wins than any of the other teams in the Pacific Division and therefore
+make the playoffs by winning the tie-breaker.
+<li>San Antonio finishes the season with fewer than 51 wins.
+<p>
+In this case, Golden State could finish in a 51-win tie with division rival the LA Clippers. However, Golden State
+would still be declared the winner of the Pacific Division because it had already won the season series against the
+Clippers, three games to one.
+</ol>
+
+Thus, Golden State had in fact clinched a playoff spot on March 9, 2018 three days before it was announced by the
+NBA.
+
+<hr>
+<a name="Boston"><h2>A Bad Call: Boston Clinch Called Prematurely</h2></a>
+
+Our model identified a case in which the <a
+href="https://www.nba.com/article/2018/03/08/boston-celtics-clinch-playoff-berth">NBA erroneously reported that
+Boston had clinched a playoff spot on March 8, 2018</a>. The records of the top nine teams in the Eastern Conference
+immediately after all games had been played on this date are given in the table below.  Observe that if Boston (46
+current wins) and Detroit (29 current wins) were to have lost and won the rest of their games, respectively, the two
+teams would have both finished the season with 46 wins.  This would have put Boston and Detroit in a tie for 8th
+place as the 10th place team at the time could have finished the season with at most 45 wins (i.e., Charlotte had
+won 28 games and had 17 left play). Boston had already won the season series with Detroit by beating them two of the
+three times they played against each other, and, hence, the head-to-head tie breaker (first tie-breaking criterion).
+It appeared that Boston had clinched a playoff spot, as announced by the NBA. Unfortunately for Celtics fans,
+however, this announcement was premature.
+<p>
+Specifically, the table below provides a scenario, in terms of the wins and losses for the top nine teams in the
+Eastern Conference, in which Boston would not make the playoffs based on the standings and schedule of remaining
+games as of the end of the night March 8, 2018. In our scenario Toronto wins the Atlantic Division, Milwaukee wins
+the Central Division, and Washington wins the Southeast Division; Philadelphia has enough wins to qualify for the
+playoffs and there is a five-way tie for the last four playoff positions between Boston, Cleveland, Detroit,
+Indiana, and Miami. Since none of the tied teams are leading a division, the second criterion is used to break the
+five-way tie: record (win percentage) against the other four teams in the tie.  Notice that in the scenario table
+Indiana has wins against Boston and Miami, and Miami has a win against Cleveland.
+Adding these hypothetical wins and losses to the <a href="#">actual outcomes of the games
+between these five teams played prior to March March 8, 2018</a>, the
+win percentages considering only the games played between the five tied teams in the scenario are
+Boston (0.462), Cleveland (0.571), Detroit (0.467), Indiana (0.500), and Miami (0.500). In this case, Boston would
+have the worst tied-team win percentage and be eliminated from the playoffs. In actual fact, Boston did clinch a
+playoff spot, but not until five days later as determined by our model.
+<p>
+<center>
+<table 	cellspacing="3" cellpadding="0" border="1">
+    <tbody>
+        <tr>
+            <td width="49" valign="top">
+                <p align="center">
+                    Team
+                </p>
+            </td>
+            <td width="66" valign="top">
+                <p align="center">
+                    Current Record
+                </p>
+            </td>
+            <td colspan="12" width="485" valign="top">
+                <p align="center">
+                    Hypothetical Results of Remaining Games Between the Top
+                    Nine Team
+                </p>
+            </td>
+            <td width="61" valign="top">
+                <p align="center">
+                    Final Record
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3" width="49">
+                <p align="center">
+                    Boston (BOS)
+                </p>
+            </td>
+            <td rowspan="3" width="66">
+                <p align="center">
+                    46-20
+                </p>
+            </td>
+            <td width="54" valign="top">
+                <p>
+                    Wins
+                </p>
+            </td>
+            <td colspan="11" width="431" valign="top">
+                <p align="center">
+                    None
+                </p>
+            </td>
+            <td rowspan="3" width="61">
+                <p align="center">
+                    46-36
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" width="54">
+                <p>
+                    Losses
+                </p>
+            </td>
+            <td width="45">
+                <p>
+                    ATL
+                </p>
+            </td>
+            <td width="43">
+                <p>
+                    BKN
+                </p>
+            </td>
+            <td width="40">
+                <p>
+                    CHI
+                </p>
+            </td>
+            <td width="40">
+                <p>
+                    <b>IND</b>
+                </p>
+            </td>
+            <td width="43">
+                <p>
+                    MIL
+                </p>
+            </td>
+            <td width="44">
+                <p>
+                    NO
+                </p>
+            </td>
+            <td width="43">
+                <p>
+                    OKC
+                </p>
+            </td>
+            <td width="40">
+                <p>
+                    ORL
+                </p>
+            </td>
+            <td width="47">
+                <p>
+                    PHX
+                </p>
+            </td>
+            <td colspan="2" width="44">
+                <p>
+                    POR
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="45">
+                <p>
+                    SAC
+                </p>
+            </td>
+            <td colspan="2" width="83">
+                <p>
+                    TOR (2)
+                </p>
+            </td>
+            <td width="40">
+                <p>
+                    UTH
+                </p>
+            </td>
+            <td colspan="2" width="88">
+                <p>
+                    WAS (2)
+                </p>
+            </td>
+            <td colspan="5" width="175">
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" width="49">
+                <p align="center">
+                    Cleveland (CLE)
+                </p>
+            </td>
+            <td rowspan="2" width="66">
+                <p align="center">
+                    38-26
+                </p>
+            </td>
+            <td width="54">
+                <p>
+                    Wins
+                </p>
+            </td>
+            <td width="45">
+                <p>
+                    CHI
+                </p>
+            </td>
+            <td width="43">
+                <p>
+                    NO
+                </p>
+            </td>
+            <td colspan="2" width="81">
+                <p>
+                    NY (2)
+                </p>
+            </td>
+            <td width="43">
+                <p>
+                    PHI
+                </p>
+            </td>
+            <td colspan="2" width="88">
+                <p>
+                    PHX (2)
+                </p>
+            </td>
+            <td width="40">
+                <p>
+                    TOR
+                </p>
+            </td>
+            <td colspan="3" width="91">
+            </td>
+            <td rowspan="2" width="61">
+                <p align="center">
+                    46-36
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="54" valign="top">
+                <p>
+                    Losses
+                </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+                    BKN
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    CHA
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    DAL
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    LAC
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    LAL
+                </p>
+            </td>
+            <td width="44" valign="top">
+                <p>
+                    <b>MIA</b>
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    MIL
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    POR
+                </p>
+            </td>
+            <td colspan="2" width="47" valign="top">
+                <p>
+                    TOR
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    WAS
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3" width="49">
+                <p align="center">
+                    Detroit (DET)
+                </p>
+            </td>
+            <td rowspan="3" width="66">
+                <p align="center">
+                    29-36
+                </p>
+            </td>
+            <td rowspan="2" width="54">
+                <p>
+                    Wins
+                </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+                    BKN
+                </p>
+            </td>
+            <td colspan="3" width="123" valign="top">
+                <p align="center">
+                    CHI (3)
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    DAL
+                </p>
+            </td>
+            <td width="44" valign="top">
+                <p>
+                    DEN
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    HOU
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    LAL
+                </p>
+            </td>
+            <td colspan="2" width="47" valign="top">
+                <p>
+                    MEM
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    NY
+                </p>
+            </td>
+            <td rowspan="3" width="61">
+                <p align="center">
+                    46-36
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="45" valign="top">
+                <p>
+                    PHI
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    PHX
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    POR
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    SAC
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    TOR
+                </p>
+            </td>
+            <td width="44" valign="top">
+                <p>
+                    UTH
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    WAS
+                </p>
+            </td>
+            <td colspan="4" width="131" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="54" valign="top">
+                <p>
+                    Losses
+                </p>
+            </td>
+            <td colspan="11" width="431" valign="top">
+                <p align="center">
+                    None
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" width="49">
+                <p align="center">
+                    Indiana (IND)
+                </p>
+            </td>
+            <td rowspan="2" width="66">
+                <p align="center">
+                    37-28
+                </p>
+            </td>
+            <td width="54" valign="top">
+                <p>
+                    Wins
+                </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+                    ATL
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    <b>BOS</b>
+                </p>
+            </td>
+            <td colspan="2" width="81" valign="top">
+                <p align="center">
+                    CHA (2)
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    DEN
+                </p>
+            </td>
+            <td colspan="2" width="88" valign="top">
+                <p align="center">
+                    LAC (2)
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    <b>MIA</b>
+                </p>
+            </td>
+            <td colspan="2" width="47" valign="top">
+                <p>
+                    WAS
+                </p>
+            </td>
+            <td width="43" valign="top">
+            </td>
+            <td rowspan="2" width="61">
+                <p align="center">
+                    46-36
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="54" valign="top">
+                <p>
+                    Losses
+                </p>
+            </td>
+            <td colspan="2" width="88" valign="top">
+                <p align="center">
+                    GSW (2)
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    LAL
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    NO
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    PHI
+                </p>
+            </td>
+            <td width="44" valign="top">
+                <p>
+                    SAC
+                </p>
+            </td>
+            <td colspan="2" width="84" valign="top">
+                <p align="center">
+                    TOR (2)
+                </p>
+            </td>
+            <td colspan="3" width="91" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" width="49">
+                <p align="center">
+                    Miami (MIA)
+                </p>
+            </td>
+            <td rowspan="2" width="66">
+                <p align="center">
+                    35-31
+                </p>
+            </td>
+            <td width="54" valign="top">
+                <p>
+                    Wins
+                </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+                    ATL (2)
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    BKN
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    CHI
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    <b>CLE</b>
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    DEN
+                </p>
+            </td>
+            <td colspan="2" width="88" valign="top">
+                <p align="center">
+                    NY (2)
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    POR
+                </p>
+            </td>
+            <td colspan="2" width="47" valign="top">
+                <p>
+                    SAC
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    WAS
+                </p>
+            </td>
+            <td rowspan="2" width="61">
+                <p align="center">
+                    46-36
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="54" valign="top">
+                <p>
+                    Losses
+                </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+                    <b>IND</b>
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    LAL
+                </p>
+            </td>
+            <td colspan="2" width="81" valign="top">
+                <p>
+                    OKC (2)
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    TOR
+                </p>
+            </td>
+            <td colspan="6" width="219" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3" width="49">
+                <p align="center">
+                    Milwaukee (MIL)
+                </p>
+            </td>
+            <td rowspan="3" width="66">
+                <p align="center">
+                    34-31
+                </p>
+            </td>
+            <td rowspan="2" width="54">
+                <p>
+                    Wins
+                </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+                    ATL
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    BOS
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    BKN
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    CHI
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    CLE
+                </p>
+            </td>
+            <td width="44" valign="top">
+                <p>
+                    GSW
+                </p>
+            </td>
+            <td colspan="2" width="84" valign="top">
+                <p align="center">
+                    LAC (2)
+                </p>
+            </td>
+            <td colspan="2" width="47" valign="top">
+                <p>
+                    MEM
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    NY
+                </p>
+            </td>
+            <td rowspan="3" width="61">
+                <p align="center">
+                    47-35
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="45" valign="top">
+                <p align="center">
+                    NY
+                </p>
+            </td>
+            <td colspan="2" width="83" valign="top">
+                <p align="center">
+                    ORL (2)
+                </p>
+            </td>
+            <td colspan="8" width="303" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="54" valign="top">
+                <p>
+                    Losses
+                </p>
+            </td>
+            <td colspan="2" width="88" valign="top">
+                <p align="center">
+                    ATL (2)
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    CLE
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    DET
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    MIN
+                </p>
+            </td>
+            <td colspan="6" width="219" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3" width="49">
+                <p align="center">
+                    Philadelphia (PHI)
+                </p>
+            </td>
+            <td rowspan="3" width="66">
+                <p align="center">
+                    35-29
+                </p>
+            </td>
+            <td rowspan="2" width="54">
+                <p>
+                    Wins
+                </p>
+            </td>
+            <td colspan="3" width="128">
+                <p align="center">
+                    BKN (3)
+                </p>
+            </td>
+            <td colspan="2" width="84">
+                <p>
+                    CHA (2)
+                </p>
+            </td>
+            <td width="44">
+                <p>
+                    DAL
+                </p>
+            </td>
+            <td width="43">
+                <p>
+                    DEN
+                </p>
+            </td>
+            <td width="40">
+                <p>
+                    IND
+                </p>
+            </td>
+            <td colspan="2" width="47">
+                <p>
+                    MEM
+                </p>
+            </td>
+            <td width="43">
+                <p>
+                    MIL
+                </p>
+            </td>
+            <td rowspan="3" width="61">
+                <p align="center">
+                    48-34
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" width="88" valign="top">
+                <p align="center">
+                    NY (2)
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    ORL
+                </p>
+            </td>
+            <td colspan="8" width="303" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="54" valign="top">
+                <p>
+                    Losses
+                </p>
+            </td>
+            <td colspan="2" width="88" valign="top">
+                <p align="center">
+                    ATL (2)
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    CLE
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    DET
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    MIN
+                </p>
+            </td>
+            <td colspan="6" width="219" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3" width="49">
+                <p align="center">
+                    Toronto (TOR)
+                </p>
+            </td>
+            <td rowspan="3" width="66">
+                <p align="center">
+                    47-17
+                </p>
+            </td>
+            <td rowspan="2" width="54">
+                <p>
+                    Wins
+                </p>
+            </td>
+            <td colspan="2" width="88" valign="top">
+                <p align="center">
+                    BOS (2)
+                </p>
+            </td>
+            <td colspan="2" width="81" valign="top">
+                <p align="center">
+                    BKN (2)
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    CLE
+                </p>
+            </td>
+            <td width="44" valign="top">
+                <p>
+                    DAL
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    HOU
+                </p>
+            </td>
+            <td colspan="3" width="88" valign="top">
+                <p align="center">
+                    IND (2)
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    MIA
+                </p>
+            </td>
+            <td rowspan="3" width="61">
+                <p align="center">
+                    60-22
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="45" valign="top">
+                <p>
+                    OKC
+                </p>
+            </td>
+            <td colspan="2" width="83" valign="top">
+                <p align="center">
+                    ORL (2)
+                </p>
+            </td>
+            <td colspan="8" width="303" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="54" valign="top">
+                <p>
+                    Losses
+                </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+                    CLE
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    DEN
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    DET
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    LAC
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    NY
+                </p>
+            </td>
+            <td colspan="6" width="219" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3" width="49">
+                <p align="center">
+                    Washington (WAS)
+                </p>
+            </td>
+            <td rowspan="3" width="66">
+                <p align="center">
+                    37-28
+                </p>
+            </td>
+            <td rowspan="2" width="54">
+                <p>
+                    Wins
+                </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+                    ATL
+                </p>
+            </td>
+            <td colspan="2" width="83" valign="top">
+                <p align="center">
+                    BOS (2)
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    CHA
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    CHI
+                </p>
+            </td>
+            <td width="44" valign="top">
+                <p>
+                    CLE
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    HOU
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    NO
+                </p>
+            </td>
+            <td colspan="2" width="47" valign="top">
+                <p>
+                    NY
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    ORL
+                </p>
+            </td>
+            <td rowspan="3" width="61">
+                <p align="center">
+                    49-33
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" width="88" valign="top">
+                <p align="center">
+                    SAN (2)
+                </p>
+            </td>
+            <td width="40" valign="top">
+            </td>
+            <td width="40" valign="top">
+            </td>
+            <td width="43" valign="top">
+            </td>
+            <td width="44" valign="top">
+            </td>
+            <td width="43" valign="top">
+            </td>
+            <td width="40" valign="top">
+            </td>
+            <td colspan="2" width="47" valign="top">
+            </td>
+            <td width="43" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="54" valign="top">
+                <p>
+                    Losses
+                </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+                    DEN
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    DET
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    IND
+                </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+                    MIA
+                </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+                    MIN
+                </p>
+            </td>
+            <td width="44" valign="top">
+            </td>
+            <td width="43" valign="top">
+            </td>
+            <td width="40" valign="top">
+            </td>
+            <td colspan="2" width="47" valign="top">
+            </td>
+            <td width="43" valign="top">
+            </td>
+        </tr>
+    </tbody>
+</table>
+Click <a href="abb.html">here</a> for a list of team name abbreviations.
+</center>
+<hr>
+<a name=MIP><h2>Advanced Analytics for Playoff Clinching and Elimination</h2></a>
+
+As the examples on this page show, the key to determining true clinching and elimination numbers is taking into
+account the actual matchups that remain in the season and enumerating all possible outcomes. Until the final weeks
+of the season, however, the number of possible outcomes can be astronomically large, which makes such an enumeration
+impractical even on a very fast computer. By using a powerful and pervasive analytics technique called Mixed Integer
+Programming, it is possible to accurately perform the necessary calculations without explicitly enumerating all
+possibilities. Consequently, it is possible for RIOT to determine the playoff prospects of a team before it is
+reported by the popular media.
+
+<P>
+For more information on the integer programming formulations and implementation
+of the RIOT basketball standings,
+send mail to the
+<A HREF="mailto:olinick@lyle.smu.edu">
+RIOT Basketball Project</A> and see our white paper "National Basketball Association Playoff Elimination with
+Tie Breaking" and the following references:
+
+<ul>
+<li> I. Alder, A. L. Erera, D. S. Hochbaum, and E. V. Olinick. <A HREF="https://pubsonline.informs.org/doi/abs/10.1287/inte.32.2.12.67">"Baseball, Optimization and the World Wide Web"</A>.
+<cite>Interfaces</cite>. <b>32</b>(2): 12-22. 2002.
+
+<li> E. Cheng and D. Steffy. <A
+HREF="http://www.orstw.org.tw/ijor/vol5no3/paper-6-IJOR-vol5_3_-Eddie_Cheng.pdf">"Clinching and Elimination of
+Playoff Berth in the NHL"</A>.
+<cite>International Journal of Operations Research</cite>. <b>5</b>(3): 87-192. 2008.
+
+<li>D. Gusfield and C. Martel. <a href="https://link.springer.com/article/10.1007%2Fs00453-001-0074-y"> "The
+Structure and Complexity of Sports Elimination Numbers"</a>. <cite>Algorithmica</cite>. <b>32</b>(1): 73-86. 2002.
+
+<li> A. Hoffman and J. Rivlin. "When is a team 'mathematically' eliminated ?"
+In H.W. Kuhn, editor, <cite><a
+href="https://press.princeton.edu/titles/1383.html">Princeton
+Symposium on Math Programming</a></cite> (1967),
+Princeton University Press, Princeton, NJ, 1970, pp. 391 - 401.
+
+
+<li> C. J. P. Lucena, T. F. Noronha, C. C. Ribeiro and S. Urrutia. <A
+HREF="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-3995.2008.00677.x">"A Multi-agent Framework to
+Build Integer Programming Applications to Playoff Elimination in Sports Tournaments"</A>.
+<cite>International Transactions in Operational Research</cite>.
+<b>15</b>(6): 739-753. 2008.
+
+<li>  C. C. Ribeiro and S. Urrutia. <A
+HREF="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-3995.2005.00513.x">"An Application of
+Integer Programming to Playoff Elimination in Football Championships"</A>.
+<cite>International Transactions in Operational Research</cite>. <b>12</b>(4): 375-386. 2005.
+
+<li>  L. W.  Robinson. <a href="https://www.sciencedirect.com/science/article/pii/0167637791900898"> "Baseball
+Playoff Eliminations: An Application of Linear Programming"</a>.  <cite>Operations Research Letters</cite>.
+<b>10</b>(2): 67-74. 1991.
+
+<li> T. Russell and  P. Van Beek. <A HREF="https://link.springer.com/chapter/10.1007/978-3-540-68825-9_23">"Mathematically
+Clinching a Playoff Spot in the NHL and the Effect of Scoring Systems"</A>. <cite>Conference of the Canadian Society for Computational Studies of Intelligence</cite>.
+234-245. 2008.
+
+<li> T. Russell and  P. Van Beek. <A
+HREF="https://link.springer.com/chapter/10.1007/978-3-642-01929-6_18">"Determining the Number of Games Needed
+to Guarantee an NHL Playoff Spot"</A>. <cite>International Conference on AI and OR Techniques in Constriant
+Programming for Combinatorial Optimization Problems</cite>. 233-247. 2009.
+
+<li> T. Russell and  P. Van Beek. <A
+HREF="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.157.7310&rep=rep1&type=pdf">"Lessons Learned
+from Modeling the NHL Playoff Qualification Problem"</A>. <cite> Proceedings of the Eighth International Workshop on
+Constraint Modeling and Reformulation (ModRef'09)</cite>. 2009.
+
+
+<li> I. Schlotter and K. Cechl&aacute;rov&aacute;. <A HREF="https://link.springer.com/article/10.1007%2Fs00453-016-0256-2">"A Connection Between Sports and Matroids: How Many Teams Can We Beat?"</A>. <cite>Algorithmica</cite>. <b>80</b>(1): 258-278. 2018.
+
+<li>  B. Schwartz. <a href="https://doi.org/10.1137/1008062">"Possible winners in partially completed
+tournaments"</a>. <cite>SIAM Review</cite>. <b>8</b>(3): 302-308. 1966.
+
+</ul>
+
+
+
+<br>
+
+		<!-- Endo f Main -->
+					</div>
+				</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="copyright">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a></li>
+					</ul>
+					<p>&copy; Untitled. All rights reserved. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.</p>
+					<p>© 1996 Ilan Adler, Alan L. Erera, Dorit S. Hochbaum and Eli V. Olinick</p>
+					<p>© 2019 Mark A. Husted, Eli V. Olinick, and Alexandra M. Newman</p>
+						</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

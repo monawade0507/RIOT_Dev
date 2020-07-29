@@ -1,0 +1,268 @@
+<!DOCTYPE HTML>
+<!--
+	Urban by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Frequently Asked Questions - NBA</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="logo"><a href="index.html">RIOT <span>by Engineering Management, Information, and Systems of the Bobby B. Lyle School of Engineering at Southern Methodist University</span></a></div>
+			<a href="#menu">Menu</a>
+		</header>
+
+		<!-- Nav -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="basketball.html">Basketball</a></li>
+				<li><a href="NBA_eastern_conf.html">Eastern Conference Standings</a></li>
+				<li><a href="NBA_western_conf.html">Western Conference Standings</a></li>
+				<li><a href="numbers_explanation_NBA.html">Number Explation</a></li>
+				<li><a href="problem_explanation_NBA.html">Problem Explation</a></li>
+				<li><a href="FAQ_NBA.html">Frequently Asked Questions</a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+			<div id="main">
+				<section class="wrapper style1">
+					<div class="inner">
+
+						<h3>
+Frequently Asked Questions</h3>
+
+<ol>
+<li>
+<a href="#magic_number">What is the magic number and how is it computed?</a></li>
+
+<li>
+<a href="#playoff">How are the playoff teams determined?</a></li>
+
+<li>
+<a href="#ties">What happens when there are ties for playoff spots?</a></li>
+
+<li>
+<a href="#fpe">
+If RIOT says that my team's first-place elimination number is zero, does that mean
+my team has clinched first place?
+</a></li>
+</ol>
+
+<hr WIDTH="100%">
+<ol>
+<li>
+<a NAME="magic_number"></a>What is the magic number and how is it computed?</li>
+
+<p><br>
+
+The so-called magic number is the smallest number such that any combination of wins by the first-place team and
+losses by the second-place team totaling the magic number guarantees that the first-place team will finish the
+season with a better record than the second-place team.
+
+
+<p>The magic number can be computed using the following numbers:
+<br>&nbsp;
+<ul>
+<li>
+w<sub>1</sub> - the number of games the team currently in first place has
+won so far</li>
+
+<li>
+w<sub>2</sub> - the number of games the team currently in second place
+has won so far</li>
+
+<li>
+g<sub>2</sub> -&nbsp; the number of games the team currently in second
+place has left to play</li>
+</ul>
+
+<p><br>Now, suppose that the first-place team wins x more of its remaining
+games and the second-place team loses y more of its remaining games (i.e.,
+it wins g<sub>2</sub>-y games).&nbsp; We will now derive a formula for
+the magic number, x + y.
+<p>The team currently in first place will finish with w<sub>1</sub>+ x
+wins and the team currently in second place will finish with w<sub>2 </sub>+
+g<sub>2 </sub>- y wins.&nbsp; The team currently in first place will finish
+ahead of the team currently in second place as long as w<sub>1 </sub>+
+x > w<sub>2 </sub>+ g<sub>2</sub>- y.&nbsp; The magic number is the smallest
+number&nbsp; x + y&nbsp; such that x + y > w<sub>2</sub> + g<sub>2</sub>
+- w<sub>1</sub>.
+<p>Since we are dealing with integers (whole numbers), the magic number is w<sub>2</sub>&nbsp; + g<sub>2</sub> - w<sub>1</sub>+
+1.&nbsp;
+<p>
+Take the Eastern Conference standings on the morning of March 7, 2019 for example.
+<P>
+<table width=100% border=1 cellspacing=3 cellpadding=0>
+<tr>
+<td align=left></td>
+<td align=center></td>
+<td align=center></td>
+<td align=center></td>
+<td align=center></td>
+<td align=center></td>
+<td align=center colspan=2><b><a href="numbers_explanation_NBA.html">Clinch</a></b></td>
+<td align=center colspan=2><b><a href="numbers_explanation_NBA.html">Avoid Elim</a></b></td>
+</tr>
+<tr>
+<td align=left><b>Team</b></td>
+<td align=center><b>W</b></td>
+<td align=center><b>L</b></td>
+<td align=center><b>GB</b></td>
+<td align=center><b>PCT</b></td>
+<td align=center><b>GL</b></td>
+<td align=center><b>1st</b></td>
+<td align=center><b>Postseason</b></td>
+<td align=center><b>1st</b></td>
+<td align=center><b>Postseason</b></td>
+</tr>
+<tr>
+<td align=left>Milwaukee</td>
+<td align=center>48</td>
+<td align=center>16</td>
+<td align=center>-</td>
+<td align=center>0.750</td>
+<td align=center>18</td>
+<td align=center>15</td>
+<td align=center>In</td>
+<td align=center>0</td>
+<td align=center>0</td>
+</tr>
+<tr>
+<td align=left>Toronto</td>
+<td align=center>46</td>
+<td align=center>19</td>
+<td align=center>2.5</td>
+<td align=center>0.708</td>
+<td align=center>17</td>
+<td align=center>*</td>
+<td align=center>2</td>
+<td align=center>3</td>
+<td align=center>0</td>
+</tr>
+<tr>
+<td align=left>Indiana</td>
+<td align=center>42</td>
+<td align=center>23</td>
+<td align=center>6.5</td>
+<td align=center>0.646</td>
+<td align=center>17</td>
+<td align=center>*</td>
+<td align=center>6</td>
+<td align=center>6</td>
+<td align=center>0</td>
+</tr>
+<tr>
+</table>
+<p>
+The first-place team, Milwaukee, has 48 wins and the second-place team, Toronto, has 46 wins and 17 games left to
+play.&nbsp; So, w<sub>1</sub>= 48, w<sub>2</sub>= 46 and g<sub>2</sub>= 17, and Milwaukee's magic number is 46 + 17
+- 48 + 1 = 16. <p>This means that any combination of wins by Milwaukee and losses by Toronto totaling 16 ensures
+that Milwaukee will finish with a better record than Toronto and presumably win the Eastern Conference.&nbsp; For
+example, if Milwaukee wins 16 more games, they will finish with at least 64 wins.&nbsp; The best Toronto can do is
+46 + 17 = 63 wins.&nbsp; Thus, Milwaukee would finish ahead of Toronto.&nbsp; Likewise, if Toronto were to lose 16
+games, they would have 1 game left to play and could finish with at most 47 wins.&nbsp; Since Milwaukee already has
+48 wins, they would finish ahead of Toronto in this scenario as well.&nbsp;
+<p>
+Finally, suppose Milwaukee wins 6 games and Toronto loses 10 - a combination adding up to the magic number,
+16.&nbsp; In this scenario, Milwaukee would have 54 wins and Toronto would have 46 wins with 7 games left to
+play.&nbsp; This means that Toronto could finish with at most 46 + 7 = 53 wins and could not catch up with
+Milwaukee.
+<p>
+
+Notice that RIOT lists Milwaukee's first-place clinch number as 15 - one less than the magic number.&nbsp; In this
+case, the difference is that first-place clinch number includes the possibility ties for first place while the magic
+number does not. Another drawback with the magic number is that it really only applies to a pair of teams. For
+instance, if Milwaukee wins 6 more games and Toronto losses 10 games in the example above it does not necessarily
+mean that Milwaukee will finish the season in first place. It just means that the Bucks will finish ahead of the
+Raptors. Since Indiana has not yet been eliminated, it is still possible that they could move past both Milwaukee
+and Toronto. The first-place clinch number, however, is a guarantee; no matter what else happens (except possibly a
+tie between three or more teams), the Bucks will clinch first place if they win 15 more games.
+
+<li>
+<a NAME="playoff"></a>How are the NBA playoff teams determined?&nbsp;</li>
+
+<p> The top eight teams in each conference (Eastern and Western) are seeded in a playoff bracket. The winners of the
+two conference brackets face off in the NBA Finals. In addition to having the advantage of playing the 8th place
+team in the first round, the first-place team in each conference gets home-court advantage throughout the conference
+playoffs.
+
+<li><a NAME="ties"></a>What happens when there are ties for playoff spots?</li>
+
+<p>When two teams are tied for a playoff spot then the following
+sequence of criteria are applied until the tie is broken:
+
+<ol>
+<li> Head-to-head: the team with the better record in the season series between the two teams wins the tie.
+<li> Division winner: if one team is a division winner and the other isn't, the division winner wins the tie.
+<li> Division record: if the teams are in the same division, the team with the better record against teams in that
+division wins the tie.
+<li> Conference record: the team with the better record against teams in the conference wins the tie.
+<li> Record against conference playoff teams: the team with best record against teams in the conference that qualify
+for the playoffs (including teams tied for a playoff spot) wins the tie.
+<li> Record against the other conference's playoff teams: the team with best record against teams in the other conference that qualify for the playoffs (including teams tied for a playoff spot) wins the tie.
+<li> Point differential: the team with the larger difference between total points scored during the season and
+total points
+allowed during the season wins the tie.
+</ol>
+<p>
+The process for breaking ties between three or more teams is described at the bottom of the <a href="https://stats.nba.com/standings/">official NBA standings page<a>.
+There have only been four times since 2000 that this process has been used and in all of those cases all of the
+tied teams went to the playoffs&mdash;the tiebreakers were need solely for seeding in the playoff bracket.
+This process can be quite complicated and we are still working on incorporating it in our calculations.
+
+
+
+<li>
+<a NAME="fpe"></a>If RIOT says that my team's first-place elimination number is zero, does that mean my team has clinched first place?</li>
+<p>
+
+Not necessarily. In the example above, the first-place elimination numbers for Milwaukee and Toronto are 0 and 3,
+respectively. With 17 games left, Toronto still has a chance to finish in first place. So, Milwaukee hasn't clinched
+anything yet.  Having a first-place elimination number of 0 simply means that it's <i>possible</i> for Milwaukee to
+finish in first place without winning another game. In other words there is at least one scenario in which no team
+in the Eastern East wins more than 48 games.  Based on the current standings and schedule of remaining games,
+Milwaukee needs to win at least 15 more games to guarantee a first-place finish. Meanwhile if Toronto doesn't win at
+least 3 more games, they can't possibly catch up to Milwaukee. So, they need to win at least 3 more games to avoid
+being eliminated from first place.
+
+</ol>
+
+		<!-- End of Main -->
+					</div>
+				</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="copyright">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a></li>
+					</ul>
+					<p>&copy; Untitled. All rights reserved. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.</p>
+					<p>© 1996 Ilan Adler, Alan L. Erera, Dorit S. Hochbaum and Eli V. Olinick</p>
+					<p>© 2019 Mark A. Husted, Eli V. Olinick, and Alexandra M. Newman</p>
+						</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
