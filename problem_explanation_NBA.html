@@ -23,10 +23,9 @@
 		<nav id="menu">
 			<ul class="links">
 				<li><a href="home.html">Home</a></li>
-				<li><a href="basketball.html">Basketball</a></li>
-				<li><a href="NBA_eastern_conf.html">Eastern Conference Standings</a></li>
-				<li><a href="NBA_western_conf.html">Western Conference Standings</a></li>
-				<li><a href="numbers_explanation_NBA.html">Number Explation</a></li>
+				<li><a href="RIOT_NBA.html">RIOT NBA</a></li>
+				<li><a href="NBA_standings.html">National Basketball Association standings</a></li>
+				<li><a href="common_numbers_explanation.html">Number Explation</a></li>
 				<li><a href="problem_explanation_NBA.html">Problem Explation</a></li>
 				<li><a href="FAQ_NBA.html">Frequently Asked Questions</a></li>
 			</ul>
@@ -38,7 +37,7 @@
 					<div class="inner">
 
 						<h2>Playoff Clinching and Elimination in the NBA</h2>
-
+<p style="color:#080808; font-size:18px">
 As the end of the season approaches, fans like to engage in speculation about which teams will advance to the
 playoffs (the top eight in each conference) and whether their favorite team is still in contention. Sports media
 publish articles declaring that a particular team has been <a
@@ -54,11 +53,12 @@ href="#GoldenState">days before it is reported anywhere else!</a> Determining wh
 berth can be quite complex. In fact, we show an example on this page where
 <a href="#Boston">even the NBA got it wrong.</a> At the <a href="#MIP">end of the page</a> we briefly discuss the
 role of advanced analytics in calculating the RIOT numbers and give suggestions for further reading.
-<p>
+</p>
+<p style="color:#080808; font-size:18px">
 <hr>
 <a name="intro"><h2>Introductory Example</h2></a>
 The table below shows the RIOT standings for the Eastern Conference on the morning of March 7, 2019.
-<P>
+<p style="color:#080808; font-size:18px">
 <table width=100% border=1 cellspacing=3 cellpadding=0>
 <tr>
 <td align=left></td>
@@ -264,7 +264,7 @@ The table below shows the RIOT standings for the Eastern Conference on the morni
 </tr>
 </table>
 <br>
-<p>
+<p style="color:#080808; font-size:18px">
 The Games Left (GL) columns shows that the New York Knicks have 17 games left to play in the season. The Knicks
 have 13 wins at this point, so they can finish the season with at most 30.
 Since there's no way that the Knicks can catch up to the first-place Milwaukee Bucks who already have 48 wins, the
@@ -320,14 +320,14 @@ Golden State Warriors had clinched their sixth straight playoff berth</a>.  This
 Warriors and their fans could have celebrated the clinch three days earlier.  This surprising discovery is reported
 in the whitepaper "National Basketball Association Playoff Elimination with Tiebreaking" by Husted, Olinick, and
 Newman who explain the situation as follows.
-<p>
+<p style="color:#080808; font-size:18px">
 The table below shows the Western Conference standings at the time in question, immediately after all games had been
 played on March 9, 2018. The Maximum Possible Wins column shows that the five teams in Group C were going to finish
 the season behind Golden State, which had already won 51 games.  It appears that the Warriors had not yet clinched a
 playoff spot because there were nine teams that could have potentially finished with better records: Houston and the
 eight teams in Group B.  However, it turns out that regardless of the way in which the rest of the games in the
 season concluded, Golden State was guaranteed to make the playoffs.
-<p>
+<p style="color:#080808; font-size:18px">
 <table width=100% border=1 cellspacing=3 cellpadding=0>
 <tr>
 <td align=center><b>Group</b></td>
@@ -463,7 +463,7 @@ season concluded, Golden State was guaranteed to make the playoffs.
 <td align=center>&#8212;</td>
 </tr>
 </table>
-<p>
+<p style="color:#080808; font-size:18px">
 A straightforward calculation shows at most seven of the teams in Group B could have finished the season with 51 or
 more wins, which means that Golden State was already guaranteed to finish the season ahead of at least six teams in
 the conference.  Observe that the sum of the Maximum Possible Wins for this group was 428. This counts the games in
@@ -472,19 +472,19 @@ was 428 - 25 = 403, and the maximum average number of wins for these teams was 4
 that at least one of the teams would have to be at or below average in wins. Rounding 50.38 down to 50, this means
 at least one of these eight teams would necessarily finish the season with 50 or fewer wins (i.e., behind Golden
 State in the standings).
-<p>
+<p style="color:#080808; font-size:18px">
 Using this observation, we can significantly reduce the number of scenarios under consideration. For example,
 suppose Utah is the team with 50 or fewer wins. In this case, the data in the standings table indicate that the
 seven other teams in the group would have a maximum collective win total of 403 - (52 - 5) = 356, and a maximum
 average of 50.86 wins per team. Therefore, at least one other team in the group besides Utah would have to finish
 the season with 50 or fewer wins. This implies that Golden State would be guaranteed to finish in a playoff position
 ahead of a least seven teams in the conference: two in the Group B and the five in Group C.
-<p>
+<p style="color:#080808; font-size:18px">
 The table below shows the maximum average number of wins achievable by the remaining teams in Group B in any
 scenario in which a particular team from the group finishes behind Golden State in the standings with fewer than 51
 wins and misses the playoffs.  As in the Utah case, Golden State makes the playoffs in all the cases for which the
 average is less than 51.
-<p>
+<p style="color:#080808; font-size:18px">
 <table width=100% border=1 cellspacing=3 cellpadding=0>
 <tr>
 <td align=center><b>Group B Team Missing the Playoffs</b></td>
@@ -526,17 +526,17 @@ average is less than 51.
 <td align=center>50.86</td>
 </tr>
 </table>
-<p>
+<p style="color:#080808; font-size:18px">
 The table shows that there are only two cases in which Golden State could conceivably not make the playoffs due to
 being tied in the standings with seven 51-win teams in the Group B:
 
 <ol>
 <li>The LA Clippers finish the season with fewer than 51 wins.
-<p>
+<p style="color:#080808; font-size:18px">
 In this case, Golden State would have more wins than any of the other teams in the Pacific Division and therefore
 make the playoffs by winning the tie-breaker.
 <li>San Antonio finishes the season with fewer than 51 wins.
-<p>
+<p style="color:#080808; font-size:18px">
 In this case, Golden State could finish in a 51-win tie with division rival the LA Clippers. However, Golden State
 would still be declared the winner of the Pacific Division because it had already won the season series against the
 Clippers, three games to one.
@@ -559,7 +559,7 @@ won 28 games and had 17 left play). Boston had already won the season series wit
 three times they played against each other, and, hence, the head-to-head tie breaker (first tie-breaking criterion).
 It appeared that Boston had clinched a playoff spot, as announced by the NBA. Unfortunately for Celtics fans,
 however, this announcement was premature.
-<p>
+<p style="color:#080808; font-size:18px">
 Specifically, the table below provides a scenario, in terms of the wins and losses for the top nine teams in the
 Eastern Conference, in which Boston would not make the playoffs based on the standings and schedule of remaining
 games as of the end of the night March 8, 2018. In our scenario Toronto wins the Atlantic Division, Milwaukee wins
@@ -574,7 +574,7 @@ win percentages considering only the games played between the five tied teams in
 Boston (0.462), Cleveland (0.571), Detroit (0.467), Indiana (0.500), and Miami (0.500). In this case, Boston would
 have the worst tied-team win percentage and be eliminated from the playoffs. In actual fact, Boston did clinch a
 playoff spot, but not until five days later as determined by our model.
-<p>
+<p style="color:#080808; font-size:18px">
 <center>
 <table 	cellspacing="3" cellpadding="0" border="1">
     <tbody>
@@ -1580,7 +1580,7 @@ Click <a href="abb.html">here</a> for a list of team name abbreviations.
 </center>
 <hr>
 <a name=MIP><h2>Advanced Analytics for Playoff Clinching and Elimination</h2></a>
-
+<p style="color:#080808; font-size:18px">
 As the examples on this page show, the key to determining true clinching and elimination numbers is taking into
 account the actual matchups that remain in the season and enumerating all possible outcomes. Until the final weeks
 of the season, however, the number of possible outcomes can be astronomically large, which makes such an enumeration
@@ -1588,8 +1588,8 @@ impractical even on a very fast computer. By using a powerful and pervasive anal
 Programming, it is possible to accurately perform the necessary calculations without explicitly enumerating all
 possibilities. Consequently, it is possible for RIOT to determine the playoff prospects of a team before it is
 reported by the popular media.
-
-<P>
+</p>
+<p style="color:#080808; font-size:18px">
 For more information on the integer programming formulations and implementation
 of the RIOT basketball standings,
 send mail to the

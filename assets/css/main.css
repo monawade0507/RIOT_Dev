@@ -2803,6 +2803,7 @@
 			border: solid 1px;
 			border-left: 0;
 			border-right: 0;
+
 		}
 
 		table td {
@@ -2832,6 +2833,7 @@
 				border: solid 1px;
 				border-left-width: 0;
 				border-top-width: 0;
+				border-color: rgba(0, 0, 0, 0);
 			}
 
 				table.alt tbody tr td:first-child {
@@ -2851,27 +2853,31 @@
 			}
 
 	table tbody tr {
-		border-color: rgba(0, 0, 0, 0.1);
+		border-color: rgba(0, 0, 0, 0);
+
 	}
 
 		table tbody tr:nth-child(2n + 1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: rgba(0, 0, 0, 0);
+
 		}
 
 	table th {
 		color: #000;
+
 	}
 
 	table thead {
-		border-bottom-color: rgba(0, 0, 0, 0.1);
+		border-bottom-color: rgba(0, 0, 0, 0);
 	}
 
 	table tfoot {
-		border-top-color: rgba(0, 0, 0, 0.1);
+		border-top-color: rgba(0, 0, 0, 0);
 	}
 
 	table.alt tbody tr td {
-		border-color: rgba(0, 0, 0, 0.1);
+		border-color: rgba(0, 0, 0, 0);
+
 	}
 
 /* Wrapper */
