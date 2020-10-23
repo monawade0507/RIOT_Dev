@@ -15,14 +15,14 @@
 
 		<!-- Header -->
 		<header id="header">
-			<div class="logo"><a href="index.html">RIOT Sports <span> by Southern Methodist University and Colorado School of Mines</span></a></div>
+			<div class="logo"><img  style="max-width=:35px; max-height:35px" src="images/RIOT_Logo.png" alt="" /><a href="index.html">RIOT Sports <span> by Southern Methodist University and Colorado School of Mines</span></a></div>
 			<a href="#menu">Menu</a>
 		</header>
 
 		<!-- Nav -->
 		<nav id="menu">
 			<ul class="links">
-				<li><a href="home.html">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><a href="RIOT_MLB.html">RIOT - MLB</a></li>
 				<li><a href="RIOT_NBA.html">RIOT - NBA</a></li>
 				<li><a href="RIOT_KBL.html">RIOT - KBL</a></li>
@@ -36,76 +36,201 @@
 					<div class="inner">
 
 						<header class="align-center">
-							<h1>What Do the Numbers Mean?</h1>
+							<h1>
+								<span lang="en">
+									What Do the Numbers Mean?
+								</span>
+								<span lang="ko">
+									넘버들은 의미에 대한 설명
+								</span>
+							</h1>
 						</header>
 
+						<form>
+								<label for="lang-switch">
+										<span lang="ko">언어</span>
+										<span lang="en">Language</span>
+								</label>
+								<select id="lang-switch">
+										<option value="en">English</option>
+										<option value="ko" selected>한국어</option>
+								</select>
+						</form>
+
 						<!-- Content -->
-							<h3 id="content">Clinch Numbers</h3>
+							<h3 id="content">
+								<span lang="en">
+									Clinch Numbers
+								</span>
+								<span lang="ko">
+									클린치 넘버
+								</span>
+							</h3>
 							<p style="color:#080808; font-size:18px">
-								The clinch numbers provided by RIOT Sports can be thought of as improved replacements for traditional <a
-								href="FAQ_NBA.html#magic-number">magic numbers</a>. They are superior since they use detailed information about
-								teams' remaining schedules and the NBA's procedure for breaking two-team ties in the final standings in their
-								calculation.
+								<span lang="en">
+									The clinch numbers provided by RIOT Sports can be thought of as improved replacements for traditional <a
+									href="FAQ_NBA.html#magic-number">magic numbers</a>. They are superior since they use detailed information about
+									teams' remaining schedules and the NBA's procedure for breaking two-team ties in the final standings in their
+									calculation.
+								</span>
+								<span lang="ko">
+									리오트 스포츠가 제공하는 숫자는 전통적인 매직 넘버를 개선하여 대체할 수 있습니다. 팀들의
+									남은 일정과 최종순위가 두 팀이 동률일때 절차에 대해 상세한 정보를 계산에 활용하기 때문에
+									비교우위에 있습니다.
+								</span>
 							</p>
 								<div class="row">
 								<div class="6u 12u$(small)">
-									<h3>First Place Clinch Number</h3>
+									<h3>
+										<span lang="en">
+											First Place Clinch Number
+										</span>
+										<span lang="ko">
+											1위 클린치 넘버
+									  </span>
+									</h3>
 									<p style="color:#080808; font-size:18px">
-										The first place clinch number is the most similar to the commonly reported magic number.  If the team wins this
-										number of additional games, it is guaranteed to finish the season with a better record than any of the other teams
-										in its conference, or to win a <a href="FAQ_NBA.html#ties"> two-team tiebreaker</a> for first place in the
-										conference.
+										<span lang="en">
+											The first place clinch number is the most similar to the commonly reported magic number.  If the team wins this
+											number of additional games, it is guaranteed to finish the season with a better record than any of the other teams
+											in its conference, or to win a <a href="FAQ_NBA.html#ties"> two-team tiebreaker</a> for first place in the
+											conference.
+										</span>
+										<span lang="ko">
+											일반적으로 보고되는 (전통적인) 매직 넘버와 가장 유사합니다. 만약 팀이 이와 같이 추가
+											경기에서 승리할 경우에는 어느 팀보다 좋은 기록으로 시즌을 마칠 수도 있거나 동률로 1위를
+											차지할 수도 있습니다.
+											<br>
+											별표(*)는 이 팀이 남은 경기에서 모두 승리하더라도 컨퍼런스 1위를 차지하지 못할 것임을
+											나타냅니다. 이 경우, 팀은 1위 결정 번호를 부여받지 못합니다.
+										</span>
 									</p>
 									<p style="color:#080808; font-size:18px">
-										An asterisk (*) indicates that even if this team wins all of its remaining games, it will not necessarily clinch
-										first place in its conference. In this case the team does not have a first place clinch number.
+										<span lang="en">
+											An asterisk (*) indicates that even if this team wins all of its remaining games, it will not necessarily clinch
+											first place in its conference. In this case the team does not have a first place clinch number.
+										</span>
+										<span lang="ko">
+											앞으로 팀이 남은 경기에서 RIOT이 제공하는 숫자 만큼 승리할 경우 포스트시즌 진출권(1~5위)을 보장 받습니다. 정규시즌우승에 필요한 승수와 마찬가지로 별표(*)가 있는 팀들은 남은 경기를 모두 이겨도 플레이오프 진출을 장담할 수 없다는 것을 의미합니다
+										</span>
 									</p>
 								</div>
 								<div class="6u$ 12u$(small)">
-									<h3>Postseason Clinch Number</h3>
+									<h3>
+										<span lang="en">
+											Postseason Clinch Number
+										</span>
+										<span lang="ko">
+										  포스트시즌 클린치 넘버
+										</span>
+									</h3>
 									<p style="color:#080808; font-size:18px">
-										If a team wins this number of additional games, it is guaranteed a playoff berth. This could be as the conference
-										winner or as one of the other top eight teams
-										in the conference</a> (including the possibility of winning a two-way tie-breaker for 8th place).  As with the first
-										place clinch number, an asterisk (*) indicates that even if this team wins all of its remaining games, it cannot
-										guarantee itself a playoff berth.
+										<span lang="en">
+											If a team wins this number of additional games, it is guaranteed a playoff berth. This could be as the conference
+											winner or as one of the other top eight teams
+											in the conference</a> (including the possibility of winning a two-way tie-breaker for 8th place).  As with the first
+											place clinch number, an asterisk (*) indicates that even if this team wins all of its remaining games, it cannot
+											guarantee itself a playoff berth.
+										</span>
+										<span lang="ko">
+											한 팀이 이와 같이 추가 경기에서 승리할 경우 플레이오프 진출권이 보장됩니다. 이는 정규리그
+											우승팀으로서 하나일 수 있다. 1위 클린치 넘버와 마찬가지로 별표(*)는 이 팀이 남은 경기를 모두
+											이겨도 플레이오프 진출을 장담할 수 없다는 것을 나타냅니다.
+										</span>
 									</p>
 								</div>
 									<!-- Break -->
 								<div class="4u 12u$(medium)">
-									<h3>Elimination Numbers</h3>
+									<h3>
+										<span lang="en">
+											Elimination Numbers
+										</span>
+										<span lang="ko">
+											탈락 방지 승수
+										</span>
+									</h3>
 									<p style="color:#080808; font-size:18px">
-										The elimination numbers provided by RIOT allow fans to determine whether or
-										not teams have been eliminated from playoff contention, and how close they
-										are to being eliminated.
+										<span lang="en">
+											The elimination numbers provided by RIOT allow fans to determine whether or
+											not teams have been eliminated from playoff contention, and how close they
+											are to being eliminated.
+										</span>
+										<span lang="ko">
+											리오트 스포츠가 제공하는 탈락 방지 승수를 통해 팬들은 플레이오프 경합에서 탈락한 팀인지,
+											탈락에 얼마나 근접했는지 판단할 수 있습니다.
+										</span>
 									</p>
 									</div>
 								<div class="4u 12u$(medium)">
-									<h3>First Place Elimination Number</h3>
+									<h3>
+										<span lang="en">
+											First Place Elimination Number
+										</span>
+										<span lang="ko">
+											1위 탈락 방지 넘버
+										</span>
+									</h3>
 									<p style="color:#080808; font-size:18px">
-									This is the minimum number of games that this team must win in order to
-									remain in contention for first place in its conference.  Teams that are
-									already eliminated from first place contention are labeled "Elim" in this
-									box.
-									See the <a href="FAQ_NBA.html#fpe">list of frequently asked questions</a>
-									for an example of the distinction between the interpretations of the First Place
-									Elimination Number and the First Place Clinch Number.
+									<span lang="en">
+										This is the minimum number of games that this team must win in order to
+										remain in contention for first place in its conference.  Teams that are
+										already eliminated from first place contention are labeled "Elim" in this
+										box.
+										See the <a href="FAQ_NBA.html#fpe">list of frequently asked questions</a>
+										for an example of the distinction between the interpretations of the First Place
+										Elimination Number and the First Place Clinch Number.
+									</span>
+									<span lang="ko">
+										팀이 정규 시즌 1위 경쟁에서 탈락하지 않기 위해 반드시 이겨야 하는 최소 경기 수입니다. 이미
+										1위 경합에서 탈락한 팀들은 이 상자 안에 &#39;Elim&#39;이라고 표시가 되어 있습니다. 1위 탈락방지 넘버와
+										1위 클린치 넘버의 해석 사이의 구분을 보려면 자주 묻는 질문 목록을 참조하세요.
+									</span>
 									</p>
 									</div>
 								<div class="4u$ 12u$(medium)">
-									<h3>Playoff Elimination Number</h3>
+									<h3>
+										<span lang="en">
+											Playoff Elimination Number
+										</span>
+										<span lang="ko">
+											플레이오프 탈락 방지 넘버
+										</span>
+									</h3>
 									<p style="color:#080808; font-size:18px">
-										This is the minimum number of games that this team must win in order to remain in contention for a playoff berth. Teams that are already eliminated from playoff contention are labeled "Elim" in this box.
+										<span lang="en">
+											This is the minimum number of games that this team must win in order to remain in contention for a
+											playoff berth. Teams that are already eliminated from playoff contention are labeled "Elim" in this box.
+										</span>
+										<span lang="ko">
+											플레이오프 진출권을 다투기 위해서는 팀이 반드시 이겨야 하는 최소 경기 수입니다.
+											플레이오프에서 이미 탈락한 팀들은 이 상자 안에 &#39;Elim&#39;이라는 표시가 붙어 있습니다.
+										</span>
 									</p>
 									</div>
 									<div class="4u$ 12u$(medium)">
-										<h3>Caveats</h3>
+										<h3>
+										<span lang="en">
+											Caveats
+										</span>
+										<span lang="ko">
+											주의사항
+										</span>
+										</h3>
 										<p style="color:#080808; font-size:18px">
-											The <a href="problem_explanation_NBA.html#MIP">method</a> used to calculate the RIOT numbers takes the possibility that the
-											team in question could be tied in the standings with one other team, but excludes the possibility of a tie with two
-											or more other teams. The elimination numbers are conservative; it's possible that a team can stay in contention with
-											fewer wins due to a scenario where they win the tiebreaker with multiple teams. Conversely the clinch numbers are
-											technically lower limits on the number of games need to clinch first place or playoff berth.
+											<span lang="en">
+												The <a href="problem_explanation_NBA.html#MIP">method</a> used to calculate the RIOT numbers takes the possibility that the
+												team in question could be tied in the standings with one other team, but excludes the possibility of a tie with two
+												or more other teams. The elimination numbers are conservative; it's possible that a team can stay in contention with
+												fewer wins due to a scenario where they win the tiebreaker with multiple teams. Conversely the clinch numbers are
+												technically lower limits on the number of games need to clinch first place or playoff berth.
+											</span>
+											<span lang="ko">
+												리오트 넘버를 계산하는 방법은 해당 팀이 1개 팀과 동률일 가능성을 택하지만, 2개 이상의 팀과
+												동점일 가능성은 배제합니다.
+												탈락방지넘버는 보수적으로 계산됩니다; 여러 팀과의 동률로 승리하는 시나리오로 인해 한 팀이
+												적은 승률로도 계속 경쟁에서 남아 할 수 있습니다. 반대로, 클린치 넘버는 1위나 플레이오프
+												진출권을 따기 위해 필요한 경기 수의 사실상의 하한선입니다.
+											</span>
 										</p>
 										</div>
 							</div>
@@ -129,6 +254,7 @@
 				<p>&copy; Untitled. All rights reserved. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.</p>
 				<p>© 1996 Ilan Adler, Alan L. Erera, Dorit S. Hochbaum and Eli V. Olinick</p>
 				<p>© 2019 Mark A. Husted, Eli V. Olinick, and Alexandra M. Newman</p>
+				<img  style="max-width=:550px; max-height:550px" src="images/RIOT_Logo.png" alt="" />
 			</div>
 		</footer>
 
@@ -139,6 +265,27 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+					$('[lang]').hide(); // hide all lang attributes on start.
+					$('[lang="en"]').show(); // show just Korean text (you can change it)
+					$('#lang-switch').change(function () { // put onchange event when user select option from select
+							var lang = $(this).val(); // decide which language to display using switch case. The rest is obvious (i think)
+							switch (lang) {
+									case 'en':
+											$('[lang]').hide();
+											$('[lang="en"]').show();
+									break;
+									case 'ko':
+											$('[lang]').hide();
+											$('[lang="ko"]').show();
+									break;
+									default:
+											$('[lang]').hide();
+											$('[lang="en"]').show();
+									}
+					});
+			</script>
 
 	</body>
 </html>
