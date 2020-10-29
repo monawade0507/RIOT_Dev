@@ -1,0 +1,1803 @@
+Phoenix does not have a first-place clinch number.
+Here are the final standings of a scenario in which Phoenix wins all 21 of their remaining games (45 total),
+but does not clinch first place.
+
+
+Final standings:
+            Team	W	L	PCT	GB
+          Dallas	48	34	0.585	0.0
+          Denver	48	34	0.585	0.0
+      LAClippers	48	34	0.585	0.0
+        LALakers	48	34	0.585	0.0
+         Phoenix	45	37	0.549	3.0
+            Utah	45	37	0.549	3.0
+         Memphis	44	38	0.537	4.0
+        Portland	43	39	0.524	5.0
+      SanAntonio	43	39	0.524	5.0
+      NewOrleans	42	40	0.512	6.0
+         Houston	41	41	0.500	7.0
+    OklahomaCity	40	42	0.488	8.0
+       Minnesota	36	46	0.439	12.0
+     GoldenState	34	48	0.415	14.0
+      Sacramento	33	49	0.402	15.0
+
+Phoenix wins the series with Utah 2 to 1.
+
+
+
+To construct the above scenario, we start with the current standings:
+            Team	W	L	GL	PCT	GB
+       Milwaukee	51	8	23	0.622	0.0
+        LALakers	45	13	24	0.549	5.5
+         Toronto	42	17	23	0.512	9.0
+          Boston	41	18	23	0.500	10.0
+          Denver	40	19	23	0.488	11.0
+      LAClippers	40	19	23	0.488	11.0
+         Houston	39	20	23	0.476	12.0
+           Miami	38	22	22	0.463	13.5
+    OklahomaCity	37	23	22	0.451	14.5
+    Philadelphia	37	23	22	0.451	14.5
+            Utah	37	22	23	0.451	14.0
+          Dallas	36	24	22	0.439	15.5
+         Indiana	36	24	22	0.439	15.5
+         Memphis	29	31	22	0.354	22.5
+         Orlando	27	33	22	0.329	24.5
+        Brooklyn	26	33	23	0.317	25.0
+      NewOrleans	26	33	23	0.317	25.0
+        Portland	26	35	21	0.317	26.0
+      Sacramento	25	34	23	0.305	26.0
+      SanAntonio	25	33	24	0.305	25.5
+         Phoenix	24	37	21	0.293	28.0
+       Charlotte	21	38	23	0.256	30.0
+      Washington	21	37	24	0.256	29.5
+         Chicago	20	40	22	0.244	31.5
+         Detroit	20	41	21	0.244	32.0
+         Atlanta	19	43	20	0.232	33.5
+         NewYork	18	42	22	0.220	33.5
+       Cleveland	17	43	22	0.207	34.5
+       Minnesota	17	41	24	0.207	33.5
+     GoldenState	13	47	22	0.159	38.5
+
+
+Next, we show how the remaining series of games in the season plays out:
+
+Atlanta currently has 0 win(s) against Boston and 3 loss(es).
+Atlanta and Boston have no remaining games.
+Atlanta and Boston split their series 0 games to 0.
+
+Atlanta currently has 1 win(s) against Brooklyn and 3 loss(es).
+Atlanta and Brooklyn have no remaining games.
+Atlanta loses the series with Brooklyn 1 games to 3.
+
+Atlanta currently has 1 win(s) against Charlotte and 0 loss(es).
+In the scenario, Atlanta wins 0 additional games against Charlotte and 3 loss(es).
+Atlanta loses the series with Charlotte 1 games to 3.
+
+Atlanta currently has 0 win(s) against Chicago and 3 loss(es).
+Atlanta and Chicago have no remaining games.
+Atlanta loses the series with Chicago 0 games to 3.
+
+Atlanta currently has 0 win(s) against Cleveland and 2 loss(es).
+In the scenario, Atlanta wins 2 additional games against Cleveland and 0 loss(es).
+Atlanta and Cleveland split their series 2 games to 2.
+
+Atlanta currently has 1 win(s) against Dallas and 1 loss(es).
+Atlanta and Dallas have no remaining games.
+Atlanta and Dallas split their series 1 games to 1.
+
+Atlanta currently has 1 win(s) against Denver and 1 loss(es).
+Atlanta and Denver have no remaining games.
+Atlanta and Denver split their series 1 games to 1.
+
+Atlanta currently has 1 win(s) against Detroit and 2 loss(es).
+In the scenario, Atlanta wins 1 additional games against Detroit and 0 loss(es).
+Atlanta and Detroit split their series 2 games to 2.
+
+Atlanta currently has 1 win(s) against GoldenState and 0 loss(es).
+In the scenario, Atlanta wins 0 additional games against GoldenState and 1 loss(es).
+Atlanta and GoldenState split their series 1 games to 1.
+
+Atlanta currently has 0 win(s) against Houston and 2 loss(es).
+Atlanta and Houston have no remaining games.
+Atlanta loses the series with Houston 0 games to 2.
+
+Atlanta currently has 1 win(s) against Indiana and 2 loss(es).
+Atlanta and Indiana have no remaining games.
+Atlanta loses the series with Indiana 1 games to 2.
+
+Atlanta currently has 1 win(s) against LAClippers and 1 loss(es).
+Atlanta and LAClippers have no remaining games.
+Atlanta and LAClippers split their series 1 games to 1.
+
+Atlanta currently has 0 win(s) against LALakers and 2 loss(es).
+Atlanta and LALakers have no remaining games.
+Atlanta loses the series with LALakers 0 games to 2.
+
+Atlanta currently has 0 win(s) against Memphis and 0 loss(es).
+In the scenario, Atlanta wins 0 additional games against Memphis and 2 loss(es).
+Atlanta loses the series with Memphis 0 games to 2.
+
+Atlanta currently has 1 win(s) against Miami and 3 loss(es).
+Atlanta and Miami have no remaining games.
+Atlanta loses the series with Miami 1 games to 3.
+
+Atlanta currently has 0 win(s) against Milwaukee and 3 loss(es).
+In the scenario, Atlanta wins 1 additional games against Milwaukee and 0 loss(es).
+Atlanta loses the series with Milwaukee 1 games to 3.
+
+Atlanta currently has 1 win(s) against Minnesota and 1 loss(es).
+Atlanta and Minnesota have no remaining games.
+Atlanta and Minnesota split their series 1 games to 1.
+
+Atlanta currently has 0 win(s) against NewOrleans and 0 loss(es).
+In the scenario, Atlanta wins 0 additional games against NewOrleans and 2 loss(es).
+Atlanta loses the series with NewOrleans 0 games to 2.
+
+Atlanta currently has 1 win(s) against NewYork and 1 loss(es).
+In the scenario, Atlanta wins 0 additional games against NewYork and 1 loss(es).
+Atlanta loses the series with NewYork 1 games to 2.
+
+Atlanta currently has 0 win(s) against OklahomaCity and 1 loss(es).
+In the scenario, Atlanta wins 0 additional games against OklahomaCity and 1 loss(es).
+Atlanta loses the series with OklahomaCity 0 games to 2.
+
+Atlanta currently has 2 win(s) against Orlando and 2 loss(es).
+Atlanta and Orlando have no remaining games.
+Atlanta and Orlando split their series 2 games to 2.
+
+Atlanta currently has 1 win(s) against Philadelphia and 2 loss(es).
+In the scenario, Atlanta wins 1 additional games against Philadelphia and 0 loss(es).
+Atlanta and Philadelphia split their series 2 games to 2.
+
+Atlanta currently has 1 win(s) against Phoenix and 1 loss(es).
+Atlanta and Phoenix have no remaining games.
+Atlanta and Phoenix split their series 1 games to 1.
+
+Atlanta currently has 1 win(s) against Portland and 1 loss(es).
+Atlanta and Portland have no remaining games.
+Atlanta and Portland split their series 1 games to 1.
+
+Atlanta currently has 0 win(s) against Sacramento and 1 loss(es).
+In the scenario, Atlanta wins 1 additional games against Sacramento and 0 loss(es).
+Atlanta and Sacramento split their series 1 games to 1.
+
+Atlanta currently has 2 win(s) against SanAntonio and 0 loss(es).
+Atlanta and SanAntonio have no remaining games.
+Atlanta wins the series with SanAntonio 2 games to 0.
+
+Atlanta currently has 0 win(s) against Toronto and 3 loss(es).
+In the scenario, Atlanta wins 1 additional games against Toronto and 0 loss(es).
+Atlanta loses the series with Toronto 1 games to 3.
+
+Atlanta currently has 0 win(s) against Utah and 1 loss(es).
+In the scenario, Atlanta wins 1 additional games against Utah and 0 loss(es).
+Atlanta and Utah split their series 1 games to 1.
+
+Atlanta currently has 1 win(s) against Washington and 1 loss(es).
+In the scenario, Atlanta wins 2 additional games against Washington and 0 loss(es).
+Atlanta wins the series with Washington 3 games to 1.
+
+Boston currently has 1 win(s) against Brooklyn and 1 loss(es).
+In the scenario, Boston wins 2 additional games against Brooklyn and 0 loss(es).
+Boston and Brooklyn split their series 0 games to 0.
+
+Boston currently has 3 win(s) against Charlotte and 0 loss(es).
+Boston and Charlotte have no remaining games.
+Boston wins the series with Charlotte 3 games to 0.
+
+Boston currently has 2 win(s) against Chicago and 0 loss(es).
+In the scenario, Boston wins 2 additional games against Chicago and 0 loss(es).
+Boston wins the series with Chicago 4 games to 0.
+
+Boston currently has 3 win(s) against Cleveland and 0 loss(es).
+In the scenario, Boston wins 0 additional games against Cleveland and 1 loss(es).
+Boston wins the series with Cleveland 3 games to 1.
+
+Boston currently has 2 win(s) against Dallas and 0 loss(es).
+Boston and Dallas have no remaining games.
+Boston wins the series with Dallas 2 games to 0.
+
+Boston currently has 1 win(s) against Denver and 1 loss(es).
+Boston and Denver have no remaining games.
+Boston and Denver split their series 1 games to 1.
+
+Boston currently has 1 win(s) against Detroit and 1 loss(es).
+In the scenario, Boston wins 0 additional games against Detroit and 1 loss(es).
+Boston loses the series with Detroit 1 games to 2.
+
+Boston currently has 2 win(s) against GoldenState and 0 loss(es).
+Boston and GoldenState have no remaining games.
+Boston wins the series with GoldenState 2 games to 0.
+
+Boston currently has 0 win(s) against Houston and 2 loss(es).
+Boston and Houston have no remaining games.
+Boston loses the series with Houston 0 games to 2.
+
+Boston currently has 0 win(s) against Indiana and 1 loss(es).
+In the scenario, Boston wins 0 additional games against Indiana and 2 loss(es).
+Boston loses the series with Indiana 0 games to 3.
+
+Boston currently has 1 win(s) against LAClippers and 1 loss(es).
+Boston and LAClippers have no remaining games.
+Boston and LAClippers split their series 1 games to 1.
+
+Boston currently has 1 win(s) against LALakers and 1 loss(es).
+Boston and LALakers have no remaining games.
+Boston and LALakers split their series 1 games to 1.
+
+Boston currently has 1 win(s) against Memphis and 0 loss(es).
+In the scenario, Boston wins 0 additional games against Memphis and 1 loss(es).
+Boston and Memphis split their series 1 games to 1.
+
+Boston currently has 2 win(s) against Miami and 0 loss(es).
+In the scenario, Boston wins 2 additional games against Miami and 0 loss(es).
+Boston wins the series with Miami 4 games to 0.
+
+Boston currently has 1 win(s) against Milwaukee and 1 loss(es).
+In the scenario, Boston wins 0 additional games against Milwaukee and 2 loss(es).
+Boston loses the series with Milwaukee 1 games to 3.
+
+Boston currently has 1 win(s) against Minnesota and 0 loss(es).
+In the scenario, Boston wins 0 additional games against Minnesota and 1 loss(es).
+Boston and Minnesota split their series 1 games to 1.
+
+Boston currently has 1 win(s) against NewOrleans and 1 loss(es).
+Boston and NewOrleans have no remaining games.
+Boston and NewOrleans split their series 1 games to 1.
+
+Boston currently has 3 win(s) against NewYork and 0 loss(es).
+In the scenario, Boston wins 0 additional games against NewYork and 1 loss(es).
+Boston wins the series with NewYork 3 games to 1.
+
+Boston currently has 1 win(s) against OklahomaCity and 0 loss(es).
+In the scenario, Boston wins 1 additional games against OklahomaCity and 0 loss(es).
+Boston wins the series with OklahomaCity 2 games to 0.
+
+Boston currently has 2 win(s) against Orlando and 0 loss(es).
+In the scenario, Boston wins 2 additional games against Orlando and 0 loss(es).
+Boston wins the series with Orlando 4 games to 0.
+
+Boston currently has 1 win(s) against Philadelphia and 3 loss(es).
+Boston and Philadelphia have no remaining games.
+Boston loses the series with Philadelphia 1 games to 3.
+
+Boston currently has 1 win(s) against Phoenix and 1 loss(es).
+Boston and Phoenix have no remaining games.
+Boston and Phoenix split their series 1 games to 1.
+
+Boston currently has 1 win(s) against Portland and 0 loss(es).
+In the scenario, Boston wins 0 additional games against Portland and 1 loss(es).
+Boston and Portland split their series 1 games to 1.
+
+Boston currently has 1 win(s) against Sacramento and 1 loss(es).
+Boston and Sacramento have no remaining games.
+Boston and Sacramento split their series 1 games to 1.
+
+Boston currently has 1 win(s) against SanAntonio and 1 loss(es).
+Boston and SanAntonio have no remaining games.
+Boston and SanAntonio split their series 1 games to 1.
+
+Boston currently has 2 win(s) against Toronto and 1 loss(es).
+In the scenario, Boston wins 1 additional games against Toronto and 0 loss(es).
+Boston wins the series with Toronto 3 games to 1.
+
+Boston currently has 1 win(s) against Utah and 0 loss(es).
+In the scenario, Boston wins 1 additional games against Utah and 0 loss(es).
+Boston wins the series with Utah 2 games to 0.
+
+Boston currently has 1 win(s) against Washington and 1 loss(es).
+In the scenario, Boston wins 2 additional games against Washington and 0 loss(es).
+Boston wins the series with Washington 3 games to 1.
+
+Brooklyn currently has 3 win(s) against Charlotte and 1 loss(es).
+Brooklyn and Charlotte have no remaining games.
+Brooklyn and Charlotte split their series 0 games to 0.
+
+Brooklyn currently has 2 win(s) against Chicago and 0 loss(es).
+In the scenario, Brooklyn wins 0 additional games against Chicago and 2 loss(es).
+Brooklyn and Chicago split their series 2 games to 2.
+
+Brooklyn currently has 1 win(s) against Cleveland and 0 loss(es).
+In the scenario, Brooklyn wins 0 additional games against Cleveland and 2 loss(es).
+Brooklyn loses the series with Cleveland 1 games to 2.
+
+Brooklyn currently has 0 win(s) against Dallas and 1 loss(es).
+In the scenario, Brooklyn wins 0 additional games against Dallas and 1 loss(es).
+Brooklyn loses the series with Dallas 0 games to 2.
+
+Brooklyn currently has 1 win(s) against Denver and 1 loss(es).
+Brooklyn and Denver have no remaining games.
+Brooklyn and Denver split their series 1 games to 1.
+
+Brooklyn currently has 2 win(s) against Detroit and 1 loss(es).
+In the scenario, Brooklyn wins 0 additional games against Detroit and 1 loss(es).
+Brooklyn and Detroit split their series 2 games to 2.
+
+Brooklyn currently has 1 win(s) against GoldenState and 0 loss(es).
+In the scenario, Brooklyn wins 0 additional games against GoldenState and 1 loss(es).
+Brooklyn and GoldenState split their series 1 games to 1.
+
+Brooklyn currently has 1 win(s) against Houston and 1 loss(es).
+Brooklyn and Houston have no remaining games.
+Brooklyn and Houston split their series 1 games to 1.
+
+Brooklyn currently has 1 win(s) against Indiana and 2 loss(es).
+In the scenario, Brooklyn wins 0 additional games against Indiana and 1 loss(es).
+Brooklyn loses the series with Indiana 1 games to 3.
+
+Brooklyn currently has 0 win(s) against LAClippers and 0 loss(es).
+In the scenario, Brooklyn wins 1 additional games against LAClippers and 1 loss(es).
+Brooklyn and LAClippers split their series 1 games to 1.
+
+Brooklyn currently has 0 win(s) against LALakers and 1 loss(es).
+In the scenario, Brooklyn wins 1 additional games against LALakers and 0 loss(es).
+Brooklyn and LALakers split their series 1 games to 1.
+
+Brooklyn currently has 0 win(s) against Memphis and 1 loss(es).
+In the scenario, Brooklyn wins 0 additional games against Memphis and 1 loss(es).
+Brooklyn loses the series with Memphis 0 games to 2.
+
+Brooklyn currently has 1 win(s) against Miami and 2 loss(es).
+Brooklyn and Miami have no remaining games.
+Brooklyn loses the series with Miami 1 games to 2.
+
+Brooklyn currently has 0 win(s) against Milwaukee and 1 loss(es).
+In the scenario, Brooklyn wins 0 additional games against Milwaukee and 2 loss(es).
+Brooklyn loses the series with Milwaukee 0 games to 3.
+
+Brooklyn currently has 0 win(s) against Minnesota and 2 loss(es).
+Brooklyn and Minnesota have no remaining games.
+Brooklyn loses the series with Minnesota 0 games to 2.
+
+Brooklyn currently has 2 win(s) against NewOrleans and 0 loss(es).
+Brooklyn and NewOrleans have no remaining games.
+Brooklyn wins the series with NewOrleans 2 games to 0.
+
+Brooklyn currently has 2 win(s) against NewYork and 2 loss(es).
+Brooklyn and NewYork have no remaining games.
+Brooklyn and NewYork split their series 2 games to 2.
+
+Brooklyn currently has 0 win(s) against OklahomaCity and 1 loss(es).
+In the scenario, Brooklyn wins 1 additional games against OklahomaCity and 0 loss(es).
+Brooklyn and OklahomaCity split their series 1 games to 1.
+
+Brooklyn currently has 0 win(s) against Orlando and 2 loss(es).
+In the scenario, Brooklyn wins 0 additional games against Orlando and 2 loss(es).
+Brooklyn loses the series with Orlando 0 games to 4.
+
+Brooklyn currently has 1 win(s) against Philadelphia and 3 loss(es).
+Brooklyn and Philadelphia have no remaining games.
+Brooklyn loses the series with Philadelphia 1 games to 3.
+
+Brooklyn currently has 1 win(s) against Phoenix and 1 loss(es).
+Brooklyn and Phoenix have no remaining games.
+Brooklyn and Phoenix split their series 1 games to 1.
+
+Brooklyn currently has 1 win(s) against Portland and 0 loss(es).
+In the scenario, Brooklyn wins 0 additional games against Portland and 1 loss(es).
+Brooklyn and Portland split their series 1 games to 1.
+
+Brooklyn currently has 1 win(s) against Sacramento and 0 loss(es).
+In the scenario, Brooklyn wins 1 additional games against Sacramento and 0 loss(es).
+Brooklyn wins the series with Sacramento 2 games to 0.
+
+Brooklyn currently has 0 win(s) against SanAntonio and 1 loss(es).
+In the scenario, Brooklyn wins 0 additional games against SanAntonio and 1 loss(es).
+Brooklyn loses the series with SanAntonio 0 games to 2.
+
+Brooklyn currently has 1 win(s) against Toronto and 3 loss(es).
+Brooklyn and Toronto have no remaining games.
+Brooklyn loses the series with Toronto 1 games to 3.
+
+Brooklyn currently has 0 win(s) against Utah and 2 loss(es).
+Brooklyn and Utah have no remaining games.
+Brooklyn loses the series with Utah 0 games to 2.
+
+Brooklyn currently has 0 win(s) against Washington and 2 loss(es).
+In the scenario, Brooklyn wins 0 additional games against Washington and 1 loss(es).
+Brooklyn loses the series with Washington 0 games to 3.
+
+Charlotte currently has 3 win(s) against Chicago and 1 loss(es).
+Charlotte and Chicago have no remaining games.
+Charlotte and Chicago split their series 0 games to 0.
+
+Charlotte currently has 1 win(s) against Cleveland and 1 loss(es).
+In the scenario, Charlotte wins 1 additional games against Cleveland and 0 loss(es).
+Charlotte wins the series with Cleveland 2 games to 1.
+
+Charlotte currently has 1 win(s) against Dallas and 1 loss(es).
+Charlotte and Dallas have no remaining games.
+Charlotte and Dallas split their series 1 games to 1.
+
+Charlotte currently has 0 win(s) against Denver and 1 loss(es).
+In the scenario, Charlotte wins 1 additional games against Denver and 0 loss(es).
+Charlotte and Denver split their series 1 games to 1.
+
+Charlotte currently has 4 win(s) against Detroit and 0 loss(es).
+Charlotte and Detroit have no remaining games.
+Charlotte wins the series with Detroit 4 games to 0.
+
+Charlotte currently has 2 win(s) against GoldenState and 0 loss(es).
+Charlotte and GoldenState have no remaining games.
+Charlotte wins the series with GoldenState 2 games to 0.
+
+Charlotte currently has 0 win(s) against Houston and 1 loss(es).
+In the scenario, Charlotte wins 1 additional games against Houston and 0 loss(es).
+Charlotte and Houston split their series 1 games to 1.
+
+Charlotte currently has 1 win(s) against Indiana and 3 loss(es).
+Charlotte and Indiana have no remaining games.
+Charlotte loses the series with Indiana 1 games to 3.
+
+Charlotte currently has 0 win(s) against LAClippers and 1 loss(es).
+In the scenario, Charlotte wins 1 additional games against LAClippers and 0 loss(es).
+Charlotte and LAClippers split their series 1 games to 1.
+
+Charlotte currently has 0 win(s) against LALakers and 1 loss(es).
+In the scenario, Charlotte wins 1 additional games against LALakers and 0 loss(es).
+Charlotte and LALakers split their series 1 games to 1.
+
+Charlotte currently has 0 win(s) against Memphis and 2 loss(es).
+Charlotte and Memphis have no remaining games.
+Charlotte loses the series with Memphis 0 games to 2.
+
+Charlotte currently has 0 win(s) against Miami and 1 loss(es).
+In the scenario, Charlotte wins 3 additional games against Miami and 0 loss(es).
+Charlotte wins the series with Miami 3 games to 1.
+
+Charlotte currently has 0 win(s) against Milwaukee and 2 loss(es).
+In the scenario, Charlotte wins 1 additional games against Milwaukee and 0 loss(es).
+Charlotte loses the series with Milwaukee 1 games to 2.
+
+Charlotte currently has 1 win(s) against Minnesota and 1 loss(es).
+Charlotte and Minnesota have no remaining games.
+Charlotte and Minnesota split their series 1 games to 1.
+
+Charlotte currently has 0 win(s) against NewOrleans and 1 loss(es).
+In the scenario, Charlotte wins 0 additional games against NewOrleans and 1 loss(es).
+Charlotte loses the series with NewOrleans 0 games to 2.
+
+Charlotte currently has 3 win(s) against NewYork and 0 loss(es).
+In the scenario, Charlotte wins 1 additional games against NewYork and 0 loss(es).
+Charlotte wins the series with NewYork 4 games to 0.
+
+Charlotte currently has 0 win(s) against OklahomaCity and 1 loss(es).
+In the scenario, Charlotte wins 1 additional games against OklahomaCity and 0 loss(es).
+Charlotte and OklahomaCity split their series 1 games to 1.
+
+Charlotte currently has 0 win(s) against Orlando and 2 loss(es).
+In the scenario, Charlotte wins 2 additional games against Orlando and 0 loss(es).
+Charlotte and Orlando split their series 2 games to 2.
+
+Charlotte currently has 0 win(s) against Philadelphia and 1 loss(es).
+In the scenario, Charlotte wins 2 additional games against Philadelphia and 0 loss(es).
+Charlotte wins the series with Philadelphia 2 games to 1.
+
+Charlotte currently has 0 win(s) against Phoenix and 2 loss(es).
+Charlotte and Phoenix have no remaining games.
+Charlotte loses the series with Phoenix 0 games to 2.
+
+Charlotte currently has 0 win(s) against Portland and 1 loss(es).
+In the scenario, Charlotte wins 0 additional games against Portland and 1 loss(es).
+Charlotte loses the series with Portland 0 games to 2.
+
+Charlotte currently has 2 win(s) against Sacramento and 0 loss(es).
+Charlotte and Sacramento have no remaining games.
+Charlotte wins the series with Sacramento 2 games to 0.
+
+Charlotte currently has 0 win(s) against SanAntonio and 1 loss(es).
+In the scenario, Charlotte wins 0 additional games against SanAntonio and 1 loss(es).
+Charlotte loses the series with SanAntonio 0 games to 2.
+
+Charlotte currently has 1 win(s) against Toronto and 2 loss(es).
+In the scenario, Charlotte wins 1 additional games against Toronto and 0 loss(es).
+Charlotte and Toronto split their series 2 games to 2.
+
+Charlotte currently has 0 win(s) against Utah and 2 loss(es).
+Charlotte and Utah have no remaining games.
+Charlotte loses the series with Utah 0 games to 2.
+
+Charlotte currently has 1 win(s) against Washington and 2 loss(es).
+In the scenario, Charlotte wins 1 additional games against Washington and 0 loss(es).
+Charlotte and Washington split their series 2 games to 2.
+
+Chicago currently has 2 win(s) against Cleveland and 1 loss(es).
+In the scenario, Chicago wins 0 additional games against Cleveland and 1 loss(es).
+Chicago and Cleveland split their series 0 games to 0.
+
+Chicago currently has 0 win(s) against Dallas and 1 loss(es).
+In the scenario, Chicago wins 1 additional games against Dallas and 0 loss(es).
+Chicago and Dallas split their series 1 games to 1.
+
+Chicago currently has 0 win(s) against Denver and 0 loss(es).
+In the scenario, Chicago wins 0 additional games against Denver and 2 loss(es).
+Chicago loses the series with Denver 0 games to 2.
+
+Chicago currently has 4 win(s) against Detroit and 0 loss(es).
+Chicago and Detroit have no remaining games.
+Chicago wins the series with Detroit 4 games to 0.
+
+Chicago currently has 0 win(s) against GoldenState and 2 loss(es).
+Chicago and GoldenState have no remaining games.
+Chicago loses the series with GoldenState 0 games to 2.
+
+Chicago currently has 0 win(s) against Houston and 1 loss(es).
+In the scenario, Chicago wins 1 additional games against Houston and 0 loss(es).
+Chicago and Houston split their series 1 games to 1.
+
+Chicago currently has 0 win(s) against Indiana and 3 loss(es).
+In the scenario, Chicago wins 0 additional games against Indiana and 1 loss(es).
+Chicago loses the series with Indiana 0 games to 4.
+
+Chicago currently has 1 win(s) against LAClippers and 0 loss(es).
+In the scenario, Chicago wins 1 additional games against LAClippers and 0 loss(es).
+Chicago wins the series with LAClippers 2 games to 0.
+
+Chicago currently has 0 win(s) against LALakers and 1 loss(es).
+In the scenario, Chicago wins 1 additional games against LALakers and 0 loss(es).
+Chicago and LALakers split their series 1 games to 1.
+
+Chicago currently has 2 win(s) against Memphis and 0 loss(es).
+Chicago and Memphis have no remaining games.
+Chicago wins the series with Memphis 2 games to 0.
+
+Chicago currently has 0 win(s) against Miami and 2 loss(es).
+In the scenario, Chicago wins 2 additional games against Miami and 0 loss(es).
+Chicago and Miami split their series 2 games to 2.
+
+Chicago currently has 0 win(s) against Milwaukee and 4 loss(es).
+Chicago and Milwaukee have no remaining games.
+Chicago loses the series with Milwaukee 0 games to 4.
+
+Chicago currently has 1 win(s) against Minnesota and 0 loss(es).
+In the scenario, Chicago wins 0 additional games against Minnesota and 1 loss(es).
+Chicago and Minnesota split their series 1 games to 1.
+
+Chicago currently has 0 win(s) against NewOrleans and 2 loss(es).
+Chicago and NewOrleans have no remaining games.
+Chicago loses the series with NewOrleans 0 games to 2.
+
+Chicago currently has 1 win(s) against NewYork and 2 loss(es).
+In the scenario, Chicago wins 0 additional games against NewYork and 1 loss(es).
+Chicago loses the series with NewYork 1 games to 3.
+
+Chicago currently has 0 win(s) against OklahomaCity and 2 loss(es).
+Chicago and OklahomaCity have no remaining games.
+Chicago loses the series with OklahomaCity 0 games to 2.
+
+Chicago currently has 0 win(s) against Orlando and 1 loss(es).
+In the scenario, Chicago wins 2 additional games against Orlando and 0 loss(es).
+Chicago wins the series with Orlando 2 games to 1.
+
+Chicago currently has 0 win(s) against Philadelphia and 2 loss(es).
+In the scenario, Chicago wins 1 additional games against Philadelphia and 0 loss(es).
+Chicago loses the series with Philadelphia 1 games to 2.
+
+Chicago currently has 0 win(s) against Phoenix and 1 loss(es).
+In the scenario, Chicago wins 0 additional games against Phoenix and 1 loss(es).
+Chicago loses the series with Phoenix 0 games to 2.
+
+Chicago currently has 0 win(s) against Portland and 2 loss(es).
+Chicago and Portland have no remaining games.
+Chicago loses the series with Portland 0 games to 2.
+
+Chicago currently has 1 win(s) against Sacramento and 1 loss(es).
+Chicago and Sacramento have no remaining games.
+Chicago and Sacramento split their series 1 games to 1.
+
+Chicago currently has 1 win(s) against SanAntonio and 0 loss(es).
+In the scenario, Chicago wins 0 additional games against SanAntonio and 1 loss(es).
+Chicago and SanAntonio split their series 1 games to 1.
+
+Chicago currently has 0 win(s) against Toronto and 3 loss(es).
+Chicago and Toronto have no remaining games.
+Chicago loses the series with Toronto 0 games to 3.
+
+Chicago currently has 0 win(s) against Utah and 1 loss(es).
+In the scenario, Chicago wins 1 additional games against Utah and 0 loss(es).
+Chicago and Utah split their series 1 games to 1.
+
+Chicago currently has 3 win(s) against Washington and 1 loss(es).
+Chicago and Washington have no remaining games.
+Chicago wins the series with Washington 3 games to 1.
+
+Cleveland currently has 0 win(s) against Dallas and 2 loss(es).
+Cleveland and Dallas have no remaining games.
+Cleveland and Dallas split their series 0 games to 0.
+
+Cleveland currently has 1 win(s) against Denver and 0 loss(es).
+In the scenario, Cleveland wins 1 additional games against Denver and 0 loss(es).
+Cleveland wins the series with Denver 2 games to 0.
+
+Cleveland currently has 2 win(s) against Detroit and 2 loss(es).
+Cleveland and Detroit have no remaining games.
+Cleveland and Detroit split their series 2 games to 2.
+
+Cleveland currently has 0 win(s) against GoldenState and 1 loss(es).
+In the scenario, Cleveland wins 0 additional games against GoldenState and 1 loss(es).
+Cleveland loses the series with GoldenState 0 games to 2.
+
+Cleveland currently has 0 win(s) against Houston and 1 loss(es).
+In the scenario, Cleveland wins 1 additional games against Houston and 0 loss(es).
+Cleveland and Houston split their series 1 games to 1.
+
+Cleveland currently has 1 win(s) against Indiana and 2 loss(es).
+In the scenario, Cleveland wins 0 additional games against Indiana and 1 loss(es).
+Cleveland loses the series with Indiana 1 games to 3.
+
+Cleveland currently has 0 win(s) against LAClippers and 2 loss(es).
+Cleveland and LAClippers have no remaining games.
+Cleveland loses the series with LAClippers 0 games to 2.
+
+Cleveland currently has 0 win(s) against LALakers and 1 loss(es).
+In the scenario, Cleveland wins 1 additional games against LALakers and 0 loss(es).
+Cleveland and LALakers split their series 1 games to 1.
+
+Cleveland currently has 1 win(s) against Memphis and 1 loss(es).
+Cleveland and Memphis have no remaining games.
+Cleveland and Memphis split their series 1 games to 1.
+
+Cleveland currently has 1 win(s) against Miami and 3 loss(es).
+Cleveland and Miami have no remaining games.
+Cleveland loses the series with Miami 1 games to 3.
+
+Cleveland currently has 0 win(s) against Milwaukee and 3 loss(es).
+In the scenario, Cleveland wins 1 additional games against Milwaukee and 0 loss(es).
+Cleveland loses the series with Milwaukee 1 games to 3.
+
+Cleveland currently has 1 win(s) against Minnesota and 1 loss(es).
+Cleveland and Minnesota have no remaining games.
+Cleveland and Minnesota split their series 1 games to 1.
+
+Cleveland currently has 0 win(s) against NewOrleans and 2 loss(es).
+Cleveland and NewOrleans have no remaining games.
+Cleveland loses the series with NewOrleans 0 games to 2.
+
+Cleveland currently has 1 win(s) against NewYork and 3 loss(es).
+Cleveland and NewYork have no remaining games.
+Cleveland loses the series with NewYork 1 games to 3.
+
+Cleveland currently has 0 win(s) against OklahomaCity and 2 loss(es).
+Cleveland and OklahomaCity have no remaining games.
+Cleveland loses the series with OklahomaCity 0 games to 2.
+
+Cleveland currently has 0 win(s) against Orlando and 3 loss(es).
+In the scenario, Cleveland wins 1 additional games against Orlando and 0 loss(es).
+Cleveland loses the series with Orlando 1 games to 3.
+
+Cleveland currently has 1 win(s) against Philadelphia and 3 loss(es).
+Cleveland and Philadelphia have no remaining games.
+Cleveland loses the series with Philadelphia 1 games to 3.
+
+Cleveland currently has 0 win(s) against Phoenix and 0 loss(es).
+In the scenario, Cleveland wins 0 additional games against Phoenix and 2 loss(es).
+Cleveland loses the series with Phoenix 0 games to 2.
+
+Cleveland currently has 1 win(s) against Portland and 0 loss(es).
+In the scenario, Cleveland wins 0 additional games against Portland and 1 loss(es).
+Cleveland and Portland split their series 1 games to 1.
+
+Cleveland currently has 0 win(s) against Sacramento and 0 loss(es).
+In the scenario, Cleveland wins 2 additional games against Sacramento and 0 loss(es).
+Cleveland wins the series with Sacramento 2 games to 0.
+
+Cleveland currently has 1 win(s) against SanAntonio and 0 loss(es).
+In the scenario, Cleveland wins 0 additional games against SanAntonio and 1 loss(es).
+Cleveland and SanAntonio split their series 1 games to 1.
+
+Cleveland currently has 0 win(s) against Toronto and 3 loss(es).
+Cleveland and Toronto have no remaining games.
+Cleveland loses the series with Toronto 0 games to 3.
+
+Cleveland currently has 0 win(s) against Utah and 0 loss(es).
+In the scenario, Cleveland wins 2 additional games against Utah and 0 loss(es).
+Cleveland wins the series with Utah 2 games to 0.
+
+Cleveland currently has 2 win(s) against Washington and 1 loss(es).
+Cleveland and Washington have no remaining games.
+Cleveland wins the series with Washington 2 games to 1.
+
+Dallas currently has 1 win(s) against Denver and 1 loss(es).
+In the scenario, Dallas wins 2 additional games against Denver and 0 loss(es).
+Dallas and Denver split their series 0 games to 0.
+
+Dallas currently has 1 win(s) against Detroit and 0 loss(es).
+In the scenario, Dallas wins 1 additional games against Detroit and 0 loss(es).
+Dallas wins the series with Detroit 2 games to 0.
+
+Dallas currently has 3 win(s) against GoldenState and 0 loss(es).
+Dallas and GoldenState have no remaining games.
+Dallas wins the series with GoldenState 3 games to 0.
+
+Dallas currently has 1 win(s) against Houston and 1 loss(es).
+In the scenario, Dallas wins 2 additional games against Houston and 0 loss(es).
+Dallas wins the series with Houston 3 games to 1.
+
+Dallas currently has 1 win(s) against Indiana and 0 loss(es).
+In the scenario, Dallas wins 1 additional games against Indiana and 0 loss(es).
+Dallas wins the series with Indiana 2 games to 0.
+
+Dallas currently has 0 win(s) against LAClippers and 2 loss(es).
+In the scenario, Dallas wins 1 additional games against LAClippers and 0 loss(es).
+Dallas loses the series with LAClippers 1 games to 2.
+
+Dallas currently has 1 win(s) against LALakers and 3 loss(es).
+Dallas and LALakers have no remaining games.
+Dallas loses the series with LALakers 1 games to 3.
+
+Dallas currently has 1 win(s) against Memphis and 1 loss(es).
+In the scenario, Dallas wins 2 additional games against Memphis and 0 loss(es).
+Dallas wins the series with Memphis 3 games to 1.
+
+Dallas currently has 0 win(s) against Miami and 2 loss(es).
+Dallas and Miami have no remaining games.
+Dallas loses the series with Miami 0 games to 2.
+
+Dallas currently has 1 win(s) against Milwaukee and 0 loss(es).
+In the scenario, Dallas wins 0 additional games against Milwaukee and 1 loss(es).
+Dallas and Milwaukee split their series 1 games to 1.
+
+Dallas currently has 2 win(s) against Minnesota and 0 loss(es).
+In the scenario, Dallas wins 0 additional games against Minnesota and 2 loss(es).
+Dallas and Minnesota split their series 2 games to 2.
+
+Dallas currently has 3 win(s) against NewOrleans and 0 loss(es).
+In the scenario, Dallas wins 0 additional games against NewOrleans and 1 loss(es).
+Dallas wins the series with NewOrleans 3 games to 1.
+
+Dallas currently has 0 win(s) against NewYork and 2 loss(es).
+Dallas and NewYork have no remaining games.
+Dallas loses the series with NewYork 0 games to 2.
+
+Dallas currently has 1 win(s) against OklahomaCity and 1 loss(es).
+In the scenario, Dallas wins 1 additional games against OklahomaCity and 0 loss(es).
+Dallas wins the series with OklahomaCity 2 games to 1.
+
+Dallas currently has 2 win(s) against Orlando and 0 loss(es).
+Dallas and Orlando have no remaining games.
+Dallas wins the series with Orlando 2 games to 0.
+
+Dallas currently has 2 win(s) against Philadelphia and 0 loss(es).
+Dallas and Philadelphia have no remaining games.
+Dallas wins the series with Philadelphia 2 games to 0.
+
+Dallas currently has 1 win(s) against Phoenix and 1 loss(es).
+In the scenario, Dallas wins 0 additional games against Phoenix and 2 loss(es).
+Dallas loses the series with Phoenix 1 games to 3.
+
+Dallas currently has 2 win(s) against Portland and 1 loss(es).
+In the scenario, Dallas wins 0 additional games against Portland and 1 loss(es).
+Dallas and Portland split their series 2 games to 2.
+
+Dallas currently has 2 win(s) against Sacramento and 1 loss(es).
+In the scenario, Dallas wins 1 additional games against Sacramento and 0 loss(es).
+Dallas wins the series with Sacramento 3 games to 1.
+
+Dallas currently has 3 win(s) against SanAntonio and 0 loss(es).
+In the scenario, Dallas wins 0 additional games against SanAntonio and 1 loss(es).
+Dallas wins the series with SanAntonio 3 games to 1.
+
+Dallas currently has 1 win(s) against Toronto and 1 loss(es).
+Dallas and Toronto have no remaining games.
+Dallas and Toronto split their series 1 games to 1.
+
+Dallas currently has 0 win(s) against Utah and 2 loss(es).
+In the scenario, Dallas wins 0 additional games against Utah and 1 loss(es).
+Dallas loses the series with Utah 0 games to 3.
+
+Dallas currently has 1 win(s) against Washington and 1 loss(es).
+Dallas and Washington have no remaining games.
+Dallas and Washington split their series 1 games to 1.
+
+Denver currently has 1 win(s) against Detroit and 1 loss(es).
+Denver and Detroit have no remaining games.
+Denver and Detroit split their series 0 games to 0.
+
+Denver currently has 1 win(s) against GoldenState and 0 loss(es).
+In the scenario, Denver wins 0 additional games against GoldenState and 2 loss(es).
+Denver loses the series with GoldenState 1 games to 2.
+
+Denver currently has 2 win(s) against Houston and 2 loss(es).
+Denver and Houston have no remaining games.
+Denver and Houston split their series 2 games to 2.
+
+Denver currently has 1 win(s) against Indiana and 1 loss(es).
+Denver and Indiana have no remaining games.
+Denver and Indiana split their series 1 games to 1.
+
+Denver currently has 1 win(s) against LAClippers and 1 loss(es).
+In the scenario, Denver wins 0 additional games against LAClippers and 1 loss(es).
+Denver loses the series with LAClippers 1 games to 2.
+
+Denver currently has 1 win(s) against LALakers and 2 loss(es).
+In the scenario, Denver wins 1 additional games against LALakers and 0 loss(es).
+Denver and LALakers split their series 2 games to 2.
+
+Denver currently has 2 win(s) against Memphis and 1 loss(es).
+In the scenario, Denver wins 0 additional games against Memphis and 1 loss(es).
+Denver and Memphis split their series 2 games to 2.
+
+Denver currently has 1 win(s) against Miami and 0 loss(es).
+In the scenario, Denver wins 0 additional games against Miami and 1 loss(es).
+Denver and Miami split their series 1 games to 1.
+
+Denver currently has 1 win(s) against Milwaukee and 0 loss(es).
+In the scenario, Denver wins 1 additional games against Milwaukee and 0 loss(es).
+Denver wins the series with Milwaukee 2 games to 0.
+
+Denver currently has 4 win(s) against Minnesota and 0 loss(es).
+Denver and Minnesota have no remaining games.
+Denver wins the series with Minnesota 4 games to 0.
+
+Denver currently has 1 win(s) against NewOrleans and 2 loss(es).
+Denver and NewOrleans have no remaining games.
+Denver loses the series with NewOrleans 1 games to 2.
+
+Denver currently has 2 win(s) against NewYork and 0 loss(es).
+Denver and NewYork have no remaining games.
+Denver wins the series with NewYork 2 games to 0.
+
+Denver currently has 1 win(s) against OklahomaCity and 1 loss(es).
+In the scenario, Denver wins 2 additional games against OklahomaCity and 0 loss(es).
+Denver wins the series with OklahomaCity 3 games to 1.
+
+Denver currently has 2 win(s) against Orlando and 0 loss(es).
+Denver and Orlando have no remaining games.
+Denver wins the series with Orlando 2 games to 0.
+
+Denver currently has 1 win(s) against Philadelphia and 1 loss(es).
+Denver and Philadelphia have no remaining games.
+Denver and Philadelphia split their series 1 games to 1.
+
+Denver currently has 4 win(s) against Phoenix and 0 loss(es).
+Denver and Phoenix have no remaining games.
+Denver wins the series with Phoenix 4 games to 0.
+
+Denver currently has 3 win(s) against Portland and 0 loss(es).
+In the scenario, Denver wins 0 additional games against Portland and 1 loss(es).
+Denver wins the series with Portland 3 games to 1.
+
+Denver currently has 2 win(s) against Sacramento and 1 loss(es).
+In the scenario, Denver wins 0 additional games against Sacramento and 1 loss(es).
+Denver and Sacramento split their series 2 games to 2.
+
+Denver currently has 1 win(s) against SanAntonio and 0 loss(es).
+In the scenario, Denver wins 0 additional games against SanAntonio and 2 loss(es).
+Denver loses the series with SanAntonio 1 games to 2.
+
+Denver currently has 0 win(s) against Toronto and 0 loss(es).
+In the scenario, Denver wins 2 additional games against Toronto and 0 loss(es).
+Denver wins the series with Toronto 2 games to 0.
+
+Denver currently has 2 win(s) against Utah and 0 loss(es).
+In the scenario, Denver wins 0 additional games against Utah and 2 loss(es).
+Denver and Utah split their series 2 games to 2.
+
+Denver currently has 1 win(s) against Washington and 1 loss(es).
+Denver and Washington have no remaining games.
+Denver and Washington split their series 1 games to 1.
+
+Detroit currently has 1 win(s) against GoldenState and 0 loss(es).
+In the scenario, Detroit wins 0 additional games against GoldenState and 1 loss(es).
+Detroit and GoldenState split their series 0 games to 0.
+
+Detroit currently has 1 win(s) against Houston and 0 loss(es).
+In the scenario, Detroit wins 1 additional games against Houston and 0 loss(es).
+Detroit wins the series with Houston 2 games to 0.
+
+Detroit currently has 3 win(s) against Indiana and 1 loss(es).
+Detroit and Indiana have no remaining games.
+Detroit wins the series with Indiana 3 games to 1.
+
+Detroit currently has 0 win(s) against LAClippers and 1 loss(es).
+In the scenario, Detroit wins 0 additional games against LAClippers and 1 loss(es).
+Detroit loses the series with LAClippers 0 games to 2.
+
+Detroit currently has 0 win(s) against LALakers and 1 loss(es).
+In the scenario, Detroit wins 1 additional games against LALakers and 0 loss(es).
+Detroit and LALakers split their series 1 games to 1.
+
+Detroit currently has 0 win(s) against Memphis and 2 loss(es).
+Detroit and Memphis have no remaining games.
+Detroit loses the series with Memphis 0 games to 2.
+
+Detroit currently has 0 win(s) against Miami and 1 loss(es).
+In the scenario, Detroit wins 1 additional games against Miami and 1 loss(es).
+Detroit loses the series with Miami 1 games to 2.
+
+Detroit currently has 0 win(s) against Milwaukee and 3 loss(es).
+In the scenario, Detroit wins 0 additional games against Milwaukee and 1 loss(es).
+Detroit loses the series with Milwaukee 0 games to 4.
+
+Detroit currently has 0 win(s) against Minnesota and 1 loss(es).
+In the scenario, Detroit wins 0 additional games against Minnesota and 1 loss(es).
+Detroit loses the series with Minnesota 0 games to 2.
+
+Detroit currently has 1 win(s) against NewOrleans and 1 loss(es).
+Detroit and NewOrleans have no remaining games.
+Detroit and NewOrleans split their series 1 games to 1.
+
+Detroit currently has 1 win(s) against NewYork and 1 loss(es).
+In the scenario, Detroit wins 0 additional games against NewYork and 2 loss(es).
+Detroit loses the series with NewYork 1 games to 3.
+
+Detroit currently has 0 win(s) against OklahomaCity and 1 loss(es).
+In the scenario, Detroit wins 1 additional games against OklahomaCity and 0 loss(es).
+Detroit and OklahomaCity split their series 1 games to 1.
+
+Detroit currently has 1 win(s) against Orlando and 1 loss(es).
+In the scenario, Detroit wins 1 additional games against Orlando and 0 loss(es).
+Detroit wins the series with Orlando 2 games to 1.
+
+Detroit currently has 0 win(s) against Philadelphia and 2 loss(es).
+In the scenario, Detroit wins 1 additional games against Philadelphia and 0 loss(es).
+Detroit loses the series with Philadelphia 1 games to 2.
+
+Detroit currently has 2 win(s) against Phoenix and 0 loss(es).
+Detroit and Phoenix have no remaining games.
+Detroit wins the series with Phoenix 2 games to 0.
+
+Detroit currently has 0 win(s) against Portland and 1 loss(es).
+In the scenario, Detroit wins 0 additional games against Portland and 1 loss(es).
+Detroit loses the series with Portland 0 games to 2.
+
+Detroit currently has 1 win(s) against Sacramento and 0 loss(es).
+In the scenario, Detroit wins 1 additional games against Sacramento and 0 loss(es).
+Detroit wins the series with Sacramento 2 games to 0.
+
+Detroit currently has 1 win(s) against SanAntonio and 1 loss(es).
+Detroit and SanAntonio have no remaining games.
+Detroit and SanAntonio split their series 1 games to 1.
+
+Detroit currently has 0 win(s) against Toronto and 3 loss(es).
+In the scenario, Detroit wins 1 additional games against Toronto and 0 loss(es).
+Detroit loses the series with Toronto 1 games to 3.
+
+Detroit currently has 0 win(s) against Utah and 1 loss(es).
+In the scenario, Detroit wins 1 additional games against Utah and 0 loss(es).
+Detroit and Utah split their series 1 games to 1.
+
+Detroit currently has 1 win(s) against Washington and 3 loss(es).
+Detroit and Washington have no remaining games.
+Detroit loses the series with Washington 1 games to 3.
+
+GoldenState currently has 1 win(s) against Houston and 2 loss(es).
+In the scenario, GoldenState wins 1 additional games against Houston and 0 loss(es).
+GoldenState and Houston split their series 0 games to 0.
+
+GoldenState currently has 0 win(s) against Indiana and 1 loss(es).
+In the scenario, GoldenState wins 1 additional games against Indiana and 0 loss(es).
+GoldenState and Indiana split their series 1 games to 1.
+
+GoldenState currently has 0 win(s) against LAClippers and 2 loss(es).
+In the scenario, GoldenState wins 2 additional games against LAClippers and 0 loss(es).
+GoldenState and LAClippers split their series 2 games to 2.
+
+GoldenState currently has 0 win(s) against LALakers and 3 loss(es).
+In the scenario, GoldenState wins 1 additional games against LALakers and 0 loss(es).
+GoldenState loses the series with LALakers 1 games to 3.
+
+GoldenState currently has 1 win(s) against Memphis and 2 loss(es).
+GoldenState and Memphis have no remaining games.
+GoldenState loses the series with Memphis 1 games to 2.
+
+GoldenState currently has 0 win(s) against Miami and 2 loss(es).
+GoldenState and Miami have no remaining games.
+GoldenState loses the series with Miami 0 games to 2.
+
+GoldenState currently has 0 win(s) against Milwaukee and 1 loss(es).
+In the scenario, GoldenState wins 1 additional games against Milwaukee and 0 loss(es).
+GoldenState and Milwaukee split their series 1 games to 1.
+
+GoldenState currently has 1 win(s) against Minnesota and 2 loss(es).
+GoldenState and Minnesota have no remaining games.
+GoldenState loses the series with Minnesota 1 games to 2.
+
+GoldenState currently has 2 win(s) against NewOrleans and 2 loss(es).
+GoldenState and NewOrleans have no remaining games.
+GoldenState and NewOrleans split their series 2 games to 2.
+
+GoldenState currently has 0 win(s) against NewYork and 1 loss(es).
+In the scenario, GoldenState wins 1 additional games against NewYork and 0 loss(es).
+GoldenState and NewYork split their series 1 games to 1.
+
+GoldenState currently has 0 win(s) against OklahomaCity and 3 loss(es).
+In the scenario, GoldenState wins 1 additional games against OklahomaCity and 0 loss(es).
+GoldenState loses the series with OklahomaCity 1 games to 3.
+
+GoldenState currently has 1 win(s) against Orlando and 1 loss(es).
+GoldenState and Orlando have no remaining games.
+GoldenState and Orlando split their series 1 games to 1.
+
+GoldenState currently has 0 win(s) against Philadelphia and 1 loss(es).
+In the scenario, GoldenState wins 1 additional games against Philadelphia and 0 loss(es).
+GoldenState and Philadelphia split their series 1 games to 1.
+
+GoldenState currently has 2 win(s) against Phoenix and 2 loss(es).
+GoldenState and Phoenix have no remaining games.
+GoldenState and Phoenix split their series 2 games to 2.
+
+GoldenState currently has 1 win(s) against Portland and 2 loss(es).
+In the scenario, GoldenState wins 0 additional games against Portland and 1 loss(es).
+GoldenState loses the series with Portland 1 games to 3.
+
+GoldenState currently has 0 win(s) against Sacramento and 3 loss(es).
+In the scenario, GoldenState wins 1 additional games against Sacramento and 0 loss(es).
+GoldenState loses the series with Sacramento 1 games to 3.
+
+GoldenState currently has 0 win(s) against SanAntonio and 2 loss(es).
+In the scenario, GoldenState wins 2 additional games against SanAntonio and 0 loss(es).
+GoldenState and SanAntonio split their series 2 games to 2.
+
+GoldenState currently has 0 win(s) against Toronto and 0 loss(es).
+In the scenario, GoldenState wins 2 additional games against Toronto and 0 loss(es).
+GoldenState wins the series with Toronto 2 games to 0.
+
+GoldenState currently has 0 win(s) against Utah and 4 loss(es).
+GoldenState and Utah have no remaining games.
+GoldenState loses the series with Utah 0 games to 4.
+
+GoldenState currently has 1 win(s) against Washington and 0 loss(es).
+In the scenario, GoldenState wins 1 additional games against Washington and 0 loss(es).
+GoldenState wins the series with Washington 2 games to 0.
+
+Houston currently has 1 win(s) against Indiana and 0 loss(es).
+In the scenario, Houston wins 0 additional games against Indiana and 1 loss(es).
+Houston and Indiana split their series 0 games to 0.
+
+Houston currently has 2 win(s) against LAClippers and 1 loss(es).
+In the scenario, Houston wins 1 additional games against LAClippers and 0 loss(es).
+Houston wins the series with LAClippers 3 games to 1.
+
+Houston currently has 1 win(s) against LALakers and 1 loss(es).
+In the scenario, Houston wins 0 additional games against LALakers and 1 loss(es).
+Houston loses the series with LALakers 1 games to 2.
+
+Houston currently has 2 win(s) against Memphis and 1 loss(es).
+In the scenario, Houston wins 0 additional games against Memphis and 1 loss(es).
+Houston and Memphis split their series 2 games to 2.
+
+Houston currently has 1 win(s) against Miami and 1 loss(es).
+Houston and Miami have no remaining games.
+Houston and Miami split their series 1 games to 1.
+
+Houston currently has 0 win(s) against Milwaukee and 1 loss(es).
+In the scenario, Houston wins 0 additional games against Milwaukee and 1 loss(es).
+Houston loses the series with Milwaukee 0 games to 2.
+
+Houston currently has 3 win(s) against Minnesota and 0 loss(es).
+In the scenario, Houston wins 0 additional games against Minnesota and 1 loss(es).
+Houston wins the series with Minnesota 3 games to 1.
+
+Houston currently has 3 win(s) against NewOrleans and 1 loss(es).
+Houston and NewOrleans have no remaining games.
+Houston wins the series with NewOrleans 3 games to 1.
+
+Houston currently has 1 win(s) against NewYork and 0 loss(es).
+In the scenario, Houston wins 0 additional games against NewYork and 1 loss(es).
+Houston and NewYork split their series 1 games to 1.
+
+Houston currently has 1 win(s) against OklahomaCity and 2 loss(es).
+Houston and OklahomaCity have no remaining games.
+Houston loses the series with OklahomaCity 1 games to 2.
+
+Houston currently has 1 win(s) against Orlando and 0 loss(es).
+In the scenario, Houston wins 0 additional games against Orlando and 1 loss(es).
+Houston and Orlando split their series 1 games to 1.
+
+Houston currently has 1 win(s) against Philadelphia and 0 loss(es).
+In the scenario, Houston wins 1 additional games against Philadelphia and 0 loss(es).
+Houston wins the series with Philadelphia 2 games to 0.
+
+Houston currently has 2 win(s) against Phoenix and 1 loss(es).
+In the scenario, Houston wins 0 additional games against Phoenix and 1 loss(es).
+Houston and Phoenix split their series 2 games to 2.
+
+Houston currently has 1 win(s) against Portland and 2 loss(es).
+In the scenario, Houston wins 0 additional games against Portland and 1 loss(es).
+Houston loses the series with Portland 1 games to 3.
+
+Houston currently has 1 win(s) against Sacramento and 1 loss(es).
+In the scenario, Houston wins 0 additional games against Sacramento and 1 loss(es).
+Houston loses the series with Sacramento 1 games to 2.
+
+Houston currently has 1 win(s) against SanAntonio and 1 loss(es).
+In the scenario, Houston wins 0 additional games against SanAntonio and 2 loss(es).
+Houston loses the series with SanAntonio 1 games to 3.
+
+Houston currently has 1 win(s) against Toronto and 0 loss(es).
+In the scenario, Houston wins 0 additional games against Toronto and 1 loss(es).
+Houston and Toronto split their series 1 games to 1.
+
+Houston currently has 2 win(s) against Utah and 1 loss(es).
+Houston and Utah have no remaining games.
+Houston wins the series with Utah 2 games to 1.
+
+Houston currently has 1 win(s) against Washington and 0 loss(es).
+In the scenario, Houston wins 0 additional games against Washington and 1 loss(es).
+Houston and Washington split their series 1 games to 1.
+
+Indiana currently has 0 win(s) against LAClippers and 1 loss(es).
+In the scenario, Indiana wins 1 additional games against LAClippers and 0 loss(es).
+Indiana and LAClippers split their series 0 games to 0.
+
+Indiana currently has 1 win(s) against LALakers and 0 loss(es).
+In the scenario, Indiana wins 1 additional games against LALakers and 0 loss(es).
+Indiana wins the series with LALakers 2 games to 0.
+
+Indiana currently has 2 win(s) against Memphis and 0 loss(es).
+Indiana and Memphis have no remaining games.
+Indiana wins the series with Memphis 2 games to 0.
+
+Indiana currently has 0 win(s) against Miami and 2 loss(es).
+In the scenario, Indiana wins 2 additional games against Miami and 0 loss(es).
+Indiana and Miami split their series 2 games to 2.
+
+Indiana currently has 1 win(s) against Milwaukee and 2 loss(es).
+In the scenario, Indiana wins 1 additional games against Milwaukee and 0 loss(es).
+Indiana and Milwaukee split their series 2 games to 2.
+
+Indiana currently has 2 win(s) against Minnesota and 0 loss(es).
+Indiana and Minnesota have no remaining games.
+Indiana wins the series with Minnesota 2 games to 0.
+
+Indiana currently has 0 win(s) against NewOrleans and 2 loss(es).
+Indiana and NewOrleans have no remaining games.
+Indiana loses the series with NewOrleans 0 games to 2.
+
+Indiana currently has 2 win(s) against NewYork and 1 loss(es).
+Indiana and NewYork have no remaining games.
+Indiana wins the series with NewYork 2 games to 1.
+
+Indiana currently has 2 win(s) against OklahomaCity and 0 loss(es).
+Indiana and OklahomaCity have no remaining games.
+Indiana wins the series with OklahomaCity 2 games to 0.
+
+Indiana currently has 2 win(s) against Orlando and 0 loss(es).
+In the scenario, Indiana wins 2 additional games against Orlando and 0 loss(es).
+Indiana wins the series with Orlando 4 games to 0.
+
+Indiana currently has 2 win(s) against Philadelphia and 1 loss(es).
+In the scenario, Indiana wins 1 additional games against Philadelphia and 0 loss(es).
+Indiana wins the series with Philadelphia 3 games to 1.
+
+Indiana currently has 1 win(s) against Phoenix and 0 loss(es).
+In the scenario, Indiana wins 0 additional games against Phoenix and 1 loss(es).
+Indiana and Phoenix split their series 1 games to 1.
+
+Indiana currently has 1 win(s) against Portland and 1 loss(es).
+Indiana and Portland have no remaining games.
+Indiana and Portland split their series 1 games to 1.
+
+Indiana currently has 1 win(s) against Sacramento and 0 loss(es).
+In the scenario, Indiana wins 1 additional games against Sacramento and 0 loss(es).
+Indiana wins the series with Sacramento 2 games to 0.
+
+Indiana currently has 0 win(s) against SanAntonio and 0 loss(es).
+In the scenario, Indiana wins 2 additional games against SanAntonio and 0 loss(es).
+Indiana wins the series with SanAntonio 2 games to 0.
+
+Indiana currently has 1 win(s) against Toronto and 3 loss(es).
+Indiana and Toronto have no remaining games.
+Indiana loses the series with Toronto 1 games to 3.
+
+Indiana currently has 1 win(s) against Utah and 1 loss(es).
+Indiana and Utah have no remaining games.
+Indiana and Utah split their series 1 games to 1.
+
+Indiana currently has 1 win(s) against Washington and 0 loss(es).
+In the scenario, Indiana wins 2 additional games against Washington and 0 loss(es).
+Indiana wins the series with Washington 3 games to 0.
+
+LAClippers currently has 2 win(s) against LALakers and 0 loss(es).
+In the scenario, LAClippers wins 2 additional games against LALakers and 0 loss(es).
+LAClippers and LALakers split their series 0 games to 0.
+
+LAClippers currently has 2 win(s) against Memphis and 1 loss(es).
+LAClippers and Memphis have no remaining games.
+LAClippers wins the series with Memphis 2 games to 1.
+
+LAClippers currently has 2 win(s) against Miami and 0 loss(es).
+LAClippers and Miami have no remaining games.
+LAClippers wins the series with Miami 2 games to 0.
+
+LAClippers currently has 0 win(s) against Milwaukee and 2 loss(es).
+LAClippers and Milwaukee have no remaining games.
+LAClippers loses the series with Milwaukee 0 games to 2.
+
+LAClippers currently has 2 win(s) against Minnesota and 1 loss(es).
+In the scenario, LAClippers wins 0 additional games against Minnesota and 1 loss(es).
+LAClippers and Minnesota split their series 2 games to 2.
+
+LAClippers currently has 2 win(s) against NewOrleans and 1 loss(es).
+In the scenario, LAClippers wins 1 additional games against NewOrleans and 0 loss(es).
+LAClippers wins the series with NewOrleans 3 games to 1.
+
+LAClippers currently has 1 win(s) against NewYork and 0 loss(es).
+In the scenario, LAClippers wins 1 additional games against NewYork and 0 loss(es).
+LAClippers wins the series with NewYork 2 games to 0.
+
+LAClippers currently has 1 win(s) against OklahomaCity and 1 loss(es).
+In the scenario, LAClippers wins 0 additional games against OklahomaCity and 2 loss(es).
+LAClippers loses the series with OklahomaCity 1 games to 3.
+
+LAClippers currently has 2 win(s) against Orlando and 0 loss(es).
+LAClippers and Orlando have no remaining games.
+LAClippers wins the series with Orlando 2 games to 0.
+
+LAClippers currently has 0 win(s) against Philadelphia and 1 loss(es).
+In the scenario, LAClippers wins 1 additional games against Philadelphia and 0 loss(es).
+LAClippers and Philadelphia split their series 1 games to 1.
+
+LAClippers currently has 2 win(s) against Phoenix and 1 loss(es).
+In the scenario, LAClippers wins 0 additional games against Phoenix and 1 loss(es).
+LAClippers and Phoenix split their series 2 games to 2.
+
+LAClippers currently has 2 win(s) against Portland and 0 loss(es).
+In the scenario, LAClippers wins 0 additional games against Portland and 1 loss(es).
+LAClippers wins the series with Portland 2 games to 1.
+
+LAClippers currently has 1 win(s) against Sacramento and 2 loss(es).
+In the scenario, LAClippers wins 0 additional games against Sacramento and 1 loss(es).
+LAClippers loses the series with Sacramento 1 games to 3.
+
+LAClippers currently has 3 win(s) against SanAntonio and 1 loss(es).
+LAClippers and SanAntonio have no remaining games.
+LAClippers wins the series with SanAntonio 3 games to 1.
+
+LAClippers currently has 2 win(s) against Toronto and 0 loss(es).
+LAClippers and Toronto have no remaining games.
+LAClippers wins the series with Toronto 2 games to 0.
+
+LAClippers currently has 1 win(s) against Utah and 2 loss(es).
+In the scenario, LAClippers wins 0 additional games against Utah and 1 loss(es).
+LAClippers loses the series with Utah 1 games to 3.
+
+LAClippers currently has 2 win(s) against Washington and 0 loss(es).
+LAClippers and Washington have no remaining games.
+LAClippers wins the series with Washington 2 games to 0.
+
+LALakers currently has 3 win(s) against Memphis and 1 loss(es).
+LALakers and Memphis have no remaining games.
+LALakers and Memphis split their series 0 games to 0.
+
+LALakers currently has 2 win(s) against Miami and 0 loss(es).
+LALakers and Miami have no remaining games.
+LALakers wins the series with Miami 2 games to 0.
+
+LALakers currently has 0 win(s) against Milwaukee and 1 loss(es).
+In the scenario, LALakers wins 0 additional games against Milwaukee and 1 loss(es).
+LALakers loses the series with Milwaukee 0 games to 2.
+
+LALakers currently has 1 win(s) against Minnesota and 0 loss(es).
+In the scenario, LALakers wins 0 additional games against Minnesota and 2 loss(es).
+LALakers loses the series with Minnesota 1 games to 2.
+
+LALakers currently has 3 win(s) against NewOrleans and 0 loss(es).
+In the scenario, LALakers wins 0 additional games against NewOrleans and 1 loss(es).
+LALakers wins the series with NewOrleans 3 games to 1.
+
+LALakers currently has 2 win(s) against NewYork and 0 loss(es).
+LALakers and NewYork have no remaining games.
+LALakers wins the series with NewYork 2 games to 0.
+
+LALakers currently has 3 win(s) against OklahomaCity and 0 loss(es).
+In the scenario, LALakers wins 1 additional games against OklahomaCity and 0 loss(es).
+LALakers wins the series with OklahomaCity 4 games to 0.
+
+LALakers currently has 1 win(s) against Orlando and 1 loss(es).
+LALakers and Orlando have no remaining games.
+LALakers and Orlando split their series 1 games to 1.
+
+LALakers currently has 0 win(s) against Philadelphia and 1 loss(es).
+In the scenario, LALakers wins 1 additional games against Philadelphia and 0 loss(es).
+LALakers and Philadelphia split their series 1 games to 1.
+
+LALakers currently has 3 win(s) against Phoenix and 0 loss(es).
+In the scenario, LALakers wins 0 additional games against Phoenix and 1 loss(es).
+LALakers wins the series with Phoenix 3 games to 1.
+
+LALakers currently has 2 win(s) against Portland and 1 loss(es).
+LALakers and Portland have no remaining games.
+LALakers wins the series with Portland 2 games to 1.
+
+LALakers currently has 2 win(s) against Sacramento and 0 loss(es).
+In the scenario, LALakers wins 0 additional games against Sacramento and 2 loss(es).
+LALakers and Sacramento split their series 2 games to 2.
+
+LALakers currently has 3 win(s) against SanAntonio and 0 loss(es).
+LALakers and SanAntonio have no remaining games.
+LALakers wins the series with SanAntonio 3 games to 0.
+
+LALakers currently has 0 win(s) against Toronto and 1 loss(es).
+In the scenario, LALakers wins 0 additional games against Toronto and 1 loss(es).
+LALakers loses the series with Toronto 0 games to 2.
+
+LALakers currently has 2 win(s) against Utah and 0 loss(es).
+In the scenario, LALakers wins 0 additional games against Utah and 2 loss(es).
+LALakers and Utah split their series 2 games to 2.
+
+LALakers currently has 1 win(s) against Washington and 0 loss(es).
+In the scenario, LALakers wins 0 additional games against Washington and 1 loss(es).
+LALakers and Washington split their series 1 games to 1.
+
+Memphis currently has 1 win(s) against Miami and 1 loss(es).
+Memphis and Miami have no remaining games.
+Memphis and Miami split their series 0 games to 0.
+
+Memphis currently has 0 win(s) against Milwaukee and 1 loss(es).
+In the scenario, Memphis wins 1 additional games against Milwaukee and 0 loss(es).
+Memphis and Milwaukee split their series 1 games to 1.
+
+Memphis currently has 3 win(s) against Minnesota and 0 loss(es).
+Memphis and Minnesota have no remaining games.
+Memphis wins the series with Minnesota 3 games to 0.
+
+Memphis currently has 0 win(s) against NewOrleans and 2 loss(es).
+In the scenario, Memphis wins 0 additional games against NewOrleans and 2 loss(es).
+Memphis loses the series with NewOrleans 0 games to 4.
+
+Memphis currently has 1 win(s) against NewYork and 0 loss(es).
+In the scenario, Memphis wins 1 additional games against NewYork and 0 loss(es).
+Memphis wins the series with NewYork 2 games to 0.
+
+Memphis currently has 1 win(s) against OklahomaCity and 1 loss(es).
+In the scenario, Memphis wins 2 additional games against OklahomaCity and 0 loss(es).
+Memphis wins the series with OklahomaCity 3 games to 1.
+
+Memphis currently has 0 win(s) against Orlando and 1 loss(es).
+In the scenario, Memphis wins 1 additional games against Orlando and 0 loss(es).
+Memphis and Orlando split their series 1 games to 1.
+
+Memphis currently has 0 win(s) against Philadelphia and 1 loss(es).
+In the scenario, Memphis wins 1 additional games against Philadelphia and 0 loss(es).
+Memphis and Philadelphia split their series 1 games to 1.
+
+Memphis currently has 3 win(s) against Phoenix and 1 loss(es).
+Memphis and Phoenix have no remaining games.
+Memphis wins the series with Phoenix 3 games to 1.
+
+Memphis currently has 1 win(s) against Portland and 0 loss(es).
+In the scenario, Memphis wins 0 additional games against Portland and 2 loss(es).
+Memphis loses the series with Portland 1 games to 2.
+
+Memphis currently has 1 win(s) against Sacramento and 3 loss(es).
+Memphis and Sacramento have no remaining games.
+Memphis loses the series with Sacramento 1 games to 3.
+
+Memphis currently has 2 win(s) against SanAntonio and 1 loss(es).
+In the scenario, Memphis wins 0 additional games against SanAntonio and 1 loss(es).
+Memphis and SanAntonio split their series 2 games to 2.
+
+Memphis currently has 0 win(s) against Toronto and 0 loss(es).
+In the scenario, Memphis wins 2 additional games against Toronto and 0 loss(es).
+Memphis wins the series with Toronto 2 games to 0.
+
+Memphis currently has 1 win(s) against Utah and 2 loss(es).
+In the scenario, Memphis wins 1 additional games against Utah and 0 loss(es).
+Memphis and Utah split their series 2 games to 2.
+
+Memphis currently has 2 win(s) against Washington and 0 loss(es).
+Memphis and Washington have no remaining games.
+Memphis wins the series with Washington 2 games to 0.
+
+Miami currently has 1 win(s) against Milwaukee and 0 loss(es).
+In the scenario, Miami wins 0 additional games against Milwaukee and 2 loss(es).
+Miami and Milwaukee split their series 0 games to 0.
+
+Miami currently has 0 win(s) against Minnesota and 2 loss(es).
+Miami and Minnesota have no remaining games.
+Miami loses the series with Minnesota 0 games to 2.
+
+Miami currently has 1 win(s) against NewOrleans and 0 loss(es).
+In the scenario, Miami wins 0 additional games against NewOrleans and 1 loss(es).
+Miami and NewOrleans split their series 1 games to 1.
+
+Miami currently has 1 win(s) against NewYork and 1 loss(es).
+In the scenario, Miami wins 0 additional games against NewYork and 2 loss(es).
+Miami loses the series with NewYork 1 games to 3.
+
+Miami currently has 1 win(s) against OklahomaCity and 0 loss(es).
+In the scenario, Miami wins 1 additional games against OklahomaCity and 0 loss(es).
+Miami wins the series with OklahomaCity 2 games to 0.
+
+Miami currently has 2 win(s) against Orlando and 1 loss(es).
+In the scenario, Miami wins 1 additional games against Orlando and 0 loss(es).
+Miami wins the series with Orlando 3 games to 1.
+
+Miami currently has 3 win(s) against Philadelphia and 1 loss(es).
+Miami and Philadelphia have no remaining games.
+Miami wins the series with Philadelphia 3 games to 1.
+
+Miami currently has 1 win(s) against Phoenix and 0 loss(es).
+In the scenario, Miami wins 0 additional games against Phoenix and 1 loss(es).
+Miami and Phoenix split their series 1 games to 1.
+
+Miami currently has 1 win(s) against Portland and 1 loss(es).
+Miami and Portland have no remaining games.
+Miami and Portland split their series 1 games to 1.
+
+Miami currently has 1 win(s) against Sacramento and 1 loss(es).
+Miami and Sacramento have no remaining games.
+Miami and Sacramento split their series 1 games to 1.
+
+Miami currently has 1 win(s) against SanAntonio and 1 loss(es).
+Miami and SanAntonio have no remaining games.
+Miami and SanAntonio split their series 1 games to 1.
+
+Miami currently has 2 win(s) against Toronto and 0 loss(es).
+In the scenario, Miami wins 0 additional games against Toronto and 1 loss(es).
+Miami wins the series with Toronto 2 games to 1.
+
+Miami currently has 1 win(s) against Utah and 1 loss(es).
+Miami and Utah have no remaining games.
+Miami and Utah split their series 1 games to 1.
+
+Miami currently has 2 win(s) against Washington and 1 loss(es).
+In the scenario, Miami wins 0 additional games against Washington and 1 loss(es).
+Miami and Washington split their series 2 games to 2.
+
+Milwaukee currently has 2 win(s) against Minnesota and 0 loss(es).
+Milwaukee and Minnesota have no remaining games.
+Milwaukee and Minnesota split their series 0 games to 0.
+
+Milwaukee currently has 2 win(s) against NewOrleans and 0 loss(es).
+Milwaukee and NewOrleans have no remaining games.
+Milwaukee wins the series with NewOrleans 2 games to 0.
+
+Milwaukee currently has 3 win(s) against NewYork and 0 loss(es).
+Milwaukee and NewYork have no remaining games.
+Milwaukee wins the series with NewYork 3 games to 0.
+
+Milwaukee currently has 2 win(s) against OklahomaCity and 0 loss(es).
+Milwaukee and OklahomaCity have no remaining games.
+Milwaukee wins the series with OklahomaCity 2 games to 0.
+
+Milwaukee currently has 4 win(s) against Orlando and 0 loss(es).
+Milwaukee and Orlando have no remaining games.
+Milwaukee wins the series with Orlando 4 games to 0.
+
+Milwaukee currently has 2 win(s) against Philadelphia and 1 loss(es).
+In the scenario, Milwaukee wins 1 additional games against Philadelphia and 0 loss(es).
+Milwaukee wins the series with Philadelphia 3 games to 1.
+
+Milwaukee currently has 1 win(s) against Phoenix and 0 loss(es).
+In the scenario, Milwaukee wins 0 additional games against Phoenix and 1 loss(es).
+Milwaukee and Phoenix split their series 1 games to 1.
+
+Milwaukee currently has 2 win(s) against Portland and 0 loss(es).
+Milwaukee and Portland have no remaining games.
+Milwaukee wins the series with Portland 2 games to 0.
+
+Milwaukee currently has 2 win(s) against Sacramento and 0 loss(es).
+Milwaukee and Sacramento have no remaining games.
+Milwaukee wins the series with Sacramento 2 games to 0.
+
+Milwaukee currently has 1 win(s) against SanAntonio and 1 loss(es).
+Milwaukee and SanAntonio have no remaining games.
+Milwaukee and SanAntonio split their series 1 games to 1.
+
+Milwaukee currently has 2 win(s) against Toronto and 0 loss(es).
+In the scenario, Milwaukee wins 0 additional games against Toronto and 2 loss(es).
+Milwaukee and Toronto split their series 2 games to 2.
+
+Milwaukee currently has 1 win(s) against Utah and 1 loss(es).
+Milwaukee and Utah have no remaining games.
+Milwaukee and Utah split their series 1 games to 1.
+
+Milwaukee currently has 2 win(s) against Washington and 0 loss(es).
+In the scenario, Milwaukee wins 2 additional games against Washington and 0 loss(es).
+Milwaukee wins the series with Washington 4 games to 0.
+
+Minnesota currently has 0 win(s) against NewOrleans and 1 loss(es).
+In the scenario, Minnesota wins 1 additional games against NewOrleans and 1 loss(es).
+Minnesota and NewOrleans split their series 0 games to 0.
+
+Minnesota currently has 0 win(s) against NewYork and 0 loss(es).
+In the scenario, Minnesota wins 2 additional games against NewYork and 0 loss(es).
+Minnesota wins the series with NewYork 2 games to 0.
+
+Minnesota currently has 0 win(s) against OklahomaCity and 3 loss(es).
+In the scenario, Minnesota wins 1 additional games against OklahomaCity and 0 loss(es).
+Minnesota loses the series with OklahomaCity 1 games to 3.
+
+Minnesota currently has 0 win(s) against Orlando and 1 loss(es).
+In the scenario, Minnesota wins 1 additional games against Orlando and 0 loss(es).
+Minnesota and Orlando split their series 1 games to 1.
+
+Minnesota currently has 0 win(s) against Philadelphia and 1 loss(es).
+In the scenario, Minnesota wins 1 additional games against Philadelphia and 0 loss(es).
+Minnesota and Philadelphia split their series 1 games to 1.
+
+Minnesota currently has 0 win(s) against Phoenix and 2 loss(es).
+In the scenario, Minnesota wins 0 additional games against Phoenix and 2 loss(es).
+Minnesota loses the series with Phoenix 0 games to 4.
+
+Minnesota currently has 1 win(s) against Portland and 1 loss(es).
+In the scenario, Minnesota wins 2 additional games against Portland and 0 loss(es).
+Minnesota wins the series with Portland 3 games to 1.
+
+Minnesota currently has 1 win(s) against Sacramento and 2 loss(es).
+In the scenario, Minnesota wins 1 additional games against Sacramento and 0 loss(es).
+Minnesota and Sacramento split their series 2 games to 2.
+
+Minnesota currently has 2 win(s) against SanAntonio and 0 loss(es).
+In the scenario, Minnesota wins 0 additional games against SanAntonio and 2 loss(es).
+Minnesota and SanAntonio split their series 2 games to 2.
+
+Minnesota currently has 0 win(s) against Toronto and 2 loss(es).
+Minnesota and Toronto have no remaining games.
+Minnesota loses the series with Toronto 0 games to 2.
+
+Minnesota currently has 1 win(s) against Utah and 2 loss(es).
+In the scenario, Minnesota wins 1 additional games against Utah and 0 loss(es).
+Minnesota and Utah split their series 2 games to 2.
+
+Minnesota currently has 1 win(s) against Washington and 1 loss(es).
+Minnesota and Washington have no remaining games.
+Minnesota and Washington split their series 1 games to 1.
+
+NewOrleans currently has 1 win(s) against NewYork and 0 loss(es).
+In the scenario, NewOrleans wins 0 additional games against NewYork and 1 loss(es).
+NewOrleans and NewYork split their series 0 games to 0.
+
+NewOrleans currently has 0 win(s) against OklahomaCity and 4 loss(es).
+NewOrleans and OklahomaCity have no remaining games.
+NewOrleans loses the series with OklahomaCity 0 games to 4.
+
+NewOrleans currently has 0 win(s) against Orlando and 1 loss(es).
+In the scenario, NewOrleans wins 1 additional games against Orlando and 0 loss(es).
+NewOrleans and Orlando split their series 1 games to 1.
+
+NewOrleans currently has 0 win(s) against Philadelphia and 1 loss(es).
+In the scenario, NewOrleans wins 1 additional games against Philadelphia and 0 loss(es).
+NewOrleans and Philadelphia split their series 1 games to 1.
+
+NewOrleans currently has 1 win(s) against Phoenix and 1 loss(es).
+In the scenario, NewOrleans wins 0 additional games against Phoenix and 1 loss(es).
+NewOrleans loses the series with Phoenix 1 games to 2.
+
+NewOrleans currently has 4 win(s) against Portland and 0 loss(es).
+NewOrleans and Portland have no remaining games.
+NewOrleans wins the series with Portland 4 games to 0.
+
+NewOrleans currently has 1 win(s) against Sacramento and 0 loss(es).
+In the scenario, NewOrleans wins 2 additional games against Sacramento and 0 loss(es).
+NewOrleans wins the series with Sacramento 3 games to 0.
+
+NewOrleans currently has 0 win(s) against SanAntonio and 1 loss(es).
+In the scenario, NewOrleans wins 0 additional games against SanAntonio and 3 loss(es).
+NewOrleans loses the series with SanAntonio 0 games to 4.
+
+NewOrleans currently has 0 win(s) against Toronto and 2 loss(es).
+NewOrleans and Toronto have no remaining games.
+NewOrleans loses the series with Toronto 0 games to 2.
+
+NewOrleans currently has 1 win(s) against Utah and 2 loss(es).
+In the scenario, NewOrleans wins 1 additional games against Utah and 0 loss(es).
+NewOrleans and Utah split their series 2 games to 2.
+
+NewOrleans currently has 0 win(s) against Washington and 0 loss(es).
+In the scenario, NewOrleans wins 2 additional games against Washington and 0 loss(es).
+NewOrleans wins the series with Washington 2 games to 0.
+
+NewYork currently has 0 win(s) against OklahomaCity and 0 loss(es).
+In the scenario, NewYork wins 2 additional games against OklahomaCity and 0 loss(es).
+NewYork and OklahomaCity split their series 0 games to 0.
+
+NewYork currently has 1 win(s) against Orlando and 1 loss(es).
+In the scenario, NewYork wins 1 additional games against Orlando and 0 loss(es).
+NewYork wins the series with Orlando 2 games to 1.
+
+NewYork currently has 0 win(s) against Philadelphia and 4 loss(es).
+NewYork and Philadelphia have no remaining games.
+NewYork loses the series with Philadelphia 0 games to 4.
+
+NewYork currently has 0 win(s) against Phoenix and 2 loss(es).
+NewYork and Phoenix have no remaining games.
+NewYork loses the series with Phoenix 0 games to 2.
+
+NewYork currently has 1 win(s) against Portland and 1 loss(es).
+NewYork and Portland have no remaining games.
+NewYork and Portland split their series 1 games to 1.
+
+NewYork currently has 1 win(s) against Sacramento and 1 loss(es).
+NewYork and Sacramento have no remaining games.
+NewYork and Sacramento split their series 1 games to 1.
+
+NewYork currently has 0 win(s) against SanAntonio and 2 loss(es).
+NewYork and SanAntonio have no remaining games.
+NewYork loses the series with SanAntonio 0 games to 2.
+
+NewYork currently has 0 win(s) against Toronto and 2 loss(es).
+In the scenario, NewYork wins 2 additional games against Toronto and 0 loss(es).
+NewYork and Toronto split their series 2 games to 2.
+
+NewYork currently has 0 win(s) against Utah and 1 loss(es).
+In the scenario, NewYork wins 1 additional games against Utah and 0 loss(es).
+NewYork and Utah split their series 1 games to 1.
+
+NewYork currently has 1 win(s) against Washington and 2 loss(es).
+In the scenario, NewYork wins 1 additional games against Washington and 0 loss(es).
+NewYork and Washington split their series 2 games to 2.
+
+OklahomaCity currently has 2 win(s) against Orlando and 0 loss(es).
+OklahomaCity and Orlando have no remaining games.
+OklahomaCity and Orlando split their series 0 games to 0.
+
+OklahomaCity currently has 1 win(s) against Philadelphia and 1 loss(es).
+OklahomaCity and Philadelphia have no remaining games.
+OklahomaCity and Philadelphia split their series 1 games to 1.
+
+OklahomaCity currently has 2 win(s) against Phoenix and 0 loss(es).
+In the scenario, OklahomaCity wins 0 additional games against Phoenix and 1 loss(es).
+OklahomaCity wins the series with Phoenix 2 games to 1.
+
+OklahomaCity currently has 2 win(s) against Portland and 2 loss(es).
+OklahomaCity and Portland have no remaining games.
+OklahomaCity and Portland split their series 2 games to 2.
+
+OklahomaCity currently has 2 win(s) against Sacramento and 1 loss(es).
+OklahomaCity and Sacramento have no remaining games.
+OklahomaCity wins the series with Sacramento 2 games to 1.
+
+OklahomaCity currently has 2 win(s) against SanAntonio and 2 loss(es).
+OklahomaCity and SanAntonio have no remaining games.
+OklahomaCity and SanAntonio split their series 2 games to 2.
+
+OklahomaCity currently has 1 win(s) against Toronto and 1 loss(es).
+OklahomaCity and Toronto have no remaining games.
+OklahomaCity and Toronto split their series 1 games to 1.
+
+OklahomaCity currently has 1 win(s) against Utah and 1 loss(es).
+In the scenario, OklahomaCity wins 0 additional games against Utah and 2 loss(es).
+OklahomaCity loses the series with Utah 1 games to 3.
+
+OklahomaCity currently has 0 win(s) against Washington and 1 loss(es).
+In the scenario, OklahomaCity wins 0 additional games against Washington and 1 loss(es).
+OklahomaCity loses the series with Washington 0 games to 2.
+
+Orlando currently has 2 win(s) against Philadelphia and 0 loss(es).
+In the scenario, Orlando wins 1 additional games against Philadelphia and 0 loss(es).
+Orlando and Philadelphia split their series 0 games to 0.
+
+Orlando currently has 1 win(s) against Phoenix and 1 loss(es).
+Orlando and Phoenix have no remaining games.
+Orlando and Phoenix split their series 1 games to 1.
+
+Orlando currently has 0 win(s) against Portland and 1 loss(es).
+In the scenario, Orlando wins 0 additional games against Portland and 1 loss(es).
+Orlando loses the series with Portland 0 games to 2.
+
+Orlando currently has 1 win(s) against Sacramento and 0 loss(es).
+In the scenario, Orlando wins 1 additional games against Sacramento and 0 loss(es).
+Orlando wins the series with Sacramento 2 games to 0.
+
+Orlando currently has 1 win(s) against SanAntonio and 1 loss(es).
+Orlando and SanAntonio have no remaining games.
+Orlando and SanAntonio split their series 1 games to 1.
+
+Orlando currently has 0 win(s) against Toronto and 3 loss(es).
+In the scenario, Orlando wins 0 additional games against Toronto and 1 loss(es).
+Orlando loses the series with Toronto 0 games to 4.
+
+Orlando currently has 0 win(s) against Utah and 2 loss(es).
+Orlando and Utah have no remaining games.
+Orlando loses the series with Utah 0 games to 2.
+
+Orlando currently has 4 win(s) against Washington and 0 loss(es).
+Orlando and Washington have no remaining games.
+Orlando wins the series with Washington 4 games to 0.
+
+Philadelphia currently has 0 win(s) against Phoenix and 1 loss(es).
+In the scenario, Philadelphia wins 0 additional games against Phoenix and 1 loss(es).
+Philadelphia and Phoenix split their series 0 games to 0.
+
+Philadelphia currently has 1 win(s) against Portland and 0 loss(es).
+In the scenario, Philadelphia wins 0 additional games against Portland and 1 loss(es).
+Philadelphia and Portland split their series 1 games to 1.
+
+Philadelphia currently has 1 win(s) against Sacramento and 0 loss(es).
+In the scenario, Philadelphia wins 0 additional games against Sacramento and 1 loss(es).
+Philadelphia and Sacramento split their series 1 games to 1.
+
+Philadelphia currently has 1 win(s) against SanAntonio and 0 loss(es).
+In the scenario, Philadelphia wins 0 additional games against SanAntonio and 1 loss(es).
+Philadelphia and SanAntonio split their series 1 games to 1.
+
+Philadelphia currently has 1 win(s) against Toronto and 2 loss(es).
+In the scenario, Philadelphia wins 0 additional games against Toronto and 1 loss(es).
+Philadelphia loses the series with Toronto 1 games to 3.
+
+Philadelphia currently has 1 win(s) against Utah and 1 loss(es).
+Philadelphia and Utah have no remaining games.
+Philadelphia and Utah split their series 1 games to 1.
+
+Philadelphia currently has 1 win(s) against Washington and 1 loss(es).
+In the scenario, Philadelphia wins 0 additional games against Washington and 2 loss(es).
+Philadelphia loses the series with Washington 1 games to 3.
+
+Phoenix currently has 1 win(s) against Portland and 1 loss(es).
+In the scenario, Phoenix wins 2 additional games against Portland and 0 loss(es).
+Phoenix and Portland split their series 0 games to 0.
+
+Phoenix currently has 2 win(s) against Sacramento and 2 loss(es).
+Phoenix and Sacramento have no remaining games.
+Phoenix and Sacramento split their series 2 games to 2.
+
+Phoenix currently has 1 win(s) against SanAntonio and 2 loss(es).
+Phoenix and SanAntonio have no remaining games.
+Phoenix loses the series with SanAntonio 1 games to 2.
+
+Phoenix currently has 0 win(s) against Toronto and 1 loss(es).
+In the scenario, Phoenix wins 1 additional games against Toronto and 0 loss(es).
+Phoenix and Toronto split their series 1 games to 1.
+
+Phoenix currently has 1 win(s) against Utah and 1 loss(es).
+In the scenario, Phoenix wins 1 additional games against Utah and 0 loss(es).
+Phoenix wins the series with Utah 2 games to 1.
+
+Phoenix currently has 0 win(s) against Washington and 1 loss(es).
+In the scenario, Phoenix wins 1 additional games against Washington and 0 loss(es).
+Phoenix and Washington split their series 1 games to 1.
+
+Portland currently has 2 win(s) against Sacramento and 1 loss(es).
+In the scenario, Portland wins 1 additional games against Sacramento and 0 loss(es).
+Portland and Sacramento split their series 0 games to 0.
+
+Portland currently has 2 win(s) against SanAntonio and 1 loss(es).
+Portland and SanAntonio have no remaining games.
+Portland wins the series with SanAntonio 2 games to 1.
+
+Portland currently has 1 win(s) against Toronto and 1 loss(es).
+Portland and Toronto have no remaining games.
+Portland and Toronto split their series 1 games to 1.
+
+Portland currently has 1 win(s) against Utah and 2 loss(es).
+In the scenario, Portland wins 1 additional games against Utah and 0 loss(es).
+Portland and Utah split their series 2 games to 2.
+
+Portland currently has 1 win(s) against Washington and 0 loss(es).
+In the scenario, Portland wins 1 additional games against Washington and 0 loss(es).
+Portland wins the series with Washington 2 games to 0.
+
+Sacramento currently has 1 win(s) against SanAntonio and 1 loss(es).
+In the scenario, Sacramento wins 2 additional games against SanAntonio and 0 loss(es).
+Sacramento and SanAntonio split their series 0 games to 0.
+
+Sacramento currently has 0 win(s) against Toronto and 1 loss(es).
+In the scenario, Sacramento wins 0 additional games against Toronto and 1 loss(es).
+Sacramento loses the series with Toronto 0 games to 2.
+
+Sacramento currently has 1 win(s) against Utah and 2 loss(es).
+Sacramento and Utah have no remaining games.
+Sacramento loses the series with Utah 1 games to 2.
+
+Sacramento currently has 1 win(s) against Washington and 0 loss(es).
+In the scenario, Sacramento wins 0 additional games against Washington and 1 loss(es).
+Sacramento and Washington split their series 1 games to 1.
+
+SanAntonio currently has 1 win(s) against Toronto and 1 loss(es).
+SanAntonio and Toronto have no remaining games.
+SanAntonio and Toronto split their series 0 games to 0.
+
+SanAntonio currently has 2 win(s) against Utah and 0 loss(es).
+In the scenario, SanAntonio wins 2 additional games against Utah and 0 loss(es).
+SanAntonio wins the series with Utah 4 games to 0.
+
+SanAntonio currently has 1 win(s) against Washington and 1 loss(es).
+SanAntonio and Washington have no remaining games.
+SanAntonio and Washington split their series 1 games to 1.
+
+Toronto currently has 1 win(s) against Utah and 0 loss(es).
+In the scenario, Toronto wins 1 additional games against Utah and 0 loss(es).
+Toronto and Utah split their series 0 games to 0.
+
+Toronto currently has 2 win(s) against Washington and 0 loss(es).
+In the scenario, Toronto wins 1 additional games against Washington and 0 loss(es).
+Toronto wins the series with Washington 3 games to 0.
+
+Utah currently has 2 win(s) against Washington and 0 loss(es).
+Utah and Washington have no remaining games.
+Utah and Washington split their series 0 games to 0.
+
