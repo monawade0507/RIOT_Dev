@@ -1,0 +1,11 @@
+Milwaukee has clinched a playoff spot.
+Milwaukee has already won 51 games and will finish ahead of the following teams:
+1: Brooklyn can finish with at most 26 + 23 = 49 wins.
+2: Orlando can finish with at most 27 + 22 = 49 wins.
+3: Washington can finish with at most 21 + 24 = 45 wins.
+4: Charlotte can finish with at most 21 + 23 = 44 wins.
+5: Chicago can finish with at most 20 + 22 = 42 wins.
+6: Detroit can finish with at most 20 + 21 = 41 wins.
+7: NewYork can finish with at most 18 + 22 = 40 wins.
+8: Atlanta can finish with at most 19 + 20 = 39 wins.
+9: Cleveland can finish with at most 17 + 22 = 39 wins.
