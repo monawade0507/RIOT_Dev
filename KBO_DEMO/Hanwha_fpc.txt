@@ -1,0 +1,110 @@
+First Place Clinch Scenario for Hanwha
+
+Hanwha does not have a first-place clinch number.
+Here is a scenario in which Hanwha wins all 91 of their remaining game(s) (104 total) but does not clinch first place.
+
+To construct the scenario, we start with the current standings:
+            Team	W	L	D	GL	PCT	GB
+              NC	36	16	0	92	0.692	0.0
+          Kiwoom	33	21	0	90	0.611	4.0
+          Doosan	31	22	0	91	0.585	5.5
+              LG	29	24	0	91	0.547	7.5
+             KIA	27	23	0	94	0.540	8.0
+         Samsung	29	25	0	90	0.537	8.0
+              KT	25	28	0	91	0.472	11.5
+           Lotte	24	27	0	93	0.471	11.5
+              SK	16	37	0	91	0.302	20.5
+          Hanwha	13	40	0	91	0.245	23.5
+
+The next two tables show, respectively, how many of their remaining games each team wins and ties against each of the other teams in the scenario:
+
+					Scenario Additional Wins Against
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Wins
+Doosan	-	0	10	0	11	0	0	0	0	10	31
+Hanwha	10	-	11	10	10	10	10	7	13	10	91
+KIA	0	0	-	10	0	13	9	11	0	10	53
+Kiwoom	13	0	0	-	0	0	0	0	0	0	13
+KT	0	0	10	10	-	10	7	10	0	0	47
+LG	10	0	0	7	0	-	0	14	0	0	31
+Lotte	10	0	0	10	0	13	-	0	1	0	34
+NC	7	0	0	10	0	0	13	-	0	10	40
+Samsung	10	0	10	10	10	7	9	10	-	10	76
+SK	0	0	0	10	13	7	11	0	0	-	41
+-----------------------------------------------------------------------------------
+Losses	60	0	41	77	44	60	59	52	14	50
+
+					Scenario Additional Draws (Ties) With
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Total
+Doosan	-	0	0	0	0	0	0	0	0	0	0
+Hanwha	0	-	0	0	0	0	0	0	0	0	0
+KIA	0	0	-	0	0	0	0	0	0	0	0
+Kiwoom	0	0	0	-	0	0	0	0	0	0	0
+KT	0	0	0	0	-	0	0	0	0	0	0
+LG	0	0	0	0	0	-	0	0	0	0	0
+Lotte	0	0	0	0	0	0	-	0	0	0	0
+NC	0	0	0	0	0	0	0	-	0	0	0
+Samsung	0	0	0	0	0	0	0	0	-	0	0
+SK	0	0	0	0	0	0	0	0	0	-	0
+-----------------------------------------------------------------------------------
+Total	0	0	0	0	0	0	0	0	0	0
+
+The next two tables show, respectively, how many total games each team wins and ties against each of the other teams in the scenario:
+
+					Scenario Total Wins Against
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Wins
+Doosan	-	3	15	1	14	5	4	3	3	14	62
+Hanwha	13	-	12	10	12	10	12	9	14	12	104
+KIA	1	4	-	12	3	14	15	14	3	14	80
+Kiwoom	15	6	4	-	3	6	3	2	2	5	46
+KT	2	4	13	13	-	13	9	11	4	3	72
+LG	11	6	2	10	3	-	2	15	4	7	60
+Lotte	12	4	1	13	7	14	-	1	3	3	58
+NC	13	7	2	14	5	1	15	-	4	15	76
+Samsung	13	2	13	14	12	12	13	12	-	14	105
+SK	2	4	2	11	13	9	13	1	2	-	57
+-----------------------------------------------------------------------------------
+Losses	82	40	64	98	72	84	86	68	39	87
+
+					Scenario Total Draws (Ties) With
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Total
+Doosan	-	0	0	0	0	0	0	0	0	0	0
+Hanwha	0	-	0	0	0	0	0	0	0	0	0
+KIA	0	0	-	0	0	0	0	0	0	0	0
+Kiwoom	0	0	0	-	0	0	0	0	0	0	0
+KT	0	0	0	0	-	0	0	0	0	0	0
+LG	0	0	0	0	0	-	0	0	0	0	0
+Lotte	0	0	0	0	0	0	-	0	0	0	0
+NC	0	0	0	0	0	0	0	-	0	0	0
+Samsung	0	0	0	0	0	0	0	0	-	0	0
+SK	0	0	0	0	0	0	0	0	0	-	0
+-----------------------------------------------------------------------------------
+Total	0	0	0	0	0	0	0	0	0	0
+
+Here are the final standings in the scenario:
+            Team	W	L	D	PCT	GB	Tie-Breaker (if necessary)
+         Samsung	105	39	0	0.7292	0.0
+          Hanwha	104	40	0	0.7222	1.0
+             KIA	80	64	0	0.5556	25.0
+              NC	76	68	0	0.5278	29.0
+              KT	72	72	0	0.5000	33.0
+          Doosan	62	82	0	0.4306	43.0
+              LG	60	84	0	0.4167	45.0
+           Lotte	58	86	0	0.4028	47.0
+              SK	57	87	0	0.3958	48.0
+          Kiwoom	46	98	0	0.3194	59.0
+
+Hanwha has clinched first place.
+Here are the current standings:
+            Team	W	L	D	GL	PCT	GB
+              NC	36	16	0	92	0.692	0.0
+          Kiwoom	33	21	0	90	0.611	4.0
+          Doosan	31	22	0	91	0.585	5.5
+              LG	29	24	0	91	0.547	7.5
+             KIA	27	23	0	94	0.540	8.0
+         Samsung	29	25	0	90	0.537	8.0
+              KT	25	28	0	91	0.472	11.5
+           Lotte	24	27	0	93	0.471	11.5
+              SK	16	37	0	91	0.302	20.5
+          Hanwha	13	40	0	91	0.245	23.5
+
+Hanwha will finish ahead of the following teams:
