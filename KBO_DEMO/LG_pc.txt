@@ -1,0 +1,95 @@
+Playoff Clinch Scenario for LG
+
+LG must win at least 70 more games (99 total) to clinch a playoff spot.
+Here is a scenario in which LG wins 69 more game(s) (98 total) but does not make the playoffs.
+
+To construct the scenario, we start with the current standings:
+            Team	W	L	D	GL	PCT	GB
+              NC	36	16	0	92	0.692	0.0
+          Kiwoom	33	21	0	90	0.611	4.0
+          Doosan	31	22	0	91	0.585	5.5
+              LG	29	24	0	91	0.547	7.5
+             KIA	27	23	0	94	0.540	8.0
+         Samsung	29	25	0	90	0.537	8.0
+              KT	25	28	0	91	0.472	11.5
+           Lotte	24	27	0	93	0.471	11.5
+              SK	16	37	0	91	0.302	20.5
+          Hanwha	13	40	0	91	0.245	23.5
+
+The next two tables show, respectively, how many of their remaining games each team wins and ties against each of the other teams in the scenario:
+
+					Scenario Additional Wins Against
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Wins
+Doosan	-	10	7	2	11	0	10	7	4	10	61
+Hanwha	0	-	0	0	0	0	0	0	0	9	9
+KIA	0	11	-	0	10	10	9	8	7	10	65
+Kiwoom	11	10	10	-	10	0	10	0	0	10	61
+KT	0	10	0	0	-	0	5	0	0	5	20
+LG	10	10	3	7	10	-	13	2	7	7	69
+Lotte	0	10	0	0	0	0	-	0	0	11	21
+NC	0	7	0	4	10	12	13	-	0	10	56
+Samsung	0	13	0	10	10	0	10	10	-	10	63
+SK	0	0	0	0	0	0	0	0	0	-	0
+-----------------------------------------------------------------------------------
+Losses	21	81	20	23	61	22	70	27	18	82
+
+					Scenario Additional Draws (Ties) With
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Total
+Doosan	-	0	3	0	0	0	0	0	6	0	9
+Hanwha	0	-	0	0	0	0	0	0	0	1	1
+KIA	3	0	-	0	0	0	0	3	3	0	9
+Kiwoom	0	0	0	-	0	0	0	6	0	0	6
+KT	0	0	0	0	-	0	2	0	0	8	10
+LG	0	0	0	0	0	-	0	0	0	0	0
+Lotte	0	0	0	0	2	0	-	0	0	0	2
+NC	0	0	3	6	0	0	0	-	0	0	9
+Samsung	6	0	3	0	0	0	0	0	-	0	9
+SK	0	1	0	0	8	0	0	0	0	-	9
+-----------------------------------------------------------------------------------
+Total	9	1	9	6	10	0	2	9	9	9
+
+The next two tables show, respectively, how many total games each team wins and ties against each of the other teams in the scenario:
+
+					Scenario Total Wins Against
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Wins
+Doosan	-	13	12	3	14	5	14	10	7	14	92
+Hanwha	3	-	1	0	2	0	2	2	1	11	22
+KIA	1	15	-	2	13	11	15	11	10	14	92
+Kiwoom	13	16	14	-	13	6	13	2	2	15	94
+KT	2	14	3	3	-	3	7	1	4	8	45
+LG	11	16	5	10	13	-	15	3	11	14	98
+Lotte	2	14	1	3	7	1	-	1	2	14	45
+NC	6	14	2	8	15	13	15	-	4	15	92
+Samsung	3	15	3	14	12	5	14	12	-	14	92
+SK	2	4	2	1	0	2	2	1	2	-	16
+-----------------------------------------------------------------------------------
+Losses	43	121	43	44	89	46	97	43	43	119
+
+					Scenario Total Draws (Ties) With
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Total
+Doosan	-	0	3	0	0	0	0	0	6	0	9
+Hanwha	0	-	0	0	0	0	0	0	0	1	1
+KIA	3	0	-	0	0	0	0	3	3	0	9
+Kiwoom	0	0	0	-	0	0	0	6	0	0	6
+KT	0	0	0	0	-	0	2	0	0	8	10
+LG	0	0	0	0	0	-	0	0	0	0	0
+Lotte	0	0	0	0	2	0	-	0	0	0	2
+NC	0	0	3	6	0	0	0	-	0	0	9
+Samsung	6	0	3	0	0	0	0	0	-	0	9
+SK	0	1	0	0	8	0	0	0	0	-	9
+-----------------------------------------------------------------------------------
+Total	9	1	9	6	10	0	2	9	9	9
+
+Here are the final standings in the scenario:
+            Team	W	L	D	PCT	GB	Tie-Breaker (if necessary)
+          Doosan	92	43	9	0.6815	0.0
+             KIA	92	43	9	0.6815	0.0
+              NC	92	43	9	0.6815	0.0
+         Samsung	92	43	9	0.6815	0.0
+          Kiwoom	94	44	6	0.6812	-0.5
+              LG	98	46	0	0.6806	-1.5
+              KT	45	89	10	0.3358	46.5
+           Lotte	45	97	2	0.3169	50.5
+          Hanwha	22	121	1	0.1538	74.0
+              SK	16	119	9	0.1185	76.0
+

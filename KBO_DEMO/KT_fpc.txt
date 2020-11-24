@@ -1,0 +1,110 @@
+First Place Clinch Scenario for KT
+
+KT does not have a first-place clinch number.
+Here is a scenario in which KT wins all 91 of their remaining game(s) (116 total) but does not clinch first place.
+
+To construct the scenario, we start with the current standings:
+            Team	W	L	D	GL	PCT	GB
+              NC	36	16	0	92	0.692	0.0
+          Kiwoom	33	21	0	90	0.611	4.0
+          Doosan	31	22	0	91	0.585	5.5
+              LG	29	24	0	91	0.547	7.5
+             KIA	27	23	0	94	0.540	8.0
+         Samsung	29	25	0	90	0.537	8.0
+              KT	25	28	0	91	0.472	11.5
+           Lotte	24	27	0	93	0.471	11.5
+              SK	16	37	0	91	0.302	20.5
+          Hanwha	13	40	0	91	0.245	23.5
+
+The next two tables show, respectively, how many of their remaining games each team wins and ties against each of the other teams in the scenario:
+
+					Scenario Additional Wins Against
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Wins
+Doosan	-	0	10	13	0	10	0	0	10	10	53
+Hanwha	10	-	11	10	0	0	0	0	0	10	41
+KIA	0	0	-	10	0	13	0	0	0	10	33
+Kiwoom	0	0	0	-	0	0	0	0	0	10	10
+KT	11	10	10	10	-	10	7	10	10	13	91
+LG	0	10	0	6	0	-	0	1	0	0	17
+Lotte	10	10	9	10	0	13	-	0	10	11	73
+NC	7	7	11	10	0	13	13	-	10	10	81
+Samsung	0	13	10	10	0	7	0	0	-	10	50
+SK	0	0	0	0	0	7	0	0	0	-	7
+-----------------------------------------------------------------------------------
+Losses	38	50	61	79	0	73	20	11	40	84
+
+					Scenario Additional Draws (Ties) With
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Total
+Doosan	-	0	0	0	0	0	0	0	0	0	0
+Hanwha	0	-	0	0	0	0	0	0	0	0	0
+KIA	0	0	-	0	0	0	0	0	0	0	0
+Kiwoom	0	0	0	-	0	1	0	0	0	0	1
+KT	0	0	0	0	-	0	0	0	0	0	0
+LG	0	0	0	1	0	-	0	0	0	0	1
+Lotte	0	0	0	0	0	0	-	0	0	0	0
+NC	0	0	0	0	0	0	0	-	0	0	0
+Samsung	0	0	0	0	0	0	0	0	-	0	0
+SK	0	0	0	0	0	0	0	0	0	-	0
+-----------------------------------------------------------------------------------
+Total	0	0	0	1	0	1	0	0	0	0
+
+The next two tables show, respectively, how many total games each team wins and ties against each of the other teams in the scenario:
+
+					Scenario Total Wins Against
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Wins
+Doosan	-	3	15	14	3	15	4	3	13	14	84
+Hanwha	13	-	12	10	2	0	2	2	1	12	54
+KIA	1	4	-	12	3	14	6	3	3	14	60
+Kiwoom	2	6	4	-	3	6	3	2	2	15	43
+KT	13	14	13	13	-	13	9	11	14	16	116
+LG	1	16	2	9	3	-	2	2	4	7	46
+Lotte	12	14	10	13	7	14	-	1	12	14	97
+NC	13	14	13	14	5	14	15	-	14	15	117
+Samsung	3	15	13	14	2	12	4	2	-	14	79
+SK	2	4	2	1	0	9	2	1	2	-	23
+-----------------------------------------------------------------------------------
+Losses	60	90	84	100	28	97	47	27	65	121
+
+					Scenario Total Draws (Ties) With
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Total
+Doosan	-	0	0	0	0	0	0	0	0	0	0
+Hanwha	0	-	0	0	0	0	0	0	0	0	0
+KIA	0	0	-	0	0	0	0	0	0	0	0
+Kiwoom	0	0	0	-	0	1	0	0	0	0	1
+KT	0	0	0	0	-	0	0	0	0	0	0
+LG	0	0	0	1	0	-	0	0	0	0	1
+Lotte	0	0	0	0	0	0	-	0	0	0	0
+NC	0	0	0	0	0	0	0	-	0	0	0
+Samsung	0	0	0	0	0	0	0	0	-	0	0
+SK	0	0	0	0	0	0	0	0	0	-	0
+-----------------------------------------------------------------------------------
+Total	0	0	0	1	0	1	0	0	0	0
+
+Here are the final standings in the scenario:
+            Team	W	L	D	PCT	GB	Tie-Breaker (if necessary)
+              NC	117	27	0	0.8125	0.0
+              KT	116	28	0	0.8056	1.0
+           Lotte	97	47	0	0.6736	20.0
+          Doosan	84	60	0	0.5833	33.0
+         Samsung	79	65	0	0.5486	38.0
+             KIA	60	84	0	0.4167	57.0
+          Hanwha	54	90	0	0.3750	63.0
+              LG	46	97	1	0.3217	70.5
+          Kiwoom	43	100	1	0.3007	73.5
+              SK	23	121	0	0.1597	94.0
+
+KT has clinched first place.
+Here are the current standings:
+            Team	W	L	D	GL	PCT	GB
+              NC	36	16	0	92	0.692	0.0
+          Kiwoom	33	21	0	90	0.611	4.0
+          Doosan	31	22	0	91	0.585	5.5
+              LG	29	24	0	91	0.547	7.5
+             KIA	27	23	0	94	0.540	8.0
+         Samsung	29	25	0	90	0.537	8.0
+              KT	25	28	0	91	0.472	11.5
+           Lotte	24	27	0	93	0.471	11.5
+              SK	16	37	0	91	0.302	20.5
+          Hanwha	13	40	0	91	0.245	23.5
+
+KT will finish ahead of the following teams:
