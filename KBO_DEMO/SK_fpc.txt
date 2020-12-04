@@ -1,0 +1,110 @@
+First Place Clinch Scenario for SK
+
+SK does not have a first-place clinch number.
+Here is a scenario in which SK wins all 91 of their remaining game(s) (107 total) but does not clinch first place.
+
+To construct the scenario, we start with the current standings:
+            Team	W	L	D	GL	PCT	GB
+              NC	36	16	0	92	0.692	0.0
+          Kiwoom	33	21	0	90	0.611	4.0
+          Doosan	31	22	0	91	0.585	5.5
+              LG	29	24	0	91	0.547	7.5
+             KIA	27	23	0	94	0.540	8.0
+         Samsung	29	25	0	90	0.537	8.0
+              KT	25	28	0	91	0.472	11.5
+           Lotte	24	27	0	93	0.471	11.5
+              SK	16	37	0	91	0.302	20.5
+          Hanwha	13	40	0	91	0.245	23.5
+
+The next two tables show, respectively, how many of their remaining games each team wins and ties against each of the other teams in the scenario:
+
+					Scenario Additional Wins Against
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Wins
+Doosan	-	10	10	0	0	0	0	7	0	0	27
+Hanwha	0	-	0	0	0	0	0	0	0	0	0
+KIA	0	10	-	0	0	0	0	0	0	0	10
+Kiwoom	13	10	10	-	10	7	10	10	0	0	70
+KT	11	10	10	0	-	0	0	10	0	0	41
+LG	10	10	13	0	10	-	0	13	0	0	56
+Lotte	9	10	9	0	7	13	-	13	0	0	61
+NC	0	7	11	0	0	0	0	-	0	0	18
+Samsung	10	13	10	10	10	7	10	10	-	0	80
+SK	10	10	10	10	13	7	11	10	10	-	91
+-----------------------------------------------------------------------------------
+Losses	63	90	83	20	50	34	31	73	10	0
+
+					Scenario Additional Draws (Ties) With
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Total
+Doosan	-	0	0	0	0	0	1	0	0	0	1
+Hanwha	0	-	1	0	0	0	0	0	0	0	1
+KIA	0	1	-	0	0	0	0	0	0	0	1
+Kiwoom	0	0	0	-	0	0	0	0	0	0	0
+KT	0	0	0	0	-	0	0	0	0	0	0
+LG	0	0	0	0	0	-	0	1	0	0	1
+Lotte	1	0	0	0	0	0	-	0	0	0	1
+NC	0	0	0	0	0	1	0	-	0	0	1
+Samsung	0	0	0	0	0	0	0	0	-	0	0
+SK	0	0	0	0	0	0	0	0	0	-	0
+-----------------------------------------------------------------------------------
+Total	1	1	1	0	0	1	1	1	0	0
+
+The next two tables show, respectively, how many total games each team wins and ties against each of the other teams in the scenario:
+
+					Scenario Total Wins Against
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Wins
+Doosan	-	13	15	1	3	5	4	10	3	4	58
+Hanwha	3	-	1	0	2	0	2	2	1	2	13
+KIA	1	14	-	2	3	1	6	3	3	4	37
+Kiwoom	15	16	14	-	13	13	13	12	2	5	103
+KT	13	14	13	3	-	3	2	11	4	3	66
+LG	11	16	15	3	13	-	2	14	4	7	85
+Lotte	11	14	10	3	14	14	-	14	2	3	85
+NC	6	14	13	4	5	1	2	-	4	5	54
+Samsung	13	15	13	14	12	12	14	12	-	4	109
+SK	12	14	12	11	13	9	13	11	12	-	107
+-----------------------------------------------------------------------------------
+Losses	85	130	106	41	78	58	58	89	35	37
+
+					Scenario Total Draws (Ties) With
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Total
+Doosan	-	0	0	0	0	0	1	0	0	0	1
+Hanwha	0	-	1	0	0	0	0	0	0	0	1
+KIA	0	1	-	0	0	0	0	0	0	0	1
+Kiwoom	0	0	0	-	0	0	0	0	0	0	0
+KT	0	0	0	0	-	0	0	0	0	0	0
+LG	0	0	0	0	0	-	0	1	0	0	1
+Lotte	1	0	0	0	0	0	-	0	0	0	1
+NC	0	0	0	0	0	1	0	-	0	0	1
+Samsung	0	0	0	0	0	0	0	0	-	0	0
+SK	0	0	0	0	0	0	0	0	0	-	0
+-----------------------------------------------------------------------------------
+Total	1	1	1	0	0	1	1	1	0	0
+
+Here are the final standings in the scenario:
+            Team	W	L	D	PCT	GB	Tie-Breaker (if necessary)
+         Samsung	109	35	0	0.7569	0.0
+              SK	107	37	0	0.7431	2.0
+          Kiwoom	103	41	0	0.7153	6.0
+              LG	85	58	1	0.5944	23.5
+           Lotte	85	58	1	0.5944	23.5
+              KT	66	78	0	0.4583	43.0
+          Doosan	58	85	1	0.4056	50.5
+              NC	54	89	1	0.3776	54.5
+             KIA	37	106	1	0.2587	71.5
+          Hanwha	13	130	1	0.0909	95.5
+
+SK has clinched first place.
+Here are the current standings:
+            Team	W	L	D	GL	PCT	GB
+              NC	36	16	0	92	0.692	0.0
+          Kiwoom	33	21	0	90	0.611	4.0
+          Doosan	31	22	0	91	0.585	5.5
+              LG	29	24	0	91	0.547	7.5
+             KIA	27	23	0	94	0.540	8.0
+         Samsung	29	25	0	90	0.537	8.0
+              KT	25	28	0	91	0.472	11.5
+           Lotte	24	27	0	93	0.471	11.5
+              SK	16	37	0	91	0.302	20.5
+          Hanwha	13	40	0	91	0.245	23.5
+
+SK will finish ahead of the following teams:

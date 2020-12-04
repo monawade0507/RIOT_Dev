@@ -1,0 +1,132 @@
+First Place Clinch Scenario for Lotte
+
+Lotte's traditional magic number (relative to first-place NC) is 36 + 92 - 24 + 1 = 105.
+As shown below, Lotte's first-place clinch number is 92.
+
+Lotte must win at least 92 more games (116 total) to clinch first place. If Lotte wins 92 more games, their winning percentage will be at least 0.806.
+The table below shows the best case scenario for each of the other teams if Lotte wins 92 of their remaining 93 games and loses the other 1.
+For each team, the table shows the current record (number of wins (W), losses (L), and draws (D)) and the number of games that team has
+left to play (GL) in the regular season. Taking the schedule of games left to play into account, the 'Losses to Lotte' column gives the
+minimum number of games that each team will lose to Lotte if Lotte wins 92 more games. Assuming that a team wins all of its remaining games except for
+the games it loses to Lotte, the resulting maximum number of wins and maximum winning percentage are shown in the 'Maximum W' and 'Maximum PCT' columns, respectively.
+
+            Team	W	L	D	GL	 Losses to Lotte	Maximum W	Maximum PCT
+              NC	36	16	0	92	     13 - 1 = 12	116	        0.806	Lotte wins the tie-breaker 13 games to 3.
+          Kiwoom	33	21	0	90	      10 - 1 = 9	114	        0.792
+          Doosan	31	22	0	91	      10 - 1 = 9	113	        0.785
+             KIA	27	23	0	94	       9 - 1 = 8	113	        0.785
+              KT	25	28	0	91	       7 - 1 = 6	110	        0.764
+         Samsung	29	25	0	90	      10 - 1 = 9	110	        0.764
+              LG	29	24	0	91	     13 - 1 = 12	108	        0.750
+              SK	16	37	0	91	     11 - 1 = 10	97	        0.674
+          Hanwha	13	40	0	91	      10 - 1 = 9	95	        0.660
+
+The table above shows that if Lotte wins 92 more games, then they will finish the season in first place by winning the tie-breaker.
+
+To see that Lotte's first-place clinch number cannot be less than 92, consider the following scenario in which Lotte wins 91 more games (115 total) but does not finish in first place.
+
+To construct the scenario, we start with the current standings:
+            Team	W	L	D	GL	PCT	GB
+              NC	36	16	0	92	0.692	0.0
+          Kiwoom	33	21	0	90	0.611	4.0
+          Doosan	31	22	0	91	0.585	5.5
+              LG	29	24	0	91	0.547	7.5
+             KIA	27	23	0	94	0.540	8.0
+         Samsung	29	25	0	90	0.537	8.0
+              KT	25	28	0	91	0.472	11.5
+           Lotte	24	27	0	93	0.471	11.5
+              SK	16	37	0	91	0.302	20.5
+          Hanwha	13	40	0	91	0.245	23.5
+
+The next two tables show, respectively, how many of their remaining games each team wins and ties against each of the other teams in the scenario:
+
+					Scenario Additional Wins Against
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Wins
+Doosan	-	0	0	13	11	0	0	0	10	10	44
+Hanwha	10	-	11	0	10	0	0	0	0	10	41
+KIA	9	0	-	0	0	13	0	0	10	10	42
+Kiwoom	0	10	10	-	0	0	0	0	0	0	20
+KT	0	0	10	10	-	10	0	0	0	0	30
+LG	10	10	0	7	0	-	0	0	7	7	41
+Lotte	10	10	9	10	7	13	-	11	10	11	91
+NC	7	7	11	10	10	14	2	-	10	10	81
+Samsung	0	13	0	10	10	0	0	0	-	0	33
+SK	0	0	0	10	13	0	0	0	10	-	33
+-----------------------------------------------------------------------------------
+Losses	46	50	51	70	61	50	2	11	57	58
+
+					Scenario Additional Draws (Ties) With
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Total
+Doosan	-	0	1	0	0	0	0	0	0	0	1
+Hanwha	0	-	0	0	0	0	0	0	0	0	0
+KIA	1	0	-	0	0	0	0	0	0	0	1
+Kiwoom	0	0	0	-	0	0	0	0	0	0	0
+KT	0	0	0	0	-	0	0	0	0	0	0
+LG	0	0	0	0	0	-	0	0	0	0	0
+Lotte	0	0	0	0	0	0	-	0	0	0	0
+NC	0	0	0	0	0	0	0	-	0	0	0
+Samsung	0	0	0	0	0	0	0	0	-	0	0
+SK	0	0	0	0	0	0	0	0	0	-	0
+-----------------------------------------------------------------------------------
+Total	1	0	1	0	0	0	0	0	0	0
+
+The next two tables show, respectively, how many total games each team wins and ties against each of the other teams in the scenario:
+
+					Scenario Total Wins Against
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Wins
+Doosan	-	3	5	14	14	5	4	3	13	14	75
+Hanwha	13	-	12	0	12	0	2	2	1	12	54
+KIA	10	4	-	2	3	14	6	3	13	14	69
+Kiwoom	2	16	14	-	3	6	3	2	2	5	53
+KT	2	4	13	13	-	13	2	1	4	3	55
+LG	11	16	2	10	3	-	2	1	11	14	70
+Lotte	12	14	10	13	14	14	-	12	12	14	115
+NC	13	14	13	14	15	15	4	-	14	15	117
+Samsung	3	15	3	14	12	5	4	2	-	4	62
+SK	2	4	2	11	13	2	2	1	12	-	49
+-----------------------------------------------------------------------------------
+Losses	68	90	74	91	89	74	29	27	82	95
+
+					Scenario Total Draws (Ties) With
+Team	Doosan	Hanwha	KIA	Kiwoom	KT	LG	Lotte	NC	Samsung	SK	Total
+Doosan	-	0	1	0	0	0	0	0	0	0	1
+Hanwha	0	-	0	0	0	0	0	0	0	0	0
+KIA	1	0	-	0	0	0	0	0	0	0	1
+Kiwoom	0	0	0	-	0	0	0	0	0	0	0
+KT	0	0	0	0	-	0	0	0	0	0	0
+LG	0	0	0	0	0	-	0	0	0	0	0
+Lotte	0	0	0	0	0	0	-	0	0	0	0
+NC	0	0	0	0	0	0	0	-	0	0	0
+Samsung	0	0	0	0	0	0	0	0	-	0	0
+SK	0	0	0	0	0	0	0	0	0	-	0
+-----------------------------------------------------------------------------------
+Total	1	0	1	0	0	0	0	0	0	0
+
+Here are the final standings in the scenario:
+            Team	W	L	D	PCT	GB	Tie-Breaker (if necessary)
+              NC	117	27	0	0.8125	0.0
+           Lotte	115	29	0	0.7986	2.0
+          Doosan	75	68	1	0.5245	41.5
+              LG	70	74	0	0.4861	47.0
+             KIA	69	74	1	0.4825	47.5
+         Samsung	62	82	0	0.4306	55.0
+              KT	55	89	0	0.3819	62.0
+          Hanwha	54	90	0	0.3750	63.0
+          Kiwoom	53	91	0	0.3681	64.0
+              SK	49	95	0	0.3403	68.0
+
+Lotte has clinched first place.
+Here are the current standings:
+            Team	W	L	D	GL	PCT	GB
+              NC	36	16	0	92	0.692	0.0
+          Kiwoom	33	21	0	90	0.611	4.0
+          Doosan	31	22	0	91	0.585	5.5
+              LG	29	24	0	91	0.547	7.5
+             KIA	27	23	0	94	0.540	8.0
+         Samsung	29	25	0	90	0.537	8.0
+              KT	25	28	0	91	0.472	11.5
+           Lotte	24	27	0	93	0.471	11.5
+              SK	16	37	0	91	0.302	20.5
+          Hanwha	13	40	0	91	0.245	23.5
+
+Lotte will finish ahead of the following teams:
