@@ -1,0 +1,3 @@
+
+NewYork is eliminated from first place.
+NewYork can finish the season with at most 1 + 9 = 10 wins. Seattle already has 11 wins.

@@ -1,0 +1,308 @@
+Playoff Eliminiation Scenario for LasVegas:
+
+
+LasVegas must win 0 more game(s) to avoid eliminiation from the playoffs.
+Here is a scenario in which LasVegas makes the playoffs with 10 wins.
+
+To construct the scenario, we start with the current standings:
+            Team	W	L	GL	PCT	GB
+         Seattle	11	3	8	0.500	0.0
+         Chicago	10	4	8	0.455	1.0
+        LasVegas	10	3	9	0.455	0.5
+      LosAngeles	9	3	10	0.409	1.0
+       Minnesota	9	3	10	0.409	1.0
+     Connecticut	6	8	8	0.273	5.0
+         Phoenix	6	7	9	0.273	4.5
+          Dallas	5	8	9	0.227	5.5
+         Indiana	5	8	9	0.227	5.5
+      Washington	4	8	10	0.182	6.0
+         Atlanta	2	11	9	0.091	8.5
+         NewYork	1	12	9	0.045	9.5
+
+
+Next, we show how the remaining series of games in the season plays out:
+
+Atlanta currently has 0 win(s) against Chicago and 1 loss(es).
+In the scenario, Atlanta wins 0 additional games against Chicago and 1 loss(es).
+Atlanta loses the series with Chicago 0 games to 2.
+
+Atlanta currently has 0 win(s) against Connecticut and 1 loss(es).
+In the scenario, Atlanta wins 1 additional games against Connecticut and 0 loss(es).
+Atlanta and Connecticut split their series 1 games to 1.
+
+Atlanta currently has 1 win(s) against Dallas and 1 loss(es).
+Atlanta and Dallas have no remaining games.
+Atlanta and Dallas split their series 1 games to 1.
+
+Atlanta currently has 0 win(s) against Indiana and 1 loss(es).
+In the scenario, Atlanta wins 1 additional games against Indiana and 0 loss(es).
+Atlanta and Indiana split their series 1 games to 1.
+
+Atlanta currently has 0 win(s) against LasVegas and 1 loss(es).
+In the scenario, Atlanta wins 1 additional games against LasVegas and 0 loss(es).
+Atlanta and LasVegas split their series 1 games to 1.
+
+Atlanta currently has 0 win(s) against LosAngeles and 1 loss(es).
+In the scenario, Atlanta wins 0 additional games against LosAngeles and 1 loss(es).
+Atlanta loses the series with LosAngeles 0 games to 2.
+
+Atlanta currently has 0 win(s) against Minnesota and 0 loss(es).
+In the scenario, Atlanta wins 1 additional games against Minnesota and 1 loss(es).
+Atlanta and Minnesota split their series 1 games to 1.
+
+Atlanta currently has 1 win(s) against NewYork and 0 loss(es).
+In the scenario, Atlanta wins 1 additional games against NewYork and 0 loss(es).
+Atlanta wins the series with NewYork 2 games to 0.
+
+Atlanta currently has 0 win(s) against Phoenix and 2 loss(es).
+Atlanta and Phoenix have no remaining games.
+Atlanta loses the series with Phoenix 0 games to 2.
+
+Atlanta currently has 0 win(s) against Seattle and 2 loss(es).
+Atlanta and Seattle have no remaining games.
+Atlanta loses the series with Seattle 0 games to 2.
+
+Atlanta currently has 0 win(s) against Washington and 1 loss(es).
+In the scenario, Atlanta wins 0 additional games against Washington and 1 loss(es).
+Atlanta loses the series with Washington 0 games to 2.
+
+Chicago currently has 1 win(s) against Connecticut and 1 loss(es).
+Chicago and Connecticut have no remaining games.
+Chicago and Connecticut split their series 1 games to 1.
+
+Chicago currently has 1 win(s) against Dallas and 0 loss(es).
+In the scenario, Chicago wins 0 additional games against Dallas and 1 loss(es).
+Chicago and Dallas split their series 1 games to 1.
+
+Chicago currently has 1 win(s) against Indiana and 0 loss(es).
+In the scenario, Chicago wins 0 additional games against Indiana and 1 loss(es).
+Chicago and Indiana split their series 1 games to 1.
+
+Chicago currently has 2 win(s) against LasVegas and 0 loss(es).
+Chicago and LasVegas have no remaining games.
+Chicago wins the series with LasVegas 2 games to 0.
+
+Chicago currently has 1 win(s) against LosAngeles and 0 loss(es).
+In the scenario, Chicago wins 0 additional games against LosAngeles and 1 loss(es).
+Chicago and LosAngeles split their series 1 games to 1.
+
+Chicago currently has 0 win(s) against Minnesota and 1 loss(es).
+In the scenario, Chicago wins 0 additional games against Minnesota and 1 loss(es).
+Chicago loses the series with Minnesota 0 games to 2.
+
+Chicago currently has 1 win(s) against NewYork and 0 loss(es).
+In the scenario, Chicago wins 0 additional games against NewYork and 1 loss(es).
+Chicago and NewYork split their series 1 games to 1.
+
+Chicago currently has 1 win(s) against Phoenix and 1 loss(es).
+Chicago and Phoenix have no remaining games.
+Chicago and Phoenix split their series 1 games to 1.
+
+Chicago currently has 0 win(s) against Seattle and 1 loss(es).
+In the scenario, Chicago wins 0 additional games against Seattle and 1 loss(es).
+Chicago loses the series with Seattle 0 games to 2.
+
+Chicago currently has 1 win(s) against Washington and 0 loss(es).
+In the scenario, Chicago wins 0 additional games against Washington and 1 loss(es).
+Chicago and Washington split their series 1 games to 1.
+
+Connecticut currently has 2 win(s) against Dallas and 0 loss(es).
+Connecticut and Dallas have no remaining games.
+Connecticut wins the series with Dallas 2 games to 0.
+
+Connecticut currently has 1 win(s) against Indiana and 0 loss(es).
+In the scenario, Connecticut wins 1 additional games against Indiana and 0 loss(es).
+Connecticut wins the series with Indiana 2 games to 0.
+
+Connecticut currently has 0 win(s) against LasVegas and 1 loss(es).
+In the scenario, Connecticut wins 1 additional games against LasVegas and 0 loss(es).
+Connecticut and LasVegas split their series 1 games to 1.
+
+Connecticut currently has 0 win(s) against LosAngeles and 1 loss(es).
+In the scenario, Connecticut wins 0 additional games against LosAngeles and 1 loss(es).
+Connecticut loses the series with LosAngeles 0 games to 2.
+
+Connecticut currently has 0 win(s) against Minnesota and 2 loss(es).
+Connecticut and Minnesota have no remaining games.
+Connecticut loses the series with Minnesota 0 games to 2.
+
+Connecticut currently has 1 win(s) against NewYork and 0 loss(es).
+In the scenario, Connecticut wins 1 additional games against NewYork and 0 loss(es).
+Connecticut wins the series with NewYork 2 games to 0.
+
+Connecticut currently has 0 win(s) against Phoenix and 0 loss(es).
+In the scenario, Connecticut wins 1 additional games against Phoenix and 1 loss(es).
+Connecticut and Phoenix split their series 1 games to 1.
+
+Connecticut currently has 0 win(s) against Seattle and 2 loss(es).
+Connecticut and Seattle have no remaining games.
+Connecticut loses the series with Seattle 0 games to 2.
+
+Connecticut currently has 0 win(s) against Washington and 1 loss(es).
+In the scenario, Connecticut wins 1 additional games against Washington and 0 loss(es).
+Connecticut and Washington split their series 1 games to 1.
+
+Dallas currently has 1 win(s) against Indiana and 0 loss(es).
+In the scenario, Dallas wins 1 additional games against Indiana and 0 loss(es).
+Dallas wins the series with Indiana 2 games to 0.
+
+Dallas currently has 0 win(s) against LasVegas and 1 loss(es).
+In the scenario, Dallas wins 1 additional games against LasVegas and 0 loss(es).
+Dallas and LasVegas split their series 1 games to 1.
+
+Dallas currently has 0 win(s) against LosAngeles and 0 loss(es).
+In the scenario, Dallas wins 2 additional games against LosAngeles and 0 loss(es).
+Dallas wins the series with LosAngeles 2 games to 0.
+
+Dallas currently has 0 win(s) against Minnesota and 1 loss(es).
+In the scenario, Dallas wins 0 additional games against Minnesota and 1 loss(es).
+Dallas loses the series with Minnesota 0 games to 2.
+
+Dallas currently has 1 win(s) against NewYork and 0 loss(es).
+In the scenario, Dallas wins 0 additional games against NewYork and 1 loss(es).
+Dallas and NewYork split their series 1 games to 1.
+
+Dallas currently has 1 win(s) against Phoenix and 1 loss(es).
+Dallas and Phoenix have no remaining games.
+Dallas and Phoenix split their series 1 games to 1.
+
+Dallas currently has 0 win(s) against Seattle and 1 loss(es).
+In the scenario, Dallas wins 1 additional games against Seattle and 0 loss(es).
+Dallas and Seattle split their series 1 games to 1.
+
+Dallas currently has 1 win(s) against Washington and 0 loss(es).
+In the scenario, Dallas wins 0 additional games against Washington and 1 loss(es).
+Dallas and Washington split their series 1 games to 1.
+
+Indiana currently has 0 win(s) against LasVegas and 1 loss(es).
+In the scenario, Indiana wins 1 additional games against LasVegas and 0 loss(es).
+Indiana and LasVegas split their series 1 games to 1.
+
+Indiana currently has 0 win(s) against LosAngeles and 2 loss(es).
+Indiana and LosAngeles have no remaining games.
+Indiana loses the series with LosAngeles 0 games to 2.
+
+Indiana currently has 0 win(s) against Minnesota and 1 loss(es).
+In the scenario, Indiana wins 0 additional games against Minnesota and 1 loss(es).
+Indiana loses the series with Minnesota 0 games to 2.
+
+Indiana currently has 1 win(s) against NewYork and 0 loss(es).
+In the scenario, Indiana wins 1 additional games against NewYork and 0 loss(es).
+Indiana wins the series with NewYork 2 games to 0.
+
+Indiana currently has 1 win(s) against Phoenix and 0 loss(es).
+In the scenario, Indiana wins 0 additional games against Phoenix and 1 loss(es).
+Indiana and Phoenix split their series 1 games to 1.
+
+Indiana currently has 1 win(s) against Seattle and 0 loss(es).
+In the scenario, Indiana wins 0 additional games against Seattle and 1 loss(es).
+Indiana and Seattle split their series 1 games to 1.
+
+Indiana currently has 1 win(s) against Washington and 1 loss(es).
+Indiana and Washington have no remaining games.
+Indiana and Washington split their series 1 games to 1.
+
+LasVegas currently has 1 win(s) against LosAngeles and 0 loss(es).
+In the scenario, LasVegas wins 0 additional games against LosAngeles and 1 loss(es).
+LasVegas and LosAngeles split their series 1 games to 1.
+
+LasVegas currently has 1 win(s) against Minnesota and 0 loss(es).
+In the scenario, LasVegas wins 0 additional games against Minnesota and 1 loss(es).
+LasVegas and Minnesota split their series 1 games to 1.
+
+LasVegas currently has 1 win(s) against NewYork and 0 loss(es).
+In the scenario, LasVegas wins 0 additional games against NewYork and 1 loss(es).
+LasVegas and NewYork split their series 1 games to 1.
+
+LasVegas currently has 0 win(s) against Phoenix and 1 loss(es).
+In the scenario, LasVegas wins 0 additional games against Phoenix and 1 loss(es).
+LasVegas loses the series with Phoenix 0 games to 2.
+
+LasVegas currently has 1 win(s) against Seattle and 0 loss(es).
+In the scenario, LasVegas wins 0 additional games against Seattle and 1 loss(es).
+LasVegas and Seattle split their series 1 games to 1.
+
+LasVegas currently has 2 win(s) against Washington and 0 loss(es).
+LasVegas and Washington have no remaining games.
+LasVegas wins the series with Washington 2 games to 0.
+
+LosAngeles currently has 1 win(s) against Minnesota and 0 loss(es).
+In the scenario, LosAngeles wins 0 additional games against Minnesota and 1 loss(es).
+LosAngeles and Minnesota split their series 1 games to 1.
+
+LosAngeles currently has 1 win(s) against NewYork and 0 loss(es).
+In the scenario, LosAngeles wins 0 additional games against NewYork and 1 loss(es).
+LosAngeles and NewYork split their series 1 games to 1.
+
+LosAngeles currently has 2 win(s) against Phoenix and 0 loss(es).
+LosAngeles and Phoenix have no remaining games.
+LosAngeles wins the series with Phoenix 2 games to 0.
+
+LosAngeles currently has 0 win(s) against Seattle and 1 loss(es).
+In the scenario, LosAngeles wins 1 additional games against Seattle and 0 loss(es).
+LosAngeles and Seattle split their series 1 games to 1.
+
+LosAngeles currently has 1 win(s) against Washington and 0 loss(es).
+In the scenario, LosAngeles wins 0 additional games against Washington and 1 loss(es).
+LosAngeles and Washington split their series 1 games to 1.
+
+Minnesota currently has 2 win(s) against NewYork and 0 loss(es).
+Minnesota and NewYork have no remaining games.
+Minnesota wins the series with NewYork 2 games to 0.
+
+Minnesota currently has 1 win(s) against Phoenix and 0 loss(es).
+In the scenario, Minnesota wins 1 additional games against Phoenix and 0 loss(es).
+Minnesota wins the series with Phoenix 2 games to 0.
+
+Minnesota currently has 0 win(s) against Seattle and 1 loss(es).
+In the scenario, Minnesota wins 1 additional games against Seattle and 0 loss(es).
+Minnesota and Seattle split their series 1 games to 1.
+
+Minnesota currently has 1 win(s) against Washington and 0 loss(es).
+In the scenario, Minnesota wins 0 additional games against Washington and 1 loss(es).
+Minnesota and Washington split their series 1 games to 1.
+
+NewYork currently has 0 win(s) against Phoenix and 1 loss(es).
+In the scenario, NewYork wins 1 additional games against Phoenix and 0 loss(es).
+NewYork and Phoenix split their series 1 games to 1.
+
+NewYork currently has 0 win(s) against Seattle and 2 loss(es).
+NewYork and Seattle have no remaining games.
+NewYork loses the series with Seattle 0 games to 2.
+
+NewYork currently has 1 win(s) against Washington and 0 loss(es).
+In the scenario, NewYork wins 0 additional games against Washington and 1 loss(es).
+NewYork and Washington split their series 1 games to 1.
+
+Phoenix currently has 0 win(s) against Seattle and 1 loss(es).
+In the scenario, Phoenix wins 0 additional games against Seattle and 1 loss(es).
+Phoenix loses the series with Seattle 0 games to 2.
+
+Phoenix currently has 0 win(s) against Washington and 0 loss(es).
+In the scenario, Phoenix wins 0 additional games against Washington and 2 loss(es).
+Phoenix loses the series with Washington 0 games to 2.
+
+Seattle currently has 0 win(s) against Washington and 1 loss(es).
+In the scenario, Seattle wins 0 additional games against Washington and 1 loss(es).
+Seattle loses the series with Washington 0 games to 2.
+
+Here are the final standings in the scenario:
+
+Final standings:
+            Team	W	L	PCT	GB
+       Minnesota	17	5	0.773	0.0
+         Seattle	15	7	0.682	2.0
+      LosAngeles	14	8	0.636	3.0
+      Washington	13	9	0.591	4.0
+         Chicago	11	11	0.500	6.0
+     Connecticut	11	11	0.500	6.0
+          Dallas	11	11	0.500	6.0
+
+        LasVegas	10	12	0.455	7.0
+
+
+         Phoenix	9	13	0.409	8.0
+         Indiana	8	14	0.364	9.0
+         Atlanta	7	15	0.318	10.0
+         NewYork	6	16	0.273	11.0
+
