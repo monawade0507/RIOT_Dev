@@ -3,6 +3,13 @@
 	Urban by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+
+	<span lang="en">
+
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+
+	</span>
 -->
 <html>
 	<head>
@@ -48,68 +55,174 @@
 					<div class="inner">
 
 						<h3>
-Frequently Asked Questions</h3>
+						<span lang="en">
+							Frequently Asked Questions
+						</span>
+						<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+							자주 묻는 질문
+						</span>
+						</h3>
+						<form>
+								<label for="lang-switch">
+										<span style="display: none;" lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">언어</span>
+										<span style="display: inline;" lang="en">Language</span>
+								</label>
+								<select id="lang-switch">
+										<option value="en" selected="selected">English</option>
+										<option value="ko">한국어</option>
+								</select>
+						</form>
 
 <ol>
 <li>
-<a href="#magic_number">What is the magic number and how is it computed?</a></li>
+<a href="#magic_number">
+	<span lang="en">
+		What is the magic number and how is it computed?
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		매직넘버는 무엇이며 어떻게 계산되나요?
+	</span>
+</a></li>
 
 <li>
-<a href="#playoff">How are the playoff teams determined?</a></li>
+<a href="#playoff">
+	<span lang="en">
+		How are the playoff teams determined?
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		플레이오프 팀은 어떻게 결정되나요?
+	</span>
+</a></li>
 
 <li>
-<a href="#ties">What happens when there are ties for playoff spots?</a></li>
+<a href="#ties">
+	<span lang="en">
+		What happens when there are ties for playoff spots?
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		플레이오프 진출에 동률이 있을 때 어떻게 되나요?
+	</span>
+</a></li>
 
 <li>
 <a href="#fpe">
-If RIOT says that my team's first-place elimination number is zero, does that mean
-my team has clinched first place?
+
+	<span lang="en">
+		If RIOT says that my team's first-place elimination number is zero, does that mean
+		my team has clinched first place?
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		만약 리오트 순위표에서 우리 팀의 1위탈락방지 숫자가 0이라고 말한다면, 우리 팀이 1위를
+확정했다는 뜻인가요?
+	</span>
 </a></li>
 </ol>
 
 <hr WIDTH="100%">
 <ol>
 <li>
-<a NAME="magic_number"></a>What is the magic number and how is it computed?</li>
+<a NAME="magic_number"></a>What is the magic number and how is it computed?
+											<span lang="en">
+
+											</span>
+											<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+
+											</span>
+											</li>
 
 <p style="color:#080808; font-size:18px"><br>
+<span lang="en">
+	The so-called magic number is the smallest number such that any combination of wins by the first-place team and
+  losses by the second-place team totaling the magic number guarantees that the first-place team will finish the
+  season with a better record than the second-place team.
+</span>
+<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+	소위 매직 넘버는 1위 팀의 승리와 2위 팀의 패배를 조합하여 2위 팀보다 1위팀이 더 나은
+ 기록으로 시즌을 마무리할 것을 보장하는 숫자입니다.
+</span>
 
-The so-called magic number is the smallest number such that any combination of wins by the first-place team and
-losses by the second-place team totaling the magic number guarantees that the first-place team will finish the
-season with a better record than the second-place team.
-
-
-<p style="color:#080808; font-size:18px">The magic number can be computed using the following numbers:
+<p style="color:#080808; font-size:18px">
+	<span lang="en">
+		The magic number can be computed using the following numbers:
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		 매직넘버는 다음과 같은 숫자로 계산할 수 있습니다.
+	</span>
 <br>&nbsp;
 <ul>
 <li>
-w<sub>1</sub> - the number of games the team currently in first place has
-won so far</li>
+	w<sub>1</sub>
+	<span lang="en">
+		- the number of games the team currently in first place has won so far
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		- 현재 1위를 달리고 있는 팀이 지금까지 이긴 경기 수
+	</span>
+</li>
 
 <li>
-w<sub>2</sub> - the number of games the team currently in second place
-has won so far</li>
+	w<sub>2</sub>
+	<span lang="en">
+		- the number of games the team currently in second place has won so far
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		- 현재 2위에 있는 팀이 지금까지 이긴 경기 수
+	</span>
+</li>
 
 <li>
-g<sub>2</sub> -&nbsp; the number of games the team currently in second
-place has left to play</li>
+	g<sub>2</sub>
+	<span lang="en">
+		-&nbsp; the number of games the team currently in second place has left to play
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		- 현재 2위 팀이 남은 경기 수
+	</span>
+</li>
 </ul>
 
-<p style="color:#080808; font-size:18px"><br>Now, suppose that the first-place team wins x more of its remaining
-games and the second-place team loses y more of its remaining games (i.e.,
-it wins g<sub>2</sub>-y games).&nbsp; We will now derive a formula for
-the magic number, x + y.
-<p style="color:#080808; font-size:18px">The team currently in first place will finish with w<sub>1</sub>+ x
-wins and the team currently in second place will finish with w<sub>2 </sub>+
-g<sub>2 </sub>- y wins.&nbsp; The team currently in first place will finish
-ahead of the team currently in second place as long as w<sub>1 </sub>+
-x > w<sub>2 </sub>+ g<sub>2</sub>- y.&nbsp; The magic number is the smallest
-number&nbsp; x + y&nbsp; such that x + y > w<sub>2</sub> + g<sub>2</sub>
-- w<sub>1</sub>.
-<p style="color:#080808; font-size:18px">Since we are dealing with integers (whole numbers), the magic number is w<sub>2</sub>&nbsp; + g<sub>2</sub> - w<sub>1</sub>+
-1.&nbsp;
+<p style="color:#080808; font-size:18px"><br>
+	<span lang="en">
+		Now, suppose that the first-place team wins x more of its remaining
+		games and the second-place team loses y more of its remaining games (i.e.,
+		it wins g<sub>2</sub>-y games).&nbsp; We will now derive a formula for
+		the magic number, x + y.
+		<p style="color:#080808; font-size:18px">The team currently in first place will finish with w<sub>1</sub>+ x
+		wins and the team currently in second place will finish with w<sub>2 </sub>+
+		g<sub>2 </sub>- y wins.&nbsp; The team currently in first place will finish
+		ahead of the team currently in second place as long as w<sub>1 </sub>+
+		x > w<sub>2 </sub>+ g<sub>2</sub>- y.&nbsp; The magic number is the smallest
+		number&nbsp; x + y&nbsp; such that x + y > w<sub>2</sub> + g<sub>2</sub>
+		- w<sub>1</sub>.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		이제 1등 팀이 남은 경기에서 x경기 승리하고, 2등 팀이 남은 경기에서 y경기 만큼 패한다고
+		가정합시다(즉, g2 - y 만큼 승리). 우리는 이제 x + y라는 매직넘버의 공식을 도출해 낼 것입니다.
+
+		현재 1위를 달리고 있는 팀은 w1+x승으로, 2위를 달리고 있는 팀은 w2+g2 - y승으로
+		마무리됩니다. 현재 1위를 달리고 있는 팀은 w1 + x &gt; w2 + g2-y만큼 2위를 달리고 있는 팀보다
+		앞서 결승선을 치르게 됩니다. 매직넘버는 x + y &gt; w2 + g2 - w1과 같은 가장 작은 숫자 x +
+		y입니다.
+	</span>
+
+<p style="color:#080808; font-size:18px">
+	<span lang="en">
+		Since we are dealing with integers (whole numbers), the magic number is w<sub>2</sub>&nbsp; + g<sub>2</sub> - w<sub>1</sub>+
+		1.&nbsp;
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		우리는 정수(whole numbers)를 다루고 있기 때문에 매직넘버는 w2 + g2 - w1+1입니다.
+	</span>
+
+
 <p>
-Take the Eastern Conference standings on the morning of March 7, 2019 for example.
+	<span lang="en">
+		Take the Eastern Conference standings on the morning of March 7, 2019 for example.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		예를 들어, 2019년 3월 7일 오전 기준인 동부 컨퍼런스 순위를 보세요.
+	</span>
+
 <P style="color:#080808; font-size:18px">
 <table width=100% border=1 cellspacing=3 cellpadding=0>
 <tr style="color:#080808">
@@ -173,76 +286,219 @@ Take the Eastern Conference standings on the morning of March 7, 2019 for exampl
 <tr>
 </table>
 <p style="color:#080808; font-size:18px">
-The first-place team, Milwaukee, has 48 wins and the second-place team, Toronto, has 46 wins and 17 games left to
-play.&nbsp; So, w<sub>1</sub>= 48, w<sub>2</sub>= 46 and g<sub>2</sub>= 17, and Milwaukee's magic number is 46 + 17
-- 48 + 1 = 16. <p>This means that any combination of wins by Milwaukee and losses by Toronto totaling 16 ensures
-that Milwaukee will finish with a better record than Toronto and presumably win the Eastern Conference.&nbsp; For
-example, if Milwaukee wins 16 more games, they will finish with at least 64 wins.&nbsp; The best Toronto can do is
-46 + 17 = 63 wins.&nbsp; Thus, Milwaukee would finish ahead of Toronto.&nbsp; Likewise, if Toronto were to lose 16
-games, they would have 1 game left to play and could finish with at most 47 wins.&nbsp; Since Milwaukee already has
-48 wins, they would finish ahead of Toronto in this scenario as well.&nbsp;
-<p style="color:#080808; font-size:18px">
-Finally, suppose Milwaukee wins 6 games and Toronto loses 10 - a combination adding up to the magic number,
-16.&nbsp; In this scenario, Milwaukee would have 54 wins and Toronto would have 46 wins with 7 games left to
-play.&nbsp; This means that Toronto could finish with at most 46 + 7 = 53 wins and could not catch up with
-Milwaukee.
-<p style="color:#080808; font-size:18px">
+	<span lang="en">
+		The first-place team, Milwaukee, has 48 wins and the second-place team, Toronto, has 46 wins and 17 games left to
+		play.&nbsp; So, w<sub>1</sub>= 48, w<sub>2</sub>= 46 and g<sub>2</sub>= 17, and Milwaukee's magic number is 46 + 17
+		- 48 + 1 = 16. <p>This means that any combination of wins by Milwaukee and losses by Toronto totaling 16 ensures
+		that Milwaukee will finish with a better record than Toronto and presumably win the Eastern Conference.&nbsp; For
+		example, if Milwaukee wins 16 more games, they will finish with at least 64 wins.&nbsp; The best Toronto can do is
+		46 + 17 = 63 wins.&nbsp; Thus, Milwaukee would finish ahead of Toronto.&nbsp; Likewise, if Toronto were to lose 16
+		games, they would have 1 game left to play and could finish with at most 47 wins.&nbsp; Since Milwaukee already has
+		48 wins, they would finish ahead of Toronto in this scenario as well.&nbsp;
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		1위 밀워키는 48승, 2위 토론토는 46승에 17경기를 남겨두고 있습니다. 그래서 w1=48, w2=46,
+		g2=17, 밀워키의 매직넘버는 46 + 17 - 48 + 1 = 16입니다. 이것은 밀워키의 승리와 토론토의 패배를 합치면 밀워키가 토론토보다 더 좋은 기록으로
+		마무리되고 아마도 동부 콘퍼런스에서 우승할 것이라는 것을 의미합니다. 예를들어 밀워키가
+		16승을 더 거두면 최소 64승으로 마무리됩니다. 토론토가 할 수 있는 최선은 46 + 17 = 63승
+		입니다. 따라서 밀워키는 토론토보다 먼저 끝마칠 것입니다. 마찬가지로 토론토도 16패를 당하면
+		1경기를 남겨두고 최대 47승으로 마무리할 수 있습니다. 밀워키는 이미 48승을 거뒀기 때문에
+		이번 시나리오에서도 토론토에 앞서 마무리할 것으로 보입니다.
+	</span>
 
-Notice that RIOT lists Milwaukee's first-place clinch number as 15 - one less than the magic number.&nbsp; In this
-case, the difference is that first-place clinch number includes the possibility ties for first place while the magic
-number does not. Another drawback with the magic number is that it really only applies to a pair of teams. For
-instance, if Milwaukee wins 6 more games and Toronto losses 10 games in the example above it does not necessarily
-mean that Milwaukee will finish the season in first place. It just means that the Bucks will finish ahead of the
-Raptors. Since Indiana has not yet been eliminated, it is still possible that they could move past both Milwaukee
-and Toronto. The first-place clinch number, however, is a guarantee; no matter what else happens (except possibly a
-tie between three or more teams), the Bucks will clinch first place if they win 15 more games.
+<p style="color:#080808; font-size:18px">
+<span lang="en">
+	Finally, suppose Milwaukee wins 6 games and Toronto loses 10 - a combination adding up to the magic number,
+	16.&nbsp; In this scenario, Milwaukee would have 54 wins and Toronto would have 46 wins with 7 games left to
+	play.&nbsp; This means that Toronto could finish with at most 46 + 7 = 53 wins and could not catch up with
+	Milwaukee.
+</span>
+<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+	마지막으로, 밀워키가 6승, 토론토가 10패를 기록한다고 가정해 봅시다. 이것은 합쳐서 16승
+	입니다. 이 시나리오에서 밀워키는 54승, 토론토는 7경기를 남겨두고 46승이 예상됩니다.
+	토론토가 최대 46 + 7 = 53승으로 마칠 수 있고 밀워키를 따라잡지 못했다는 뜻입니다.
+</span>
+
+<p style="color:#080808; font-size:18px">
+	<span lang="en">
+		Notice that RIOT lists Milwaukee's first-place clinch number as 15 - one less than the magic number.&nbsp; In this
+		case, the difference is that first-place clinch number includes the possibility ties for first place while the magic
+		number does not. Another drawback with the magic number is that it really only applies to a pair of teams. For
+		instance, if Milwaukee wins 6 more games and Toronto losses 10 games in the example above it does not necessarily
+		mean that Milwaukee will finish the season in first place. It just means that the Bucks will finish ahead of the
+		Raptors. Since Indiana has not yet been eliminated, it is still possible that they could move past both Milwaukee
+		and Toronto. The first-place clinch number, however, is a guarantee; no matter what else happens (except possibly a
+		tie between three or more teams), the Bucks will clinch first place if they win 15 more games.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		리오트가 밀워키의 1위 클린치 숫자를 매직넘버보다 한 수 적은 15로 나열한 것에 주목합시다.
+		이 경우 1위 차지에 필요한 숫자가 1위 가능성 동점을 포함하지만 매직넘버는 포함하지 않는다는
+		차이점이 있습니다. 이 매직넘버의 또 다른 단점은 이 매직넘버가 실제로 한 쌍의 팀에만
+		적용된다는 것입니다. 예를 들어 위의 예에서 밀워키가 6승을 더 하고 토론토가 10패를 당했다고
+		해서 반드시 밀워키가 1위로 시즌을 마치는 것은 아닙니다. 벅스가 랩터스보다 먼저 끝마친다는
+		뜻일 뿐입니다. 인디애나가 아직 탈락하지 않았기 때문에 밀워키와 토론토를 모두 앞설 가능성도
+		여전히 있습니다. 하지만 1위 클린치 숫자는 보증수표입니다. 만약 그들이 15승을 더 하면,
+		벅스가 1위를 차지하게 될 것입니다.
+	</span>`
 
 <li>
-<a NAME="playoff"></a>How are the NBA playoff teams determined?&nbsp;</li>
+<a NAME="playoff"></a>
+	<span lang="en">
+		How are the NBA playoff teams determined?&nbsp;
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		NBA 플레이오프 팀들은 어떻게 결정되나요?
+	</span>
+</li>
 
-<p style="color:#080808; font-size:18px"> The top eight teams in each conference (Eastern and Western) are seeded in a playoff bracket. The winners of the
-two conference brackets face off in the NBA Finals. In addition to having the advantage of playing the 8th place
-team in the first round, the first-place team in each conference gets home-court advantage throughout the conference
-playoffs.
+<p style="color:#080808; font-size:18px">
+	<span lang="en">
+		The top eight teams in each conference (Eastern and Western) are seeded in a playoff bracket. The winners of the
+		two conference brackets face off in the NBA Finals. In addition to having the advantage of playing the 8th place
+		team in the first round, the first-place team in each conference gets home-court advantage throughout the conference
+		playoffs.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		각 컨퍼런스(동부와 서부)에서 상위 8개 팀이 플레이오프에 진출하게 됩니다. 두 컨퍼런스
+		브라켓(bracket)에서의 우승자들이 NBA 결승전에서 맞붙습니다. 각 컨퍼런스 1위 팀은
+		1라운드에서 8위 팀과 붙는 장점이 있을 뿐 아니라, 컨퍼런스 플레이오프 내내 홈 코트 우위를
+		점하게 됩니다.
+	</span>
 
-<li><a NAME="ties"></a>What happens when there are ties for playoff spots?</li>
+<li><a NAME="ties"></a>
+	<span lang="en">
+		What happens when there are ties for playoff spots?
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		플레이오프 진출에 동률이 생기면 어떻게 되나요?
+	</span>
+</li>
 
-<p style="color:#080808; font-size:18px">When two teams are tied for a playoff spot then the following
-sequence of criteria are applied until the tie is broken:
+<p style="color:#080808; font-size:18px">
+	<span lang="en">
+		When two teams are tied for a playoff spot then the following
+		sequence of criteria are applied until the tie is broken:
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		플레이오프에서 두 팀이 동률일 경우, 타이 브레이크가 될 때까지 다음과 같은 순서가
+		적용됩니다.
+	</span>
 
 <ol>
-<li> Head-to-head: the team with the better record in the season series between the two teams wins the tie.
-<li> Division winner: if one team is a division winner and the other isn't, the division winner wins the tie.
-<li> Division record: if the teams are in the same division, the team with the better record against teams in that
-division wins the tie.
-<li> Conference record: the team with the better record against teams in the conference wins the tie.
-<li> Record against conference playoff teams: the team with best record against teams in the conference that qualify
-for the playoffs (including teams tied for a playoff spot) wins the tie.
-<li> Record against the other conference's playoff teams: the team with best record against teams in the other conference that qualify for the playoffs (including teams tied for a playoff spot) wins the tie.
-<li> Point differential: the team with the larger difference between total points scored during the season and
-total points
-allowed during the season wins the tie.
+<li>
+	<span lang="en">
+		Head-to-head: the team with the better record in the season series between the two teams wins the tie.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+	 상대팀 간의 전적: 두 팀 간의 시즌 시리즈에서 더 좋은 기록을 가진 팀이 동점을 얻습니다.
+	</span>
+
+<li>
+	<span lang="en">
+		Division winner: if one team is a division winner and the other isn't, the division winner wins the tie.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		디비전 우승자: 한 팀이 디비전 우승자이고 다른 팀이 우승하지 않으면 디비전
+		우승자가 동점을 얻습니다.
+	</span>
+
+<li>
+	<span lang="en">
+		Division record: if the teams are in the same division, the team with the better record against teams in that
+		division wins the tie.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		디비전 기록: 같은 디비전에 속할 경우 해당 디비전에 속한 팀보다 더 좋은 성적을 거둔 팀이
+		동률처리에서 승리하게 됩니다.
+	</span>
+
+<li>
+	<span lang="en">
+		Conference record: the team with the better record against teams in the conference wins the tie.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		컨퍼런스 기록: 컨퍼런스 내에서 상대팀과 더 좋은 기록을 가진 팀이 앞서게 됩니다.
+	</span>
+
+<li>
+	<span lang="en">
+		Record against conference playoff teams: the team with best record against teams in the conference that qualify
+		for the playoffs (including teams tied for a playoff spot) wins the tie.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		컨퍼런스 플레이오프 팀과의 기록: 컨퍼런스 내에서(플레이오프 진출 팀 포함)가장 높은
+		성적을 거둔 팀이 동률처리에서 승리하게 됩니다.
+	</span>
+
+<li>
+	<span lang="en">
+		Record against the other conference's playoff teams: the team with best record against teams in the other conference that qualify for the playoffs (including teams tied for a playoff spot) wins the tie.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		다른 컨퍼런스 플레이오프 팀과의 경기 기록: 다른 컨퍼런스 팀(플레이오프 진출 동률팀
+		포함)에서 최고 성적을 거둔 팀이 동률처리에서 승리하게 됩니다.
+	</span>
+
+<li>
+	<span lang="en">
+		Point differential: the team with the larger difference between total points scored during the season and
+		total points
+		allowed during the season wins the tie.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		점수 차등: 시즌 동안 득점한 총점과 시즌 동안 실점한 총점의 차이가 큰 팀이 동률처리에서
+		승리하게 됩니다.
+	</span>
+
 </ol>
 <p style="color:#080808; font-size:18px">
-The process for breaking ties between three or more teams is described at the bottom of the <a href="https://stats.nba.com/standings/">official NBA standings page<a>.
-There have only been four times since 2000 that this process has been used and in all of those cases all of the
-tied teams went to the playoffs&mdash;the tiebreakers were need solely for seeding in the playoff bracket.
-This process can be quite complicated and we are still working on incorporating it in our calculations.
-
+	<span lang="en">
+		The process for breaking ties between three or more teams is described at the bottom of the <a href="https://stats.nba.com/standings/">official NBA standings page<a>.
+		There have only been four times since 2000 that this process has been used and in all of those cases all of the
+		tied teams went to the playoffs&mdash;the tiebreakers were need solely for seeding in the playoff bracket.
+		This process can be quite complicated and we are still working on incorporating it in our calculations.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		공식 NBA 순위 페이지 하단에 3개 이상의 팀 간의 타이브레이크하는 방법이 설명되어 있습니다.
+		이 방법이 사용된 것은 2000년 이후 단 4번뿐이었고 모든 동률팀들은 모두 플레이오프에
+		진출했습니다. 즉, 플레이오프 브라켓 시드 하는데만 (3개팀이상) 동률처리방법들이
+		필요하였습니다. 이 과정은 꽤 복잡할 수 있고 우리는 여전히 그것을 우리의 계산에 포함시키기
+		위해 노력하고 있습니다.
+	</span>
 
 
 <li>
-<a NAME="fpe"></a>If RIOT says that my team's first-place elimination number is zero, does that mean my team has clinched first place?</li>
-<p style="color:#080808; font-size:18px">
+<a NAME="fpe"></a>
+	<span lang="en">
+		If RIOT says that my team's first-place elimination number is zero, does that mean my team has clinched first place?
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		리오트가 우리 팀의 1위 탈락 번호가 0이라고 말한다면 우리 팀이 1위를 확정했다는
+		뜻인가요?
+	</span>
+</li>
 
-Not necessarily. In the example above, the first-place elimination numbers for Milwaukee and Toronto are 0 and 3,
-respectively. With 17 games left, Toronto still has a chance to finish in first place. So, Milwaukee hasn't clinched
-anything yet.  Having a first-place elimination number of 0 simply means that it's <i>possible</i> for Milwaukee to
-finish in first place without winning another game. In other words there is at least one scenario in which no team
-in the Eastern East wins more than 48 games.  Based on the current standings and schedule of remaining games,
-Milwaukee needs to win at least 15 more games to guarantee a first-place finish. Meanwhile if Toronto doesn't win at
-least 3 more games, they can't possibly catch up to Milwaukee. So, they need to win at least 3 more games to avoid
-being eliminated from first place.
+<p style="color:#080808; font-size:18px">
+	<span lang="en">
+		Not necessarily. In the example above, the first-place elimination numbers for Milwaukee and Toronto are 0 and 3,
+		respectively. With 17 games left, Toronto still has a chance to finish in first place. So, Milwaukee hasn't clinched
+		anything yet.  Having a first-place elimination number of 0 simply means that it's <i>possible</i> for Milwaukee to
+		finish in first place without winning another game. In other words there is at least one scenario in which no team
+		in the Eastern East wins more than 48 games.  Based on the current standings and schedule of remaining games,
+		Milwaukee needs to win at least 15 more games to guarantee a first-place finish. Meanwhile if Toronto doesn't win at
+		least 3 more games, they can't possibly catch up to Milwaukee. So, they need to win at least 3 more games to avoid
+		being eliminated from first place.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		꼭 그렇다고 할 수는 없습니다. 위의 예에서 밀워키와 토론토의 1위 탈락 숫자는 각각 0과
+		3입니다. 17경기를 남겨둔 토론토는 여전히 1위를 할 수 있는 기회가 남아 있습니다. 그래서
+		밀워키는 아직 아무것도 결정하지 못했습니다. 1위 탈락자 수가 0이라는 것은 단순히 밀워키가
+		다른 경기에서 이기지 않고 1위를 할 수 있다는 것을 의미합니다. 48경기 이상 동부에서
+		승리하는 팀이 없는 시나리오는 적어도 하나 있다는 뜻입니다. 밀워키는 현재 순위와 남은 경기
+		일정을 기준으로 최소 15승을 더 거둬야 1위 마무리가 보장됩니다. 한편 토론토가 최소 3승을
+		거두지 못하면 밀워키를 따라잡지 못할 가능성이 있습니다. 그래서 1위에서 탈락하지 않으려면
+		최소 3승을 더 해야 합니다.
+	</span>
 
 </ol>
 
@@ -272,6 +528,27 @@ being eliminated from first place.
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+						$('[lang]').hide(); // hide all lang attributes on start.
+						$('[lang="en"]').show(); // show just Korean text (you can change it)
+						$('#lang-switch').change(function () { // put onchange event when user select option from select
+								var lang = $(this).val(); // decide which language to display using switch case. The rest is obvious (i think)
+								switch (lang) {
+										case 'en':
+												$('[lang]').hide();
+												$('[lang="en"]').show();
+										break;
+										case 'ko':
+												$('[lang]').hide();
+												$('[lang="ko"]').show();
+										break;
+										default:
+												$('[lang]').hide();
+												$('[lang="en"]').show();
+										}
+						});
+				</script>
 
 	</body>
 </html>

@@ -3,6 +3,14 @@
 	Urban by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+
+
+	<span lang="en">
+
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+
+	</span>
 -->
 <html>
 	<head>
@@ -47,28 +55,75 @@
 				<section class="wrapper style1">
 					<div class="inner">
 
-						<h2>Playoff Clinching and Elimination in the NBA</h2>
+						<form>
+								<label for="lang-switch">
+										<span style="display: none;" lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">언어</span>
+										<span style="display: inline;" lang="en">Language</span>
+								</label>
+								<select id="lang-switch">
+										<option value="en" selected="selected">English</option>
+										<option value="ko">한국어</option>
+								</select>
+						</form>
+
+						<h2>
+							<span lang="en">
+								Playoff Clinching and Elimination in the NBA
+							</span>
+							<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+								NBA의 플레이오프 결정과 탈락
+							</span>
+						</h2>
 <p style="color:#080808; font-size:18px">
-As the end of the season approaches, fans like to engage in speculation about which teams will advance to the
-playoffs (the top eight in each conference) and whether their favorite team is still in contention. Sports media
-publish articles declaring that a particular team has been <a
-href="https://www.nytimes.com/2019/03/05/sports/knicks-eliminated-playoffs.html">eliminated from contention</a> or
-that the <a
-href="http://www.wtmj.com/sports/basketball/milwaukee-bucks/bucks-first-team-in-nba-to-clinch-playoff-spot/1046294500">first
-place team has clinched a playoff berth</a>.  On this page we start with an <a href="#intro">introductory
-example</a> of how these determinations can often be made by looking at the standings and making a few simple
-calculations. We also use this example to show how the RIOT numbers improve on the simple calculations by taking the
-remaining schedule of games and the NBA's two-team tiebreakers into account.  Next, we given an example of how the
-RIOT standings can actually tell you when a team has locked up a playoff spot or fallen out of contention <a
-href="#GoldenState">days before it is reported anywhere else!</a> Determining when a team has clinched a playoff
-berth can be quite complex. In fact, we show an example on this page where
-<a href="#Boston">even the NBA got it wrong.</a> At the <a href="#MIP">end of the page</a> we briefly discuss the
-role of advanced analytics in calculating the RIOT numbers and give suggestions for further reading.
+	<span lang="en">
+		As the end of the season approaches, fans like to engage in speculation about which teams will advance to the
+		playoffs (the top eight in each conference) and whether their favorite team is still in contention. Sports media
+		publish articles declaring that a particular team has been <a
+		href="https://www.nytimes.com/2019/03/05/sports/knicks-eliminated-playoffs.html">eliminated from contention</a> or
+		that the <a
+		href="http://www.wtmj.com/sports/basketball/milwaukee-bucks/bucks-first-team-in-nba-to-clinch-playoff-spot/1046294500">first
+		place team has clinched a playoff berth</a>.  On this page we start with an <a href="#intro">introductory
+		example</a> of how these determinations can often be made by looking at the standings and making a few simple
+		calculations. We also use this example to show how the RIOT numbers improve on the simple calculations by taking the
+		remaining schedule of games and the NBA's two-team tiebreakers into account.  Next, we given an example of how the
+		RIOT standings can actually tell you when a team has locked up a playoff spot or fallen out of contention <a
+		href="#GoldenState">days before it is reported anywhere else!</a> Determining when a team has clinched a playoff
+		berth can be quite complex. In fact, we show an example on this page where
+		<a href="#Boston">even the NBA got it wrong.</a> At the <a href="#MIP">end of the page</a> we briefly discuss the
+		role of advanced analytics in calculating the RIOT numbers and give suggestions for further reading.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		시즌 종료가 다가오면 팬들은 어떤 팀이 플레이오프에 진출할 것인지(컨퍼런스 별 상위 8개팀)와 자신이
+		좋아하는 팀이 여전히 (진출을 놓고) 경합 중인지 알고 싶어합니다. 스포츠매체는 특정팀이 경합에서
+		탈락했거나 1위 팀이 플레이오프 진출을 확정했다고 선언하는 기사를 게재합니다. 이 페이지에서는
+		이러한 결정이 종종 순위를 보고 몇 가지 간단한 계산을 통해 이루어질 수 있는 사례로 시작합니다. 우리는
+		또한 이 예를 사용하여 남은 경기 일정과 NBA의 2개 팀 타이브레이커를 고려하여 이러한 간단한 계산을
+		리오트 넘버가 어떻게 개선시키는지 보여줍니다. 다음으로, 다른 언론 등에서 발표되기 며칠 전에
+		특정팀이 플레이 오프 진출 확정이나 그 경쟁에서 탈락하는지를 리오트 순위표가 여러분에게 어떻게
+		실제로 알려 줄 수 있는지 예로 보여줍니다. 팀이 언제 플레이오프 진출권을 확정했는지 결정하는 것은
+		매우 복잡할 수 있습니다. 사실, 우리는 이 페이지에서 NBA가 틀렸었던 사례도 소개합니다. 페이지 끝에는
+		리오트 넘버에 계산에 대한 뛰어난 분석의 역할에 대해 간략히 논의하고 추가로 읽을 거리에 대해서도
+		추천합니다.
+	</span>
 </p>
 <p style="color:#080808; font-size:18px">
 <hr>
-<a name="intro"><h2>Introductory Example</h2></a>
-The table below shows the RIOT standings for the Eastern Conference on the morning of March 7, 2019.
+<a name="intro">
+	<h2>
+		<span lang="en">
+			Introductory Example
+		</span>
+		<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+			소개 예제
+		</span>
+	</h2>
+</a>
+	<span lang="en">
+		The table below shows the RIOT standings for the Eastern Conference on the morning of March 7, 2019.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		아래 표는 2019년 3월 7일 오전 당시의 NBA의 동부지구에 대한 리오트 순위표입니다.
+	</span>
 <p style="color:#080808; font-size:18px">
 <table width=100% border=1 cellspacing=3 cellpadding=0>
 <tr>
@@ -78,23 +133,114 @@ The table below shows the RIOT standings for the Eastern Conference on the morni
 <td align=center></td>
 <td align=center></td>
 <td align=center></td>
-<td align=center colspan=2><b><a href="numbers_explanation_NBA.html#clinch">Clinch</a></b></td>
-<td align=center colspan=2><b><a href="numbers_explanation_NBA.html#elim">Avoid Elim</a></b></td>
+<td align=center colspan=2><b><a href="numbers_explanation_NBA.html#clinch">
+																<span lang="en">
+																	Clinch
+																</span>
+																<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+																	클린치
+																</span>
+															</a></b></td>
+<td align=center colspan=2><b><a href="numbers_explanation_NBA.html#elim">
+															<span lang="en">
+																Avoid Elim
+															</span>
+															<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+																탈락방지 승수
+															</span>
+														</a></b></td>
 </tr>
 <tr>
-<td align=left><b>Team</b></td>
-<td align=center><b>W</b></td>
-<td align=center><b>L</b></td>
-<td align=center><b>GB</b></td>
-<td align=center><b>PCT</b></td>
-<td align=center><b>GL</b></td>
-<td align=center><b>1st</b></td>
-<td align=center><b>Postseason</b></td>
-<td align=center><b>1st</b></td>
-<td align=center><b>Postseason</b></td>
+<td align=left><b>
+								<span lang="en">
+									Team
+								</span>
+								<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+									팀
+								</span>
+							  </b></td>
+<td align=center><b>
+								<span lang="en">
+									W
+								</span>
+								<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+									승
+								</span>
+								</b></td>
+<td align=center><b>
+								<span lang="en">
+									L
+								</span>
+								<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+									패
+								</span>
+								</b></td>
+<td align=center><b>
+								<span lang="en">
+									GB
+								</span>
+								<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+									게임차
+								</span>
+								</b></td>
+<td align=center><b>
+								<span lang="en">
+									PCT
+								</span>
+								<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+									승률
+								</span>
+								</b></td>
+<td align=center><b>
+								<span lang="en">
+									GL
+								</span>
+								<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+									남은경기
+								</span>
+								</b></td>
+<td align=center><b>
+								<span lang="en">
+									1st
+								</span>
+								<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+									1위
+								</span>
+								</b></td>
+<td align=center><b>
+								<span lang="en">
+									Postseason
+								</span>
+								<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+									포스트시즌
+								</span>
+								</b></td>
+<td align=center><b>
+								<span lang="en">
+									1st
+								</span>
+								<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+									1위
+								</span>
+								</b></td>
+<td align=center><b>
+								<span lang="en">
+									Postseason
+								</span>
+								<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+									포스트시즌
+								</span>
+								</b></td>
 </tr>
 <tr>
-<td align=left>Milwaukee</td>
+<td align=left>
+	<span lang="en">
+		Milwaukee
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		밀워키
+	</span>
+</td>
 <td align=center>48</td>
 <td align=center>16</td>
 <td align=center>-</td>
@@ -106,7 +252,14 @@ The table below shows the RIOT standings for the Eastern Conference on the morni
 <td align=center>0</td>
 </tr>
 <tr>
-<td align=left>Toronto</td>
+<td align=left>
+	<span lang="en">
+		Toronto
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		토론토
+	</span>
+</td>
 <td align=center>46</td>
 <td align=center>19</td>
 <td align=center>2.5</td>
@@ -118,7 +271,14 @@ The table below shows the RIOT standings for the Eastern Conference on the morni
 <td align=center>0</td>
 </tr>
 <tr>
-<td align=left>Indiana</td>
+<td align=left>
+	<span lang="en">
+		Indiana
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		인디애나
+	</span>
+</td>
 <td align=center>42</td>
 <td align=center>23</td>
 <td align=center>6.5</td>
@@ -130,7 +290,14 @@ The table below shows the RIOT standings for the Eastern Conference on the morni
 <td align=center>0</td>
 </tr>
 <tr>
-<td align=left>Philadelphia</td>
+<td align=left>Philadelphia
+	<span lang="en">
+		Philadelphia
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		필라델피아
+	</span>
+</td>
 <td align=center>41</td>
 <td align=center>24</td>
 <td align=center>7.5</td>
@@ -142,7 +309,14 @@ The table below shows the RIOT standings for the Eastern Conference on the morni
 <td align=center>0</td>
 </tr>
 <tr>
-<td align=left>Boston</td>
+<td align=left>Boston
+	<span lang="en">
+		Boston
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		보스턴
+	</span>
+</td>
 <td align=center>40</td>
 <td align=center>26</td>
 <td align=center>9</td>
@@ -154,7 +328,14 @@ The table below shows the RIOT standings for the Eastern Conference on the morni
 <td align=center>0</td>
 </tr>
 <tr>
-<td align=left>Detroit</td>
+<td align=left>
+	<span lang="en">
+		Detroit
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		디트로이트
+	</span>
+</td>
 <td align=center>32</td>
 <td align=center>31</td>
 <td align=center>15.5</td>
@@ -166,7 +347,14 @@ The table below shows the RIOT standings for the Eastern Conference on the morni
 <td align=center>0</td>
 </tr>
 <tr>
-<td align=left>Brooklyn</td>
+<td align=left>Brooklyn
+	<span lang="en">
+		Brooklyn
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		브루클린
+	</span>
+</td>
 <td align=center>34</td>
 <td align=center>33</td>
 <td align=center>15.5</td>
@@ -178,7 +366,14 @@ The table below shows the RIOT standings for the Eastern Conference on the morni
 <td align=center>0</td>
 </tr>
 <tr>
-<td align=left>Miami</td>
+<td align=left>Miami
+	<span lang="en">
+		Miami
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		밀워키
+	</span>
+</td>
 <td align=center>30</td>
 <td align=center>34</td>
 <td align=center>18</td>
@@ -190,7 +385,14 @@ The table below shows the RIOT standings for the Eastern Conference on the morni
 <td align=center>2</td>
 </tr>
 <tr>
-<td align=left>Orlando</td>
+<td align=left>Orlando
+	<span lang="en">
+		Orlando
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		올랜도
+	</span>
+</td>
 <td align=center>30</td>
 <td align=center>36</td>
 <td align=center>19</td>
@@ -202,7 +404,14 @@ The table below shows the RIOT standings for the Eastern Conference on the morni
 <td align=center>2</td>
 </tr>
 <tr>
-<td align=left>Charlotte</td>
+<td align=left>Charlotte
+	<span lang="en">
+		Charlotte
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		샬롯
+	</span>
+</td>
 <td align=center>29</td>
 <td align=center>35</td>
 <td align=center>19</td>
@@ -214,7 +423,14 @@ The table below shows the RIOT standings for the Eastern Conference on the morni
 <td align=center>2</td>
 </tr>
 <tr>
-<td align=left>Washington</td>
+<td align=left>
+	<span lang="en">
+		Washington
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		워싱턴
+	</span>
+</td>
 <td align=center>27</td>
 <td align=center>37</td>
 <td align=center>21</td>
@@ -226,7 +442,14 @@ The table below shows the RIOT standings for the Eastern Conference on the morni
 <td align=center>4</td>
 </tr>
 <tr>
-<td align=left>Atlanta</td>
+<td align=left>
+	<span lang="en">
+		Atlanta
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		애틀랜타
+	</span>
+</td>
 <td align=center>22</td>
 <td align=center>44</td>
 <td align=center>27</td>
@@ -238,7 +461,14 @@ The table below shows the RIOT standings for the Eastern Conference on the morni
 <td align=center>9</td>
 </tr>
 <tr>
-<td align=left>Chicago</td>
+<td align=left>
+	<span lang="en">
+		Chicago
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		시카고
+	</span>
+</td>
 <td align=center>19</td>
 <td align=center>47</td>
 <td align=center>30</td>
@@ -250,7 +480,14 @@ The table below shows the RIOT standings for the Eastern Conference on the morni
 <td align=center>12</td>
 </tr>
 <tr>
-<td align=left>Cleveland</td>
+<td align=left>
+	<span lang="en">
+		Cleveland
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		클리블랜드
+	</span>
+</td>
 <td align=center>16</td>
 <td align=center>49</td>
 <td align=center>32.5</td>
@@ -262,7 +499,14 @@ The table below shows the RIOT standings for the Eastern Conference on the morni
 <td align=center>16</td>
 </tr>
 <tr>
-<td align=left>New York</td>
+<td align=left>
+	<span lang="en">
+		New York
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		뉴욕
+	</span>
+</td>
 <td align=center>13</td>
 <td align=center>52</td>
 <td align=center>35.5</td>
@@ -276,68 +520,144 @@ The table below shows the RIOT standings for the Eastern Conference on the morni
 </table>
 <br>
 <p style="color:#080808; font-size:18px">
-The Games Left (GL) columns shows that the New York Knicks have 17 games left to play in the season. The Knicks
-have 13 wins at this point, so they can finish the season with at most 30.
-Since there's no way that the Knicks can catch up to the first-place Milwaukee Bucks who already have 48 wins, the
-standings show that New York is mathematically eliminated from first place. This is indicated by the word "Elim" in
-the "1st" column under the "Avoid Elim" heading. Since there are six other teams that are also eliminated from
-first place, the Bucks are guaranteed to be one of the top eight teams in the final standings. The word "In" in the
-"Postseason" column under the "Clinch" column indicates that Milwaukee has clinched a playoff spot.
+	<span lang="en">
+		The Games Left (GL) columns shows that the New York Knicks have 17 games left to play in the season. The Knicks
+		have 13 wins at this point, so they can finish the season with at most 30.
+		Since there's no way that the Knicks can catch up to the first-place Milwaukee Bucks who already have 48 wins, the
+		standings show that New York is mathematically eliminated from first place. This is indicated by the word "Elim" in
+		the "1st" column under the "Avoid Elim" heading. Since there are six other teams that are also eliminated from
+		first place, the Bucks are guaranteed to be one of the top eight teams in the final standings. The word "In" in the
+		"Postseason" column under the "Clinch" column indicates that Milwaukee has clinched a playoff spot.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		뉴욕 닉스가 시즌에 17경기를 남겨두고 있다는 것을 남은 경기수 칼럼을 통해 알 수 있습니다. 닉스는 이 시점에서 13승을 거두어 겨우 30승으로 시즌을 마칠 수 있습니다. 이미 48승을 거둔 1위 밀워키 벅스를 닉스가 따라잡을 방법이 없기 때문에 뉴욕이 수학적으로 1위에서 탈락한 셈입니다. 이는 '탈락방지 승수' 칼럼 아래에 '1위' 열에 'Elim'이라는 글자로 표시됩니다. 그 외 6개 팀이 1위에서 탈락했기 때문에 벅스는 최종 순위 상위 8개 팀 중 한 팀이 될 것이 보장됩니다. '클린치'란 칼럼 아래 '포스트시즌' 칼럼에 'In'이라는 단어가 들어간 것은 밀워키가 플레이오프 자리를 굳혔음을 보여줍니다.
+	</span>
 
-<h3>Taking the Schedule into Account</h3>
+<h3>
+	<span lang="en">
+		Taking the Schedule into Account
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		남은 경기 일정을 고려
+	</span>
+</h3>
 
-It's not obvious from the standings why the Knicks are eliminated from the playoffs. If the they win all of their
-remaining games while the current 8th and 9th place Miami Heat and Orlando Magic lose all of theirs, then New York
-could finish the season with 30 wins in a three-way tie with Miami and Orlando. However, if we look at the <a
-href="https://www.basketball-reference.com/teams/CHO/2019_games.html">Charlotte Hornet's schedule<a/>, we see that they play Miami on 3/17 and
-Orlando on 4/10. Our hypothetical three-way tie would have the Hornets (currently 29 and 35) wining both of these
-games and moving ahead of the three 30-win teams in the final standings. So no matter how many more games the Knicks
-win, they can't make the playoffs. This is indicated by the word "Elim" in the "postseason" column under the "Avoid
-Elim" heading.
+<span lang="en">
+	It's not obvious from the standings why the Knicks are eliminated from the playoffs. If the they win all of their
+	remaining games while the current 8th and 9th place Miami Heat and Orlando Magic lose all of theirs, then New York
+	could finish the season with 30 wins in a three-way tie with Miami and Orlando. However, if we look at the <a
+	href="https://www.basketball-reference.com/teams/CHO/2019_games.html">Charlotte Hornet's schedule<a/>, we see that they play Miami on 3/17 and
+	Orlando on 4/10. Our hypothetical three-way tie would have the Hornets (currently 29 and 35) wining both of these
+	games and moving ahead of the three 30-win teams in the final standings. So no matter how many more games the Knicks
+	win, they can't make the playoffs. This is indicated by the word "Elim" in the "postseason" column under the "Avoid
+	Elim" heading.
+</span>
+<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+	닉스가 플레이오프에서 탈락하는 이유는 순위에서 볼 때 분명하지 않습니다. 현재 8·9위 마이애미 히트와 올랜도 매직 등이 모두 패한 상태에서 남은 경기를 모두 이기면 뉴욕은 마이애미, 올랜도와 3파전 무승부로 시즌을 마칠 수 있습니다. 그러나 샬롯 호넷의 스케줄을 보면 3월 17일 마이애미, 4월 10일 올랜도 등과 경기를 하는 것을 알 수 있습니다. 우리의 가상의 3파전은 호넷스(현재 29, 35)가 이 두 경기를 모두 이기고 최종 순위에서 30승을 거둔 세 팀보다 앞서 나가는 결과를 가져올 것입니다. 그래서 아무리 닉스 팀이 이기더라도 플레이오프에 진출할 수 없습니다. 이는 '탈락방지 승수' 칼럼 아래의 '포스트시즌'란에 'Elim'이라는 글자로 표시됩니다.
+</span>
 
-<h3>Taking Tiebreakers into Account</h3>
+<h3>
+	<span lang="en">
+		Taking Tiebreakers into Account
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		동률일 경우 고려
+	</span>
+</h3>
 
-<h4>Milwaukee's First Place Clinch Number</h4>
+<h4>
+	<span lang="en">
+		Milwaukee's First Place Clinch Number
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		밀워키의 1위 클린치 넘버
+	</span>
+</h4>
 
-The standings table above indicates that Milwaukee can clinch first place in the conference by winning 15 more
-games.  Again, this is not obvious from the standings. Winning 15 more games would bring the Bucks win total to 48
-+ 15 = 63, which is also the maximum number of wins that the Toronto Raptors can achieve (46 + 17). So it's possible
-that the Bucks and Raptors could finish in a first-place tie with 63 wins each. However, Milwaukee would be awarded
-first place in this scenario since they have already won the season series with Toronto three games to one.
+<span lang="en">
+	The standings table above indicates that Milwaukee can clinch first place in the conference by winning 15 more
+	games.  Again, this is not obvious from the standings. Winning 15 more games would bring the Bucks win total to 48
+	+ 15 = 63, which is also the maximum number of wins that the Toronto Raptors can achieve (46 + 17). So it's possible
+	that the Bucks and Raptors could finish in a first-place tie with 63 wins each. However, Milwaukee would be awarded
+	first place in this scenario since they have already won the season series with Toronto three games to one.
+</span>
+<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+	위의 순위표는 밀워키가 15경기를 더 이기면 컨퍼런스 1위를 차지할 수 있다는 것을 나타냅니다. 다시 말하지만, 다시 말씀드리지 순위표만 보면 명백하지 않습니다. 15승을 더하면 벅스 우승은 총 48 + 15 = 63으로, 토론토 랩터스가 달성할 수 있는 최대 승수(46 + 17)이기도 합니다. 그래서 벅스와 랩터스가 각각 63승을 거두며 1위 타이로 마무리할 가능성도 있습니다. 하지만 밀워키는 토론토와의 시즌 시리즈에서 이미 3대 1로 승리했기 때문에 이 시나리오에서 1위를 할 것입니다.
+</span>
 
-<h4>Toronto's First Place Elimination Number</h4>
+<h4>
+	<span lang="en">
+		Toronto's First Place Elimination Number
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		토론토의 1위 탈락방지 승수
+	</span>
+</h4>
 
-Due to the losing the tiebreaker, Toronto will have to get to at least 49 wins to finish in first place in the
-conference. Notice that that their First Place Elimination number is 3. That is, they have a 3 in the "1st" column
-under the "Avoid Elim" heading. This indicates that there is a scenario in which the Raptors come in first place in
-the conference with a 49 and 33 record. Likewise, there's a scenario where the Bucks win the conference despite
-losing all of their remaining games.
+<span lang="en">
+	Due to the losing the tiebreaker, Toronto will have to get to at least 49 wins to finish in first place in the
+	conference. Notice that that their First Place Elimination number is 3. That is, they have a 3 in the "1st" column
+	under the "Avoid Elim" heading. This indicates that there is a scenario in which the Raptors come in first place in
+	the conference with a 49 and 33 record. Likewise, there's a scenario where the Bucks win the conference despite
+	losing all of their remaining games.
+</span>
+<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+	타이브레이커의 패배로 인해 토론토는 컨퍼런스 1위를 다투기 위해서는 최소 49승을 거두어야 할 것입니다. 그래서, 1위 탈락방지 승수는 3이라는 점에 확인하세요. 즉, 'Avoid Elim' 칼럼 아래에 '1위' 열에 ’3’이 있습니다. 이번 콘퍼런스에서 랩터스가 49, 33의 기록으로 1위를 차지하는 시나리오가 있다는 의미입니다. 마찬가지로 벅스가 남은 경기를 모두 지지만 컨퍼런스에서는 우승하는 시나리오도 있습니다.
+</span>
 
 
-<h4>Indiana's First Place Elimination Number</h4>
+<h4>
+	<span lang="en">
+		Indiana's First Place Elimination Number
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		인디애나 1위 탈락방지 승수
+	</span>
+</h4>
 
-Indiana's First Place Elimination Number in the standings table is 6, indicating that there's a scenario in which
-they come in first place in the conference with a 48 and 32. Clearly, this would involve a tie with the Bucks. At
-this point in season the Bucks lead the series 2 games to 1. In the scenario indicated in the standings table,
-the Pacers win their fourth, and final, game with the Bucks, and win enough other games against the right teams to
-win the tiebreaker.
+<span lang="en">
+	Indiana's First Place Elimination Number in the standings table is 6, indicating that there's a scenario in which
+	they come in first place in the conference with a 48 and 32. Clearly, this would involve a tie with the Bucks. At
+	this point in season the Bucks lead the series 2 games to 1. In the scenario indicated in the standings table,
+	the Pacers win their fourth, and final, game with the Bucks, and win enough other games against the right teams to
+	win the tiebreaker.
+</span>
+<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+	순위표에서 인디애나의1위 탈락방지 승수는 6으로, 48과 32로 컨퍼런스에서 1위를 차지하는 시나리오가 있음을 보여줍니다. 분명히, 이건 벅스와의 연관성이 있습니다. 이 점에서 벅스는 시즌에서 2대 1로 리드하고 있습니다. 순위표에서 제시된 시나리오에서 페이서스는 타이브레이커를 이길 수 있도록 벅스와의 네 번째, 그리고 마지막 경기에서 승리하고 다른 팀을 상대로한 경기들에서 승리하면 됩니다.
+</span>
 
 
 <hr>
-<a name="GoldenState"><h2>A Missed Call: Golden State Clinched and Didn't Realize It</h2></a>
-
-On March 12, 2018 the <a href="https://www.nba.com/warriors/news/playoffs-2018-clinched">NBA announced that the
-Golden State Warriors had clinched their sixth straight playoff berth</a>.  This was true, but it turns out that the
-Warriors and their fans could have celebrated the clinch three days earlier.  This surprising discovery is reported
-in the whitepaper "National Basketball Association Playoff Elimination with Tiebreaking" by Husted, Olinick, and
-Newman who explain the situation as follows.
+<a name="GoldenState"><h2>
+											<span lang="en">
+												A Missed Call: Golden State Clinched and Didn't Realize It
+											</span>
+											<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+												때 놓친 확인: 골든스테이트는 확정되었지만 깨닫지 못했다.
+											</span>
+											</h2></a>
 <p style="color:#080808; font-size:18px">
-The table below shows the Western Conference standings at the time in question, immediately after all games had been
-played on March 9, 2018. The Maximum Possible Wins column shows that the five teams in Group C were going to finish
-the season behind Golden State, which had already won 51 games.  It appears that the Warriors had not yet clinched a
-playoff spot because there were nine teams that could have potentially finished with better records: Houston and the
-eight teams in Group B.  However, it turns out that regardless of the way in which the rest of the games in the
-season concluded, Golden State was guaranteed to make the playoffs.
+<span lang="en">
+	On March 12, 2018 the <a href="https://www.nba.com/warriors/news/playoffs-2018-clinched">NBA announced that the
+	Golden State Warriors had clinched their sixth straight playoff berth</a>.  This was true, but it turns out that the
+	Warriors and their fans could have celebrated the clinch three days earlier.  This surprising discovery is reported
+	in the whitepaper "National Basketball Association Playoff Elimination with Tiebreaking" by Husted, Olinick, and
+	Newman who explain the situation as follows.
+
+	The table below shows the Western Conference standings at the time in question, immediately after all games had been
+	played on March 9, 2018. The Maximum Possible Wins column shows that the five teams in Group C were going to finish
+	the season behind Golden State, which had already won 51 games.  It appears that the Warriors had not yet clinched a
+	playoff spot because there were nine teams that could have potentially finished with better records: Houston and the
+	eight teams in Group B.  However, it turns out that regardless of the way in which the rest of the games in the
+	season concluded, Golden State was guaranteed to make the playoffs.
+</span>
+<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+	2018년 3월 12일, NBA는 골든스테이트 워리어스가 6회 연속으로 플레이오프에 진출했다고 발표했습니다. 이것은 사실이었지만, 워리어스와 팬들은 이미 3일 전에 축하할 수 있었다는 것이 밝혀졌습니다. 이 놀라운 발견은 허스테드 박사, 올리닉 교수, 뉴먼 교수의 ' National Basketball Association Playoff Elimination with Tiebreaking ' 화이트페이터에 게재된 리포트에 다음과 같이 설명되어 있습니다.
+아래 표는 2018년 3월 9일 모든 경기가 끝난 직후, 문제의 당시 웨스턴 컨퍼런스 순위를 보여줍니다. “Maximum Possible Wins” 컬럼은 C조 5개 팀이 이미 51승을 거둔 골든스테이트에 이어 시즌을 마칠 예정이었음을 보여줍니다. 워리어스가 플레이오프 진출을 확정하지 못한 것은 9개 팀이 더 좋은 성적을 낼 수 있었기 때문으로 보입니다. 하지만 휴스턴과 B조에 속한 8개 팀 하지만 시즌 나머지 경기가 어떤 식으로 마무리됐든 골든스테이트는 플레이오프 진출이 보장된 것으로 나타났습니다.
+
+</span>
+
+
 <p style="color:#080808; font-size:18px">
 <table width=100% border=1 cellspacing=3 cellpadding=0>
 <tr>
@@ -475,26 +795,44 @@ season concluded, Golden State was guaranteed to make the playoffs.
 </tr>
 </table>
 <p style="color:#080808; font-size:18px">
-A straightforward calculation shows at most seven of the teams in Group B could have finished the season with 51 or
-more wins, which means that Golden State was already guaranteed to finish the season ahead of at least six teams in
-the conference.  Observe that the sum of the Maximum Possible Wins for this group was 428. This counts the games in
-the right-most column of the standings table twice. Therefore, the maximum collective win total for the this group
-was 428 - 25 = 403, and the maximum average number of wins for these teams was 403 &#247; 8 = 50.38. Keep in mind
-that at least one of the teams would have to be at or below average in wins. Rounding 50.38 down to 50, this means
-at least one of these eight teams would necessarily finish the season with 50 or fewer wins (i.e., behind Golden
-State in the standings).
+<span lang="en">
+	A straightforward calculation shows at most seven of the teams in Group B could have finished the season with 51 or
+	more wins, which means that Golden State was already guaranteed to finish the season ahead of at least six teams in
+	the conference.  Observe that the sum of the Maximum Possible Wins for this group was 428. This counts the games in
+	the right-most column of the standings table twice. Therefore, the maximum collective win total for the this group
+	was 428 - 25 = 403, and the maximum average number of wins for these teams was 403 &#247; 8 = 50.38. Keep in mind
+	that at least one of the teams would have to be at or below average in wins. Rounding 50.38 down to 50, this means
+	at least one of these eight teams would necessarily finish the season with 50 or fewer wins (i.e., behind Golden
+	State in the standings).
+</span>
+<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+간단한 계산으로 하면 B조의 7개 팀 대부분이 51승 이상으로 시즌을 마칠 수 있는데, 이는 워리어즈가 컨퍼런스에서 최소 6개 팀을 앞서 시즌을 마칠 수 있다는 것을 의미합니다. 이 그룹에 대한 최대 가능 승수의 합계가 428이었는지를 보시면 이것은 순위표에서 가장 오른쪽 열에 있는 게임을 두 번 계산합니다. 따라서 이 조의 최대 전체 승수는 428 - 25 = 403이었고, 이들 조의 최대 평균 승수는 403 ÷ 8 = 50.38이었습니다. 적어도 팀 중 한 팀이 평균 이거나 그 이하가 되어야 한다는 것을 명심하십시오. 50.38로 반올림하면, 이는 이들 8개 팀 중 적어도 한 팀은 50승 이하로 시즌을 마치게 된다는 것을 의미합니다 (즉, 순위에서 골든스테이트에 뒤지게 됩니다.)
+</span>
+
 <p style="color:#080808; font-size:18px">
-Using this observation, we can significantly reduce the number of scenarios under consideration. For example,
-suppose Utah is the team with 50 or fewer wins. In this case, the data in the standings table indicate that the
-seven other teams in the group would have a maximum collective win total of 403 - (52 - 5) = 356, and a maximum
-average of 50.86 wins per team. Therefore, at least one other team in the group besides Utah would have to finish
-the season with 50 or fewer wins. This implies that Golden State would be guaranteed to finish in a playoff position
-ahead of a least seven teams in the conference: two in the Group B and the five in Group C.
+<span lang="en">
+	Using this observation, we can significantly reduce the number of scenarios under consideration. For example,
+	suppose Utah is the team with 50 or fewer wins. In this case, the data in the standings table indicate that the
+	seven other teams in the group would have a maximum collective win total of 403 - (52 - 5) = 356, and a maximum
+	average of 50.86 wins per team. Therefore, at least one other team in the group besides Utah would have to finish
+	the season with 50 or fewer wins. This implies that Golden State would be guaranteed to finish in a playoff position
+	ahead of a least seven teams in the conference: two in the Group B and the five in Group C.
+</span>
+<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+이 방법을 사용하면 고려 중인 시나리오의 수를 크게 줄일 수 있습니다. 예를 들어, 유타가 50승 이하의 팀이라고 가정합시다. 이 경우 순위표의 데이터를 보면 그룹 내 다른 7개 팀이 총합 403 - (52 - 5) = 356, 팀당 최대 평균 50.86의 승리를 거둘 수 있습니다. 따라서 유타 외에 조에서 적어도 한 팀은 50승 이하로 시즌을 마쳐야 할 것입니다. 이는 골든스테이트가 B조 2개, C조 5개 등 최소 7개 팀보다 앞서 플레이오프 위치에서 경기를 마칠 수 있다는 것을 의미합니다.
+</span>
+
 <p style="color:#080808; font-size:18px">
-The table below shows the maximum average number of wins achievable by the remaining teams in Group B in any
-scenario in which a particular team from the group finishes behind Golden State in the standings with fewer than 51
-wins and misses the playoffs.  As in the Utah case, Golden State makes the playoffs in all the cases for which the
-average is less than 51.
+<span lang="en">
+	The table below shows the maximum average number of wins achievable by the remaining teams in Group B in any
+	scenario in which a particular team from the group finishes behind Golden State in the standings with fewer than 51
+	wins and misses the playoffs.  As in the Utah case, Golden State makes the playoffs in all the cases for which the
+	average is less than 51.
+</span>
+<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+아래 표는 그룹 내 특정 팀이 51승 미만으로 순위에서 골든스테이트에 뒤진 채 플레이오프에 진출하지  못하는 시나리오에서 B조 나머지 팀들이 달성할 수 있는 최대 평균 승수를 보여줍니다. 유타의 경우와 마찬가지로, 골든스테이트는 평균이 51점 이하인 모든 경우에 플레이오프에 진출합니다.
+</span>
+
 <p style="color:#080808; font-size:18px">
 <table width=100% border=1 cellspacing=3 cellpadding=0>
 <tr>
@@ -538,53 +876,107 @@ average is less than 51.
 </tr>
 </table>
 <p style="color:#080808; font-size:18px">
-The table shows that there are only two cases in which Golden State could conceivably not make the playoffs due to
-being tied in the standings with seven 51-win teams in the Group B:
+	<span lang="en">
+		The table shows that there are only two cases in which Golden State could conceivably not make the playoffs due to
+		being tied in the standings with seven 51-win teams in the Group B:
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+	골든스테이트가 B조 51승 7개 팀과 공동 선두에 있어 플레이오프에 진출하지 못한 경우는 다음 두 가지에 불과합니다.
+	</span>
 
 <ol>
-<li>The LA Clippers finish the season with fewer than 51 wins.
+<li>
+	<span lang="en">
+		The LA Clippers finish the season with fewer than 51 wins.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		LA 클리퍼스는 51승 미만으로 시즌을 마감합니다.
+	</span>
 <p style="color:#080808; font-size:18px">
-In this case, Golden State would have more wins than any of the other teams in the Pacific Division and therefore
-make the playoffs by winning the tie-breaker.
-<li>San Antonio finishes the season with fewer than 51 wins.
+	<span lang="en">
+		In this case, Golden State would have more wins than any of the other teams in the Pacific Division and therefore
+		make the playoffs by winning the tie-breaker.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		이 경우 골든스테이트는 퍼시픽 디비전의 어느 팀보다 많은 승리를 거두게 되며, 따라서 타이브레이크에서 승리함으로써 플레이오프에 진출하게 됩니다.
+	</span>
+
+<li>
+	<span lang="en">
+		San Antonio finishes the season with fewer than 51 wins.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		샌안토니오는 51승 미만으로 시즌을 마감합니다.
+	</span>
+
 <p style="color:#080808; font-size:18px">
-In this case, Golden State could finish in a 51-win tie with division rival the LA Clippers. However, Golden State
-would still be declared the winner of the Pacific Division because it had already won the season series against the
-Clippers, three games to one.
+	<span lang="en">
+		In this case, Golden State could finish in a 51-win tie with division rival the LA Clippers. However, Golden State
+		would still be declared the winner of the Pacific Division because it had already won the season series against the
+		Clippers, three games to one.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		이 경우 골든스테이트는 디비전 라이벌 LA 클리퍼스와 51승 무패로 마칠 수 있습니다. 하지만 골든스테이트는 클리퍼스를 상대로 3승1패로 이미 앞서기 때문에 여전히 퍼시픽 디비젼에서 우승팀으로 선언될 것입니다.
+	</span>
 </ol>
 
-Thus, Golden State had in fact clinched a playoff spot on March 9, 2018 three days before it was announced by the
-NBA.
+<span lang="en">
+	Thus, Golden State had in fact clinched a playoff spot on March 9, 2018 three days before it was announced by the
+	NBA.
+</span>
+<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+	이 경우 골든스테이트는 디비전 라이벌 LA 클리퍼스와 51승 무패로 마칠 수 있습니다. 하지만 골든스테이트는 클리퍼스를 상대로 3승1패로 이미 앞서기 때문에 여전히 퍼시픽 디비젼에서 우승팀으로 선언될 것입니다.
+</span>
 
 <hr>
-<a name="Boston"><h2>A Bad Call: Boston Clinch Called Prematurely</h2></a>
+<a name="Boston"><h2>
+								<span lang="en">
+									A Bad Call: Boston Clinch Called Prematurely
+								</span>
+								<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+									오판: 너무 일찍 진출을 발표한 보스톤
+								</span>
+								</h2></a>
 
-Our model identified a case in which the <a
-href="https://www.nba.com/article/2018/03/08/boston-celtics-clinch-playoff-berth">NBA erroneously reported that
-Boston had clinched a playoff spot on March 8, 2018</a>. The records of the top nine teams in the Eastern Conference
-immediately after all games had been played on this date are given in the table below.  Observe that if Boston (46
-current wins) and Detroit (29 current wins) were to have lost and won the rest of their games, respectively, the two
-teams would have both finished the season with 46 wins.  This would have put Boston and Detroit in a tie for 8th
-place as the 10th place team at the time could have finished the season with at most 45 wins (i.e., Charlotte had
-won 28 games and had 17 left play). Boston had already won the season series with Detroit by beating them two of the
-three times they played against each other, and, hence, the head-to-head tie breaker (first tie-breaking criterion).
-It appeared that Boston had clinched a playoff spot, as announced by the NBA. Unfortunately for Celtics fans,
-however, this announcement was premature.
+
+<span lang="en">
+	Our model identified a case in which the <a
+	href="https://www.nba.com/article/2018/03/08/boston-celtics-clinch-playoff-berth">NBA erroneously reported that
+	Boston had clinched a playoff spot on March 8, 2018</a>. The records of the top nine teams in the Eastern Conference
+	immediately after all games had been played on this date are given in the table below.  Observe that if Boston (46
+	current wins) and Detroit (29 current wins) were to have lost and won the rest of their games, respectively, the two
+	teams would have both finished the season with 46 wins.  This would have put Boston and Detroit in a tie for 8th
+	place as the 10th place team at the time could have finished the season with at most 45 wins (i.e., Charlotte had
+	won 28 games and had 17 left play). Boston had already won the season series with Detroit by beating them two of the
+	three times they played against each other, and, hence, the head-to-head tie breaker (first tie-breaking criterion).
+	It appeared that Boston had clinched a playoff spot, as announced by the NBA. Unfortunately for Celtics fans,
+	however, this announcement was premature.
+</span>
+<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+	우리의 모델은 2018년 3월 8일 보스턴이 플레이오프 진출을 확정했다고 NBA가 잘못 보도한 사례도 확인하였습니다. 이 날짜에 모든 경기가 끝난 직후 동부 콘퍼런스 상위 9개 팀의 기록은 아래 표에 제시되어 있습니다. 보스턴(현재 46승)이 남은 경기에서 모두 패하고 디트로이트(현재 29승)가 모두 승리한 다면 두 팀은 46승으로 시즌을 마쳤을 것이라는 관측입니다. 이는10위 팀이 최대 45승 (예를 들면, 현재 28승이고 남은 경기가 17인 샬롯)으로 시즌을 마칠 수 있었기 때문에 보스턴과 디트로이트가 공동 8위로 동률을 이룰 것입니다. 보스턴은 이미 디트로이트와의 시즌 3번 경기 중 2승을 했기에 승자승 결정방식에 대해서 진출이 확정됩니다. NBA가 발표해서 보스턴이 플레이오프 진출을 확정지은 것으로 보입니다만 불행히도 셀틱스 팬들에게는 이 발표가 시기상조였습니다.
+</span>
+
 <p style="color:#080808; font-size:18px">
-Specifically, the table below provides a scenario, in terms of the wins and losses for the top nine teams in the
-Eastern Conference, in which Boston would not make the playoffs based on the standings and schedule of remaining
-games as of the end of the night March 8, 2018. In our scenario Toronto wins the Atlantic Division, Milwaukee wins
-the Central Division, and Washington wins the Southeast Division; Philadelphia has enough wins to qualify for the
-playoffs and there is a five-way tie for the last four playoff positions between Boston, Cleveland, Detroit,
-Indiana, and Miami. Since none of the tied teams are leading a division, the second criterion is used to break the
-five-way tie: record (win percentage) against the other four teams in the tie.  Notice that in the scenario table
-Indiana has wins against Boston and Miami, and Miami has a win against Cleveland.
-Adding these hypothetical wins and losses to the <a href="#">actual outcomes of the games
-between these five teams played prior to March March 8, 2018</a>, the
-win percentages considering only the games played between the five tied teams in the scenario are
-Boston (0.462), Cleveland (0.571), Detroit (0.467), Indiana (0.500), and Miami (0.500). In this case, Boston would
-have the worst tied-team win percentage and be eliminated from the playoffs. In actual fact, Boston did clinch a
-playoff spot, but not until five days later as determined by our model.
+<span lang="en">
+	Specifically, the table below provides a scenario, in terms of the wins and losses for the top nine teams in the
+	Eastern Conference, in which Boston would not make the playoffs based on the standings and schedule of remaining
+	games as of the end of the night March 8, 2018. In our scenario Toronto wins the Atlantic Division, Milwaukee wins
+	the Central Division, and Washington wins the Southeast Division; Philadelphia has enough wins to qualify for the
+	playoffs and there is a five-way tie for the last four playoff positions between Boston, Cleveland, Detroit,
+	Indiana, and Miami. Since none of the tied teams are leading a division, the second criterion is used to break the
+	five-way tie: record (win percentage) against the other four teams in the tie.  Notice that in the scenario table
+	Indiana has wins against Boston and Miami, and Miami has a win against Cleveland.
+	Adding these hypothetical wins and losses to the <a href="#">actual outcomes of the games
+	between these five teams played prior to March March 8, 2018</a>, the
+	win percentages considering only the games played between the five tied teams in the scenario are
+	Boston (0.462), Cleveland (0.571), Detroit (0.467), Indiana (0.500), and Miami (0.500). In this case, Boston would
+	have the worst tied-team win percentage and be eliminated from the playoffs. In actual fact, Boston did clinch a
+	playoff spot, but not until five days later as determined by our model.
+</span>
+<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+	구체적으로 아래 표는 보스턴이 2018년 3월 8일 저녁 현재 잔여 경기 순위와 일정을 기준으로 플레이오프에 진출하지 않는 동부 콘퍼런스 상위 9개 팀의 승패 측면에서 시나리오를 제시합니다. 우리의 시나리오에서 토론토는 애틀랜틱 디비전에서 승리하고, 밀워키는 센트럴 디비전에서 승리하고, 워싱턴은 사우스이스트 디비전에서 승리합니다; 필라델피아는 플레이오프에 진출할 자격을 얻기에 충분하며, 보스턴, 클리블랜드, 디트로이트, 인디애나, 마이애미 사이의 마지막 플레이오프 포지션에서 5파전 동률이 있습니다. 동률 팀 중 어느 팀도 디비젼을 이끌지 못하기 때문에 두 번째 기준인 승자승 원칙이 동률을 깨는 데 적용됩니다. 시나리오 테이블에서 인디애나는 보스턴과 마이애미를, 마이애미는 클리블랜드를 상대로 승리를 거두었습니다. 이러한 가상의 승패를 2018년 3월 8일 이전에 치른 이들 5개 팀 간의 실제 경기 결과에 합산하면 시나리오에서 동점인 5개 팀 간의 경기만을 고려한 승률은 보스턴(0.462), 클리블랜드(0.571), 디트로이트(0.467), 인디애나(0.500), 마이애미(0.500) 등 입니다. 이 경우 보스턴은 승률이 가장 나빠 플레이오프에서 탈락하게 됩니다. 사실, 보스턴은 플레이오프 자리를 잡았지만 5일 후에야 우리 모델에 의해 결정되었습니다.
+</span>
+
 <p style="color:#080808; font-size:18px">
 <center>
 <table 	cellspacing="3" cellpadding="0" border="1">
@@ -1587,26 +1979,49 @@ playoff spot, but not until five days later as determined by our model.
         </tr>
     </tbody>
 </table>
-Click <a href="abb.html">here</a> for a list of team name abbreviations.
+	<span lang="en">
+	Click <a href="abb.html">here</a> for a list of team name abbreviations.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+	팀 이름 약어 목록을 보려면 여기를 클릭하십시오.
+	</span>
 </center>
 <hr>
-<a name=MIP><h2>Advanced Analytics for Playoff Clinching and Elimination</h2></a>
+<a name=MIP><h2>
+						<span lang="en">
+						Advanced Analytics for Playoff Clinching and Elimination
+						</span>
+						<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+							플레이오프 결정 및 탈락결정을 위한 뛰어난 분석
+						</span>
+						</h2></a>
 <p style="color:#080808; font-size:18px">
-As the examples on this page show, the key to determining true clinching and elimination numbers is taking into
-account the actual matchups that remain in the season and enumerating all possible outcomes. Until the final weeks
-of the season, however, the number of possible outcomes can be astronomically large, which makes such an enumeration
-impractical even on a very fast computer. By using a powerful and pervasive analytics technique called Mixed Integer
-Programming, it is possible to accurately perform the necessary calculations without explicitly enumerating all
-possibilities. Consequently, it is possible for RIOT to determine the playoff prospects of a team before it is
-reported by the popular media.
+	<span lang="en">
+		As the examples on this page show, the key to determining true clinching and elimination numbers is taking into
+		account the actual matchups that remain in the season and enumerating all possible outcomes. Until the final weeks
+		of the season, however, the number of possible outcomes can be astronomically large, which makes such an enumeration
+		impractical even on a very fast computer. By using a powerful and pervasive analytics technique called Mixed Integer
+		Programming, it is possible to accurately perform the necessary calculations without explicitly enumerating all
+		possibilities. Consequently, it is possible for RIOT to determine the playoff prospects of a team before it is
+		reported by the popular media.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		이 페이지의 예에서 알 수 있듯이, 진정한 진출과 탈락 승수를 결정하는 열쇠는 시즌에 남아 있는 실제 매치업을 고려하고 가능한 모든 결과를 열거하는 것입니다. 그러나 시즌 마지막 주까지 가능한 결과의 수는 천문학적으로 클 수 있기 때문에 매우 빠른 컴퓨터에서도 그러한 열거가 실현 불가능하게 됩니다. “Mixed Integer Programming”이라는 강력하고 보편화된 분석 기법을 사용함으로써 모든 가능성을 명시적으로 열거하지 않고도 필요한 계산을 정확하게 수행할 수 있습니다. 이에 따라 주요 언론에 보도되기 전에 리오트 팀이 플레이오프 전망을 결정할 수 있습니다.
+	</span>
+
 </p>
 <p style="color:#080808; font-size:18px">
-For more information on the integer programming formulations and implementation
-of the RIOT basketball standings,
-send mail to the
-<A HREF="mailto:olinick@lyle.smu.edu">
-RIOT Basketball Project</A> and see our white paper "National Basketball Association Playoff Elimination with
-Tie Breaking" and the following references:
+	<span lang="en">
+		For more information on the integer programming formulations and implementation
+		of the RIOT basketball standings,
+		send mail to the
+		<A HREF="mailto:olinick@lyle.smu.edu">
+		RIOT Basketball Project</A> and see our white paper "National Basketball Association Playoff Elimination with
+		Tie Breaking" and the following references:
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		리오트의 NBA순위의 “Mixed Integer Programming” 및 구현에 대한 자세한 내용은 RIO의 NBA 프로젝트로 메일을 보내시거나 화이트 페이퍼에 발표된 "National Basketball Association Playoff Elimination with Tie Breaking" 나 아래의 문헌을 참조하십시오.
+	</span>
 
 <ul>
 <li> I. Alder, A. L. Erera, D. S. Hochbaum, and E. V. Olinick. <A HREF="https://pubsonline.informs.org/doi/abs/10.1287/inte.32.2.12.67">"Baseball, Optimization and the World Wide Web"</A>.
@@ -1694,6 +2109,27 @@ tournaments"</a>. <cite>SIAM Review</cite>. <b>8</b>(3): 302-308. 1966.
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+						$('[lang]').hide(); // hide all lang attributes on start.
+						$('[lang="en"]').show(); // show just Korean text (you can change it)
+						$('#lang-switch').change(function () { // put onchange event when user select option from select
+								var lang = $(this).val(); // decide which language to display using switch case. The rest is obvious (i think)
+								switch (lang) {
+										case 'en':
+												$('[lang]').hide();
+												$('[lang="en"]').show();
+										break;
+										case 'ko':
+												$('[lang]').hide();
+												$('[lang="ko"]').show();
+										break;
+										default:
+												$('[lang]').hide();
+												$('[lang="en"]').show();
+										}
+						});
+				</script>
 
 	</body>
 </html>
