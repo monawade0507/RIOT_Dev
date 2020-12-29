@@ -48,33 +48,128 @@
 					<section class="wrapper">
 						<div class="inner">
 							<header class="align-center">
-								<h1>RIOT Sports</h1>
-								<p>Better than Magic Numbers!</p>
+								<h1>
+									<span lang="en">
+									   RIOT Sports
+									</span>
+									<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+										RIOT 스포츠 넘버
+									</span>
+								</h1>
+								<p>
+									<span lang="en">
+										Better than Magic Numbers!
+									</span>
+									<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+										매직넘버보다 더 뛰어난
+									</span>
+								</p>
+								<form>
+										<label for="lang-switch">
+												<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">언어</span>
+												<span lang="en">Language</span>
+										</label>
+										<select id="lang-switch">
+												<option value="en" selected >English</option>
+												<option value="ko">한국어</option>
+										</select>
+								</form>
 							</header>
 							<div class="flex flex-1">
 								<div class="col col1">
-									<h3>Welcome to the RIOT Sports Korean Baseball Organization League page!</h3>
-									<p style="color:#080808; font-size:18px">
-										We provide detailed standings for the KBL with new, informative statistics that allow fans to track how well their teams are performing. For each team, we calculate and post the number remaining games that the team must win to
+									<h3>
+										<span lang="en">
+												Welcome to the RIOT Sports Korean Baseball League Organization page!
+										</span>
+										<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+
+										</span>
+									</h3>
+									<p style="color:#080808; font-size:18px" >
+										<span lang="en">
+											We provide detailed standings for the NBA with new, informative statistics that allow fans to track how well their teams are performing. For each team, we calculate and post the number remaining games that the team must win to
+										</span>
+										<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+											우리는 팬들이 좋아하는 팀이 얼마나 좋은 성적을 내고 있는지 추적할 수 있는 새롭고 유익한
+											통계자료로 NBA의 상세한 순위를 제공합니다. 각 팀별로 반드시 이겨야 할 남은 경기 수를
+											계산해 게시합니다.
+										</span>
 									</p>
-									<li style="color:#080808; font-size:18px">Guarantee (clinch) a first-place finish</li>
-									<li style="color:#080808; font-size:18px">Guarantee a postseason berth</li>
-									<li style="color:#080808; font-size:18px">Avoid elimination from first place</li>
-									<li style="color:#080808; font-size:18px">Avoid elimination from the postseason</li>
-									<p></p>
+									<li style="color:#080808; font-size:18px">
+										<span lang="en">
+												Guarantee (clinch) a first-place finish in its conference
+										</span>
+										<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+												컨퍼런스 우승 확정
+										</span>
+									</li>
+									<li style="color:#080808; font-size:18px">
+										<span lang="en">
+												Guarantee a postseason berth
+										</span>
+										<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+											포스트 시즌 진출
+										</span>
+									</li>
+									<li style="color:#080808; font-size:18px">
+										<span lang="en">
+												Avoid elimination from first place in its conference
+										</span>
+										<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+											컨퍼런스 1위 경쟁 탈락
+										</span>
+									</li>
+									<li style="color:#080808; font-size:18px">
+										<span lang="en">
+												Avoid elimination from the postseason
+										</span>
+										<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+											포스트 시즌 경쟁 탈락
+										</span>
+									</li>
 									<p></p>
 									<p style="color:#080808; font-size:18px">
-										This project was initially made possible by Professor Dorit S. Hochbaum's</a> ONR research grant N00014-91-J-1241
-										and NSF Award DMI-9713482, and was part of the Remote Interactive Optimization Testbed (RIOT) hosted by the <a
-										href="https://ieor.berkeley.edu/">Industrial Engineering and Operations Research Department of the University of
-										California-Berkeley</a>. The NBA and <a href="RIOT_MLB.html">MLB</a> standings pages are now hosted by the <a
-										href="https://www.smu.edu/Lyle/Departments/EMIS">Department of Engineering Management, Information, and Systems of
-										the Bobby B. Lyle School of Engineering at Southern Methodist University</a>. Our models for calculating the NBA
-										numbers were updated during the 2018-2019 season to take the two-team tiebreaking rules into account in a
-										collaboration with the <a href="https://mechanical.mines.edu">Department of Mechanical Engineering at the Colorado
-										School of Mines</a>.
+										<span lang="en">
+											These numbers are more informative than magic numbers, since they take into account each team's remaining schedule
+											of games and the NBA's two-team tiebreakers <a href="FAQ_NBA.html#ties">(criteria 1-6)</a>. Note that we do not
+											consider the possibility of ties between three or more teams in our calculations. However, it appears that <a
+											href="problem_explanation_NBA.html#Boston">even the NBA doesn't always consider that possibility</a> when it announces a
+											clinch. More details about the <a href="numbers_explanation_NBA.html">numbers</a> and the method of their <a
+											href="problem_explanation_NBA.html">calculation</a> are available on this site. Our numbers are updated daily, so be sure to
+											return every day to check out who's on the fast track for the postseason, and who's already done for the year.
+										</span>
+										<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+											각 팀의 남은 경기 일정과 NBA의 2개 팀 동률 팀 처리를 감안한 숫자여서 (전통적인)매직넘버
+											보다 더 나은 정보를 제공합니다. 하지만 세 개 이상의 팀이 동률일때는 감안하지 않는다 점에
+											유의하십시오. NBA측도 클린치를 발표할 때 항상 그런 가능성을 고려하지는 않는 것 같습니다.
+											숫자와 계산 방법에 대한 자세한 내용은 이 사이트에서 확인할 수 있습니다. 정보는 매일
+											업데이트 되고 있으므로 매일 웹페이지를 방문하시면 어느 팀이 포스트시즌 진출을 향하여 빨리
+											나아가는지 어느 팀이 이미 올해에 이미 끝이 났는지를 확인하 실수가 있습니다.
+										</span>
+									</p>
+									<p style="color:#080808; font-size:18px">
+										<span lang="en">
+											This project was initially made possible by Professor Dorit S. Hochbaum's</a> ONR research grant N00014-91-J-1241
+											and NSF Award DMI-9713482, and was part of the Remote Interactive Optimization Testbed (RIOT) hosted by the <a
+											href="https://ieor.berkeley.edu/">Industrial Engineering and Operations Research Department of the University of
+											California-Berkeley</a>. The NBA and <a href="baseball.html">MLB</a> standings pages are now hosted by the <a
+											href="https://www.smu.edu/Lyle/Departments/EMIS">Department of Engineering Management, Information, and Systems of
+											the Bobby B. Lyle School of Engineering at Southern Methodist University</a>. Our models for calculating the NBA
+											numbers were updated during the 2018-2019 season to take the two-team tiebreaking rules into account in a
+											collaboration with the <a href="https://mechanical.mines.edu">Department of Mechanical Engineering at the Colorado
+											School of Mines</a>.
+										</span>
+										<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+											이 프로젝트는 도리트 호치범 (Dorit S. Hochbaum)교수의 미해군연구소(Office of Naval Research)의
+											연구지원금과 미국립과학재단(National Science Foundation)의 상금으로 시작할 수 있게 되었으며
+											UC 버클리대학교와 서던 메도디스트 대학교에서 주최한 원격 대화형 최적화
+											테스트베드(RIOT)의 일부였습니다. NBA와 MLB 순위 페이지는 서던 메도디스트 대학교에서
+											주관하고 있으며 NBA 넘버모델은 콜로라도 광산대학과 협력하여 2018-2019 시즌에 업데이트
+											되었습니다.
+										</span>
 									</p>
 								</div>
+
 							</div>
 						</div>
 					</section>
@@ -101,6 +196,27 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+			$('[lang]').hide(); // hide all lang attributes on start.
+			$('[lang="en"]').show(); // show just Korean text (you can change it)
+			$('#lang-switch').change(function () { // put onchange event when user select option from select
+					var lang = $(this).val(); // decide which language to display using switch case. The rest is obvious (i think)
+					switch (lang) {
+							case 'en':
+									$('[lang]').hide();
+									$('[lang="en"]').show();
+							break;
+							case 'ko':
+									$('[lang]').hide();
+									$('[lang="ko"]').show();
+							break;
+							default:
+									$('[lang]').hide();
+									$('[lang="en"]').show();
+							}
+			});
+			</script>
 
 	</body>
 </html>
