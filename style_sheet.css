@@ -134,3 +134,14 @@
   background-color: silver;
   color: black;
 }
+
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}

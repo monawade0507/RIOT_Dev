@@ -2,6 +2,18 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Scope+One|Trocchi");
 
+
+
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
 /*
 	Urban by TEMPLATED
 	templated.co @templatedco
@@ -1637,6 +1649,7 @@
 
 		}
 
+/**/
 	a {
 		-moz-transition: color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out;
