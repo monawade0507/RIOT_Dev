@@ -20,26 +20,50 @@
 		<title>RIOT Home Page - NBA</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" id="LAYOUT" href="#" />
+<!--
+		#1 MOBILE assets/css/main.css
+		#2 DESKTOP assets-DESKTOP/css/main.css
+-->
 	</head>
 	<body class="subpage">
 
-		<!-- Header -->
-		<header id="header">
-			<div class="logo"><img  style="max-width=:35px; max-height:35px" src="images/RIOT_Logo.png" alt="" /><a href="index.html">RIOT Sports</a></div>
-			<a href="#menu">Menu</a>
-		</header>
+			<!-- Need this kind of menu for mobile -->
+			  <div class="MOBILE" id="mobileDisplay">
+					<!-- Header -->
+					<header id="header">
+						<div class="logo"><img  style="max-width=:35px; max-height:35px" src="images/RIOT_Logo.png" alt="" /><a href="index.html">RIOT Sports</a></div>
+						<a href="#menu">Menu</a>
+					</header>
 
-		<!-- Nav -->
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="NBA_standings.html">National Basketball Association Standings</a></li>
-					<li><a href="common_numbers_explanation.html">Number Explanation</a></li>
-					<li><a href="problem_explanation_NBA.html">Problem Explanation</a></li>
-					<li><a href="FAQ_NBA.html">Frequently Asked Questions</a></li>
-				</ul>
-			</nav>
+					<!-- Nav -->
+						<nav id="menu">
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="NBA_standings.html">National Basketball Association Standings</a></li>
+								<li><a href="common_numbers_explanation.html">Number Explanation</a></li>
+								<li><a href="problem_explanation_NBA.html">Problem Explanation</a></li>
+								<li><a href="FAQ_NBA.html">Frequently Asked Questions</a></li>
+							</ul>
+						</nav>
+				</div>
+
+
+			<!-- Need this kind of bar menu for desktop -->
+			  <div class="DESKTOP" id="desktopDisplay">
+					<header id="header">
+						<div class="inner">
+							<a href="index.html" class="logo" ><img  style="max-width=:35px; max-height:35px;" src="images/RIOT_Logo.png" alt="" />RIOT Sports </a>
+							<nav id="nav">
+								<a href="index.html">Home</a>
+								<a href="NBA_standings.html">National Basketball Association Standings</a>
+								<a href="common_numbers_explanation.html">Number Explanation</a>
+								<a href="problem_explanation_NBA.html">Problem Explanation</a>
+								<a href="FAQ_NBA.html">Frequently Asked Questions</a>
+							</nav>
+						</div>
+					</header>
+				</div>
 
 		<!-- Main -->
 			<div id="main">
@@ -216,6 +240,103 @@
 												$('[lang="en"]').show();
 										}
 						});
+
+
+						var stylesheetName = "";
+						// Detect the Operating System of User
+
+						function getOS() {
+							  var userAgent = window.navigator.userAgent,
+							      platform = window.navigator.platform,
+							      macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+							      windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+							      iosPlatforms = ['iPhone', 'iPad', 'iPod'],
+							      os = null;
+
+							  if (macosPlatforms.indexOf(platform) !== -1) {
+							    os = 'Mac OS';
+									stylesheetName = "assets-DESKTOP/css/main.css";
+									document.getElementById("mobileDisplay").style.display = "none";
+									document.getElementById("desktopDisplay").style.display = "block";
+							  } else if (iosPlatforms.indexOf(platform) !== -1) {
+							    os = 'iOS';
+									stylesheetName = "assets/css/main.css";
+									document.getElementById("mobileDisplay").style.display = "block";
+									document.getElementById("desktopDisplay").style.display = "none";
+							  } else if (windowsPlatforms.indexOf(platform) !== -1) {
+							    os = 'Windows';
+									stylesheetName = "assets-DESKTOP/css/main.css";
+									document.getElementById("mobileDisplay").style.display = "none";
+									document.getElementById("desktopDisplay").style.display = "block";
+							  } else if (/Android/.test(userAgent)) {
+							    os = 'Android';
+									stylesheetName = "assets/css/main.css";
+									document.getElementById("mobileDisplay").style.display = "block";
+									document.getElementById("desktopDisplay").style.display = "none";
+							  } else if (!os && /Linux/.test(platform)) {
+							    os = 'Linux';
+									stylesheetName = "assets-DESKTOP/css/main.css";
+									document.getElementById("mobileDisplay").style.display = "none";
+									document.getElementById("desktopDisplay").style.display = "block";
+							  }
+							  return os;
+					  }
+
+						window.onload = function() {
+										var OperSys = getOS();
+										document.getElementById("LAYOUT").href=stylesheetName;
+						}
+
+						// Mobile {
+						// stylesheetName = "assets/css/main.css";
+						// document.getElementById("mobileDisplay").style.display = "block";
+						// document.getElementById("desktopDisplay").style.display = "none";
+						// }
+
+						// Desktop {
+						// stylesheetName = "assets-DESKTOP/css/main.css";
+						// document.getElementById("mobileDisplay").style.display = "none";
+						// document.getElementById("desktopDisplay").style.display = "block";
+					  // }
+
+						// HxW
+						// Design for desktop displays from 1024×768 through 1920×1080
+						// Design for mobile displays from 360×640 through 414×896
+
+						function getWindowSize() {
+								var height = document.documentElement.clientWidth;
+								var width = document.documentElement.clientHeight;
+								var view = "DESKTOP";
+
+								// DESKTOP
+								if (height > 1920 && width > 1080) {
+									// view = "DESKTOP";
+									stylesheetName = "assets-DESKTOP/css/main.css";
+									document.getElementById("mobileDisplay").style.display = "none";
+									document.getElementById("desktopDisplay").style.display = "block";
+									document.getElementById("LAYOUT").href=stylesheetName;
+								// DESKTOP
+								}
+							 else if (height < 1024 && width < 768) {
+								  view = "MOBILE";
+									stylesheetName = "assets/css/main.css";
+									document.getElementById("mobileDisplay").style.display = "block";
+									document.getElementById("desktopDisplay").style.display = "none";
+									document.getElementById("LAYOUT").href=stylesheetName;
+								// DEFAULT to DESKTOP
+								}
+							 else {
+									// view = "DESKTOP";
+									stylesheetName = "assets-DESKTOP/css/main.css";
+									document.getElementById("mobileDisplay").style.display = "none";
+									document.getElementById("desktopDisplay").style.display = "block";
+									document.getElementById("LAYOUT").href=stylesheetName;
+								}
+								return view;
+						}
+
+						window.addEventListener("resize", getWindowSize);
+
 				</script>
 
 	</body>
