@@ -1,0 +1,739 @@
+<!DOCTYPE HTML>
+<!--
+	Urban by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+
+
+	<span lang="en">
+
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+
+	</span>
+-->
+<html>
+	<head>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=G-7MPLNHC0ZM"></script>
+			<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'G-7MPLNHC0ZM');
+			</script>
+		<!-- end of Google Analytics tag -->
+
+		<title>Problem Explanation - KBO</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="logo"><img  style="max-width=:35px; max-height:35px" src="images/RIOT_Logo.png" alt="" /><a href="index.html">RIOT Sports</a></div>
+			<a href="#menu">Menu</a>
+		</header>
+
+		<!-- Nav -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="KBO_numbers_explanation.html">Number Explanation</a></li>
+				<li><a href="FAQ_KBO.html">FAQ</a></li>
+				<li><a href="KBO_standings.html">RIOT - KBO Standings</a></li>
+				<li><a href="MLB_standings.html">RIOT - MLB Standings</a></li>
+				<li><a href="NBA_standings.html">RIOT - NBA Standings</a></li>
+				<li><a href="WNBA_standings.html">RIOT - WNBA Standings</a></li>
+			</ul>
+
+		</nav>
+
+		<!-- Main -->
+			<div id="main">
+				<section class="wrapper style1">
+					<div class="inner">
+
+						<form>
+								<label for="lang-switch">
+										<span style="display: none;" lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">언어</span>
+										<span style="display: inline;" lang="en">Language</span>
+								</label>
+								<select id="lang-switch">
+										<option value="en" selected="selected">English</option>
+										<option value="ko">한국어</option>
+								</select>
+						</form>
+
+						<h2>
+							<span lang="en">
+								Playoff Clinching and Elimination in the KBO
+							</span>
+							<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+								KBO의 플레이오프 결정과 탈락
+							</span>
+						</h2>
+<p style="color:#080808; font-size:18px">
+<span lang="en">
+As the end of the season approaches, baseball fans like to engage in speculation about which teams will advance to the post 
+season and whether their favorite team is still in contention for a playoff berth. Newspapers frequently run headlines in their 
+sports sections declaring that a particular team has been eliminated from contention or that the first place team has clinched a 
+playoff berth. These determinations can often be made by looking at the standings and making a few simple calculations. The RIOT 
+baseball standings can actually tell you when a team has locked up a playoff spot or fallen out of contention days before it is 
+reported anywhere else!
+
+The key is taking into account the actual matchups that remain in the season and enumerating all possible outcomes. Until the 
+final weeks of the season, however, the number of possible outcomes can be astronomically large, which makes such an enumeration 
+impractical even on a very fast computer. By using a powerful and pervasive analytics technique called Integer Programming, it 
+is possible to accurately perform the necessary calculations without explicitly enumerating all possibilities. Consequently, it 
+is possible for RIOT to determine the playoff prospects of a team a few days, or even weeks, before it is reported by the popular 
+media.
+</span>
+
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+시즌 막바지가 다가오면서 야구팬들은 포스트시즌에 어느 팀이 진출할지, 자신들이 좋아하는 
+팀이 여전히 플레이오프 진출을 다투고 있는지 추측하는 것을 좋아합니다. 신문들은 종종 스포츠 
+코너에서 특정 팀이 (플레이오프) 경쟁에 탈락했거나 1위 팀이 플레이오프 진출을 확정했다고 
+선언하는 헤드라인을 장식합니다. 이러한 결정은 종종 순위를 보고 몇 가지 간단한 계산을 통해 
+이루어질 수 있습니다. RIOT의 야구 순위는 실제로 팀이 플레이오프 진출을 확정했거나 그 
+경쟁에서 탈락했음을 다른 곳에서 보고되기 며칠 전에 알려줄 수 있습니다. 핵심은 시즌에 남아 
+있는 실제 매치업을 고려하고 가능한 모든 결과를 열거하는 것입니다. 그러나, 시즌의 마지막 
+주까지 가능한 결과의 수는 천문학적으로 클 수 있으며 매우 빠른 컴퓨터에서도 그러한 열거를 
+실행 불가능하게 될 수가 있습니다. 하지만 정수 프로그래밍이라는 강력하고 침습적인 분석 
+기법을 사용하면 모든 가능성을 명시적으로 열거하지 않고도 필요한 계산을 정확하게 수행할 수 
+있습니다. 결과적으로, RIOT는 대중 매체에 의해 보도되기 전 며칠, 혹은 심지어 몇 주 전에 한 
+팀의 플레이오프 전망을 결정할 수 있습니다.
+
+	</span>
+</p>
+<p style="color:#080808; font-size:18px">
+<hr>
+<a name="intro">
+	<h2>
+		<span lang="en">
+			Introductory Example
+		</span>
+		<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+			소개 예제
+		</span>
+	</h2>
+</a>
+<p style="color:#080808; font-size:18px">
+	<span lang="en">
+		The table below shows the RIOT standings for the KBO on the morning of September 19, 2020.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+        Translation Pending
+	</span>
+<hr>
+
+<!-- Table -->
+<!--<h3>Table</h3>-->
+
+<div class="table-wrapper"> <table width="100%" cellspacing="3" cellpadding="0" border="1"> 
+<tbody>
+<tr style="background-color:#c9ddf5; color:#080808"> 
+<td align="left"></td> <td align="center"></td> <td align="center"></td> 
+<td align="center"></td> <td align="center"></td> <td align="center"></td> 
+<td align="center"></td> <td colspan="4" align="center">
+<b> 
+<span style="display: inline;" lang="en"> Additional Wins Needed To </span> 
+<span style="display: none;" lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+“추가로 필요한 승리수”
+</span>
+</b> 
+</td> 
+</tr>
+<tr style="background-color:#c9ddf5 ; color:#080808"> 
+<td align="left"></td> 
+<td align="center"></td> 
+<td align="center"></td> 
+<td align="center"></td> 
+<td align="center"></td> 
+<td align="center"></td> 
+<td align="center"></td> 
+
+
+<td colspan="2" align="center"><b><a href="KBO_numbers_explanation.html#clinch" 
+onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">
+<b>
+<span style="display: inline;" lang="en">
+Clinch
+</span>
+<span style="display: none;" lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+“클린치”
+</span> </b></a></b></td>
+
+<td colspan="2" align="center"><b><a href="KBO_numbers_explanation.html#elim" 
+onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">
+<b>
+<span style="display: inline;" lang="en">
+Avoid Elimination From
+</span>
+<span style="display: none;" lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+“탈락방지”
+</span>
+</b>
+</a>
+</b>
+</td>
+</tr>
+<tr style="background-color:#c2c2c2 ; color:#080808">
+<td align="left">
+<b>
+<span style="display: inline;" lang="en">
+Team
+</span>
+<span style="display: none;" lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+팀명
+</span>
+</b>
+</td>
+<td align="center">
+<b>
+<span style="display: inline;" lang="en">
+W
+</span>
+<span style="display: none;" lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+승
+</span>
+</b>
+</td>
+<td align="center">
+<b>
+<span style="display: inline;" lang="en">
+L
+</span>
+<span style="display: none;" lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+패
+</span>
+</b>
+</td>
+<td align="center">
+<b>
+<span style="display: inline;" lang="en">
+D
+</span>
+<span style="display: none;" lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+무
+</span>
+</b>
+</td>
+<td align="center">
+<b>
+<span style="display: inline;" lang="en">
+GB
+</span>
+<span style="display: none;" lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+게임차
+</span>
+</b>
+</td>
+												
+
+<td align="center">
+<b>
+<span style="display: inline;" lang="en">
+PCT
+</span>
+<span style="display: none;" lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+승률
+</span>
+</b>
+</td>
+<td align="center">
+<b>
+<span style="display: inline;" lang="en">
+Games Left
+</span>
+<span style="display: none;" lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+남은경기수
+</span>
+																				</b></td>
+<td align="center">
+<b>
+<span style="display: inline;" lang="en">
+1st Place
+</span>
+<span style="display: none;" lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+정규시즌우승
+</span>
+</b>
+</td>
+<td align="center">
+<b>
+<span style="display: inline;" lang="en">
+Postseason
+</span>
+<span style="display: none;" lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+포스트시즌
+</span>
+</b>
+</td>
+<td align="center">
+<b>
+<span style="display: inline;" lang="en">
+1st Place
+</span>
+<span style="display: none;" lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+정규시즌우승
+</span>
+</b>
+</td>
+<td align="center">
+<b>
+<span style="display: inline;" lang="en">
+Postseason
+</span>
+<span style="display: none;" lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+포스트시즌
+</span>															
+</b></td>
+</tr>
+<tr style="background-color:#f7f7f7; color:#080808">
+<tr style="background-color:#f7f7f7; color:#080808">
+<td align=left><img src="images/KBL_NC.png" alt="" width="30" height="30"<b>NC</b></td>
+<td align=center>63</td>
+<td align=center>42</td>
+<td align=center>3</td>
+<td align=center>0.0</td>
+<td align=center>0.600</td>
+<td align=center>36</td>
+<td align=center><a href=KBO_DEMO/NC_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">32</a></td>
+<td align=center><a href=KBO_DEMO/NC_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">23</a></td>
+<td align=center><a href=KBO_DEMO/NC_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">6</a></td>
+<td align=center><a href=KBO_DEMO/NC_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
+</tr>
+<tr style="background-color:#f7f7f7; color:#080808">
+<td align=left><img src="images/KBL_Kiwoom.png" alt="" width="30" height="30"<b>Kiwoom</b></td>
+<td align=center>67</td>
+<td align=center>48</td>
+<td align=center>1</td>
+<td align=center>1.0</td>
+<td align=center>0.583</td>
+<td align=center>28</td>
+<td align=center><a href=KBO_DEMO/Kiwoom_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
+<td align=center><a href=KBO_DEMO/Kiwoom_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">20</a></td>
+<td align=center><a href=KBO_DEMO/Kiwoom_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">2</a></td>
+<td align=center><a href=KBO_DEMO/Kiwoom_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
+</tr>
+<tr style="background-color:#f7f7f7; color:#080808">
+<td align=left><img src="images/KBL_KT.png" alt="" width="30" height="30"<b>KT</b></td>
+<td align=center>62</td>
+<td align=center>47</td>
+<td align=center>1</td>
+<td align=center>3.0</td>
+<td align=center>0.569</td>
+<td align=center>34</td>
+<td align=center><a href=KBO_DEMO/KT_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
+<td align=center><a href=KBO_DEMO/KT_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">25</a></td>
+<td align=center><a href=KBO_DEMO/KT_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">7</a></td>
+<td align=center><a href=KBO_DEMO/KT_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
+</tr>
+
+<tr style="background-color:#f7f7f7; color:#080808">
+<td align=left><img src="images/KBL_LG.png" alt="" width="30" height="30"<b>LG</b></td>
+<td align=center>62</td>
+<td align=center>47</td>
+<td align=center>3</td>
+<td align=center>3.0</td>
+<td align=center>0.569</td>
+<td align=center>32</td>
+<td align=center><a href=KBO_DEMO/LG_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">32</a></td>
+<td align=center><a href=KBO_DEMO/LG_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">24</a></td>
+<td align=center><a href=KBO_DEMO/LG_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">7</a></td>
+<td align=center><a href=KBO_DEMO/LG_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
+</tr>
+
+<tr style="background-color:#f7f7f7; color:#080808">
+<td align=left><img src="images/KBL_KIA.png" alt="" width="30" height="30"<b>KIA</b></td>
+<td align=center>59</td>
+<td align=center>49</td>
+<td align=center>0</td>
+<td align=center>5.5</td>
+<td align=center>0.546</td>
+<td align=center>36</td>
+<td align=center><a href=KBO_DEMO/KIA_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
+<td align=center><a href=KBO_DEMO/KIA_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">29</a></td>
+<td align=center><a href=KBO_DEMO/KIA_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">10</a></td>
+<td align=center><a href=KBO_DEMO/KIA_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
+</tr>
+
+<tr style="background-color:#f7f7f7; color:#080808">
+<td align=left><img src="images/KBL_Doosan.png" alt="" width="30" height="30"<b>Doosan</b></td>
+<td align=center>58</td>
+<td align=center>49</td>
+<td align=center>4</td>
+<td align=center>6.0</td>
+<td align=center>0.542</td>
+<td align=center>33</td>
+<td align=center><a href=KBO_DEMO/Doosan_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
+<td align=center><a href=KBO_DEMO/Doosan_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">27</a></td>
+<td align=center><a href=KBO_DEMO/Doosan_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">11</a></td>
+<td align=center><a href=KBO_DEMO/Doosan_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
+</tr>
+
+<tr style="background-color:#f7f7f7; color:#080808">
+<td align=left><img src="images/KBL_Lotte.png" alt="" width="30" height="30"<b>Lotte</b></td>
+<td align=center>56</td>
+<td align=center>51</td>
+<td align=center>1</td>
+<td align=center>8.0</td>
+<td align=center>0.523</td>
+<td align=center>36</td>
+<td align=center><a href=KBO_DEMO/Lotte_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
+<td align=center><a href=KBO_DEMO/Lotte_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">31</a></td>
+<td align=center><a href=KBO_DEMO/Lotte_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">13</a></td>
+<td align=center><a href=KBO_DEMO/Lotte_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">2</a></td>
+</tr>
+
+<tr style="background-color:#f7f7f7; color:#080808">
+<td align=left><img src="images/KBL_Samsung.png" alt="" width="30" height="30"<b>Samsung</b></td>
+<td align=center>49</td>
+<td align=center>60</td>
+<td align=center>2</td>
+<td align=center>16.0</td>
+<td align=center>0.450</td>
+<td align=center>33</td>
+<td align=center><a href=KBO_DEMO/Samsung_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
+<td align=center><a href=KBO_DEMO/Samsung_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
+<td align=center><a href=KBO_DEMO/Samsung_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">20</a></td>
+<td align=center><a href=KBO_DEMO/Samsung_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">9</a></td>
+</tr>
+
+<tr style="background-color:#f7f7f7; color:#080808">
+<td align=left><img src="images/KBL_SK.png" alt="" width="30" height="30"<b>SK</b></td>
+<td align=center>38</td>
+<td align=center>74</td>
+<td align=center>1</td>
+<td align=center>28.5</td>
+<td align=center>0.339</td>
+<td align=center>31</td>
+<td align=center><a href=KBO_DEMO/SK_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
+<td align=center><a href=KBO_DEMO/SK_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
+<td align=center><a href=KBO_DEMO/SK_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">Elim</a></td>
+<td align=center><a href=KBO_DEMO/SK_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''"></a>20</td>
+</tr>
+
+<tr style="background-color:#f7f7f7; color:#080808">
+<td align=left><img src="images/KBL_Hanwha.png" alt="" width="30" height="30"<b>Hanwha</b></td>
+<td align=center>31</td>
+<td align=center>78</td>
+<td align=center>2</td>
+<td align=center>34.0</td>
+<td align=center>0.284</td>
+<td align=center>33</td>
+<td align=center><a href=KBO_DEMO/Hanwha_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
+<td align=center><a href=KBO_DEMO/Hanwha_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
+<td align=center><a href=KBO_DEMO/Hanwha_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">Elim</a></td>
+<td align=center><a href=KBO_DEMO/Hanwha_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">27</a></td>
+</tr>
+</tbody></table>
+
+<br>
+<p style="color:#080808; font-size:18px">
+<span lang="en">
+The Games Left column shows that Hanwha has 33 games left to play in the season. Hanwha's best possible winning percentage is 
+0.451 (64 wins, 78 losses, and 2 draws). Kiwoom's worst possible winning percentage is 0.469 (67 wins, 76 losses, and 1 draws). 
+Since Hanwha cannot catch up to Kiwoom, they are mathematically eliminated from first place. This is indicated by the word "Elim" 
+in the "1st Place" column under the "Avoid Elimination From" heading. Conversely, The RIOT standings table indicates that NC can 
+clinch first place in the conference by winning 32 more games ( "1st Place" column under the "Clinch" heading).  
+If NC wins 32 of their remaining games and losses the other 4, 
+their final winning percentage will be 0.674 (95 wins, 46 losses, and 3 draws). And if Kiwoom wins all of their remaining games, 
+their final winning percentage will be 0.664 (95 wins, 48 losses, and 1 draw). This type of straight-forward calculation shows that NC 
+will have the best winning percentage in KBO if they win 32 more games. To see why NC's first-place clinch number cannot be less than 32, 
+click <a href="https://s2.smu.edu/~olinick/RIOT_Dev-master/KBO_DEMO/NC_fpc.txt"> here</a> or 
+on NC's first place clinch number in the table above.
+</span>
+<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+남은 경기수 칼럼은 한화가 시즌 33경기를 남겨두고 있음을 보여줍니다. 한화가 올릴 수 있는 
+최고의 승률은 0.451 (64승78패 2무)입니다. 키움이 가능한 최저의 승률은 0.469 (67승76패1무)입니다. 
+한화가 키움을 절대 따라잡지 못하기 때문에 수학적으로 1위 경쟁에서 탈락하게 됩니다. 그래서, 
+(순위표에서) 탈락 방지 칼럼 밑에 있는 “정규시즌우승” 칸에 “Elim” (elimination 탈락)라고 
+표시됩니다.  반대로 NC는 RIOT 순위표에서 클린치 아래에 정규시즌우승 칸에 32라고 표시되며 이는 
+32경기를 더 이기면 1위를 할 수 있다는 것을 나타냅니다. NC는 남은 경기 중 32승을 거두고 나머지 
+4경기에서 패하면 최종 승률은 0.674 (95승 46패 3무)가 됩니다.  그리고, 키움이 남은 경기를 모두 
+이기면 최종 승률은 0.664 (95승 48패 1무)가 됩니다. 이런 식의 계산하면 NC가 32경기를 더 이기면 
+KBO에서 최고의 승률을 기록할 것이라는 것을 보여줍니다. 왜 NC가 시즌우승에 32승 이하가 될 수 
+없는지를 알려면 NC의 정규시즌우승 숫자를 클릭하면 됩니다. </span>
+
+<h3>
+	<span lang="en">
+		Taking the Schedule into Account
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		남은 스케쥴을 고려
+	</span>
+</h3>
+<p style="color:#080808; font-size:18px">
+<span lang="en">
+
+<h4>
+	<span lang="en">
+		SK's Elimination from First Place
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		SK의 정규시즌 1위 경쟁에서 탈락
+	</span>
+</h4>
+<p style="color:#080808; font-size:18px">
+<span lang="en">
+
+	It's not obvious from the standings why SK is eliminated from first place. SK's best possible winning percentage is 0.483,
+        which is better than NC's and Kiwoom's worst possible winning percentages of 0.447 and 0.469, respectively. 
+        So, it would appear that there is still at least a mathematical possibility for SK to finish in first place.  But, by taking the remaining schedule of
+        games into account RIOT can determine that SK cannot finish in first place even if they win all of their remaining games.
+        <br><br>        
+        For example, suppose that the 3 remaining games in the series between NC and Kiwoom end in draws, and that NC and Kiwoom lose all of their other 
+        remaining games. That would give NC a final winning percentage of 0.457 (63 wins, 75 losses, and 6 draws), and Kiwoom a final winning percentage of
+        0.479 (67 wins, 73 losses, and 4 draws).
+        <br><br>
+        Since Kiwoom has 3 games left with KT, KT's worst possible winning percentage in this scenario is 0.455 (65 wins, 78 losses, and 1). 
+        <br><br>
+        If KT loses all their other remaining games (i.e., all the games against teams other than Kiwoom), then they will lose 7 games to LG.
+        Since LG also has 7 games left against NC, their worst possible winning percentage in this scenario is 0.539
+        (76 wins, 65 losses, and 3 ties), which is better than SK's best possible winning percentage of 0.483. 
+        <br><br>
+        This is only one of many possible scenarios, but it turns out that in every possible scenario some team other than SK finishes in first place.
+</span>
+<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+SK가 1위에서 탈락하는 이유는 순위표에서는 명확하지 않습니다. SK의 최고 승률은 0.483으로 NC와 
+키움이 각각 0.447과 0.469로 최악의 승률을 기록했을 때 보다는 낫습니다. 따라서 SK가 1위를 할 수 
+있는 수학적 가능성은 여전히 남아 있는 것으로 보입니다. 하지만 남은 경기 일정을 고려하면 
+SK가 남은 경기를 모두 이겨도 1위를 할 수 없다는 판단을 내릴 수 있습니다.
+예를 들어 NC와 키움의 시리즈 남은 3경기가 무승부로 끝나고, NC와 키움이 남은 나머지 경기에서 
+모두 진다고 가정합시다. 이로써 NC는 0.457 (63승 75패 6무)의 최종 승률을, 키움은 0.479(67승 73패 
+4무)의 최종 승률을 기록하게 됩니다. 
+<br><br>
+키움이 KT와 3경기를 남겨두고 있는 만큼 이번 시나리오에서 KT가 얻을 수 있는 최악의 승률은 0.455 
+(65승 78패 1패) 입니다.
+<br><br>
+KT가 남은 경기(키움 이외의 팀과의 경기)를 모두 패하면 LG에 7전 전패하게 됩니다. LG도 NC와 
+7경기를 남겨둔 상황이라 최악의 승률은 0.539(76승 65패 3무)로 SK의 최고 승률 0.483보다 낫습니다.
+<br><br>
+이는 여러 시나리오 중 하나일 뿐이지만 모든 시나리오에서 SK 이외의 다른 팀이 1위를 하는 
+것으로 결과로 나타납니다.
+ </span>
+
+<h4>
+	<span lang="en">
+		LG's First Place Clinch Number
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+LG의 1위 클린치
+	</span>
+</h4>
+
+<p style="color:#080808; font-size:18px">
+<span lang="en">
+        Unlike the case with NC, LG's first place clinch number of 32 cannot be verified without considering the remaining match ups in the season.
+        By winning all 32 of their remaining games, LG can achieve a winning percentage of 0.667 (94 wins, 47 losses, and 3 draws) which is less than NC's and KT's
+        maximums of 0.702 and 0.671, respectively. RIOT takes LG's remaining schedule into account to calculate the first place clinch number. 
+        For example, if LG wins all of their remaining games then will win 7 against NC and another 7 against KT reducing their maximum winning percentages to 0.652 and 0.622, respectively.
+        Click <a href="">here</a> or on LG's first place clinch number in the RIOT standings for a complete analysis.
+</span>
+
+<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+NC와 달리 LG의 1위 클린치 넘버 32는 시즌 남은 매치업을 고려하지 않고는 검증이 불가능합니다. 
+남은 32승을 모두 거둬 NC와 KT의 최대 승수 0.702와 0.671에 못 미치는 0.667 (94승 47패 3무)의 승률을 
+달성할 수 있다. RIOT는 LG의 남은 스케줄을 고려하여 1위 클린치 넘버를 계산합니다. 예를 들어 
+LG가 남은 경기에서 모두 이기면 NC와 KT가 각각 7승, KT가 7승을 거두면 최대 승률이 각각 0.652와 
+0.622로 줄어든다. 완전한 분석을 위해 RIOT 순위표에서 LG의 1위 클린치 넘버를 클릭해 보세요. 
+</span>
+
+<h4>
+	<span lang="en">
+		Kiwoom Cannot Clinch First Place
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		키움은 우승 불가능
+	</span>
+</h4>
+
+<p style="color:#080808; font-size:18px">
+<span lang="en">
+As noted above, Kiwoom and NC still only have one, three-game series left in the seaon. 
+That means that even if Kiwoom wins all of their remaining games to achieve a 0.671 winning percentage, then NC 
+can still finish in first place with a winning percentage has high as 0.681  (e.g., 96 wins, 45 losses and 3 draws). 
+The asterisk (*) in the standing stable indicates that Kiwoom does not have a first place clinch number since they cannot guarantee a first place finish even 
+by winning all the rest of their games. Click <a href="KBO_DEMO/KT_fpc.txt">here</a> to see why KT also does not have a first place number.
+</span>
+<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+위에서 지적한 것처럼 키움과 NC는 아직 시즌 3연전이 한 번 밖에 남아 있지 않았다. 키움이 남은 
+경기를 모두 이겨 0.671 승률을 달성하더라도 NC는 승률 0.681 (96승 45패 3무)로 여전히 1위를 할 수 
+있다는 의미입니다. 순위표에서 별표(*)는 키움이 남은 경기를 모두 이겨도 1위 마무리를 장담할 
+수 없어 1위클린치 넘버가 없다는 것을 의미한다. KT도 1등 번호가 없는 이유를 보려면<a href="KBO_DEMO/KT_fpc.txt"> 여기</a>를 
+클릭하십시오.
+</span>
+
+<h4>
+	<span lang="en">
+		First Place Elimination Numbers
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		Translation Pending
+	</span>
+</h4>
+
+<p style="color:#080808; font-size:18px">
+<span lang="en">
+Although Kiwoom does not have a first place clinch number, it is still <a href="KBO_DEMO/Kiwoom_fpe.txt">possible for them to finish in first place</a>.  
+The RIOT standings indicate that Kiwoom must win at least 2 more games (69 total) to avoid elimination from first place. Similarly, KIA does not have a
+first place clinch number but can still finish in first place as long they win at least 10 more games (69 total). Note that in KIA's case, 
+the <a href="KBO_DEMO/KIA_fpe.txt">scenario</a> involves KIA winning tie-breakers against other teams with same winning percentage.
+</span> 
+
+<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+	Translation Pending
+</span>
+
+
+<a name=MIP><h2>
+						<span lang="en">
+						Advanced Analytics for Playoff Clinching and Elimination
+						</span>
+						<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+							플레이오프 결정 및 탈락결정을 위한 뛰어난 분석
+						</span>
+						</h2></a>
+<p style="color:#080808; font-size:18px">
+	<span lang="en">
+		As the examples on this page show, the key to determining true clinching and elimination numbers is taking into
+		account the actual matchups that remain in the season and enumerating all possible outcomes. Until the final weeks
+		of the season, however, the number of possible outcomes can be astronomically large, which makes such an enumeration
+		impractical even on a very fast computer. By using a powerful and pervasive analytics technique called Mixed Integer
+		Programming, it is possible to accurately perform the necessary calculations without explicitly enumerating all
+		possibilities. Consequently, it is possible for RIOT to determine the playoff prospects of a team before it is
+		reported by the popular media.
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		이 페이지의 예에서 알 수 있듯이, 진정한 진출과 탈락 승수를 결정하는 열쇠는 시즌에 남아 있는 실제 매치업을 고려하고 가능한 모든 결과를 열거하는 것입니다. 그러나 시즌 마지막 주까지 가능한 결과의 수는 천문학적으로 클 수 있기 때문에 매우 빠른 컴퓨터에서도 그러한 열거가 실현 불가능하게 됩니다. “Mixed Integer Programming”이라는 강력하고 보편화된 분석 기법을 사용함으로써 모든 가능성을 명시적으로 열거하지 않고도 필요한 계산을 정확하게 수행할 수 있습니다. 이에 따라 주요 언론에 보도되기 전에 리오트 팀이 플레이오프 전망을 결정할 수 있습니다.
+	</span>
+
+</p>
+<p style="color:#080808; font-size:18px">
+	<span lang="en">
+		For more information on the integer programming formulations and implementation
+		of the RIOT basketball standings,
+		send mail to the
+		<A HREF="mailto:olinick@lyle.smu.edu">
+		RIOT Project</A> and see our paper <a href="https://pubsonline.informs.org/doi/10.1287/inte.2020.1034">National Basketball Association Playoff 
+                Elimination with Tie Breaking"</a> and the following references:
+	</span>
+	<span lang="ko" style="color:#080808; font-size:18px; font-family:Nanum Gothic;">
+		리오트의 NBA순위의 “Mixed Integer Programming” 및 구현에 대한 자세한 내용은 RIO의 NBA 프로젝트로 메일을 보내시거나 화이트 페이퍼에 발표된 "National Basketball Association Playoff Elimination with Tie Breaking" 나 아래의 문헌을 참조하십시오.
+	</span>
+
+<ul>
+<li> I. Alder, A. L. Erera, D. S. Hochbaum, and E. V. Olinick. <A HREF="https://pubsonline.informs.org/doi/abs/10.1287/inte.32.2.12.67">"Baseball, Optimization and the World Wide Web"</A>.
+<cite>Interfaces</cite>. <b>32</b>(2): 12-22. 2002.
+
+<li> E. Cheng and D. Steffy. <A
+HREF="http://www.orstw.org.tw/ijor/vol5no3/paper-6-IJOR-vol5_3_-Eddie_Cheng.pdf">"Clinching and Elimination of
+Playoff Berth in the NHL"</A>.
+<cite>International Journal of Operations Research</cite>. <b>5</b>(3): 87-192. 2008.
+
+<li>D. Gusfield and C. Martel. <a href="https://link.springer.com/article/10.1007%2Fs00453-001-0074-y"> "The
+Structure and Complexity of Sports Elimination Numbers"</a>. <cite>Algorithmica</cite>. <b>32</b>(1): 73-86. 2002.
+
+<li> A. Hoffman and J. Rivlin. "When is a team 'mathematically' eliminated ?"
+In H.W. Kuhn, editor, <cite><a
+href="https://press.princeton.edu/titles/1383.html">Princeton
+Symposium on Math Programming</a></cite> (1967),
+Princeton University Press, Princeton, NJ, 1970, pp. 391 - 401.
+
+
+<li> C. J. P. Lucena, T. F. Noronha, C. C. Ribeiro and S. Urrutia. <A
+HREF="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-3995.2008.00677.x">"A Multi-agent Framework to
+Build Integer Programming Applications to Playoff Elimination in Sports Tournaments"</A>.
+<cite>International Transactions in Operational Research</cite>.
+<b>15</b>(6): 739-753. 2008.
+
+<li>  C. C. Ribeiro and S. Urrutia. <A
+HREF="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-3995.2005.00513.x">"An Application of
+Integer Programming to Playoff Elimination in Football Championships"</A>.
+<cite>International Transactions in Operational Research</cite>. <b>12</b>(4): 375-386. 2005.
+
+<li>  L. W.  Robinson. <a href="https://www.sciencedirect.com/science/article/pii/0167637791900898"> "Baseball
+Playoff Eliminations: An Application of Linear Programming"</a>.  <cite>Operations Research Letters</cite>.
+<b>10</b>(2): 67-74. 1991.
+
+<li> T. Russell and  P. Van Beek. <A HREF="https://link.springer.com/chapter/10.1007/978-3-540-68825-9_23">"Mathematically
+Clinching a Playoff Spot in the NHL and the Effect of Scoring Systems"</A>. <cite>Conference of the Canadian Society for Computational Studies of Intelligence</cite>.
+234-245. 2008.
+
+<li> T. Russell and  P. Van Beek. <A
+HREF="https://link.springer.com/chapter/10.1007/978-3-642-01929-6_18">"Determining the Number of Games Needed
+to Guarantee an NHL Playoff Spot"</A>. <cite>International Conference on AI and OR Techniques in Constriant
+Programming for Combinatorial Optimization Problems</cite>. 233-247. 2009.
+
+<li> T. Russell and  P. Van Beek. <A
+HREF="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.157.7310&rep=rep1&type=pdf">"Lessons Learned
+from Modeling the NHL Playoff Qualification Problem"</A>. <cite> Proceedings of the Eighth International Workshop on
+Constraint Modeling and Reformulation (ModRef'09)</cite>. 2009.
+
+
+<li> I. Schlotter and K. Cechl&aacute;rov&aacute;. <A HREF="https://link.springer.com/article/10.1007%2Fs00453-016-0256-2">"A Connection Between Sports and Matroids: How Many Teams Can We Beat?"</A>. <cite>Algorithmica</cite>. <b>80</b>(1): 258-278. 2018.
+
+<li>  B. Schwartz. <a href="https://doi.org/10.1137/1008062">"Possible winners in partially completed
+tournaments"</a>. <cite>SIAM Review</cite>. <b>8</b>(3): 302-308. 1966.
+
+</ul>
+
+
+
+<br>
+
+		<!-- Endo f Main -->
+					</div>
+				</section>
+			</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="copyright">
+				<ul class="icons">
+					<li><a href="https://twitter.com/RIOTBaseball?s=20" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.facebook.com/Riot-Sports-109650510828463" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				</ul>
+				<p>&copy; Untitled. All rights reserved. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.</p>
+				<p>© 1996 Ilan Adler, Alan L. Erera, Dorit S. Hochbaum and Eli V. Olinick</p>
+				<p>© 2019 Mark A. Husted, Eli V. Olinick, and Alexandra M. Newman</p>
+				<img  style="max-width=:550px; max-height:550px" src="images/RIOT_Logo.png" alt="" />
+			</div>
+		</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script>
+						$('[lang]').hide(); // hide all lang attributes on start.
+						$('[lang="en"]').show(); // show just Korean text (you can change it)
+						$('#lang-switch').change(function () { // put onchange event when user select option from select
+								var lang = $(this).val(); // decide which language to display using switch case. The rest is obvious (i think)
+								switch (lang) {
+										case 'en':
+												$('[lang]').hide();
+												$('[lang="en"]').show();
+										break;
+										case 'ko':
+												$('[lang]').hide();
+												$('[lang="ko"]').show();
+										break;
+										default:
+												$('[lang]').hide();
+												$('[lang="en"]').show();
+										}
+						});
+				</script>
+
+	</body>
+</html>
