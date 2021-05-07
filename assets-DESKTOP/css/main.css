@@ -2810,26 +2810,35 @@ a:active {
 
 	table {
 		margin: 0 0 2em 0;
-		width: 100%;
+    width: 1085px;
+    table-layout: fixed;
 	}
+
+    table tbody {
+      display: block;
+      height: 285px;
+      overflow:auto;
+      width: 1100px;
+    }
 
 		table tbody tr {
 			border: solid 1px;
 			border-left: 0;
 			border-right: 0;
-
 		}
 
 		table td {
-			padding: 0.75em 0.75em;
+			padding: 0.50em 0.50em;
 			border: 1px solid black;
+      width: 1100px;
 		}
 
 		table th {
 			font-size: 0.9em;
 			font-weight: 700;
-			padding: 0 0.75em 0.75em 0.75em;
+			padding: 0 0.50em 0.50em 0.50em;
 			text-align: left;
+      width: 1100px;
 		}
 
 		table thead {
@@ -2857,6 +2866,7 @@ a:active {
 
 			table.alt tbody tr:first-child td {
 				border-top-width: 1px;
+
 			}
 
 			table.alt thead {
@@ -2869,21 +2879,20 @@ a:active {
 
 	table tbody tr {
 		border-color: rgba(0, 0, 0, 0);
-
 	}
 
 		table tbody tr:nth-child(2n + 1) {
 			background-color: rgba(0, 0, 0, 0);
-
 		}
 
 	table th {
 		color: #000;
-
 	}
 
 	table thead {
 		border-bottom-color: rgba(0, 0, 0, 0);
+    display: block;
+    width: 1083px;
 	}
 
 	table tfoot {

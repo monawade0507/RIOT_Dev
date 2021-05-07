@@ -82,429 +82,437 @@
 										<!--<h3>Table</h3>-->
 
 										<h4>NBA Eastern Conference</h4>
-										<div class="table-wrapper">
-											<table width=100% border=1 cellspacing=3 cellpadding=0>
-											<tr style="background-color:#c9ddf5; color:#080808">
-											<td align=left></td>
-											<td align=center></td>
-											<td align=center></td>
-											<td align=center></td>
-											<td align=center></td>
-											<td align=center></td>
-											<td align=center colspan=2><b><a href="detail_nba_numbers.html#clinch" onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">Clinch</a></b></td>
-											<td align=center colspan=2><b><a href="detail_nba_numbers.html#elim" onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">Avoid Elim</a></b></td>
-											</tr>
-											<tr style="background-color:#c2c2c2; color:#080808">
-											<td align=left><b>Team</b></td>
-											<td align=center><b>W</b></td>
-											<td align=center><b>L</b></td>
-											<td align=center><b>GB</b></td>
-											<td align=center><b>PCT</b></td>
-											<td align=center><b>GL</b></td>
-											<td align=center><b>1st</b></td>
-											<td align=center><b>Postseason</b></td>
-											<td align=center><b>1st</b></td>
-											<td align=center><b>Postseason</b></td>
-											</tr>
+										<div class="table-wrapper" style="overflow:hidden" onload="InitApp()">
+											<table width=100% border=1 cellspacing=3 cellpadding=0 >
+												<!-- header   style="min-width:900px"-->
+												<thead width=100% border=1 cellspacing=3 cellpadding=0>
+												<tr style="background-color:#c9ddf5; color:#080808">
+												<td align=left style="width: 14.5%;"></td>
+												<td align=center style="width: 9.3%;"></td>
+												<td align=center style="width: 9%;"></td>
+												<td align=center style="width: 10.3%;"></td>
+												<td align=center style="width: 11%;"></td>
+												<td align=center style="width: 9%;"></td>
+												<td align=center style="width: 18%;" colspan=2><b><a href="detail_nba_numbers.html#clinch" onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Clinch</a></b></td>
+												<td align=center colspan=2><b><a href="detail_nba_numbers.html#elim" onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Avoid Elim</a></b></td>
+												</tr>
+												<tr style="background-color:#c2c2c2; color:#080808">
+												<td align=left><b>Team</b></td>
+												<td align=center><b>W</b></td>
+												<td align=center><b>L</b></td>
+												<td align=center><b>GB</b></td>
+												<td align=center><b>PCT</b></td>
+												<td align=center><b>GL</b></td>
+												<td align=center><b>1st</b></td>
+												<td align=center><b>Postseason</b></td>
+												<td align=center><b>1st</b></td>
+												<td align=center><b>Postseason</b></td>
+												</tr>
+											  </thead>
+											<!-- end of header -->
 
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Milwaukee.jpg" alt="" height=30 width=30>Milwaukee</td>
-<td align=center>51</td>
-<td align=center>8</td>
-<td align=center>-</td>
-<td align=center>0.864</td>
-<td align=center>23</td>
-<td align=center><a href=NBA_DEMO/Milwaukee_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">15</a></td>
-<td align=center><a href=NBA_DEMO/Milwaukee_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">In</a></td>
-<td align=center><a href=NBA_DEMO/Milwaukee_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
-<td align=center><a href=NBA_DEMO/Milwaukee_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Toronto.jpg" alt="" height=30 width=30>Toronto</td>
-<td align=center>42</td>
-<td align=center>17</td>
-<td align=center>9</td>
-<td align=center>0.712</td>
-<td align=center>23</td>
-<td align=center><a href=NBA_DEMO/Toronto_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NBA_DEMO/Toronto_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">4</a></td>
-<td align=center><a href=NBA_DEMO/Toronto_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">9</a></td>
-<td align=center><a href=NBA_DEMO/Toronto_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Boston.jpg" alt="" height=30 width=30>Boston</td>
-<td align=center>41</td>
-<td align=center>18</td>
-<td align=center>10</td>
-<td align=center>0.695</td>
-<td align=center>23</td>
-<td align=center><a href=NBA_DEMO/Boston_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NBA_DEMO/Boston_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">5</a></td>
-<td align=center><a href=NBA_DEMO/Boston_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">10</a></td>
-<td align=center><a href=NBA_DEMO/Boston_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Miami.jpg" alt="" height=30 width=30>Miami</td>
-<td align=center>38</td>
-<td align=center>22</td>
-<td align=center>13.5</td>
-<td align=center>0.633</td>
-<td align=center>22</td>
-<td align=center><a href=NBA_DEMO/Miami_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NBA_DEMO/Miami_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">8</a></td>
-<td align=center><a href=NBA_DEMO/Miami_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">13</a></td>
-<td align=center><a href=NBA_DEMO/Miami_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Philadelphia.jpg" alt="" height=30 width=30>Philadelphia</td>
-<td align=center>37</td>
-<td align=center>23</td>
-<td align=center>14.5</td>
-<td align=center>0.617</td>
-<td align=center>22</td>
-<td align=center><a href=NBA_DEMO/Philadelphia_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NBA_DEMO/Philadelphia_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">9</a></td>
-<td align=center><a href=NBA_DEMO/Philadelphia_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">14</a></td>
-<td align=center><a href=NBA_DEMO/Philadelphia_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Indiana.jpg" alt="" height=30 width=30>Indiana</td>
-<td align=center>36</td>
-<td align=center>24</td>
-<td align=center>15.5</td>
-<td align=center>0.600</td>
-<td align=center>22</td>
-<td align=center><a href=NBA_DEMO/Indiana_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NBA_DEMO/Indiana_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">10</a></td>
-<td align=center><a href=NBA_DEMO/Indiana_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">16</a></td>
-<td align=center><a href=NBA_DEMO/Indiana_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Orlando.jpg" alt="" height=30 width=30>Orlando</td>
-<td align=center>27</NBA_DEMO/td>
-<td align=center>33</td>
-<td align=center>24.5</td>
-<td align=center>0.450</td>
-<td align=center>22</td>
-<td align=center><a href=NBA_DEMO/Orlando_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NBA_DEMO/Orlando_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">19</a></td>
-<td align=center><a href=NBA_DEMO/Orlando_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">Elim</a></td>
-<td align=center><a href=NBA_DEMO/Orlando_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Brooklyn.jpg" alt="" height=30 width=30>Brooklyn</td>
-<td align=center>26</td>
-<td align=center>33</td>
-<td align=center>25</td>
-<td align=center>0.441</td>
-<td align=center>23</td>
-<td align=center><a href=NBA_DEMO/Brooklyn_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NBA_DEMO/Brooklyn_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">20</a></td>
-<td align=center><a href=NBA_DEMO/Brooklyn_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">Elim</a></td>
-<td align=center><a href=NBA_DEMO/Brooklyn_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Washington.jpg" alt="" height=30 width=30>Washington</td>
-<td align=center>21</td>
-<td align=center>37</td>
-<td align=center>29.5</td>
-<td align=center>0.362</td>
-<td align=center>24</td>
-<td align=center><a href=NBA_DEMO/Washington_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NBA_DEMO/Washington_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NBA_DEMO/Washington_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">Elim</a></td>
-<td align=center><a href=NBA_DEMO/Washington_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">5</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Charlotte.jpg" alt="" height=30 width=30>Charlotte</td>
-<td align=center>21</td>
-<td align=center>38</td>
-<td align=center>30</td>
-<td align=center>0.356</td>
-<td align=center>23</td>
-<td align=center><a href=NBA_DEMO/Charlotte_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NBA_DEMO/Charlotte_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NBA_DEMO/Charlotte_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">Elim</a></td>
-<td align=center><a href=NBA_DEMO/Charlotte_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">6</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Chicago.jpg" alt="" height=30 width=30>Chicago</td>
-<td align=center>20</td>
-<td align=center>40</td>
-<td align=center>31.5</td>
-<td align=center>0.333</td>
-<td align=center>22</td>
-<td align=center><a href=NBA_DEMO/Chicago_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NBA_DEMO/Chicago_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NBA_DEMO/Chicago_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">Elim</a></td>
-<td align=center><a href=NBA_DEMO/Chicago_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">6</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Detroit.jpg" alt="" height=30 width=30>Detroit</td>
-<td align=center>20</td>
-<td align=center>41</td>
-<td align=center>32</td>
-<td align=center>0.328</td>
-<td align=center>21</td>
-<td align=center><a href=NBA_DEMO/Detroit_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NBA_DEMO/Detroit_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NBA_DEMO/Detroit_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">Elim</a></td>
-<td align=center><a href=NBA_DEMO/Detroit_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">7</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td a><img src="images/NBA_Atlanta.jpg" alt="" height=30 width=30>Atlanta</td>
-<td align=center>19</td>
-<td align=center>43</td>
-<td align=center>33.5</td>
-<td align=center>0.306</td>
-<td align=center>20</td>
-<td align=center><a href=NBA_DEMO/Atlanta_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NBA_DEMO/Atlanta_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NBA_DEMO/Atlanta_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">Elim</a></td>
-<td align=center><a href=NBA_DEMO/Atlanta_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">8</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_NewYork.jpg" alt="" height=30 width=30>New York</td>
-<td align=center>18</td>
-<td align=center>42</td>
-<td align=center>33.5</td>
-<td align=center>0.300</td>
-<td align=center>22</td>
-<td align=center><a href=NewYork_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NewYork_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NewYork_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">Elim</a></td>
-<td align=center><a href=NewYork_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">8</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Cleveland.jpg" alt="" height=30 width=30>Cleveland</td>
-<td align=center>17</td>
-<td align=center>43</td>
-<td align=center>34.5</td>
-<td align=center>0.283</td>
-<td align=center>22</td>
-<td align=center><a href=Cleveland_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=Cleveland_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=Cleveland_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">Elim</a></td>
-<td align=center><a href=Cleveland_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">9</a></td>
-</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Milwaukee.jpg" alt="" height=30 width=30>Milwaukee</td>
+												<td align=center>51</td>
+												<td align=center>8</td>
+												<td align=center>-</td>
+												<td align=center>0.864</td>
+												<td align=center>23</td>
+												<td align=center><a href=NBA_DEMO/Milwaukee_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">15</a></td>
+												<td align=center><a href=NBA_DEMO/Milwaukee_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">In</a></td>
+												<td align=center><a href=NBA_DEMO/Milwaukee_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												<td align=center><a href=NBA_DEMO/Milwaukee_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Toronto.jpg" alt="" height=30 width=30>Toronto</td>
+												<td align=center>42</td>
+												<td align=center>17</td>
+												<td align=center>9</td>
+												<td align=center>0.712</td>
+												<td align=center>23</td>
+												<td align=center><a href=NBA_DEMO/Toronto_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Toronto_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">4</a></td>
+												<td align=center><a href=NBA_DEMO/Toronto_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">9</a></td>
+												<td align=center><a href=NBA_DEMO/Toronto_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Boston.jpg" alt="" height=30 width=30>Boston</td>
+												<td align=center>41</td>
+												<td align=center>18</td>
+												<td align=center>10</td>
+												<td align=center>0.695</td>
+												<td align=center>23</td>
+												<td align=center><a href=NBA_DEMO/Boston_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Boston_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">5</a></td>
+												<td align=center><a href=NBA_DEMO/Boston_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">10</a></td>
+												<td align=center><a href=NBA_DEMO/Boston_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Miami.jpg" alt="" height=30 width=30>Miami</td>
+												<td align=center>38</td>
+												<td align=center>22</td>
+												<td align=center>13.5</td>
+												<td align=center>0.633</td>
+												<td align=center>22</td>
+												<td align=center><a href=NBA_DEMO/Miami_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Miami_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">8</a></td>
+												<td align=center><a href=NBA_DEMO/Miami_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">13</a></td>
+												<td align=center><a href=NBA_DEMO/Miami_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Philadelphia.jpg" alt="" height=30 width=30>Philadelphia</td>
+												<td align=center>37</td>
+												<td align=center>23</td>
+												<td align=center>14.5</td>
+												<td align=center>0.617</td>
+												<td align=center>22</td>
+												<td align=center><a href=NBA_DEMO/Philadelphia_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Philadelphia_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">9</a></td>
+												<td align=center><a href=NBA_DEMO/Philadelphia_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">14</a></td>
+												<td align=center><a href=NBA_DEMO/Philadelphia_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Indiana.jpg" alt="" height=30 width=30>Indiana</td>
+												<td align=center>36</td>
+												<td align=center>24</td>
+												<td align=center>15.5</td>
+												<td align=center>0.600</td>
+												<td align=center>22</td>
+												<td align=center><a href=NBA_DEMO/Indiana_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Indiana_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">10</a></td>
+												<td align=center><a href=NBA_DEMO/Indiana_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">16</a></td>
+												<td align=center><a href=NBA_DEMO/Indiana_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Orlando.jpg" alt="" height=30 width=30>Orlando</td>
+												<td align=center>27</NBA_DEMO/td>
+												<td align=center>33</td>
+												<td align=center>24.5</td>
+												<td align=center>0.450</td>
+												<td align=center>22</td>
+												<td align=center><a href=NBA_DEMO/Orlando_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Orlando_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">19</a></td>
+												<td align=center><a href=NBA_DEMO/Orlando_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=NBA_DEMO/Orlando_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Brooklyn.jpg" alt="" height=30 width=30>Brooklyn</td>
+												<td align=center>26</td>
+												<td align=center>33</td>
+												<td align=center>25</td>
+												<td align=center>0.441</td>
+												<td align=center>23</td>
+												<td align=center><a href=NBA_DEMO/Brooklyn_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Brooklyn_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">20</a></td>
+												<td align=center><a href=NBA_DEMO/Brooklyn_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=NBA_DEMO/Brooklyn_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Washington.jpg" alt="" height=30 width=30>Washington</td>
+												<td align=center>21</td>
+												<td align=center>37</td>
+												<td align=center>29.5</td>
+												<td align=center>0.362</td>
+												<td align=center>24</td>
+												<td align=center><a href=NBA_DEMO/Washington_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Washington_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Washington_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=NBA_DEMO/Washington_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">5</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Charlotte.jpg" alt="" height=30 width=30>Charlotte</td>
+												<td align=center>21</td>
+												<td align=center>38</td>
+												<td align=center>30</td>
+												<td align=center>0.356</td>
+												<td align=center>23</td>
+												<td align=center><a href=NBA_DEMO/Charlotte_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Charlotte_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Charlotte_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=NBA_DEMO/Charlotte_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">6</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Chicago.jpg" alt="" height=30 width=30>Chicago</td>
+												<td align=center>20</td>
+												<td align=center>40</td>
+												<td align=center>31.5</td>
+												<td align=center>0.333</td>
+												<td align=center>22</td>
+												<td align=center><a href=NBA_DEMO/Chicago_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Chicago_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Chicago_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=NBA_DEMO/Chicago_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">6</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Detroit.jpg" alt="" height=30 width=30>Detroit</td>
+												<td align=center>20</td>
+												<td align=center>41</td>
+												<td align=center>32</td>
+												<td align=center>0.328</td>
+												<td align=center>21</td>
+												<td align=center><a href=NBA_DEMO/Detroit_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Detroit_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Detroit_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=NBA_DEMO/Detroit_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">7</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td a><img src="images/NBA_Atlanta.jpg" alt="" height=30 width=30>Atlanta</td>
+												<td align=center>19</td>
+												<td align=center>43</td>
+												<td align=center>33.5</td>
+												<td align=center>0.306</td>
+												<td align=center>20</td>
+												<td align=center><a href=NBA_DEMO/Atlanta_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Atlanta_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Atlanta_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=NBA_DEMO/Atlanta_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">8</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_NewYork.jpg" alt="" height=30 width=30>New York</td>
+												<td align=center>18</td>
+												<td align=center>42</td>
+												<td align=center>33.5</td>
+												<td align=center>0.300</td>
+												<td align=center>22</td>
+												<td align=center><a href=NewYork_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NewYork_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NewYork_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=NewYork_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">8</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Cleveland.jpg" alt="" height=30 width=30>Cleveland</td>
+												<td align=center>17</td>
+												<td align=center>43</td>
+												<td align=center>34.5</td>
+												<td align=center>0.283</td>
+												<td align=center>22</td>
+												<td align=center><a href=Cleveland_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Cleveland_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Cleveland_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=Cleveland_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">9</a></td>
+												</tr>
 
 
 											</table><br>
 
 											<table width=100% border=1 cellspacing=3 cellpadding=0>
 												<h4>NBA Western Conference</h4>
-<tr style="background-color:#c9ddf5; color:#080808">
-<td align=left></td>
-<td align=center></td>
-<td align=center></td>
-<td align=center></td>
-<td align=center></td>
-<td align=center></td>
-<td align=center colspan=2><b><a href="detail_nba_numbers.html#clinch" onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">Clinch</a></b></td>
-<td align=center colspan=2><b><a href="detail_nba_numbers.html#elim" onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">Avoid Elim</a></b></td>
-</tr>
-<tr style="background-color:#c2c2c2; color:#080808">
-<td align=left><b>Team</b></td>
-<td align=center><b>W</b></td>
-<td align=center><b>L</b></td>
-<td align=center><b>GB</b></td>
-<td align=center><b>PCT</b></td>
-<td align=center><b>GL</b></td>
-<td align=center><b>1st</b></td>
-<td align=center><b>Postseason</b></td>
-<td align=center><b>1st</b></td>
-<td align=center><b>Postseason</b></td>
-</tr>
+												<!-- header -->
+												<thead>
+												<tr style="background-color:#c9ddf5; color:#080808">
+												<td align=left style="width: 14.5%;"></td>
+												<td align=center style="width: 9.3%;"></td>
+												<td align=center style="width: 9%;"></td>
+												<td align=center style="width: 10.3%;"></td>
+												<td align=center style="width: 11%;"></td>
+												<td align=center style="width: 9%;"></td>
+												<td align=center style="width: 18%;" colspan=2><b><a href="detail_nba_numbers.html#clinch" onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Clinch</a></b></td>
+												<td align=center colspan=2><b><a href="detail_nba_numbers.html#elim" onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Avoid Elim</a></b></td>
+												</tr>
+												<tr style="background-color:#c2c2c2; color:#080808">
+												<td align=left><b>Team</b></td>
+												<td align=center><b>W</b></td>
+												<td align=center><b>L</b></td>
+												<td align=center><b>GB</b></td>
+												<td align=center><b>PCT</b></td>
+												<td align=center><b>GL</b></td>
+												<td align=center><b>1st</b></td>
+												<td align=center><b>Postseason</b></td>
+												<td align=center><b>1st</b></td>
+												<td align=center><b>Postseason</b></td>
+												</tr>
+											  </thead>
+												<!-- end of header -->
 
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_LALakers.jpg" alt="" height=30 width=30>L.A. Lakers</td>
-<td align=center>45</td>
-<td align=center>13</td>
-<td align=center>-</td>
-<td align=center>0.776</td>
-<td align=center>24</td>
-<td align=center><a href=LALakers_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">19</a></td>
-<td align=center><a href=LALakers_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">5</a></td>
-<td align=center><a href=LALakers_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
-<td align=center><a href=LALakers_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Denver.jpg" alt="" height=30 width=30>Denver</td>
-<td align=center>40</td>
-<td align=center>19</td>
-<td align=center>5.5</td>
-<td align=center>0.678</td>
-<td align=center>23</td>
-<td align=center><a href=Denver_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=Denver_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">10</a></td>
-<td align=center><a href=Denver_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">5</a></td>
-<td align=center><a href=Denver_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_LAClippers.jpg" alt="" height=30 width=30>L.A. Clippers</td>
-<td align=center>40</td>
-<td align=center>19</td>
-<td align=center>5.5</td>
-<td align=center>0.678</td>
-<td align=center>23</td>
-<td align=center><a href=LAClippers_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=LAClippers_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">10</a></td>
-<td align=center><a href=LAClippers_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">5</a></td>
-<td align=center><a href=LAClippers_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Houston.jpg" alt="" height=30 width=30>Houston</td>
-<td align=center>39</td>
-<td align=center>20</td>
-<td align=center>6.5</td>
-<td align=center>0.661</td>
-<td align=center>23</td>
-<td align=center><a href=Houston_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=Houston_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">11</a></td>
-<td align=center><a href=Houston_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">6</a></td>
-<td align=center><a href=Houston_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Utah.jpg" alt="" height=30 width=30>Utah</td>
-<td align=center>37</td>
-<td align=center>22</td>
-<td align=center>8.5</td>
-<td align=center>0.627</td>
-<td align=center>23</td>
-<td align=center><a href=Utah_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=Utah_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">13</a></td>
-<td align=center><a href=Utah_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">9</a></td>
-<td align=center><a href=Utah_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_OklahomaCity.jpg" alt="" height=30 width=30>Oklahoma City</td>
-<td align=center>37</td>
-<td align=center>23</td>
-<td align=center>9</td>
-<td align=center>0.617</td>
-<td align=center>22</td>
-<td align=center><a href=OklahomaCity_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=OklahomaCity_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">13</a></td>
-<td align=center><a href=OklahomaCity_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">9</a></td>
-<td align=center><a href=OklahomaCity_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Dallas.jpg" alt="" height=30 width=30>Dallas</td>
-<td align=center>36</td>
-<td align=center>24</td>
-<td align=center>10</td>
-<td align=center>0.600</td>
-<td align=center>22</td>
-<td align=center><a href=Dallas_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=Dallas_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">14</a></td>
-<td align=center><a href=Dallas_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">10</a></td>
-<td align=center><a href=Dallas_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">0</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Memphis.jpg" alt="" height=30 width=30>Memphis</td>
-<td align=center>29</td>
-<td align=center>31</td>
-<td align=center>17</td>
-<td align=center>0.483</td>
-<td align=center>22</td>
-<td align=center><a href=Memphis_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=Memphis_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">21</a></td>
-<td align=center><a href=Memphis_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">17</a></td>
-<td align=center><a href=Memphis_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">1</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_NewOrleans.jpg" alt="" height=30 width=30>New Orleans</td>
-<td align=center>26</td>
-<td align=center>33</td>
-<td align=center>19.5</td>
-<td align=center>0.441</td>
-<td align=center>23</td>
-<td align=center><a href=NewOrleans_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NewOrleans_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=NewOrleans_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">20</a></td>
-<td align=center><a href=NewOrleans_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">4</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_SanAntonio.jpg" alt="" height=30 width=30>San Antonio</td>
-<td align=center>25</td>
-<td align=center>33</td>
-<td align=center>20</td>
-<td align=center>0.431</td>
-<td align=center>24</td>
-<td align=center><a href=SanAntonio_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=SanAntonio_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=SanAntonio_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">21</a></td>
-<td align=center><a href=SanAntonio_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">5</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Portland.jpg" alt="" height=30 width=30>Portland</td>
-<td align=center>26</td>
-<td align=center>35</td>
-<td align=center>20.5</td>
-<td align=center>0.426</td>
-<td align=center>21</td>
-<td align=center><a href=Portland_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=Portland_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=Portland_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">20</a></td>
-<td align=center><a href=Portland_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">4</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Sacramento.jpg" alt="" height=30 width=30>Sacramento</td>
-<td align=center>25</td>
-<td align=center>34</td>
-<td align=center>20.5</td>
-<td align=center>0.424</td>
-<td align=center>23</td>
-<td align=center><a href=Sacramento_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=Sacramento_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=Sacramento_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">20</a></td>
-<td align=center><a href=Sacramento_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">5</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Phoenix.jpg" alt="" height=30 width=30>Phoenix</td>
-<td align=center>24</td>
-<td align=center>37</td>
-<td align=center>22.5</td>
-<td align=center>0.393</td>
-<td align=center>21</td>
-<td align=center><a href=Phoenix_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=Phoenix_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=Phoenix_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">Elim</a></td>
-<td align=center><a href=Phoenix_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">6</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_Minnesota.jpg" alt="" height=30 width=30>Minnesota</td>
-<td align=center>17</td>
-<td align=center>41</td>
-<td align=center>28</td>
-<td align=center>0.293</td>
-<td align=center>24</td>
-<td align=center><a href=Minnesota_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=Minnesota_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=Minnesota_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">Elim</a></td>
-<td align=center><a href=Minnesota_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">13</a></td>
-</tr>
-<tr style="background-color:#f7f7f7; color:#080808">
-<td align=left><img src="images/NBA_GoldenState.jpg" alt="" height=30 width=30>Golden State</td>
-<td align=center>13</td>
-<td align=center>47</td>
-<td align=center>33</td>
-<td align=center>0.217</td>
-<td align=center>22</td>
-<td align=center><a href=GoldenState_fpc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=GoldenState_pc.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">*</a></td>
-<td align=center><a href=GoldenState_fpe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">Elim</a></td>
-<td align=center><a href=GoldenState_pe.txt onmouseover="this.style.color='blue'" onmouseout="this.style.color=''">17</a></td>
-</tr></table><br>
-<p style="color:#080808; font-size:12px">
-	<strong>Key:</strong>
-	<br>
-	<b>GB</b> = Game back/behind.
-	<b>PCT</b> = Win percent.
-	<b>GL</b> = Games Left.
-	<b>Clinch</b> = Clinching first place or post-season play.
-	<b>Avoid Elimination</b> =  Avoid elimination from first place in division or postseason play.
-</p>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_LALakers.jpg" alt="" height=30 width=30>L.A. Lakers</td>
+												<td align=center>45</td>
+												<td align=center>13</td>
+												<td align=center>-</td>
+												<td align=center>0.776</td>
+												<td align=center>24</td>
+												<td align=center><a href=LALakers_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">19</a></td>
+												<td align=center><a href=LALakers_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">5</a></td>
+												<td align=center><a href=LALakers_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												<td align=center><a href=LALakers_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Denver.jpg" alt="" height=30 width=30>Denver</td>
+												<td align=center>40</td>
+												<td align=center>19</td>
+												<td align=center>5.5</td>
+												<td align=center>0.678</td>
+												<td align=center>23</td>
+												<td align=center><a href=Denver_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Denver_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">10</a></td>
+												<td align=center><a href=Denver_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">5</a></td>
+												<td align=center><a href=Denver_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_LAClippers.jpg" alt="" height=30 width=30>L.A. Clippers</td>
+												<td align=center>40</td>
+												<td align=center>19</td>
+												<td align=center>5.5</td>
+												<td align=center>0.678</td>
+												<td align=center>23</td>
+												<td align=center><a href=LAClippers_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=LAClippers_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">10</a></td>
+												<td align=center><a href=LAClippers_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">5</a></td>
+												<td align=center><a href=LAClippers_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Houston.jpg" alt="" height=30 width=30>Houston</td>
+												<td align=center>39</td>
+												<td align=center>20</td>
+												<td align=center>6.5</td>
+												<td align=center>0.661</td>
+												<td align=center>23</td>
+												<td align=center><a href=Houston_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Houston_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">11</a></td>
+												<td align=center><a href=Houston_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">6</a></td>
+												<td align=center><a href=Houston_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Utah.jpg" alt="" height=30 width=30>Utah</td>
+												<td align=center>37</td>
+												<td align=center>22</td>
+												<td align=center>8.5</td>
+												<td align=center>0.627</td>
+												<td align=center>23</td>
+												<td align=center><a href=Utah_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Utah_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">13</a></td>
+												<td align=center><a href=Utah_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">9</a></td>
+												<td align=center><a href=Utah_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_OklahomaCity.jpg" alt="" height=30 width=30>Oklahoma City</td>
+												<td align=center>37</td>
+												<td align=center>23</td>
+												<td align=center>9</td>
+												<td align=center>0.617</td>
+												<td align=center>22</td>
+												<td align=center><a href=OklahomaCity_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=OklahomaCity_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">13</a></td>
+												<td align=center><a href=OklahomaCity_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">9</a></td>
+												<td align=center><a href=OklahomaCity_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Dallas.jpg" alt="" height=30 width=30>Dallas</td>
+												<td align=center>36</td>
+												<td align=center>24</td>
+												<td align=center>10</td>
+												<td align=center>0.600</td>
+												<td align=center>22</td>
+												<td align=center><a href=Dallas_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Dallas_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">14</a></td>
+												<td align=center><a href=Dallas_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">10</a></td>
+												<td align=center><a href=Dallas_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Memphis.jpg" alt="" height=30 width=30>Memphis</td>
+												<td align=center>29</td>
+												<td align=center>31</td>
+												<td align=center>17</td>
+												<td align=center>0.483</td>
+												<td align=center>22</td>
+												<td align=center><a href=Memphis_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Memphis_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">21</a></td>
+												<td align=center><a href=Memphis_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">17</a></td>
+												<td align=center><a href=Memphis_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">1</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_NewOrleans.jpg" alt="" height=30 width=30>New Orleans</td>
+												<td align=center>26</td>
+												<td align=center>33</td>
+												<td align=center>19.5</td>
+												<td align=center>0.441</td>
+												<td align=center>23</td>
+												<td align=center><a href=NewOrleans_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NewOrleans_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NewOrleans_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">20</a></td>
+												<td align=center><a href=NewOrleans_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">4</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_SanAntonio.jpg" alt="" height=30 width=30>San Antonio</td>
+												<td align=center>25</td>
+												<td align=center>33</td>
+												<td align=center>20</td>
+												<td align=center>0.431</td>
+												<td align=center>24</td>
+												<td align=center><a href=SanAntonio_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=SanAntonio_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=SanAntonio_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">21</a></td>
+												<td align=center><a href=SanAntonio_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">5</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Portland.jpg" alt="" height=30 width=30>Portland</td>
+												<td align=center>26</td>
+												<td align=center>35</td>
+												<td align=center>20.5</td>
+												<td align=center>0.426</td>
+												<td align=center>21</td>
+												<td align=center><a href=Portland_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Portland_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Portland_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">20</a></td>
+												<td align=center><a href=Portland_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">4</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Sacramento.jpg" alt="" height=30 width=30>Sacramento</td>
+												<td align=center>25</td>
+												<td align=center>34</td>
+												<td align=center>20.5</td>
+												<td align=center>0.424</td>
+												<td align=center>23</td>
+												<td align=center><a href=Sacramento_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Sacramento_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Sacramento_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">20</a></td>
+												<td align=center><a href=Sacramento_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">5</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Phoenix.jpg" alt="" height=30 width=30>Phoenix</td>
+												<td align=center>24</td>
+												<td align=center>37</td>
+												<td align=center>22.5</td>
+												<td align=center>0.393</td>
+												<td align=center>21</td>
+												<td align=center><a href=Phoenix_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Phoenix_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Phoenix_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=Phoenix_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">6</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Minnesota.jpg" alt="" height=30 width=30>Minnesota</td>
+												<td align=center>17</td>
+												<td align=center>41</td>
+												<td align=center>28</td>
+												<td align=center>0.293</td>
+												<td align=center>24</td>
+												<td align=center><a href=Minnesota_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Minnesota_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Minnesota_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=Minnesota_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">13</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_GoldenState.jpg" alt="" height=30 width=30>Golden State</td>
+												<td align=center>13</td>
+												<td align=center>47</td>
+												<td align=center>33</td>
+												<td align=center>0.217</td>
+												<td align=center>22</td>
+												<td align=center><a href=GoldenState_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=GoldenState_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=GoldenState_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=GoldenState_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">17</a></td>
+												</tr></table><br>
+												<p style="color:#080808; font-size:12px">
+													<strong>Key:</strong>
+													<br>
+													<b>GB</b> = Game back/behind.
+													<b>PCT</b> = Win percent.
+													<b>GL</b> = Games Left.
+													<b>Clinch</b> = Clinching first place or post-season play.
+													<b>Avoid Elimination</b> =  Avoid elimination from first place in division or postseason play.
+												</p>
 
 										</div>
 								</div>
@@ -635,6 +643,68 @@
 			}
 
 			window.addEventListener("resize", getWindowSize);
+
+
+			// scrolling table
+			function InitApp()
+			{
+			    var gridHeight = 400;
+			    var gridWidth = 500;
+			    var scrollBarWidth = getScrollSizes(); //get scroll bar's width.
+
+			    $("#div-header").css("width", (gridWidth - scrollBarWidth) + "px");
+			    $("#div-header-hack").css("width", (scrollBarWidth) + "px");
+			    $("#div-item").css("width", (gridWidth) + "px");
+
+			    $("#div-header-hack").css("left", (gridWidth - scrollBarWidth) + "px");
+
+			    $("#div-item").css("max-height", (gridHeight) + "px");
+
+			    //add header and item divs, directly in HTML Or in javascript.
+			    var header = '<div style="min-width: 1000px;">' +
+			        '<div style="width: 120px; display: inline-block">Header 1</div>' +
+			        '<div style="width: 180px; display: inline-block">Header 2</div>' +
+			        '<div style="width: 120px; display: inline-block">Header 3</div>' +
+			        '<div style="width: 190px; display: inline-block">Header 4</div>' +
+			        '<div style="width: 250px; display: inline-block">Header 5</div>' +
+			        '<div style="width: 120px; display: inline-block">Header 6</div>' +
+			        '</div>';
+
+			    //add header and item divs, directly in HTML Or in javascript.
+			    var item = '<div style="min-width: 1000px; background-color: #D7BDEC; padding: 10px 0px 0px 0px; border-bottom: 1px solid gray">' +
+			        '<div style="width: 120px; display: inline-block">Item 1</div>' +
+			        '<div style="width: 180px; display: inline-block">Item 2</div>' +
+			        '<div style="width: 120px; display: inline-block">Item 3</div>' +
+			        '<div style="width: 190px; display: inline-block">Item 4</div>' +
+			        '<div style="width: 250px; display: inline-block">Item 5</div>' +
+			        '<div style="width: 120px; display: inline-block">Item 6</div>' +
+			        '</div>';
+
+			    $("#div-header").append(header);
+
+			    for(var index = 0; index < 600; index ++)
+			    {
+			        $("#div-item").append(item);
+			    }
+			}
+
+			function ScrollHeader()
+			{
+			    $("#div-header").scrollLeft($("#div-item").scrollLeft());
+			}
+
+			//refernce - http://stackoverflow.com/questions/457262/html-what-is-the-height-of-a-horizontal-scrollbar
+			function getScrollSizes()
+			{
+			    // call after document is finished loading
+			    var el= document.createElement('div');
+			    el.style.display= 'hidden';
+			    el.style.overflow= 'scroll';
+			    document.body.appendChild(el);
+			    var h= el.offsetHeight-el.clientHeight;
+			    document.body.removeChild(el);
+			    return h;
+			}
 
 			</script>
 
