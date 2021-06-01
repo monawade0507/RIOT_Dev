@@ -1,0 +1,812 @@
+<!DOCTYPE HTML>
+<!--
+	Urban by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=G-7MPLNHC0ZM"></script>
+			<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'G-7MPLNHC0ZM');
+			</script>
+		<!-- end of Google Analytics tag -->
+
+		<title>NBA Conference Standing</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" id="LAYOUT" href="#" />
+<!--
+		#1 MOBILE assets/css/main.css
+		#2 DESKTOP assets-DESKTOP/css/main.css
+-->
+	</head>
+	<body class="subpage">
+
+		<!-- Need this kind of menu for mobile -->
+		  <div class="MOBILE" id="mobileDisplay">
+				<!-- Header -->
+				<header id="header">
+					<div class="logo"><img  style="max-width=:35px; max-height:35px" src="images/RIOT_Logo.png" alt="" /><a href="index.html">RIOT Sports</a></div>
+					<a href="#menu">Menu</a>
+				</header>
+
+				<!-- Nav -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="RIOT_NBA.html">RIOT NBA Introduction Page</a></li>
+						<li><a href="NBA_numbers_explanation.html">Number Explanation</a></li>
+						<li><a href="problem_explanation_NBA.html">Problem Explanation</a></li>
+						<li><a href="FAQ_NBA.html">FAQ</a></li>
+					</ul>
+				</nav>
+			</div>
+
+
+		<!-- Need this kind of bar menu for desktop -->
+		  <div class="DESKTOP" id="desktopDisplay">
+				<header id="header">
+					<div class="inner">
+						<a href="index.html" class="logo" ><img  style="max-width=:35px; max-height:35px;" src="images/RIOT_Logo.png" alt="" />RIOT Sports </a>
+						<nav id="nav">
+							<a href="index.html">Home</a>
+							<a href="RIOT_NBA.html">RIOT NBA Introduction Page</a>
+							<a href="NBA_numbers_explanation.html">Number Explanation</a>
+							<a href="problem_explanation_NBA.html">Problem Explanation</a>
+							<a href="FAQ_NBA.html">FAQ</a>
+						</nav>
+					</div>
+				</header>
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+				<section class="wrapper style1">
+					<div class="inner">
+
+						<header class="align-center">
+							<h1>English Premier League</h1>
+							<h3 style="color:#008000"> Season Start Date: Sept. 12, 2020 </h3>
+							<p style="color:#FF0000">
+								Standings as of Wednesday, Jan 6 at 16:00:00 CST 2020
+							</p>
+						</header>
+
+									<!-- Table <td><img src="images/milwaukee.jpg" alt="" height=30 width=30>   Milwaukee</td> -->
+										<!--<h3>Table</h3>-->
+
+										<h4>Standings</h4>
+										<div class="table-wrapper" style="overflow:hidden" onload="InitApp()">
+											<table width=100% border=1 cellspacing=3 cellpadding=0 >
+												<!-- header   style="min-width:900px"-->
+												<thead width=100% border=1 cellspacing=3 cellpadding=0>
+												<tr style="background-color:#c9ddf5; color:#080808">
+												<td align=left style="width: 14.5%;"></td>
+												<td align=center style="width: 9.3%;"></td>
+												<td align=center style="width: 9%;"></td>
+												<td align=center style="width: 10.3%;"></td>
+												<td align=center style="width: 11%;"></td>
+												<td align=center style="width: 9%;"></td>
+												<td align=center style="width: 18%;" colspan=2><b><a href="detail_nba_numbers.html#clinch" onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Clinch</a></b></td>
+												<td align=center colspan=2><b><a href="detail_nba_numbers.html#elim" onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Avoid Elim</a></b></td>
+												</tr>
+												<tr style="background-color:#c2c2c2; color:#080808">
+												<td align=left><b>Team</b></td>
+												<td align=center><b>MP</b></td>
+												<td align=center><b>W</b></td>
+												<td align=center><b>D</b></td>
+												<td align=center><b>L</b></td>
+												<td align=center><b>GF</b></td>
+												<td align=center><b>GA</b></td>
+												<td align=center><b>Points</b></td>
+												<td align=center><b>1st</b></td>
+												<td align=center><b>Postseason</b></td>
+												</tr>
+											  </thead>
+											<!-- end of header -->
+
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_ManCity.jpg" alt="" height=30 width=30>Man City</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>27</td> <!-- Wins -->
+												<td align=center>5</td>  <!-- Draw -->
+												<td align=center>6</td> <!-- Loss -->
+												<td align=center>83</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>32</td> <!-- Goals Against -->
+												<td align=center>86</td> <!-- Points -->
+												<td align=center><a href=NBA_DEMO/Milwaukee_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">15</a></td>
+												<td align=center><a href=NBA_DEMO/Milwaukee_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">In</a></td>
+												<td align=center><a href=NBA_DEMO/Milwaukee_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												<td align=center><a href=NBA_DEMO/Milwaukee_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_ManU.jpg" alt="" height=30 width=30>Man United</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>21</td> <!-- Wins -->
+												<td align=center>11</td>  <!-- Draw -->
+												<td align=center>6</td> <!-- Loss -->
+												<td align=center>73</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>44</td> <!-- Goals Against -->
+												<td align=center>74</td> <!-- Points -->
+												<td align=center><a href=NBA_DEMO/Toronto_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Toronto_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">4</a></td>
+												<td align=center><a href=NBA_DEMO/Toronto_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">9</a></td>
+												<td align=center><a href=NBA_DEMO/Toronto_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_Liverpool.gif" alt="" height=30 width=30>Liverpool</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>20</td> <!-- Wins -->
+												<td align=center>9</td>  <!-- Draw -->
+												<td align=center>9</td> <!-- Loss -->
+												<td align=center>68</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>42</td> <!-- Goals Against -->
+												<td align=center>69</td> <!-- Points -->
+												<td align=center><a href=NBA_DEMO/Boston_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Boston_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">5</a></td>
+												<td align=center><a href=NBA_DEMO/Boston_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">10</a></td>
+												<td align=center><a href=NBA_DEMO/Boston_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_Chelsea.jpg" alt="" height=30 width=30>Chelsea</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>19</td> <!-- Wins -->
+												<td align=center>10</td>  <!-- Draw -->
+												<td align=center>9</td> <!-- Loss -->
+												<td align=center>58</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>36</td> <!-- Goals Against -->
+												<td align=center>67</td> <!-- Points -->
+												<td align=center><a href=NBA_DEMO/Miami_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Miami_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">8</a></td>
+												<td align=center><a href=NBA_DEMO/Miami_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">13</a></td>
+												<td align=center><a href=NBA_DEMO/Miami_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_LeicesterCity.jpg" alt="" height=30 width=30>Leicester City</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>20</td> <!-- Wins -->
+												<td align=center>6</td>  <!-- Draw -->
+												<td align=center>12</td> <!-- Loss -->
+												<td align=center>68</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>50</td> <!-- Goals Against -->
+												<td align=center>66</td> <!-- Points -->
+												<td align=center><a href=NBA_DEMO/Philadelphia_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Philadelphia_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">9</a></td>
+												<td align=center><a href=NBA_DEMO/Philadelphia_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">14</a></td>
+												<td align=center><a href=NBA_DEMO/Philadelphia_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_WestHam.jpg" alt="" height=30 width=30>West Ham</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>19</td> <!-- Wins -->
+												<td align=center>8</td>  <!-- Draw -->
+												<td align=center>11</td> <!-- Loss -->
+												<td align=center>62</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>47</td> <!-- Goals Against -->
+												<td align=center>65</td> <!-- Points -->
+												<td align=center><a href=NBA_DEMO/Indiana_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Indiana_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">10</a></td>
+												<td align=center><a href=NBA_DEMO/Indiana_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">16</a></td>
+												<td align=center><a href=NBA_DEMO/Indiana_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_Tottenham.jpg" alt="" height=30 width=30>Tottenham</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>18</td> <!-- Wins -->
+												<td align=center>8</td>  <!-- Draw -->
+												<td align=center>12</td> <!-- Loss -->
+												<td align=center>68</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>45</td> <!-- Goals Against -->
+												<td align=center>62</td> <!-- Points -->
+												<td align=center><a href=NBA_DEMO/Orlando_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Orlando_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">19</a></td>
+												<td align=center><a href=NBA_DEMO/Orlando_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=NBA_DEMO/Orlando_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_Arsenal.png" alt="" height=30 width=30>Arsenal</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>18</td> <!-- Wins -->
+												<td align=center>7</td>  <!-- Draw -->
+												<td align=center>13</td> <!-- Loss -->
+												<td align=center>55</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>39</td> <!-- Goals Against -->
+												<td align=center>61</td> <!-- Points -->
+												<td align=center><a href=NBA_DEMO/Brooklyn_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Brooklyn_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">20</a></td>
+												<td align=center><a href=NBA_DEMO/Brooklyn_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=NBA_DEMO/Brooklyn_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_LeedsUnited.png" alt="" height=30 width=30>Leeds United</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>18</td> <!-- Wins -->
+												<td align=center>5</td>  <!-- Draw -->
+												<td align=center>15</td> <!-- Loss -->
+												<td align=center>62</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>54</td> <!-- Goals Against -->
+												<td align=center>59</td> <!-- Points -->
+												<td align=center><a href=NBA_DEMO/Washington_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Washington_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Washington_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=NBA_DEMO/Washington_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">5</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_Everton.jpg" alt="" height=30 width=30>Everton</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>17</td> <!-- Wins -->
+												<td align=center>8</td>  <!-- Draw -->
+												<td align=center>13</td> <!-- Loss -->
+												<td align=center>47</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>48</td> <!-- Goals Against -->
+												<td align=center>59</td> <!-- Points -->
+												<td align=center><a href=NBA_DEMO/Charlotte_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Charlotte_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Charlotte_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=NBA_DEMO/Charlotte_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">6</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_AstonVilla.png" alt="" height=30 width=30>Aston Villa</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>16</td> <!-- Wins -->
+												<td align=center>7</td>  <!-- Draw -->
+												<td align=center>15</td> <!-- Loss -->
+												<td align=center>55</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>46</td> <!-- Goals Against -->
+												<td align=center>55</td> <!-- Points -->
+												<td align=center><a href=NBA_DEMO/Chicago_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Chicago_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Chicago_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=NBA_DEMO/Chicago_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">6</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_Newcastle.png" alt="" height=30 width=30>Newcastle</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>12</td> <!-- Wins -->
+												<td align=center>9</td>  <!-- Draw -->
+												<td align=center>17</td> <!-- Loss -->
+												<td align=center>46</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>62</td> <!-- Goals Against -->
+												<td align=center>45</td> <!-- Points -->
+												<td align=center><a href=NBA_DEMO/Detroit_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Detroit_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Detroit_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=NBA_DEMO/Detroit_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">7</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_Wolves.png" alt="" height=30 width=30>Wolves</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>12</td> <!-- Wins -->
+												<td align=center>9</td>  <!-- Draw -->
+												<td align=center>17</td> <!-- Loss -->
+												<td align=center>46</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>62</td> <!-- Goals Against -->
+												<td align=center>45</td> <!-- Points -->
+												<td align=center><a href=NBA_DEMO/Atlanta_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Atlanta_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NBA_DEMO/Atlanta_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=NBA_DEMO/Atlanta_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">8</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_CrystalPalace" alt="" height=30 width=30>Crystal Palace</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>12</td> <!-- Wins -->
+												<td align=center>8</td>  <!-- Draw -->
+												<td align=center>18</td> <!-- Loss -->
+												<td align=center>41</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>66</td> <!-- Goals Against -->
+												<td align=center>44</td> <!-- Points -->
+												<td align=center><a href=NewYork_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NewYork_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NewYork_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=NewYork_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">8</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_Southampton.svg" alt="" height=30 width=30>Southampton</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>12</td> <!-- Wins -->
+												<td align=center>7</td>  <!-- Draw -->
+												<td align=center>19</td> <!-- Loss -->
+												<td align=center>47</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>68</td> <!-- Goals Against -->
+												<td align=center>43</td> <!-- Points -->
+												<td align=center><a href=Cleveland_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Cleveland_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Cleveland_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=Cleveland_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">9</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_Brighton.webp" alt="" height=30 width=30>Brighton</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>9</td> <!-- Wins -->
+												<td align=center>14</td>  <!-- Draw -->
+												<td align=center>15</td> <!-- Loss -->
+												<td align=center>40</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>46</td> <!-- Goals Against -->
+												<td align=center>41</td> <!-- Points -->
+												<td align=center><a href=Cleveland_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Cleveland_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Cleveland_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=Cleveland_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">9</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_Burnley.jpg" alt="" height=30 width=30>Burnley</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>10</td> <!-- Wins -->
+												<td align=center>9</td>  <!-- Draw -->
+												<td align=center>19</td> <!-- Loss -->
+												<td align=center>33</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>55</td> <!-- Goals Against -->
+												<td align=center>39</td> <!-- Points -->
+												<td align=center><a href=Cleveland_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Cleveland_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Cleveland_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=Cleveland_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">9</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_Fulham.png" alt="" height=30 width=30>Fulham</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>5</td> <!-- Wins -->
+												<td align=center>13</td>  <!-- Draw -->
+												<td align=center>20</td> <!-- Loss -->
+												<td align=center>27</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>53</td> <!-- Goals Against -->
+												<td align=center>28</td> <!-- Points -->
+												<td align=center><a href=Cleveland_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Cleveland_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Cleveland_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=Cleveland_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">9</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_WestBrom.jpg" alt="" height=30 width=30>West Brom</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>5</td> <!-- Wins -->
+												<td align=center>13</td>  <!-- Draw -->
+												<td align=center>20</td> <!-- Loss -->
+												<td align=center>27</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>53</td> <!-- Goals Against -->
+												<td align=center>28</td> <!-- Points -->
+												<td align=center><a href=Cleveland_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Cleveland_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Cleveland_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=Cleveland_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">9</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/EPL_SheffieldUnited.png" alt="" height=30 width=30>Sheffield United</td>
+												<td align=center>38</td> <!-- Matches Played -->
+												<td align=center>7</td> <!-- Wins -->
+												<td align=center>2</td>  <!-- Draw -->
+												<td align=center>29</td> <!-- Loss -->
+												<td align=center>20</td> <!-- Goals For/ Goals Scored -->
+												<td align=center>63</td> <!-- Goals Against -->
+												<td align=center>23</td> <!-- Points -->
+												<td align=center><a href=Cleveland_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Cleveland_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Cleveland_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=Cleveland_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">9</a></td>
+												</tr>
+
+
+											</table><br>
+
+											<table width=100% border=1 cellspacing=3 cellpadding=0>
+												<h4>NBA Western Conference</h4>
+												<!-- header -->
+												<thead>
+												<tr style="background-color:#c9ddf5; color:#080808">
+												<td align=left style="width: 14.5%;"></td>
+												<td align=center style="width: 9.3%;"></td>
+												<td align=center style="width: 9%;"></td>
+												<td align=center style="width: 10.3%;"></td>
+												<td align=center style="width: 11%;"></td>
+												<td align=center style="width: 9%;"></td>
+												<td align=center style="width: 18%;" colspan=2><b><a href="detail_nba_numbers.html#clinch" onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Clinch</a></b></td>
+												<td align=center colspan=2><b><a href="detail_nba_numbers.html#elim" onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Avoid Elim</a></b></td>
+												</tr>
+												<tr style="background-color:#c2c2c2; color:#080808">
+												<td align=left><b>Team</b></td>
+												<td align=center><b>W</b></td>
+												<td align=center><b>L</b></td>
+												<td align=center><b>GB</b></td>
+												<td align=center><b>PCT</b></td>
+												<td align=center><b>GL</b></td>
+												<td align=center><b>1st</b></td>
+												<td align=center><b>Postseason</b></td>
+												<td align=center><b>1st</b></td>
+												<td align=center><b>Postseason</b></td>
+												</tr>
+											  </thead>
+												<!-- end of header -->
+
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_LALakers.jpg" alt="" height=30 width=30>L.A. Lakers</td>
+												<td align=center>45</td>
+												<td align=center>13</td>
+												<td align=center>-</td>
+												<td align=center>0.776</td>
+												<td align=center>24</td>
+												<td align=center><a href=LALakers_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">19</a></td>
+												<td align=center><a href=LALakers_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">5</a></td>
+												<td align=center><a href=LALakers_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												<td align=center><a href=LALakers_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Denver.jpg" alt="" height=30 width=30>Denver</td>
+												<td align=center>40</td>
+												<td align=center>19</td>
+												<td align=center>5.5</td>
+												<td align=center>0.678</td>
+												<td align=center>23</td>
+												<td align=center><a href=Denver_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Denver_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">10</a></td>
+												<td align=center><a href=Denver_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">5</a></td>
+												<td align=center><a href=Denver_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_LAClippers.jpg" alt="" height=30 width=30>L.A. Clippers</td>
+												<td align=center>40</td>
+												<td align=center>19</td>
+												<td align=center>5.5</td>
+												<td align=center>0.678</td>
+												<td align=center>23</td>
+												<td align=center><a href=LAClippers_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=LAClippers_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">10</a></td>
+												<td align=center><a href=LAClippers_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">5</a></td>
+												<td align=center><a href=LAClippers_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Houston.jpg" alt="" height=30 width=30>Houston</td>
+												<td align=center>39</td>
+												<td align=center>20</td>
+												<td align=center>6.5</td>
+												<td align=center>0.661</td>
+												<td align=center>23</td>
+												<td align=center><a href=Houston_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Houston_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">11</a></td>
+												<td align=center><a href=Houston_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">6</a></td>
+												<td align=center><a href=Houston_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Utah.jpg" alt="" height=30 width=30>Utah</td>
+												<td align=center>37</td>
+												<td align=center>22</td>
+												<td align=center>8.5</td>
+												<td align=center>0.627</td>
+												<td align=center>23</td>
+												<td align=center><a href=Utah_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Utah_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">13</a></td>
+												<td align=center><a href=Utah_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">9</a></td>
+												<td align=center><a href=Utah_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_OklahomaCity.jpg" alt="" height=30 width=30>Oklahoma City</td>
+												<td align=center>37</td>
+												<td align=center>23</td>
+												<td align=center>9</td>
+												<td align=center>0.617</td>
+												<td align=center>22</td>
+												<td align=center><a href=OklahomaCity_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=OklahomaCity_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">13</a></td>
+												<td align=center><a href=OklahomaCity_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">9</a></td>
+												<td align=center><a href=OklahomaCity_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Dallas.jpg" alt="" height=30 width=30>Dallas</td>
+												<td align=center>36</td>
+												<td align=center>24</td>
+												<td align=center>10</td>
+												<td align=center>0.600</td>
+												<td align=center>22</td>
+												<td align=center><a href=Dallas_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Dallas_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">14</a></td>
+												<td align=center><a href=Dallas_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">10</a></td>
+												<td align=center><a href=Dallas_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">0</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Memphis.jpg" alt="" height=30 width=30>Memphis</td>
+												<td align=center>29</td>
+												<td align=center>31</td>
+												<td align=center>17</td>
+												<td align=center>0.483</td>
+												<td align=center>22</td>
+												<td align=center><a href=Memphis_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Memphis_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">21</a></td>
+												<td align=center><a href=Memphis_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">17</a></td>
+												<td align=center><a href=Memphis_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">1</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_NewOrleans.jpg" alt="" height=30 width=30>New Orleans</td>
+												<td align=center>26</td>
+												<td align=center>33</td>
+												<td align=center>19.5</td>
+												<td align=center>0.441</td>
+												<td align=center>23</td>
+												<td align=center><a href=NewOrleans_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NewOrleans_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=NewOrleans_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">20</a></td>
+												<td align=center><a href=NewOrleans_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">4</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_SanAntonio.jpg" alt="" height=30 width=30>San Antonio</td>
+												<td align=center>25</td>
+												<td align=center>33</td>
+												<td align=center>20</td>
+												<td align=center>0.431</td>
+												<td align=center>24</td>
+												<td align=center><a href=SanAntonio_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=SanAntonio_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=SanAntonio_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">21</a></td>
+												<td align=center><a href=SanAntonio_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">5</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Portland.jpg" alt="" height=30 width=30>Portland</td>
+												<td align=center>26</td>
+												<td align=center>35</td>
+												<td align=center>20.5</td>
+												<td align=center>0.426</td>
+												<td align=center>21</td>
+												<td align=center><a href=Portland_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Portland_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Portland_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">20</a></td>
+												<td align=center><a href=Portland_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">4</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Sacramento.jpg" alt="" height=30 width=30>Sacramento</td>
+												<td align=center>25</td>
+												<td align=center>34</td>
+												<td align=center>20.5</td>
+												<td align=center>0.424</td>
+												<td align=center>23</td>
+												<td align=center><a href=Sacramento_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Sacramento_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Sacramento_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">20</a></td>
+												<td align=center><a href=Sacramento_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">5</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Phoenix.jpg" alt="" height=30 width=30>Phoenix</td>
+												<td align=center>24</td>
+												<td align=center>37</td>
+												<td align=center>22.5</td>
+												<td align=center>0.393</td>
+												<td align=center>21</td>
+												<td align=center><a href=Phoenix_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Phoenix_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Phoenix_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=Phoenix_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">6</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_Minnesota.jpg" alt="" height=30 width=30>Minnesota</td>
+												<td align=center>17</td>
+												<td align=center>41</td>
+												<td align=center>28</td>
+												<td align=center>0.293</td>
+												<td align=center>24</td>
+												<td align=center><a href=Minnesota_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Minnesota_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=Minnesota_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=Minnesota_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">13</a></td>
+												</tr>
+												<tr style="background-color:#f7f7f7; color:#080808">
+												<td align=left><img src="images/NBA_GoldenState.jpg" alt="" height=30 width=30>Golden State</td>
+												<td align=center>13</td>
+												<td align=center>47</td>
+												<td align=center>33</td>
+												<td align=center>0.217</td>
+												<td align=center>22</td>
+												<td align=center><a href=GoldenState_fpc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=GoldenState_pc.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">*</a></td>
+												<td align=center><a href=GoldenState_fpe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">Elim</a></td>
+												<td align=center><a href=GoldenState_pe.txt onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color:blue;">17</a></td>
+												</tr></table><br>
+												<p style="color:#080808; font-size:12px">
+													<strong>Key:</strong>
+													<br>
+													<b>GB</b> = Game back/behind.
+													<b>PCT</b> = Win percent.
+													<b>GL</b> = Games Left.
+													<b>Clinch</b> = Clinching first place or post-season play.
+													<b>Avoid Elimination</b> =  Avoid elimination from first place in division or postseason play.
+												</p>
+
+										</div>
+								</div>
+
+									<!--                                                         -->
+
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="copyright">
+				<ul class="icons">
+					<li><a href="https://twitter.com/RIOTBaseball?s=20" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.facebook.com/Riot-Sports-109650510828463" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				</ul>
+				<p>&copy; Untitled. All rights reserved. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.</p>
+				<p>© 1996 Ilan Adler, Alan L. Erera, Dorit S. Hochbaum and Eli V. Olinick</p>
+				<p>© 2019 Mark A. Husted, Eli V. Olinick, and Alexandra M. Newman</p>
+				<img  style="max-width=:550px; max-height:550px" src="images/RIOT_Logo.png" alt="" />
+			</div>
+		</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script>
+
+			var stylesheetName = "";
+			// Detect the Operating System of User
+
+			function getOS() {
+					var userAgent = window.navigator.userAgent,
+							platform = window.navigator.platform,
+							macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+							windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+							iosPlatforms = ['iPhone', 'iPad', 'iPod'],
+							os = null;
+
+					if (macosPlatforms.indexOf(platform) !== -1) {
+						os = 'Mac OS';
+						stylesheetName = "assets-DESKTOP/css/main.css";
+						document.getElementById("mobileDisplay").style.display = "none";
+						document.getElementById("desktopDisplay").style.display = "block";
+					} else if (iosPlatforms.indexOf(platform) !== -1) {
+						os = 'iOS';
+						stylesheetName = "assets/css/main.css";
+						document.getElementById("mobileDisplay").style.display = "block";
+						document.getElementById("desktopDisplay").style.display = "none";
+					} else if (windowsPlatforms.indexOf(platform) !== -1) {
+						os = 'Windows';
+						stylesheetName = "assets-DESKTOP/css/main.css";
+						document.getElementById("mobileDisplay").style.display = "none";
+						document.getElementById("desktopDisplay").style.display = "block";
+					} else if (/Android/.test(userAgent)) {
+						os = 'Android';
+						stylesheetName = "assets/css/main.css";
+						document.getElementById("mobileDisplay").style.display = "block";
+						document.getElementById("desktopDisplay").style.display = "none";
+					} else if (!os && /Linux/.test(platform)) {
+						os = 'Linux';
+						stylesheetName = "assets-DESKTOP/css/main.css";
+						document.getElementById("mobileDisplay").style.display = "none";
+						document.getElementById("desktopDisplay").style.display = "block";
+					}
+					return os;
+			}
+
+			window.onload = function() {
+							var OperSys = getOS();
+							document.getElementById("LAYOUT").href=stylesheetName;
+			}
+
+			// Mobile {
+			// stylesheetName = "assets/css/main.css";
+			// document.getElementById("mobileDisplay").style.display = "block";
+			// document.getElementById("desktopDisplay").style.display = "none";
+			// }
+
+			// Desktop {
+			// stylesheetName = "assets-DESKTOP/css/main.css";
+			// document.getElementById("mobileDisplay").style.display = "none";
+			// document.getElementById("desktopDisplay").style.display = "block";
+			// }
+
+			// HxW
+			// Design for desktop displays from 1024×768 through 1920×1080
+			// Design for mobile displays from 360×640 through 414×896
+
+			function getWindowSize() {
+					var height = document.documentElement.clientWidth;
+					var width = document.documentElement.clientHeight;
+					var view = "DESKTOP";
+
+					// DESKTOP
+					if (height > 1920 && width > 1080) {
+						// view = "DESKTOP";
+						stylesheetName = "assets-DESKTOP/css/main.css";
+						document.getElementById("mobileDisplay").style.display = "none";
+						document.getElementById("desktopDisplay").style.display = "block";
+						document.getElementById("LAYOUT").href=stylesheetName;
+					// DESKTOP
+					}
+				 else if (height < 1024 && width < 768) {
+						view = "MOBILE";
+						stylesheetName = "assets/css/main.css";
+						document.getElementById("mobileDisplay").style.display = "block";
+						document.getElementById("desktopDisplay").style.display = "none";
+						document.getElementById("LAYOUT").href=stylesheetName;
+					// DEFAULT to DESKTOP
+					}
+				 else {
+						// view = "DESKTOP";
+						stylesheetName = "assets-DESKTOP/css/main.css";
+						document.getElementById("mobileDisplay").style.display = "none";
+						document.getElementById("desktopDisplay").style.display = "block";
+						document.getElementById("LAYOUT").href=stylesheetName;
+					}
+					return view;
+			}
+
+			window.addEventListener("resize", getWindowSize);
+
+
+			// scrolling table
+			function InitApp()
+			{
+			    var gridHeight = 400;
+			    var gridWidth = 500;
+			    var scrollBarWidth = getScrollSizes(); //get scroll bar's width.
+
+			    $("#div-header").css("width", (gridWidth - scrollBarWidth) + "px");
+			    $("#div-header-hack").css("width", (scrollBarWidth) + "px");
+			    $("#div-item").css("width", (gridWidth) + "px");
+
+			    $("#div-header-hack").css("left", (gridWidth - scrollBarWidth) + "px");
+
+			    $("#div-item").css("max-height", (gridHeight) + "px");
+
+			    //add header and item divs, directly in HTML Or in javascript.
+			    var header = '<div style="min-width: 1000px;">' +
+			        '<div style="width: 120px; display: inline-block">Header 1</div>' +
+			        '<div style="width: 180px; display: inline-block">Header 2</div>' +
+			        '<div style="width: 120px; display: inline-block">Header 3</div>' +
+			        '<div style="width: 190px; display: inline-block">Header 4</div>' +
+			        '<div style="width: 250px; display: inline-block">Header 5</div>' +
+			        '<div style="width: 120px; display: inline-block">Header 6</div>' +
+			        '</div>';
+
+			    //add header and item divs, directly in HTML Or in javascript.
+			    var item = '<div style="min-width: 1000px; background-color: #D7BDEC; padding: 10px 0px 0px 0px; border-bottom: 1px solid gray">' +
+			        '<div style="width: 120px; display: inline-block">Item 1</div>' +
+			        '<div style="width: 180px; display: inline-block">Item 2</div>' +
+			        '<div style="width: 120px; display: inline-block">Item 3</div>' +
+			        '<div style="width: 190px; display: inline-block">Item 4</div>' +
+			        '<div style="width: 250px; display: inline-block">Item 5</div>' +
+			        '<div style="width: 120px; display: inline-block">Item 6</div>' +
+			        '</div>';
+
+			    $("#div-header").append(header);
+
+			    for(var index = 0; index < 600; index ++)
+			    {
+			        $("#div-item").append(item);
+			    }
+			}
+
+			function ScrollHeader()
+			{
+			    $("#div-header").scrollLeft($("#div-item").scrollLeft());
+			}
+
+			//refernce - http://stackoverflow.com/questions/457262/html-what-is-the-height-of-a-horizontal-scrollbar
+			function getScrollSizes()
+			{
+			    // call after document is finished loading
+			    var el= document.createElement('div');
+			    el.style.display= 'hidden';
+			    el.style.overflow= 'scroll';
+			    document.body.appendChild(el);
+			    var h= el.offsetHeight-el.clientHeight;
+			    document.body.removeChild(el);
+			    return h;
+			}
+
+			</script>
+
+	</body>
+</html>
