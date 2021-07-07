@@ -1,3 +1,9 @@
+<!--
+  Name: common_numbers_explanation.html
+	Purpose: Explain the math and reasoning of the calculated values that
+					 lead to the results in the charts/tables. This page is rarely
+					 updated besides from modifying how the page is rendered.
+-->
 <!DOCTYPE HTML>
 <!--
 	Urban by TEMPLATED
@@ -20,31 +26,55 @@
 		<title>NBA Numbers Explanation</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" id="LAYOUT" href="#" />
+		<link rel="stylesheet" id="LAYOUT" href="#" />  <!-- JavaScript code below fills in href depending on the
+																												 type of device and/or browswer screen size
+																										-->
 		<!--
-				#1 MOBILE assets/css/main.css
-				#2 DESKTOP assets-DESKTOP/css/main.css
+				#1 MOBILE view uses assets/css/main.css
+				#2 DESKTOP view uses assets-DESKTOP/css/main.css
 		-->
-		<link href='https://fonts.googleapis.com/css?family=Nanum Gothic' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Nanum Gothic' rel='stylesheet'>  <!-- purpose: correct Korean font -->
 </head>
 	<body class="subpage">
 
-		<!-- Header -->
-		<header id="header">
-			<div class="logo"><img  style="max-width=:35px; max-height:35px" src="images/RIOT_Logo.png" alt="" /><a href="index.html">RIOT Sports</a></div>
-			<a href="#menu">Menu</a>
-		</header>
+		<!-- If a mobile device is detected, the below menu is enabled -->
+	  <div class="MOBILE" id="mobileDisplay">
+			<!-- Header -->
+				<header id="header">
+					<div class="logo"><img  style="max-width=:35px; max-height:35px" src="images/RIOT_Logo.png" alt="" /><a href="index.html">RIOT Sports</a></div>
+					<a href="#menu">Menu</a>
+				</header>
 
-		<!-- Nav -->
-		<nav id="menu">
-			<ul class="links">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="RIOT_MLB.html">RIOT - MLB</a></li>
-				<li><a href="RIOT_NBA.html">RIOT - NBA</a></li>
-				<li><a href="RIOT_KBL.html">RIOT - KBL</a></li>
-				<li><a href="RIOT_WNBA.html">RIOT - WNBA</a></li>
-			</ul>
-		</nav>
+			<!-- Nav -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="RIOT_MLB.html">RIOT - MLB</a></li>
+						<li><a href="RIOT_NBA.html">RIOT - NBA</a></li>
+						<li><a href="RIOT_KBL.html">RIOT - KBL</a></li>
+						<li><a href="RIOT_WNBA.html">RIOT - WNBA</a></li>
+					</ul>
+				</nav>
+		</div>
+		<!-- End of device mobile menu -->
+
+
+	<!-- If a desktip device is detected, the below menu is enabled -->
+	  <div class="DESKTOP" id="desktopDisplay">
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo" ><img  style="max-width=:35px; max-height:35px;" src="images/RIOT_Logo.png" alt="" />RIOT Sports </a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="RIOT_MLB.html">RIOT - MLB</a>
+						<a href="RIOT_NBA.html">RIOT - NBA</a>
+						<a href="RIOT_KBL.html">RIOT - KBL</a>
+						<a href="RIOT_WNBA.html">RIOT - WNBA</a>
+					</nav>
+				</div>
+			</header>
+		</div>
+		<!-- end of desktop device menu -->
 
 		<!-- Main -->
 			<div id="main">
@@ -345,22 +375,6 @@
 									document.getElementById("LAYOUT").href=stylesheetName;
 					}
 
-					// Mobile {
-					// stylesheetName = "assets/css/main.css";
-					// document.getElementById("mobileDisplay").style.display = "block";
-					// document.getElementById("desktopDisplay").style.display = "none";
-					// }
-
-					// Desktop {
-					// stylesheetName = "assets-DESKTOP/css/main.css";
-					// document.getElementById("mobileDisplay").style.display = "none";
-					// document.getElementById("desktopDisplay").style.display = "block";
-					// }
-
-					// HxW
-					// Design for desktop displays from 1024×768 through 1920×1080
-					// Design for mobile displays from 360×640 through 414×896
-
 					function getWindowSize() {
 							var height = document.documentElement.clientWidth;
 							var width = document.documentElement.clientHeight;
@@ -395,14 +409,6 @@
 
 					window.addEventListener("resize", getWindowSize);
 			</script>
-
-			<!-- Notes 12/29/2020
-			update the sections
-				clinch in 3 columns
-				elmin in 3 columns
-				add Caveats as the end banner
-
-			-->
 
 	</body>
 </html>
