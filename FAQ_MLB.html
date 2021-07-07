@@ -1,3 +1,8 @@
+<!--
+  Name: FAQ_MLB.html
+	Purpose: Frequently Asked Questions in regards to the Major Baseball
+	League. this page is translated in both Engish and Korean.
+-->
 <!DOCTYPE HTML>
 <!--
 	Urban by TEMPLATED
@@ -20,17 +25,17 @@
 		<title>Frequently Asked Questions - MLB</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" id="LAYOUT" href="#" />
+		<link rel="stylesheet" id="LAYOUT" href="#" />  <!-- JavaScript code below fills in href depending on the
+																												 type of device and/or browswer screen size
+																										-->
 <!--
-		#1 MOBILE assets/css/main.css
-		#2 DESKTOP assets-DESKTOP/css/main.css
+		#1 MOBILE view uses assets/css/main.css
+		#2 DESKTOP view uses assets-DESKTOP/css/main.css
 -->
 	</head>
 	<body class="subpage">
 
-
-
-		<!-- Need this kind of menu for mobile -->
+		<!-- If a mobile device is detected, the below menu is enabled -->
   <div class="MOBILE" id="mobileDisplay">
 		<!-- Header -->
 		<header id="header">
@@ -49,9 +54,10 @@
 			</ul>
 		</nav>
 	</div>
+		<!-- End of device mobile menu -->
 
 
-<!-- Need this kind of bar menu for desktop -->
+<!-- If a desktip device is detected, the below menu is enabled -->
   <div class="DESKTOP" id="desktopDisplay">
 		<header id="header">
 			<div class="inner">
@@ -67,6 +73,7 @@
 			</div>
 		</header>
 	</div>
+			<!-- end of desktop device menu -->
 
 		<!-- Main -->
 			<div id="main">
@@ -575,21 +582,6 @@
 							document.getElementById("LAYOUT").href=stylesheetName;
 			}
 
-			// Mobile {
-			// stylesheetName = "assets/css/main.css";
-			// document.getElementById("mobileDisplay").style.display = "block";
-			// document.getElementById("desktopDisplay").style.display = "none";
-			// }
-
-			// Desktop {
-			// stylesheetName = "assets-DESKTOP/css/main.css";
-			// document.getElementById("mobileDisplay").style.display = "none";
-			// document.getElementById("desktopDisplay").style.display = "block";
-			// }
-
-			// HxW
-			// Design for desktop displays from 1024×768 through 1920×1080
-			// Design for mobile displays from 360×640 through 414×896
 
 			function getWindowSize() {
 					var height = document.documentElement.clientWidth;
