@@ -2815,10 +2815,10 @@ a:active {
 	}
 
     table tbody {
-      display: block;
-      height: 285px;
-      overflow:auto;
-      width: 1100px;
+		display: block;
+		height: 285px;
+		overflow:auto;
+		width: 1100px;
     }
 
 		table tbody tr {
@@ -2830,7 +2830,7 @@ a:active {
 		table td {
 			padding: 0.50em 0.50em;
 			border: 1px solid black;
-      width: 1100px;
+			width: 1100px;
 		}
 
 		table th {
@@ -2838,7 +2838,7 @@ a:active {
 			font-weight: 700;
 			padding: 0 0.50em 0.50em 0.50em;
 			text-align: left;
-      width: 1100px;
+			width: 1100px;
 		}
 
 		table thead {
@@ -2901,8 +2901,78 @@ a:active {
 
 	table.alt tbody tr td {
 		border-color: rgba(0, 0, 0, 0);
-
 	}
+
+/* EPL Table */
+
+.epl-standings {
+	width: 100%;
+}
+
+.epl-standings tbody {
+	width: 100%;
+	overflow: overlay;
+}
+
+.epl-standings tbody::-webkit-scrollbar {
+	width: 5px;
+}
+
+.epl-standings tbody::-webkit-scrollbar-thumb {
+	background-color: #AAAAAA;
+}
+
+	.epl-standings td {
+		border: 1px solid black;
+		width: 100%;
+	}
+
+	.epl-standings th {
+		width: 100%;
+	}
+
+	.epl-standings tfoot {
+		border-top: solid 2px;
+	}
+
+	
+.epl-standings tr {
+	display:flex;
+	border: none;
+}
+
+	.epl-standings td{
+		flex: 1;
+	}
+
+	.epl-standings td:nth-child(2n+8){
+		flex:2
+	}
+
+	.epl-standings td:first-child {
+		flex: 4;
+	}
+
+	.epl-standings thead tr:first-child{
+		display: block;
+		width: 100%;
+	}
+	.epl-standings thead tr:first-child td:first-child{
+		width: 184.15px;
+	}
+
+	.epl-standings thead tr:first-child td{
+		width: 58.53px;
+	}
+
+	.epl-standings thead tr:first-child td:nth-child(n+8){
+		width: 158.96px;
+	}
+
+.epl-standings thead {
+	width: 100%;
+	border-bottom: none;
+}
 
 /* Wrapper */
 
